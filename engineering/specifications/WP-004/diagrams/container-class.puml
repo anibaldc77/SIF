@@ -1,0 +1,16 @@
+@startuml
+
+class Framework
+class Runtime
+class Application
+class Container
+class ServiceProvider
+
+Framework *-- Runtime
+Framework *-- Application
+Application *-- Container
+
+Application --> ServiceProvider
+ServiceProvider --> Container
+
+@enduml
