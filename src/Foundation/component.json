@@ -25,6 +25,17 @@
     "Sif\\Foundation\\Contracts\\ServiceProviderInterface"
   ],
   "service_providers": [],
+  "events": [
+    "Sif\\Foundation\\Events\\FrameworkBooting",
+    "Sif\\Foundation\\Events\\FrameworkBooted",
+    "Sif\\Foundation\\Events\\ApplicationCreated",
+    "Sif\\Foundation\\Events\\ApplicationBooted",
+    "Sif\\Foundation\\Events\\KernelBooting",
+    "Sif\\Foundation\\Events\\KernelBooted",
+    "Sif\\Foundation\\Events\\ApplicationStopping",
+    "Sif\\Foundation\\Events\\ApplicationStopped",
+    "Sif\\Foundation\\Events\\FrameworkFailed"
+  ],
   "documentation": [
     "README.md",
     "CHANGELOG.md"

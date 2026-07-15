@@ -8,10 +8,19 @@ use Sif\Foundation\Contracts\ApplicationInterface;
 use Sif\Foundation\Contracts\EnvironmentInterface;
 use Sif\Foundation\Contracts\KernelInterface;
 use Sif\Foundation\Contracts\RuntimeInterface;
+use Sif\Foundation\Exceptions\InvalidCapabilityException;
 
 /** Owns the isolated runtime graph and its ordered provider collection. */
 final class Application implements ApplicationInterface
 {
+    /** @var list<string> */
+    private array $capabilities = [
+        'runtime',
+        'foundation',
+        'providers',
+        'lifecycle',
+    ];
+
     public function __construct(
         private readonly RuntimeInterface $runtime,
         private readonly KernelInterface $kernel,
@@ -40,6 +49,26 @@ final class Application implements ApplicationInterface
         return $this->providers;
     }
 
+    /** @return list<string> */
+    public function capabilities(): array
+    {
+        return $this->capabilities;
+    }
+
+    public function hasCapability(string $capability): bool
+    {
+        return in_array($this->normalizeCapability($capability), $this->capabilities, true);
+    }
+
+    public function addCapability(string $capability): void
+    {
+        $capability = $this->normalizeCapability($capability);
+
+        if (!in_array($capability, $this->capabilities, true)) {
+            $this->capabilities[] = $capability;
+        }
+    }
+
     public function boot(): BootResult
     {
         return $this->kernel->boot($this);
@@ -53,5 +82,26 @@ final class Application implements ApplicationInterface
     public function shutdown(): BootResult
     {
         return $this->kernel->shutdown($this);
+    }
+
+    private function normalizeCapability(string $capability): string
+    {
+        $capability = strtolower(trim($capability));
+
+        if ($capability === '') {
+            throw InvalidCapabilityException::empty();
+        }
+
+        if (str_contains($capability, ' ')) {
+            throw InvalidCapabilityException::invalid($capability);
+        }
+
+        if (
+            !preg_match('/^[a-z0-9_-]+(?:\.[a-z0-9_-]+)*$/D', $capability)
+        ) {
+            throw InvalidCapabilityException::invalid($capability);
+        }
+
+        return $capability;
     }
 }

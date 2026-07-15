@@ -416,7 +416,7 @@ return [
 	'dependencies' => array (
   'D:\\SIF\\src\\Foundation\\Application.php' => 
   array (
-    'fileHash' => '3b154a3bb192158b0a2d198a9c9ab62ee2c01a3c',
+    'fileHash' => '90b59693560b0563cb5e7431481ffcff94272cf7',
     'dependentFiles' => 
     array (
       0 => 'D:\\SIF\\src\\Foundation\\Bootstrap.php',
@@ -436,6 +436,7 @@ return [
       6 => 'D:\\SIF\\src\\Foundation\\Lifecycle.php',
       7 => 'D:\\SIF\\tests\\Foundation\\Integration\\ServiceProviderLifecycleTest.php',
       8 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
+      9 => 'D:\\SIF\\tests\\Foundation\\Unit\\RuntimeEventTest.php',
     ),
   ),
   'D:\\SIF\\src\\Foundation\\BootStage.php' => 
@@ -448,11 +449,21 @@ return [
       2 => 'D:\\SIF\\src\\Foundation\\Contracts\\RuntimeInterface.php',
       3 => 'D:\\SIF\\src\\Foundation\\DTO\\BootError.php',
       4 => 'D:\\SIF\\src\\Foundation\\DTO\\BootWarning.php',
-      5 => 'D:\\SIF\\src\\Foundation\\Kernel.php',
-      6 => 'D:\\SIF\\src\\Foundation\\Lifecycle.php',
-      7 => 'D:\\SIF\\src\\Foundation\\Runtime.php',
-      8 => 'D:\\SIF\\tests\\Foundation\\Integration\\ServiceProviderLifecycleTest.php',
-      9 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
+      5 => 'D:\\SIF\\src\\Foundation\\Events\\ApplicationBooted.php',
+      6 => 'D:\\SIF\\src\\Foundation\\Events\\ApplicationCreated.php',
+      7 => 'D:\\SIF\\src\\Foundation\\Events\\ApplicationStopped.php',
+      8 => 'D:\\SIF\\src\\Foundation\\Events\\ApplicationStopping.php',
+      9 => 'D:\\SIF\\src\\Foundation\\Events\\FrameworkBooted.php',
+      10 => 'D:\\SIF\\src\\Foundation\\Events\\FrameworkBooting.php',
+      11 => 'D:\\SIF\\src\\Foundation\\Events\\FrameworkFailed.php',
+      12 => 'D:\\SIF\\src\\Foundation\\Events\\KernelBooted.php',
+      13 => 'D:\\SIF\\src\\Foundation\\Events\\KernelBooting.php',
+      14 => 'D:\\SIF\\src\\Foundation\\Kernel.php',
+      15 => 'D:\\SIF\\src\\Foundation\\Lifecycle.php',
+      16 => 'D:\\SIF\\src\\Foundation\\Runtime.php',
+      17 => 'D:\\SIF\\tests\\Foundation\\Integration\\ServiceProviderLifecycleTest.php',
+      18 => 'D:\\SIF\\tests\\Foundation\\Unit\\FrameworkFailedTest.php',
+      19 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
     ),
   ),
   'D:\\SIF\\src\\Foundation\\Bootstrap.php' => 
@@ -465,7 +476,7 @@ return [
   ),
   'D:\\SIF\\src\\Foundation\\Contracts\\ApplicationInterface.php' => 
   array (
-    'fileHash' => 'f567b2d32892102b370f9cb5d2e65d33aca8554c',
+    'fileHash' => '0dc6bda1a683d8c6b491e19556f905a23fcb1ecd',
     'dependentFiles' => 
     array (
       0 => 'D:\\SIF\\src\\Foundation\\Application.php',
@@ -474,13 +485,23 @@ return [
       3 => 'D:\\SIF\\src\\Foundation\\Contracts\\KernelInterface.php',
       4 => 'D:\\SIF\\src\\Foundation\\Contracts\\LifecycleInterface.php',
       5 => 'D:\\SIF\\src\\Foundation\\Contracts\\ServiceProviderInterface.php',
-      6 => 'D:\\SIF\\src\\Foundation\\Framework.php',
-      7 => 'D:\\SIF\\src\\Foundation\\Kernel.php',
-      8 => 'D:\\SIF\\src\\Foundation\\Lifecycle.php',
-      9 => 'D:\\SIF\\src\\Foundation\\ServiceProvider.php',
-      10 => 'D:\\SIF\\tests\\Foundation\\Fixtures\\RecordingProvider.php',
-      11 => 'D:\\SIF\\tests\\Foundation\\Integration\\ServiceProviderLifecycleTest.php',
-      12 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
+      6 => 'D:\\SIF\\src\\Foundation\\Events\\ApplicationBooted.php',
+      7 => 'D:\\SIF\\src\\Foundation\\Events\\ApplicationCreated.php',
+      8 => 'D:\\SIF\\src\\Foundation\\Events\\ApplicationStopped.php',
+      9 => 'D:\\SIF\\src\\Foundation\\Events\\ApplicationStopping.php',
+      10 => 'D:\\SIF\\src\\Foundation\\Events\\FrameworkBooted.php',
+      11 => 'D:\\SIF\\src\\Foundation\\Events\\FrameworkBooting.php',
+      12 => 'D:\\SIF\\src\\Foundation\\Events\\KernelBooted.php',
+      13 => 'D:\\SIF\\src\\Foundation\\Events\\KernelBooting.php',
+      14 => 'D:\\SIF\\src\\Foundation\\Framework.php',
+      15 => 'D:\\SIF\\src\\Foundation\\Kernel.php',
+      16 => 'D:\\SIF\\src\\Foundation\\Lifecycle.php',
+      17 => 'D:\\SIF\\src\\Foundation\\ServiceProvider.php',
+      18 => 'D:\\SIF\\tests\\Foundation\\Fixtures\\RecordingProvider.php',
+      19 => 'D:\\SIF\\tests\\Foundation\\Integration\\ServiceProviderLifecycleTest.php',
+      20 => 'D:\\SIF\\tests\\Foundation\\Unit\\CapabilityTest.php',
+      21 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
+      22 => 'D:\\SIF\\tests\\Foundation\\Unit\\RuntimeEventTest.php',
     ),
   ),
   'D:\\SIF\\src\\Foundation\\Contracts\\BootstrapInterface.php' => 
@@ -503,8 +524,16 @@ return [
       2 => 'D:\\SIF\\src\\Foundation\\Contracts\\ApplicationInterface.php',
       3 => 'D:\\SIF\\src\\Foundation\\Contracts\\BootstrapInterface.php',
       4 => 'D:\\SIF\\src\\Foundation\\Environment.php',
-      5 => 'D:\\SIF\\src\\Foundation\\Framework.php',
-      6 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
+      5 => 'D:\\SIF\\src\\Foundation\\Events\\ApplicationBooted.php',
+      6 => 'D:\\SIF\\src\\Foundation\\Events\\ApplicationCreated.php',
+      7 => 'D:\\SIF\\src\\Foundation\\Events\\ApplicationStopped.php',
+      8 => 'D:\\SIF\\src\\Foundation\\Events\\ApplicationStopping.php',
+      9 => 'D:\\SIF\\src\\Foundation\\Events\\FrameworkBooted.php',
+      10 => 'D:\\SIF\\src\\Foundation\\Events\\FrameworkBooting.php',
+      11 => 'D:\\SIF\\src\\Foundation\\Events\\KernelBooted.php',
+      12 => 'D:\\SIF\\src\\Foundation\\Events\\KernelBooting.php',
+      13 => 'D:\\SIF\\src\\Foundation\\Framework.php',
+      14 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
     ),
   ),
   'D:\\SIF\\src\\Foundation\\Contracts\\KernelInterface.php' => 
@@ -536,11 +565,22 @@ return [
       0 => 'D:\\SIF\\src\\Foundation\\Application.php',
       1 => 'D:\\SIF\\src\\Foundation\\Bootstrap.php',
       2 => 'D:\\SIF\\src\\Foundation\\Contracts\\ApplicationInterface.php',
-      3 => 'D:\\SIF\\src\\Foundation\\Kernel.php',
-      4 => 'D:\\SIF\\src\\Foundation\\Lifecycle.php',
-      5 => 'D:\\SIF\\src\\Foundation\\Runtime.php',
-      6 => 'D:\\SIF\\tests\\Foundation\\Integration\\ServiceProviderLifecycleTest.php',
-      7 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
+      3 => 'D:\\SIF\\src\\Foundation\\Events\\ApplicationBooted.php',
+      4 => 'D:\\SIF\\src\\Foundation\\Events\\ApplicationCreated.php',
+      5 => 'D:\\SIF\\src\\Foundation\\Events\\ApplicationStopped.php',
+      6 => 'D:\\SIF\\src\\Foundation\\Events\\ApplicationStopping.php',
+      7 => 'D:\\SIF\\src\\Foundation\\Events\\FrameworkBooted.php',
+      8 => 'D:\\SIF\\src\\Foundation\\Events\\FrameworkBooting.php',
+      9 => 'D:\\SIF\\src\\Foundation\\Events\\FrameworkFailed.php',
+      10 => 'D:\\SIF\\src\\Foundation\\Events\\KernelBooted.php',
+      11 => 'D:\\SIF\\src\\Foundation\\Events\\KernelBooting.php',
+      12 => 'D:\\SIF\\src\\Foundation\\Kernel.php',
+      13 => 'D:\\SIF\\src\\Foundation\\Lifecycle.php',
+      14 => 'D:\\SIF\\src\\Foundation\\Runtime.php',
+      15 => 'D:\\SIF\\tests\\Foundation\\Integration\\ServiceProviderLifecycleTest.php',
+      16 => 'D:\\SIF\\tests\\Foundation\\Unit\\FrameworkFailedTest.php',
+      17 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
+      18 => 'D:\\SIF\\tests\\Foundation\\Unit\\RuntimeEventTest.php',
     ),
   ),
   'D:\\SIF\\src\\Foundation\\Contracts\\ServiceProviderInterface.php' => 
@@ -594,6 +634,78 @@ return [
       1 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
     ),
   ),
+  'D:\\SIF\\src\\Foundation\\Events\\ApplicationBooted.php' => 
+  array (
+    'fileHash' => 'ffe2ad931c43d290a5c36cf945efbb6a6cf5c53b',
+    'dependentFiles' => 
+    array (
+      0 => 'D:\\SIF\\tests\\Foundation\\Unit\\RuntimeEventTest.php',
+    ),
+  ),
+  'D:\\SIF\\src\\Foundation\\Events\\ApplicationCreated.php' => 
+  array (
+    'fileHash' => '28c5bd46d20b6f775ec33c3ed4d3347cc6222202',
+    'dependentFiles' => 
+    array (
+      0 => 'D:\\SIF\\tests\\Foundation\\Unit\\RuntimeEventTest.php',
+    ),
+  ),
+  'D:\\SIF\\src\\Foundation\\Events\\ApplicationStopped.php' => 
+  array (
+    'fileHash' => 'bfb2bccce50a3d445e312035c8334f291ba1865c',
+    'dependentFiles' => 
+    array (
+      0 => 'D:\\SIF\\tests\\Foundation\\Unit\\RuntimeEventTest.php',
+    ),
+  ),
+  'D:\\SIF\\src\\Foundation\\Events\\ApplicationStopping.php' => 
+  array (
+    'fileHash' => '2fa2fb2c08d6272ab255fad91603b1a12c836594',
+    'dependentFiles' => 
+    array (
+      0 => 'D:\\SIF\\tests\\Foundation\\Unit\\RuntimeEventTest.php',
+    ),
+  ),
+  'D:\\SIF\\src\\Foundation\\Events\\FrameworkBooted.php' => 
+  array (
+    'fileHash' => '3845e42dd472b1f07f8dd5c0c63dd8941a6d4fb0',
+    'dependentFiles' => 
+    array (
+      0 => 'D:\\SIF\\tests\\Foundation\\Unit\\RuntimeEventTest.php',
+    ),
+  ),
+  'D:\\SIF\\src\\Foundation\\Events\\FrameworkBooting.php' => 
+  array (
+    'fileHash' => '4a4dfde4da9408179ae22a729d1260ae6fcb9ab9',
+    'dependentFiles' => 
+    array (
+      0 => 'D:\\SIF\\tests\\Foundation\\Unit\\RuntimeEventTest.php',
+    ),
+  ),
+  'D:\\SIF\\src\\Foundation\\Events\\FrameworkFailed.php' => 
+  array (
+    'fileHash' => '3595dbde72dea9746c54fa124ad26814740200ad',
+    'dependentFiles' => 
+    array (
+      0 => 'D:\\SIF\\tests\\Foundation\\Unit\\FrameworkFailedTest.php',
+    ),
+  ),
+  'D:\\SIF\\src\\Foundation\\Events\\KernelBooted.php' => 
+  array (
+    'fileHash' => '271973bcc9c2e15749163c7789509e74c545950a',
+    'dependentFiles' => 
+    array (
+      0 => 'D:\\SIF\\tests\\Foundation\\Unit\\RuntimeEventTest.php',
+    ),
+  ),
+  'D:\\SIF\\src\\Foundation\\Events\\KernelBooting.php' => 
+  array (
+    'fileHash' => '2e0d3a6b651d29470e69d8ec9e3d641f98175b9d',
+    'dependentFiles' => 
+    array (
+      0 => 'D:\\SIF\\tests\\Foundation\\Unit\\RuntimeEventTest.php',
+    ),
+  ),
   'D:\\SIF\\src\\Foundation\\Exceptions\\BootstrapException.php' => 
   array (
     'fileHash' => '670636e9c8736d999cbc297acc8c5bfda96ad60e',
@@ -615,18 +727,21 @@ return [
     'fileHash' => '8d6ca78df76467f838e7255f6a3f9d7c89d57fb3',
     'dependentFiles' => 
     array (
-      0 => 'D:\\SIF\\src\\Foundation\\BootResult.php',
-      1 => 'D:\\SIF\\src\\Foundation\\Exceptions\\BootstrapException.php',
-      2 => 'D:\\SIF\\src\\Foundation\\Exceptions\\DuplicateServiceProviderException.php',
-      3 => 'D:\\SIF\\src\\Foundation\\Exceptions\\InvalidBootResultException.php',
-      4 => 'D:\\SIF\\src\\Foundation\\Exceptions\\InvalidRuntimeTransitionException.php',
-      5 => 'D:\\SIF\\src\\Foundation\\Exceptions\\KernelBootException.php',
-      6 => 'D:\\SIF\\src\\Foundation\\Exceptions\\RuntimeException.php',
-      7 => 'D:\\SIF\\src\\Foundation\\Exceptions\\ServiceProviderNotFoundException.php',
-      8 => 'D:\\SIF\\src\\Foundation\\Runtime.php',
-      9 => 'D:\\SIF\\src\\Foundation\\ServiceProviderCollection.php',
-      10 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
-      11 => 'D:\\SIF\\tests\\Foundation\\Unit\\ServiceProviderCollectionTest.php',
+      0 => 'D:\\SIF\\src\\Foundation\\Application.php',
+      1 => 'D:\\SIF\\src\\Foundation\\BootResult.php',
+      2 => 'D:\\SIF\\src\\Foundation\\Exceptions\\BootstrapException.php',
+      3 => 'D:\\SIF\\src\\Foundation\\Exceptions\\DuplicateServiceProviderException.php',
+      4 => 'D:\\SIF\\src\\Foundation\\Exceptions\\InvalidBootResultException.php',
+      5 => 'D:\\SIF\\src\\Foundation\\Exceptions\\InvalidCapabilityException.php',
+      6 => 'D:\\SIF\\src\\Foundation\\Exceptions\\InvalidRuntimeTransitionException.php',
+      7 => 'D:\\SIF\\src\\Foundation\\Exceptions\\KernelBootException.php',
+      8 => 'D:\\SIF\\src\\Foundation\\Exceptions\\RuntimeException.php',
+      9 => 'D:\\SIF\\src\\Foundation\\Exceptions\\ServiceProviderNotFoundException.php',
+      10 => 'D:\\SIF\\src\\Foundation\\Runtime.php',
+      11 => 'D:\\SIF\\src\\Foundation\\ServiceProviderCollection.php',
+      12 => 'D:\\SIF\\tests\\Foundation\\Unit\\CapabilityTest.php',
+      13 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
+      14 => 'D:\\SIF\\tests\\Foundation\\Unit\\ServiceProviderCollectionTest.php',
     ),
   ),
   'D:\\SIF\\src\\Foundation\\Exceptions\\InvalidBootResultException.php' => 
@@ -636,6 +751,15 @@ return [
     array (
       0 => 'D:\\SIF\\src\\Foundation\\BootResult.php',
       1 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
+    ),
+  ),
+  'D:\\SIF\\src\\Foundation\\Exceptions\\InvalidCapabilityException.php' => 
+  array (
+    'fileHash' => '9aa133c9efa9ea3054b39cf53bb2a2e243c3b560',
+    'dependentFiles' => 
+    array (
+      0 => 'D:\\SIF\\src\\Foundation\\Application.php',
+      1 => 'D:\\SIF\\tests\\Foundation\\Unit\\CapabilityTest.php',
     ),
   ),
   'D:\\SIF\\src\\Foundation\\Exceptions\\InvalidRuntimeTransitionException.php' => 
@@ -679,7 +803,9 @@ return [
     'dependentFiles' => 
     array (
       0 => 'D:\\SIF\\tests\\Foundation\\Integration\\ServiceProviderLifecycleTest.php',
-      1 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
+      1 => 'D:\\SIF\\tests\\Foundation\\Unit\\CapabilityTest.php',
+      2 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
+      3 => 'D:\\SIF\\tests\\Foundation\\Unit\\RuntimeEventTest.php',
     ),
   ),
   'D:\\SIF\\src\\Foundation\\Kernel.php' => 
@@ -704,7 +830,8 @@ return [
     'dependentFiles' => 
     array (
       0 => 'D:\\SIF\\src\\Foundation\\Bootstrap.php',
-      1 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
+      1 => 'D:\\SIF\\tests\\Foundation\\Unit\\FrameworkFailedTest.php',
+      2 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
     ),
   ),
   'D:\\SIF\\src\\Foundation\\RuntimeState.php' => 
@@ -713,11 +840,20 @@ return [
     'dependentFiles' => 
     array (
       0 => 'D:\\SIF\\src\\Foundation\\Contracts\\RuntimeInterface.php',
-      1 => 'D:\\SIF\\src\\Foundation\\Exceptions\\InvalidRuntimeTransitionException.php',
-      2 => 'D:\\SIF\\src\\Foundation\\Kernel.php',
-      3 => 'D:\\SIF\\src\\Foundation\\Lifecycle.php',
-      4 => 'D:\\SIF\\src\\Foundation\\Runtime.php',
-      5 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
+      1 => 'D:\\SIF\\src\\Foundation\\Events\\ApplicationBooted.php',
+      2 => 'D:\\SIF\\src\\Foundation\\Events\\ApplicationCreated.php',
+      3 => 'D:\\SIF\\src\\Foundation\\Events\\ApplicationStopped.php',
+      4 => 'D:\\SIF\\src\\Foundation\\Events\\ApplicationStopping.php',
+      5 => 'D:\\SIF\\src\\Foundation\\Events\\FrameworkBooted.php',
+      6 => 'D:\\SIF\\src\\Foundation\\Events\\FrameworkBooting.php',
+      7 => 'D:\\SIF\\src\\Foundation\\Events\\FrameworkFailed.php',
+      8 => 'D:\\SIF\\src\\Foundation\\Events\\KernelBooted.php',
+      9 => 'D:\\SIF\\src\\Foundation\\Events\\KernelBooting.php',
+      10 => 'D:\\SIF\\src\\Foundation\\Exceptions\\InvalidRuntimeTransitionException.php',
+      11 => 'D:\\SIF\\src\\Foundation\\Kernel.php',
+      12 => 'D:\\SIF\\src\\Foundation\\Lifecycle.php',
+      13 => 'D:\\SIF\\src\\Foundation\\Runtime.php',
+      14 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
     ),
   ),
   'D:\\SIF\\src\\Foundation\\ServiceProvider.php' => 
@@ -803,9 +939,30 @@ return [
     array (
     ),
   ),
+  'D:\\SIF\\tests\\Foundation\\Unit\\CapabilityTest.php' => 
+  array (
+    'fileHash' => '3ce4cf1b6a9d9a46c986458c5b458d6867c30460',
+    'dependentFiles' => 
+    array (
+    ),
+  ),
+  'D:\\SIF\\tests\\Foundation\\Unit\\FrameworkFailedTest.php' => 
+  array (
+    'fileHash' => '189c30ad24c5462d436df1c4137ab8288d77db5d',
+    'dependentFiles' => 
+    array (
+    ),
+  ),
   'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php' => 
   array (
     'fileHash' => '50f912dae47846dfdd5a02d38cfba530c20a8c0d',
+    'dependentFiles' => 
+    array (
+    ),
+  ),
+  'D:\\SIF\\tests\\Foundation\\Unit\\RuntimeEventTest.php' => 
+  array (
+    'fileHash' => 'a846ddd4f63bbaa6832851b5d6f7f70b03347044',
     'dependentFiles' => 
     array (
     ),
@@ -834,6 +991,7 @@ return [
           'environmentinterface' => 'Sif\\Foundation\\Contracts\\EnvironmentInterface',
           'kernelinterface' => 'Sif\\Foundation\\Contracts\\KernelInterface',
           'runtimeinterface' => 'Sif\\Foundation\\Contracts\\RuntimeInterface',
+          'invalidcapabilityexception' => 'Sif\\Foundation\\Exceptions\\InvalidCapabilityException',
         ),
          'constUses' => 
         array (
@@ -990,6 +1148,97 @@ return [
         )),
         5 => 
         \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'capabilities',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/** @return list<string> */',
+             'namespace' => 'Sif\\Foundation',
+             'uses' => 
+            array (
+              'applicationinterface' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+              'environmentinterface' => 'Sif\\Foundation\\Contracts\\EnvironmentInterface',
+              'kernelinterface' => 'Sif\\Foundation\\Contracts\\KernelInterface',
+              'runtimeinterface' => 'Sif\\Foundation\\Contracts\\RuntimeInterface',
+              'invalidcapabilityexception' => 'Sif\\Foundation\\Exceptions\\InvalidCapabilityException',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        6 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'hasCapability',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'bool',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'capability',
+               'type' => 'string',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        7 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'addCapability',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'capability',
+               'type' => 'string',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        8 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
            'name' => 'boot',
            'phpDoc' => NULL,
            'byRef' => false,
@@ -1006,7 +1255,7 @@ return [
           array (
           ),
         )),
-        6 => 
+        9 => 
         \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
            'name' => 'run',
            'phpDoc' => NULL,
@@ -1024,7 +1273,7 @@ return [
           array (
           ),
         )),
-        7 => 
+        10 => 
         \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
            'name' => 'shutdown',
            'phpDoc' => NULL,
@@ -1652,6 +1901,94 @@ return [
         )),
         4 => 
         \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'capabilities',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/** @return list<string> */',
+             'namespace' => 'Sif\\Foundation\\Contracts',
+             'uses' => 
+            array (
+              'bootresult' => 'Sif\\Foundation\\BootResult',
+              'serviceprovidercollection' => 'Sif\\Foundation\\ServiceProviderCollection',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        5 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'hasCapability',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'bool',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'capability',
+               'type' => 'string',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        6 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'addCapability',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'capability',
+               'type' => 'string',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        7 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
            'name' => 'boot',
            'phpDoc' => NULL,
            'byRef' => false,
@@ -1668,7 +2005,7 @@ return [
           array (
           ),
         )),
-        5 => 
+        8 => 
         \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
            'name' => 'run',
            'phpDoc' => NULL,
@@ -1686,7 +2023,7 @@ return [
           array (
           ),
         )),
-        6 => 
+        9 => 
         \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
            'name' => 'shutdown',
            'phpDoc' => NULL,
@@ -3264,6 +3601,1358 @@ return [
       ),
     )),
   ),
+  'D:\\SIF\\src\\Foundation\\Events\\ApplicationBooted.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Sif\\Foundation\\Events\\ApplicationBooted',
+       'phpDoc' => 
+      \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+         'phpDocString' => '/** Immutable snapshot indicating that application boot completed. */',
+         'namespace' => 'Sif\\Foundation\\Events',
+         'uses' => 
+        array (
+          'datetimeimmutable' => 'DateTimeImmutable',
+          'jsonserializable' => 'JsonSerializable',
+          'applicationinterface' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+        ),
+         'constUses' => 
+        array (
+        ),
+      )),
+       'abstract' => false,
+       'final' => true,
+       'extends' => NULL,
+       'implements' => 
+      array (
+        0 => 'JsonSerializable',
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => '__construct',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => NULL,
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'application',
+               'type' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            1 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'timestamp',
+               'type' => 'DateTimeImmutable',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'application',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        2 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'timestamp',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'DateTimeImmutable',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        3 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'jsonSerialize',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/** @return array{event: string, environment: string, state: string, stage: string, capabilities: list<string>, timestamp: string} */',
+             'namespace' => 'Sif\\Foundation\\Events',
+             'uses' => 
+            array (
+              'datetimeimmutable' => 'DateTimeImmutable',
+              'jsonserializable' => 'JsonSerializable',
+              'applicationinterface' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  'D:\\SIF\\src\\Foundation\\Events\\ApplicationCreated.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Sif\\Foundation\\Events\\ApplicationCreated',
+       'phpDoc' => 
+      \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+         'phpDocString' => '/** Immutable snapshot indicating that an application graph was created. */',
+         'namespace' => 'Sif\\Foundation\\Events',
+         'uses' => 
+        array (
+          'datetimeimmutable' => 'DateTimeImmutable',
+          'jsonserializable' => 'JsonSerializable',
+          'applicationinterface' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+        ),
+         'constUses' => 
+        array (
+        ),
+      )),
+       'abstract' => false,
+       'final' => true,
+       'extends' => NULL,
+       'implements' => 
+      array (
+        0 => 'JsonSerializable',
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => '__construct',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => NULL,
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'application',
+               'type' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            1 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'timestamp',
+               'type' => 'DateTimeImmutable',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'application',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        2 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'timestamp',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'DateTimeImmutable',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        3 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'jsonSerialize',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/** @return array{event: string, environment: string, state: string, stage: string, capabilities: list<string>, timestamp: string} */',
+             'namespace' => 'Sif\\Foundation\\Events',
+             'uses' => 
+            array (
+              'datetimeimmutable' => 'DateTimeImmutable',
+              'jsonserializable' => 'JsonSerializable',
+              'applicationinterface' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  'D:\\SIF\\src\\Foundation\\Events\\ApplicationStopped.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Sif\\Foundation\\Events\\ApplicationStopped',
+       'phpDoc' => 
+      \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+         'phpDocString' => '/** Immutable snapshot indicating that application shutdown completed. */',
+         'namespace' => 'Sif\\Foundation\\Events',
+         'uses' => 
+        array (
+          'datetimeimmutable' => 'DateTimeImmutable',
+          'jsonserializable' => 'JsonSerializable',
+          'applicationinterface' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+        ),
+         'constUses' => 
+        array (
+        ),
+      )),
+       'abstract' => false,
+       'final' => true,
+       'extends' => NULL,
+       'implements' => 
+      array (
+        0 => 'JsonSerializable',
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => '__construct',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => NULL,
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'application',
+               'type' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            1 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'timestamp',
+               'type' => 'DateTimeImmutable',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'application',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        2 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'timestamp',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'DateTimeImmutable',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        3 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'jsonSerialize',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/** @return array{event: string, environment: string, state: string, stage: string, capabilities: list<string>, timestamp: string} */',
+             'namespace' => 'Sif\\Foundation\\Events',
+             'uses' => 
+            array (
+              'datetimeimmutable' => 'DateTimeImmutable',
+              'jsonserializable' => 'JsonSerializable',
+              'applicationinterface' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  'D:\\SIF\\src\\Foundation\\Events\\ApplicationStopping.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Sif\\Foundation\\Events\\ApplicationStopping',
+       'phpDoc' => 
+      \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+         'phpDocString' => '/** Immutable snapshot indicating that application shutdown was requested. */',
+         'namespace' => 'Sif\\Foundation\\Events',
+         'uses' => 
+        array (
+          'datetimeimmutable' => 'DateTimeImmutable',
+          'jsonserializable' => 'JsonSerializable',
+          'applicationinterface' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+        ),
+         'constUses' => 
+        array (
+        ),
+      )),
+       'abstract' => false,
+       'final' => true,
+       'extends' => NULL,
+       'implements' => 
+      array (
+        0 => 'JsonSerializable',
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => '__construct',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => NULL,
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'application',
+               'type' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            1 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'timestamp',
+               'type' => 'DateTimeImmutable',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'application',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        2 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'timestamp',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'DateTimeImmutable',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        3 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'jsonSerialize',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/** @return array{event: string, environment: string, state: string, stage: string, capabilities: list<string>, timestamp: string} */',
+             'namespace' => 'Sif\\Foundation\\Events',
+             'uses' => 
+            array (
+              'datetimeimmutable' => 'DateTimeImmutable',
+              'jsonserializable' => 'JsonSerializable',
+              'applicationinterface' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  'D:\\SIF\\src\\Foundation\\Events\\FrameworkBooted.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Sif\\Foundation\\Events\\FrameworkBooted',
+       'phpDoc' => 
+      \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+         'phpDocString' => '/** Immutable snapshot indicating that framework boot completed. */',
+         'namespace' => 'Sif\\Foundation\\Events',
+         'uses' => 
+        array (
+          'datetimeimmutable' => 'DateTimeImmutable',
+          'jsonserializable' => 'JsonSerializable',
+          'applicationinterface' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+        ),
+         'constUses' => 
+        array (
+        ),
+      )),
+       'abstract' => false,
+       'final' => true,
+       'extends' => NULL,
+       'implements' => 
+      array (
+        0 => 'JsonSerializable',
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => '__construct',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => NULL,
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'application',
+               'type' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            1 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'timestamp',
+               'type' => 'DateTimeImmutable',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'application',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        2 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'timestamp',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'DateTimeImmutable',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        3 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'jsonSerialize',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/** @return array{event: string, environment: string, state: string, stage: string, capabilities: list<string>, timestamp: string} */',
+             'namespace' => 'Sif\\Foundation\\Events',
+             'uses' => 
+            array (
+              'datetimeimmutable' => 'DateTimeImmutable',
+              'jsonserializable' => 'JsonSerializable',
+              'applicationinterface' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  'D:\\SIF\\src\\Foundation\\Events\\FrameworkBooting.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Sif\\Foundation\\Events\\FrameworkBooting',
+       'phpDoc' => 
+      \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+         'phpDocString' => '/** Immutable snapshot indicating that framework boot is beginning. */',
+         'namespace' => 'Sif\\Foundation\\Events',
+         'uses' => 
+        array (
+          'datetimeimmutable' => 'DateTimeImmutable',
+          'jsonserializable' => 'JsonSerializable',
+          'applicationinterface' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+        ),
+         'constUses' => 
+        array (
+        ),
+      )),
+       'abstract' => false,
+       'final' => true,
+       'extends' => NULL,
+       'implements' => 
+      array (
+        0 => 'JsonSerializable',
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => '__construct',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => NULL,
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'application',
+               'type' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            1 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'timestamp',
+               'type' => 'DateTimeImmutable',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'application',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        2 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'timestamp',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'DateTimeImmutable',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        3 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'jsonSerialize',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/** @return array{event: string, environment: string, state: string, stage: string, capabilities: list<string>, timestamp: string} */',
+             'namespace' => 'Sif\\Foundation\\Events',
+             'uses' => 
+            array (
+              'datetimeimmutable' => 'DateTimeImmutable',
+              'jsonserializable' => 'JsonSerializable',
+              'applicationinterface' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  'D:\\SIF\\src\\Foundation\\Events\\FrameworkFailed.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Sif\\Foundation\\Events\\FrameworkFailed',
+       'phpDoc' => 
+      \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+         'phpDocString' => '/** Immutable failure snapshot that retains but never serializes its original cause. */',
+         'namespace' => 'Sif\\Foundation\\Events',
+         'uses' => 
+        array (
+          'datetimeimmutable' => 'DateTimeImmutable',
+          'jsonserializable' => 'JsonSerializable',
+          'runtimeinterface' => 'Sif\\Foundation\\Contracts\\RuntimeInterface',
+        ),
+         'constUses' => 
+        array (
+        ),
+      )),
+       'abstract' => false,
+       'final' => true,
+       'extends' => NULL,
+       'implements' => 
+      array (
+        0 => 'JsonSerializable',
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => '__construct',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => NULL,
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'runtime',
+               'type' => 'Sif\\Foundation\\Contracts\\RuntimeInterface',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            1 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'cause',
+               'type' => 'Throwable',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            2 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'timestamp',
+               'type' => 'DateTimeImmutable',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'runtime',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Sif\\Foundation\\Contracts\\RuntimeInterface',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        2 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'cause',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Throwable',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        3 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'timestamp',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'DateTimeImmutable',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        4 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'jsonSerialize',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/** @return array{event: string, state: string, stage: string, timestamp: string, diagnostic: array{code: string, type: string}} */',
+             'namespace' => 'Sif\\Foundation\\Events',
+             'uses' => 
+            array (
+              'datetimeimmutable' => 'DateTimeImmutable',
+              'jsonserializable' => 'JsonSerializable',
+              'runtimeinterface' => 'Sif\\Foundation\\Contracts\\RuntimeInterface',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  'D:\\SIF\\src\\Foundation\\Events\\KernelBooted.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Sif\\Foundation\\Events\\KernelBooted',
+       'phpDoc' => 
+      \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+         'phpDocString' => '/** Immutable snapshot indicating that Kernel orchestration completed. */',
+         'namespace' => 'Sif\\Foundation\\Events',
+         'uses' => 
+        array (
+          'datetimeimmutable' => 'DateTimeImmutable',
+          'jsonserializable' => 'JsonSerializable',
+          'applicationinterface' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+        ),
+         'constUses' => 
+        array (
+        ),
+      )),
+       'abstract' => false,
+       'final' => true,
+       'extends' => NULL,
+       'implements' => 
+      array (
+        0 => 'JsonSerializable',
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => '__construct',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => NULL,
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'application',
+               'type' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            1 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'timestamp',
+               'type' => 'DateTimeImmutable',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'application',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        2 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'timestamp',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'DateTimeImmutable',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        3 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'jsonSerialize',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/** @return array{event: string, environment: string, state: string, stage: string, capabilities: list<string>, timestamp: string} */',
+             'namespace' => 'Sif\\Foundation\\Events',
+             'uses' => 
+            array (
+              'datetimeimmutable' => 'DateTimeImmutable',
+              'jsonserializable' => 'JsonSerializable',
+              'applicationinterface' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  'D:\\SIF\\src\\Foundation\\Events\\KernelBooting.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Sif\\Foundation\\Events\\KernelBooting',
+       'phpDoc' => 
+      \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+         'phpDocString' => '/** Immutable snapshot indicating that Kernel orchestration is beginning. */',
+         'namespace' => 'Sif\\Foundation\\Events',
+         'uses' => 
+        array (
+          'datetimeimmutable' => 'DateTimeImmutable',
+          'jsonserializable' => 'JsonSerializable',
+          'applicationinterface' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+        ),
+         'constUses' => 
+        array (
+        ),
+      )),
+       'abstract' => false,
+       'final' => true,
+       'extends' => NULL,
+       'implements' => 
+      array (
+        0 => 'JsonSerializable',
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => '__construct',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => NULL,
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'application',
+               'type' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            1 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'timestamp',
+               'type' => 'DateTimeImmutable',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'application',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        2 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'timestamp',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'DateTimeImmutable',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        3 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'jsonSerialize',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/** @return array{event: string, environment: string, state: string, stage: string, capabilities: list<string>, timestamp: string} */',
+             'namespace' => 'Sif\\Foundation\\Events',
+             'uses' => 
+            array (
+              'datetimeimmutable' => 'DateTimeImmutable',
+              'jsonserializable' => 'JsonSerializable',
+              'applicationinterface' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
   'D:\\SIF\\src\\Foundation\\Exceptions\\BootstrapException.php' => 
   array (
     0 => 
@@ -3404,6 +5093,89 @@ return [
            'returnType' => 'self',
            'parameters' => 
           array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  'D:\\SIF\\src\\Foundation\\Exceptions\\InvalidCapabilityException.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Sif\\Foundation\\Exceptions\\InvalidCapabilityException',
+       'phpDoc' => 
+      \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+         'phpDocString' => '/** Raised when a capability identifier violates Foundation naming rules. */',
+         'namespace' => 'Sif\\Foundation\\Exceptions',
+         'uses' => 
+        array (
+        ),
+         'constUses' => 
+        array (
+        ),
+      )),
+       'abstract' => false,
+       'final' => true,
+       'extends' => 'Sif\\Foundation\\Exceptions\\FoundationException',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'empty',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => true,
+           'returnType' => 'self',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'invalid',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => true,
+           'returnType' => 'self',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'capability',
+               'type' => 'string',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
           ),
            'attributes' => 
           array (
@@ -5263,6 +7035,199 @@ return [
       ),
     )),
   ),
+  'D:\\SIF\\tests\\Foundation\\Unit\\CapabilityTest.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Sif\\Foundation\\Tests\\Unit\\CapabilityTest',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => true,
+       'extends' => 'PHPUnit\\Framework\\TestCase',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'testApplicationHasDefaultCapabilitiesInDeterministicOrder',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'testCapabilityIsTrimmedLowercasedAndDeduplicated',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        2 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'invalidCapabilities',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/** @return iterable<string, array{string}> */',
+             'namespace' => 'Sif\\Foundation\\Tests\\Unit',
+             'uses' => 
+            array (
+              'dataprovider' => 'PHPUnit\\Framework\\Attributes\\DataProvider',
+              'testcase' => 'PHPUnit\\Framework\\TestCase',
+              'invalidcapabilityexception' => 'Sif\\Foundation\\Exceptions\\InvalidCapabilityException',
+              'framework' => 'Sif\\Foundation\\Framework',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => true,
+           'returnType' => 'iterable',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        3 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'testInvalidCapabilityIsRejected',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'capability',
+               'type' => 'string',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedAttributeNode::__set_state(array(
+               'name' => 'PHPUnit\\Framework\\Attributes\\DataProvider',
+               'args' => 
+              array (
+                0 => '\'invalidCapabilities\'',
+              ),
+            )),
+          ),
+        )),
+        4 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'testCapabilitiesAreIndependentBetweenApplications',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  'D:\\SIF\\tests\\Foundation\\Unit\\FrameworkFailedTest.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Sif\\Foundation\\Tests\\Unit\\FrameworkFailedTest',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => true,
+       'extends' => 'PHPUnit\\Framework\\TestCase',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'testFailureRetainsCauseButSerializesOnlySafeDiagnostics',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
   'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php' => 
   array (
     0 => 
@@ -5502,6 +7467,169 @@ return [
         12 => 
         \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
            'name' => 'testRepeatedRunBecomesFailureResult',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  'D:\\SIF\\tests\\Foundation\\Unit\\RuntimeEventTest.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Sif\\Foundation\\Tests\\Unit\\RuntimeEventTest',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => true,
+       'extends' => 'PHPUnit\\Framework\\TestCase',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'applicationEvents',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * @return iterable<string, array{
+     *     class-string<FrameworkBooting|FrameworkBooted|ApplicationCreated|ApplicationBooted|KernelBooting|KernelBooted|ApplicationStopping|ApplicationStopped>,
+     *     string
+     * }>
+     */',
+             'namespace' => 'Sif\\Foundation\\Tests\\Unit',
+             'uses' => 
+            array (
+              'datetimeimmutable' => 'DateTimeImmutable',
+              'jsonserializable' => 'JsonSerializable',
+              'dataprovider' => 'PHPUnit\\Framework\\Attributes\\DataProvider',
+              'testcase' => 'PHPUnit\\Framework\\TestCase',
+              'reflectionclass' => 'ReflectionClass',
+              'applicationbooted' => 'Sif\\Foundation\\Events\\ApplicationBooted',
+              'applicationcreated' => 'Sif\\Foundation\\Events\\ApplicationCreated',
+              'applicationstopped' => 'Sif\\Foundation\\Events\\ApplicationStopped',
+              'applicationstopping' => 'Sif\\Foundation\\Events\\ApplicationStopping',
+              'frameworkbooted' => 'Sif\\Foundation\\Events\\FrameworkBooted',
+              'frameworkbooting' => 'Sif\\Foundation\\Events\\FrameworkBooting',
+              'kernelbooted' => 'Sif\\Foundation\\Events\\KernelBooted',
+              'kernelbooting' => 'Sif\\Foundation\\Events\\KernelBooting',
+              'framework' => 'Sif\\Foundation\\Framework',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => true,
+           'returnType' => 'iterable',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'testApplicationEventIsImmutableAndSafelySerializable',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/** @param class-string<FrameworkBooting|FrameworkBooted|ApplicationCreated|ApplicationBooted|KernelBooting|KernelBooted|ApplicationStopping|ApplicationStopped> $eventClass */',
+             'namespace' => 'Sif\\Foundation\\Tests\\Unit',
+             'uses' => 
+            array (
+              'datetimeimmutable' => 'DateTimeImmutable',
+              'jsonserializable' => 'JsonSerializable',
+              'dataprovider' => 'PHPUnit\\Framework\\Attributes\\DataProvider',
+              'testcase' => 'PHPUnit\\Framework\\TestCase',
+              'reflectionclass' => 'ReflectionClass',
+              'applicationbooted' => 'Sif\\Foundation\\Events\\ApplicationBooted',
+              'applicationcreated' => 'Sif\\Foundation\\Events\\ApplicationCreated',
+              'applicationstopped' => 'Sif\\Foundation\\Events\\ApplicationStopped',
+              'applicationstopping' => 'Sif\\Foundation\\Events\\ApplicationStopping',
+              'frameworkbooted' => 'Sif\\Foundation\\Events\\FrameworkBooted',
+              'frameworkbooting' => 'Sif\\Foundation\\Events\\FrameworkBooting',
+              'kernelbooted' => 'Sif\\Foundation\\Events\\KernelBooted',
+              'kernelbooting' => 'Sif\\Foundation\\Events\\KernelBooting',
+              'framework' => 'Sif\\Foundation\\Framework',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'eventClass',
+               'type' => 'string',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            1 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'eventName',
+               'type' => 'string',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedAttributeNode::__set_state(array(
+               'name' => 'PHPUnit\\Framework\\Attributes\\DataProvider',
+               'args' => 
+              array (
+                0 => '\'applicationEvents\'',
+              ),
+            )),
+          ),
+        )),
+        2 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'testConstructingEventsDoesNotDispatchOrChangeLifecycle',
            'phpDoc' => NULL,
            'byRef' => false,
            'public' => true,

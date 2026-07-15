@@ -7,7 +7,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
   array (
     'D:\\SIF\\src\\Foundation\\Application.php' => 
     array (
-      0 => '3b154a3bb192158b0a2d198a9c9ab62ee2c01a3c',
+      0 => '90b59693560b0563cb5e7431481ffcff94272cf7',
       1 => 
       array (
         0 => 'sif\\foundation\\application',
@@ -19,9 +19,13 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
         2 => 'sif\\foundation\\kernel',
         3 => 'sif\\foundation\\environment',
         4 => 'sif\\foundation\\providers',
-        5 => 'sif\\foundation\\boot',
-        6 => 'sif\\foundation\\run',
-        7 => 'sif\\foundation\\shutdown',
+        5 => 'sif\\foundation\\capabilities',
+        6 => 'sif\\foundation\\hascapability',
+        7 => 'sif\\foundation\\addcapability',
+        8 => 'sif\\foundation\\boot',
+        9 => 'sif\\foundation\\run',
+        10 => 'sif\\foundation\\shutdown',
+        11 => 'sif\\foundation\\normalizecapability',
       ),
       3 => 
       array (
@@ -84,7 +88,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'D:\\SIF\\src\\Foundation\\Contracts\\ApplicationInterface.php' => 
     array (
-      0 => 'f567b2d32892102b370f9cb5d2e65d33aca8554c',
+      0 => '0dc6bda1a683d8c6b491e19556f905a23fcb1ecd',
       1 => 
       array (
         0 => 'sif\\foundation\\contracts\\applicationinterface',
@@ -95,9 +99,12 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
         1 => 'sif\\foundation\\contracts\\kernel',
         2 => 'sif\\foundation\\contracts\\environment',
         3 => 'sif\\foundation\\contracts\\providers',
-        4 => 'sif\\foundation\\contracts\\boot',
-        5 => 'sif\\foundation\\contracts\\run',
-        6 => 'sif\\foundation\\contracts\\shutdown',
+        4 => 'sif\\foundation\\contracts\\capabilities',
+        5 => 'sif\\foundation\\contracts\\hascapability',
+        6 => 'sif\\foundation\\contracts\\addcapability',
+        7 => 'sif\\foundation\\contracts\\boot',
+        8 => 'sif\\foundation\\contracts\\run',
+        9 => 'sif\\foundation\\contracts\\shutdown',
       ),
       3 => 
       array (
@@ -533,6 +540,185 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
         5 => 'sif\\foundation\\count',
         6 => 'sif\\foundation\\isempty',
         7 => 'sif\\foundation\\getiterator',
+      ),
+      3 => 
+      array (
+      ),
+    ),
+    'D:\\SIF\\src\\Foundation\\Events\\ApplicationBooted.php' => 
+    array (
+      0 => 'ffe2ad931c43d290a5c36cf945efbb6a6cf5c53b',
+      1 => 
+      array (
+        0 => 'sif\\foundation\\events\\applicationbooted',
+      ),
+      2 => 
+      array (
+        0 => 'sif\\foundation\\events\\__construct',
+        1 => 'sif\\foundation\\events\\application',
+        2 => 'sif\\foundation\\events\\timestamp',
+        3 => 'sif\\foundation\\events\\jsonserialize',
+      ),
+      3 => 
+      array (
+      ),
+    ),
+    'D:\\SIF\\src\\Foundation\\Events\\ApplicationCreated.php' => 
+    array (
+      0 => '28c5bd46d20b6f775ec33c3ed4d3347cc6222202',
+      1 => 
+      array (
+        0 => 'sif\\foundation\\events\\applicationcreated',
+      ),
+      2 => 
+      array (
+        0 => 'sif\\foundation\\events\\__construct',
+        1 => 'sif\\foundation\\events\\application',
+        2 => 'sif\\foundation\\events\\timestamp',
+        3 => 'sif\\foundation\\events\\jsonserialize',
+      ),
+      3 => 
+      array (
+      ),
+    ),
+    'D:\\SIF\\src\\Foundation\\Events\\ApplicationStopped.php' => 
+    array (
+      0 => 'bfb2bccce50a3d445e312035c8334f291ba1865c',
+      1 => 
+      array (
+        0 => 'sif\\foundation\\events\\applicationstopped',
+      ),
+      2 => 
+      array (
+        0 => 'sif\\foundation\\events\\__construct',
+        1 => 'sif\\foundation\\events\\application',
+        2 => 'sif\\foundation\\events\\timestamp',
+        3 => 'sif\\foundation\\events\\jsonserialize',
+      ),
+      3 => 
+      array (
+      ),
+    ),
+    'D:\\SIF\\src\\Foundation\\Events\\ApplicationStopping.php' => 
+    array (
+      0 => '2fa2fb2c08d6272ab255fad91603b1a12c836594',
+      1 => 
+      array (
+        0 => 'sif\\foundation\\events\\applicationstopping',
+      ),
+      2 => 
+      array (
+        0 => 'sif\\foundation\\events\\__construct',
+        1 => 'sif\\foundation\\events\\application',
+        2 => 'sif\\foundation\\events\\timestamp',
+        3 => 'sif\\foundation\\events\\jsonserialize',
+      ),
+      3 => 
+      array (
+      ),
+    ),
+    'D:\\SIF\\src\\Foundation\\Events\\FrameworkBooted.php' => 
+    array (
+      0 => '3845e42dd472b1f07f8dd5c0c63dd8941a6d4fb0',
+      1 => 
+      array (
+        0 => 'sif\\foundation\\events\\frameworkbooted',
+      ),
+      2 => 
+      array (
+        0 => 'sif\\foundation\\events\\__construct',
+        1 => 'sif\\foundation\\events\\application',
+        2 => 'sif\\foundation\\events\\timestamp',
+        3 => 'sif\\foundation\\events\\jsonserialize',
+      ),
+      3 => 
+      array (
+      ),
+    ),
+    'D:\\SIF\\src\\Foundation\\Events\\FrameworkBooting.php' => 
+    array (
+      0 => '4a4dfde4da9408179ae22a729d1260ae6fcb9ab9',
+      1 => 
+      array (
+        0 => 'sif\\foundation\\events\\frameworkbooting',
+      ),
+      2 => 
+      array (
+        0 => 'sif\\foundation\\events\\__construct',
+        1 => 'sif\\foundation\\events\\application',
+        2 => 'sif\\foundation\\events\\timestamp',
+        3 => 'sif\\foundation\\events\\jsonserialize',
+      ),
+      3 => 
+      array (
+      ),
+    ),
+    'D:\\SIF\\src\\Foundation\\Events\\FrameworkFailed.php' => 
+    array (
+      0 => '3595dbde72dea9746c54fa124ad26814740200ad',
+      1 => 
+      array (
+        0 => 'sif\\foundation\\events\\frameworkfailed',
+      ),
+      2 => 
+      array (
+        0 => 'sif\\foundation\\events\\__construct',
+        1 => 'sif\\foundation\\events\\runtime',
+        2 => 'sif\\foundation\\events\\cause',
+        3 => 'sif\\foundation\\events\\timestamp',
+        4 => 'sif\\foundation\\events\\jsonserialize',
+      ),
+      3 => 
+      array (
+      ),
+    ),
+    'D:\\SIF\\src\\Foundation\\Events\\KernelBooted.php' => 
+    array (
+      0 => '271973bcc9c2e15749163c7789509e74c545950a',
+      1 => 
+      array (
+        0 => 'sif\\foundation\\events\\kernelbooted',
+      ),
+      2 => 
+      array (
+        0 => 'sif\\foundation\\events\\__construct',
+        1 => 'sif\\foundation\\events\\application',
+        2 => 'sif\\foundation\\events\\timestamp',
+        3 => 'sif\\foundation\\events\\jsonserialize',
+      ),
+      3 => 
+      array (
+      ),
+    ),
+    'D:\\SIF\\src\\Foundation\\Events\\KernelBooting.php' => 
+    array (
+      0 => '2e0d3a6b651d29470e69d8ec9e3d641f98175b9d',
+      1 => 
+      array (
+        0 => 'sif\\foundation\\events\\kernelbooting',
+      ),
+      2 => 
+      array (
+        0 => 'sif\\foundation\\events\\__construct',
+        1 => 'sif\\foundation\\events\\application',
+        2 => 'sif\\foundation\\events\\timestamp',
+        3 => 'sif\\foundation\\events\\jsonserialize',
+      ),
+      3 => 
+      array (
+      ),
+    ),
+    'D:\\SIF\\src\\Foundation\\Exceptions\\InvalidCapabilityException.php' => 
+    array (
+      0 => '9aa133c9efa9ea3054b39cf53bb2a2e243c3b560',
+      1 => 
+      array (
+        0 => 'sif\\foundation\\exceptions\\invalidcapabilityexception',
+      ),
+      2 => 
+      array (
+        0 => 'sif\\foundation\\exceptions\\empty',
+        1 => 'sif\\foundation\\exceptions\\invalid',
       ),
       3 => 
       array (

@@ -40,6 +40,14 @@ Providers must not mutate Runtime state, invoke Kernel lifecycle methods, use gl
 
 The component declares `runtime`, `foundation`, `providers`, and `lifecycle`. Provider instances are application-owned and are not required to be singletons.
 
+Applications expose capabilities through `capabilities()`, `hasCapability()`, and `addCapability()`. Identifiers are trimmed, converted to ASCII lowercase, deduplicated in insertion order, and limited to letters, numbers, dots, hyphens, and underscores. Dots separate non-empty hierarchy segments.
+
+## Observability preparation
+
+The immutable event DTOs under `Sif\Foundation\Events` describe framework boot, application creation and lifecycle, kernel boot, shutdown, and failure. Constructing an event has no side effects and does not dispatch it. A future dispatcher may consume these objects without changing Runtime state or provider order.
+
+Application event JSON contains only environment, runtime state and stage, capabilities, event name, and an ISO 8601 timestamp. It never serializes the Application or Runtime object. `FrameworkFailed` retains its original Throwable internally but serializes only a stable diagnostic code and throwable type; messages, traces, paths, and credentials are excluded.
+
 ## Alpha limitations
 
-Service registration targets will be introduced by later work packages. Phase 3 supplies lifecycle infrastructure only and deliberately contains no placeholder container or service locator.
+Service registration targets and event dispatch will be introduced by later work packages. Phase 4 supplies event data objects only and deliberately contains no placeholder dispatcher, listener registry, container, or service locator.

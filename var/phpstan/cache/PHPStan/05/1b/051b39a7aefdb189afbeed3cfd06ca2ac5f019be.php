@@ -146,5 +146,56 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
       array (
       ),
     ),
+    'D:\\SIF\\tests\\Foundation\\Unit\\CapabilityTest.php' => 
+    array (
+      0 => '3ce4cf1b6a9d9a46c986458c5b458d6867c30460',
+      1 => 
+      array (
+        0 => 'sif\\foundation\\tests\\unit\\capabilitytest',
+      ),
+      2 => 
+      array (
+        0 => 'sif\\foundation\\tests\\unit\\testapplicationhasdefaultcapabilitiesindeterministicorder',
+        1 => 'sif\\foundation\\tests\\unit\\testcapabilityistrimmedlowercasedanddeduplicated',
+        2 => 'sif\\foundation\\tests\\unit\\invalidcapabilities',
+        3 => 'sif\\foundation\\tests\\unit\\testinvalidcapabilityisrejected',
+        4 => 'sif\\foundation\\tests\\unit\\testcapabilitiesareindependentbetweenapplications',
+      ),
+      3 => 
+      array (
+      ),
+    ),
+    'D:\\SIF\\tests\\Foundation\\Unit\\FrameworkFailedTest.php' => 
+    array (
+      0 => '189c30ad24c5462d436df1c4137ab8288d77db5d',
+      1 => 
+      array (
+        0 => 'sif\\foundation\\tests\\unit\\frameworkfailedtest',
+      ),
+      2 => 
+      array (
+        0 => 'sif\\foundation\\tests\\unit\\testfailureretainscausebutserializesonlysafediagnostics',
+      ),
+      3 => 
+      array (
+      ),
+    ),
+    'D:\\SIF\\tests\\Foundation\\Unit\\RuntimeEventTest.php' => 
+    array (
+      0 => 'a846ddd4f63bbaa6832851b5d6f7f70b03347044',
+      1 => 
+      array (
+        0 => 'sif\\foundation\\tests\\unit\\runtimeeventtest',
+      ),
+      2 => 
+      array (
+        0 => 'sif\\foundation\\tests\\unit\\applicationevents',
+        1 => 'sif\\foundation\\tests\\unit\\testapplicationeventisimmutableandsafelyserializable',
+        2 => 'sif\\foundation\\tests\\unit\\testconstructingeventsdoesnotdispatchorchangelifecycle',
+      ),
+      3 => 
+      array (
+      ),
+    ),
   ),
 ));
