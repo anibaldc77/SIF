@@ -1,0 +1,23 @@
+name: Feature request
+description: Propose a scoped, architectural improvement.
+title: "feat: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and proposed outcome
+    validations:
+      required: true
+  - type: textarea
+    id: architecture
+    attributes:
+      label: Affected Work Package, specification, or ADR
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+    validations:
+      required: true

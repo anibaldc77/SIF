@@ -1,7 +1,7 @@
 {
   "component_version": "1.0.0",
   "framework_version": "2.0.0-alpha1",
-  "generated_at": "2026-07-15T13:37:58Z",
+  "generated_at": "2026-07-15T00:00:00Z",
   "files": {
     "src/Foundation/Application.php": "c74f7b0a579cb654a55becc08636686f1fa59f5a87289db0bd82b605bd77cce6",
     "src/Foundation/BootResult.php": "2f256b64baa0472e5707507d2dba4a5090c1f1e6e3069b1be1ed734e87130378",
@@ -29,6 +29,7 @@
     "src/Foundation/RuntimeState.php": "9a6d292f241fa3352cef2ddaddb0560e00c142512ca6e6dfbfc2f5cf27c76fea",
     "tests/Foundation/Unit/LifecycleOrchestrationTest.php": "e69e4e31a6c71ae8ee2d524dc29e2241b2150a45bcdd7185fe2ece6b35126d4e"
   },
-  "development_tools": {"phpunit": "10.5.64", "phpstan": "1.12.33", "composer": "2.4.1"},
+  "development_tools": {"phpunit": "10.5.64", "phpstan": "1.12.33", "php_cs_fixer": "3.95.15", "composer": "2.10.2"},
+  "dependency_resolution": {"platform_php": "8.2.32", "php_cs_fixer": "3.95.15", "symfony_console": "7.4.14"},
   "test_summary": {"tests": 13, "assertions": 35, "status": "pass", "runtime": "PHP 8.2.32"}
 }

@@ -11,5 +11,5 @@
   "public_contracts": ["Sif\\Foundation\\Contracts\\ApplicationInterface", "Sif\\Foundation\\Contracts\\BootstrapInterface", "Sif\\Foundation\\Contracts\\EnvironmentInterface", "Sif\\Foundation\\Contracts\\KernelInterface", "Sif\\Foundation\\Contracts\\LifecycleInterface", "Sif\\Foundation\\Contracts\\RuntimeInterface"],
   "service_providers": [],
   "exceptions": ["Sif\\Foundation\\Exceptions\\InvalidBootResultException"],
-  "documentation": ["README.md", "CHANGELOG.md"]
+  "documentation": ["README.md", "CHANGELOG.md", "engineering/handbook/HANDBOOK.md", "engineering/specifications/WP-000-Repository-Standards.md"]
 }

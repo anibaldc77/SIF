@@ -1,69 +1,36 @@
-###############################################################################
-# SIF Framework
-###############################################################################
-
 # Dependencies
 /vendor/
 
-# PHPUnit
-.phpunit.result.cache
-.phpunit.cache/
-
-# PHPStan
+# Test and analysis caches
+/.phpunit.result.cache
+/.phpunit.cache/
 /var/phpstan/cache/
 /var/phpstan/resultCache.php
-
-# Coverage
+/var/php-cs-fixer/
 /coverage/
 coverage.xml
 
-# Logs
+# Local environments and logs
+.env
+.env.local
 *.log
-
-# IDE
-.vscode/settings.json
-.idea/
-
-# Operating System
-Thumbs.db
-Desktop.ini
-.DS_Store
-
-# Temporary files
 *.tmp
 *.temp
 *.bak
 *.swp
 
-# Composer
-composer.phar
-
-# Node
-node_modules/
-
-# Environment
-.env
-.env.local
-
-###############################################################################
-# Builder generated temporary files
-###############################################################################
-
+# Build artifacts
 /build/
 /dist/
 /tmp/
+node_modules/
 
-###############################################################################
-# Archives
-###############################################################################
+# IDE and operating system files
+/.idea/
+/.vscode/settings.json
+Thumbs.db
+Desktop.ini
+.DS_Store
 
-*.zip
-*.tar
-*.gz
-*.7z
-
-###############################################################################
-# Runtime
-###############################################################################
-
-/storage/
+# Local Composer executable
+composer.phar

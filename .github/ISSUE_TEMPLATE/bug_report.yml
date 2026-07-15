@@ -1,0 +1,32 @@
+name: Bug report
+description: Report a reproducible SIF defect.
+title: "fix: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Provide a minimal, reproducible report. Do not include secrets.
+  - type: input
+    id: version
+    attributes:
+      label: SIF version
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: PHP version and operating system
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true

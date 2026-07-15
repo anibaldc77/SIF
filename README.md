@@ -1,18 +1,21 @@
-# SIF Runtime Foundation
+# SIF — Sistema Institucional Framework
 
-Fase 1 de WP-003 para SIF 2.0.0-alpha1. El componente define el núcleo mínimo de ejecución sin introducir responsabilidades de Kernel, Bootstrap, Container, Configuration, Providers ni Events.
+SIF is a service-oriented PHP framework for long-lived institutional systems. This repository currently contains the Runtime Foundation and its engineering standards.
 
-`Framework::create()` es el único punto público para crear una aplicación en ejecución. `Application` conserva su identidad inmutable y `Runtime` concentra el estado mutable de ciclo de vida.
+## Requirements
 
-## Uso
+- PHP 8.2 or newer
+- Composer 2
 
-```php
-$framework = \Sif\Foundation\Framework::create('sif', 'production');
-$framework->start();
-// Ejecutar trabajo de la aplicación.
-$framework->stop();
+## Development
+
+```bash
+composer install
+composer quality
 ```
 
-## Pruebas
+The Quality Gate, contribution process, security policy, and governance model are documented in [engineering/handbook](engineering/handbook/HANDBOOK.md).
 
-La suite se ejecuta con PHPUnit y cubre creación, metadatos, transiciones válidas y transiciones de ciclo de vida inválidas.
+## License
+
+SIF is released under the [MIT License](LICENSE).
