@@ -7,7 +7,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
   array (
     'D:\\SIF\\src\\Foundation\\Application.php' => 
     array (
-      0 => 'dc5d0febe91881b77ed46ecb78b90982371df964',
+      0 => '3b154a3bb192158b0a2d198a9c9ab62ee2c01a3c',
       1 => 
       array (
         0 => 'sif\\foundation\\application',
@@ -18,9 +18,10 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
         1 => 'sif\\foundation\\runtime',
         2 => 'sif\\foundation\\kernel',
         3 => 'sif\\foundation\\environment',
-        4 => 'sif\\foundation\\boot',
-        5 => 'sif\\foundation\\run',
-        6 => 'sif\\foundation\\shutdown',
+        4 => 'sif\\foundation\\providers',
+        5 => 'sif\\foundation\\boot',
+        6 => 'sif\\foundation\\run',
+        7 => 'sif\\foundation\\shutdown',
       ),
       3 => 
       array (
@@ -68,7 +69,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'D:\\SIF\\src\\Foundation\\Bootstrap.php' => 
     array (
-      0 => 'f0a7b3cb107c6c2a0e4597605f3d9b031d619346',
+      0 => '82db092d12ee27b2fdd9b4d9ef1064d7fe0b54cf',
       1 => 
       array (
         0 => 'sif\\foundation\\bootstrap',
@@ -83,7 +84,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'D:\\SIF\\src\\Foundation\\Contracts\\ApplicationInterface.php' => 
     array (
-      0 => 'b08a1803fd6ed95d5b7f8c2a8f27fb6949b43c17',
+      0 => 'f567b2d32892102b370f9cb5d2e65d33aca8554c',
       1 => 
       array (
         0 => 'sif\\foundation\\contracts\\applicationinterface',
@@ -93,9 +94,10 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
         0 => 'sif\\foundation\\contracts\\runtime',
         1 => 'sif\\foundation\\contracts\\kernel',
         2 => 'sif\\foundation\\contracts\\environment',
-        3 => 'sif\\foundation\\contracts\\boot',
-        4 => 'sif\\foundation\\contracts\\run',
-        5 => 'sif\\foundation\\contracts\\shutdown',
+        3 => 'sif\\foundation\\contracts\\providers',
+        4 => 'sif\\foundation\\contracts\\boot',
+        5 => 'sif\\foundation\\contracts\\run',
+        6 => 'sif\\foundation\\contracts\\shutdown',
       ),
       3 => 
       array (
@@ -156,7 +158,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'D:\\SIF\\src\\Foundation\\Contracts\\LifecycleInterface.php' => 
     array (
-      0 => '877a33300eb8273dd3eb3ca17c36c6058fc66876',
+      0 => 'd33aa93ceeaebafef2547552f0fbc8839d119da2',
       1 => 
       array (
         0 => 'sif\\foundation\\contracts\\lifecycleinterface',
@@ -357,7 +359,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'D:\\SIF\\src\\Foundation\\Kernel.php' => 
     array (
-      0 => 'd45d43f451f6a0559e50d9f8a9335f85675cf544',
+      0 => 'bcd2fe5b1d5a2eb7de3362c401f3134af0c1c381',
       1 => 
       array (
         0 => 'sif\\foundation\\kernel',
@@ -376,7 +378,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'D:\\SIF\\src\\Foundation\\Lifecycle.php' => 
     array (
-      0 => '12ac36df23ad7b97967feb7feb32f3246802067b',
+      0 => '4b2232bd19eabc53fb24f1cfb7269adf001f683c',
       1 => 
       array (
         0 => 'sif\\foundation\\lifecycle',
@@ -387,6 +389,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
         1 => 'sif\\foundation\\shutdownstages',
         2 => 'sif\\foundation\\boot',
         3 => 'sif\\foundation\\shutdown',
+        4 => 'sif\\foundation\\bootfailure',
       ),
       3 => 
       array (
@@ -444,6 +447,92 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
       2 => 
       array (
         0 => 'sif\\foundation\\exceptions\\missingerrors',
+      ),
+      3 => 
+      array (
+      ),
+    ),
+    'D:\\SIF\\src\\Foundation\\Contracts\\ServiceProviderInterface.php' => 
+    array (
+      0 => '632267d62fe0a2aa873be4771b9305b6839681dd',
+      1 => 
+      array (
+        0 => 'sif\\foundation\\contracts\\serviceproviderinterface',
+      ),
+      2 => 
+      array (
+        0 => 'sif\\foundation\\contracts\\register',
+        1 => 'sif\\foundation\\contracts\\boot',
+        2 => 'sif\\foundation\\contracts\\shutdown',
+      ),
+      3 => 
+      array (
+      ),
+    ),
+    'D:\\SIF\\src\\Foundation\\Exceptions\\DuplicateServiceProviderException.php' => 
+    array (
+      0 => '4670a266d4c73172d58af75871319b334309344d',
+      1 => 
+      array (
+        0 => 'sif\\foundation\\exceptions\\duplicateserviceproviderexception',
+      ),
+      2 => 
+      array (
+        0 => 'sif\\foundation\\exceptions\\forclass',
+      ),
+      3 => 
+      array (
+      ),
+    ),
+    'D:\\SIF\\src\\Foundation\\Exceptions\\ServiceProviderNotFoundException.php' => 
+    array (
+      0 => '0ea94047cf97177ed265b7e0fa467d19b834f3e3',
+      1 => 
+      array (
+        0 => 'sif\\foundation\\exceptions\\serviceprovidernotfoundexception',
+      ),
+      2 => 
+      array (
+        0 => 'sif\\foundation\\exceptions\\forclass',
+      ),
+      3 => 
+      array (
+      ),
+    ),
+    'D:\\SIF\\src\\Foundation\\ServiceProvider.php' => 
+    array (
+      0 => 'a72e525d3f9a73d3f5ee7b1160239ff238a9c22d',
+      1 => 
+      array (
+        0 => 'sif\\foundation\\serviceprovider',
+      ),
+      2 => 
+      array (
+        0 => 'sif\\foundation\\register',
+        1 => 'sif\\foundation\\boot',
+        2 => 'sif\\foundation\\shutdown',
+      ),
+      3 => 
+      array (
+      ),
+    ),
+    'D:\\SIF\\src\\Foundation\\ServiceProviderCollection.php' => 
+    array (
+      0 => '0e34e4cd34f332bcb39806b67c34394aa03ab096',
+      1 => 
+      array (
+        0 => 'sif\\foundation\\serviceprovidercollection',
+      ),
+      2 => 
+      array (
+        0 => 'sif\\foundation\\add',
+        1 => 'sif\\foundation\\has',
+        2 => 'sif\\foundation\\get',
+        3 => 'sif\\foundation\\all',
+        4 => 'sif\\foundation\\reverse',
+        5 => 'sif\\foundation\\count',
+        6 => 'sif\\foundation\\isempty',
+        7 => 'sif\\foundation\\getiterator',
       ),
       3 => 
       array (

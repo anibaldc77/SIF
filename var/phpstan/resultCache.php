@@ -416,7 +416,7 @@ return [
 	'dependencies' => array (
   'D:\\SIF\\src\\Foundation\\Application.php' => 
   array (
-    'fileHash' => 'dc5d0febe91881b77ed46ecb78b90982371df964',
+    'fileHash' => '3b154a3bb192158b0a2d198a9c9ab62ee2c01a3c',
     'dependentFiles' => 
     array (
       0 => 'D:\\SIF\\src\\Foundation\\Bootstrap.php',
@@ -434,7 +434,8 @@ return [
       4 => 'D:\\SIF\\src\\Foundation\\Framework.php',
       5 => 'D:\\SIF\\src\\Foundation\\Kernel.php',
       6 => 'D:\\SIF\\src\\Foundation\\Lifecycle.php',
-      7 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
+      7 => 'D:\\SIF\\tests\\Foundation\\Integration\\ServiceProviderLifecycleTest.php',
+      8 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
     ),
   ),
   'D:\\SIF\\src\\Foundation\\BootStage.php' => 
@@ -450,12 +451,13 @@ return [
       5 => 'D:\\SIF\\src\\Foundation\\Kernel.php',
       6 => 'D:\\SIF\\src\\Foundation\\Lifecycle.php',
       7 => 'D:\\SIF\\src\\Foundation\\Runtime.php',
-      8 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
+      8 => 'D:\\SIF\\tests\\Foundation\\Integration\\ServiceProviderLifecycleTest.php',
+      9 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
     ),
   ),
   'D:\\SIF\\src\\Foundation\\Bootstrap.php' => 
   array (
-    'fileHash' => 'f0a7b3cb107c6c2a0e4597605f3d9b031d619346',
+    'fileHash' => '82db092d12ee27b2fdd9b4d9ef1064d7fe0b54cf',
     'dependentFiles' => 
     array (
       0 => 'D:\\SIF\\src\\Foundation\\Framework.php',
@@ -463,7 +465,7 @@ return [
   ),
   'D:\\SIF\\src\\Foundation\\Contracts\\ApplicationInterface.php' => 
   array (
-    'fileHash' => 'b08a1803fd6ed95d5b7f8c2a8f27fb6949b43c17',
+    'fileHash' => 'f567b2d32892102b370f9cb5d2e65d33aca8554c',
     'dependentFiles' => 
     array (
       0 => 'D:\\SIF\\src\\Foundation\\Application.php',
@@ -471,10 +473,14 @@ return [
       2 => 'D:\\SIF\\src\\Foundation\\Contracts\\BootstrapInterface.php',
       3 => 'D:\\SIF\\src\\Foundation\\Contracts\\KernelInterface.php',
       4 => 'D:\\SIF\\src\\Foundation\\Contracts\\LifecycleInterface.php',
-      5 => 'D:\\SIF\\src\\Foundation\\Framework.php',
-      6 => 'D:\\SIF\\src\\Foundation\\Kernel.php',
-      7 => 'D:\\SIF\\src\\Foundation\\Lifecycle.php',
-      8 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
+      5 => 'D:\\SIF\\src\\Foundation\\Contracts\\ServiceProviderInterface.php',
+      6 => 'D:\\SIF\\src\\Foundation\\Framework.php',
+      7 => 'D:\\SIF\\src\\Foundation\\Kernel.php',
+      8 => 'D:\\SIF\\src\\Foundation\\Lifecycle.php',
+      9 => 'D:\\SIF\\src\\Foundation\\ServiceProvider.php',
+      10 => 'D:\\SIF\\tests\\Foundation\\Fixtures\\RecordingProvider.php',
+      11 => 'D:\\SIF\\tests\\Foundation\\Integration\\ServiceProviderLifecycleTest.php',
+      12 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
     ),
   ),
   'D:\\SIF\\src\\Foundation\\Contracts\\BootstrapInterface.php' => 
@@ -514,7 +520,7 @@ return [
   ),
   'D:\\SIF\\src\\Foundation\\Contracts\\LifecycleInterface.php' => 
   array (
-    'fileHash' => '877a33300eb8273dd3eb3ca17c36c6058fc66876',
+    'fileHash' => 'd33aa93ceeaebafef2547552f0fbc8839d119da2',
     'dependentFiles' => 
     array (
       0 => 'D:\\SIF\\src\\Foundation\\Bootstrap.php',
@@ -533,7 +539,29 @@ return [
       3 => 'D:\\SIF\\src\\Foundation\\Kernel.php',
       4 => 'D:\\SIF\\src\\Foundation\\Lifecycle.php',
       5 => 'D:\\SIF\\src\\Foundation\\Runtime.php',
-      6 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
+      6 => 'D:\\SIF\\tests\\Foundation\\Integration\\ServiceProviderLifecycleTest.php',
+      7 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
+    ),
+  ),
+  'D:\\SIF\\src\\Foundation\\Contracts\\ServiceProviderInterface.php' => 
+  array (
+    'fileHash' => '632267d62fe0a2aa873be4771b9305b6839681dd',
+    'dependentFiles' => 
+    array (
+      0 => 'D:\\SIF\\src\\Foundation\\Application.php',
+      1 => 'D:\\SIF\\src\\Foundation\\Bootstrap.php',
+      2 => 'D:\\SIF\\src\\Foundation\\Contracts\\ApplicationInterface.php',
+      3 => 'D:\\SIF\\src\\Foundation\\Contracts\\LifecycleInterface.php',
+      4 => 'D:\\SIF\\src\\Foundation\\Kernel.php',
+      5 => 'D:\\SIF\\src\\Foundation\\Lifecycle.php',
+      6 => 'D:\\SIF\\src\\Foundation\\ServiceProvider.php',
+      7 => 'D:\\SIF\\src\\Foundation\\ServiceProviderCollection.php',
+      8 => 'D:\\SIF\\tests\\Foundation\\Fixtures\\FirstRecordingProvider.php',
+      9 => 'D:\\SIF\\tests\\Foundation\\Fixtures\\RecordingProvider.php',
+      10 => 'D:\\SIF\\tests\\Foundation\\Fixtures\\SecondRecordingProvider.php',
+      11 => 'D:\\SIF\\tests\\Foundation\\Fixtures\\ThirdRecordingProvider.php',
+      12 => 'D:\\SIF\\tests\\Foundation\\Integration\\ServiceProviderLifecycleTest.php',
+      13 => 'D:\\SIF\\tests\\Foundation\\Unit\\ServiceProviderCollectionTest.php',
     ),
   ),
   'D:\\SIF\\src\\Foundation\\DTO\\BootError.php' => 
@@ -543,7 +571,9 @@ return [
     array (
       0 => 'D:\\SIF\\src\\Foundation\\BootResult.php',
       1 => 'D:\\SIF\\src\\Foundation\\Kernel.php',
-      2 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
+      2 => 'D:\\SIF\\src\\Foundation\\Lifecycle.php',
+      3 => 'D:\\SIF\\tests\\Foundation\\Integration\\ServiceProviderLifecycleTest.php',
+      4 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
     ),
   ),
   'D:\\SIF\\src\\Foundation\\DTO\\BootWarning.php' => 
@@ -571,6 +601,15 @@ return [
     array (
     ),
   ),
+  'D:\\SIF\\src\\Foundation\\Exceptions\\DuplicateServiceProviderException.php' => 
+  array (
+    'fileHash' => '4670a266d4c73172d58af75871319b334309344d',
+    'dependentFiles' => 
+    array (
+      0 => 'D:\\SIF\\src\\Foundation\\ServiceProviderCollection.php',
+      1 => 'D:\\SIF\\tests\\Foundation\\Unit\\ServiceProviderCollectionTest.php',
+    ),
+  ),
   'D:\\SIF\\src\\Foundation\\Exceptions\\FoundationException.php' => 
   array (
     'fileHash' => '8d6ca78df76467f838e7255f6a3f9d7c89d57fb3',
@@ -578,12 +617,16 @@ return [
     array (
       0 => 'D:\\SIF\\src\\Foundation\\BootResult.php',
       1 => 'D:\\SIF\\src\\Foundation\\Exceptions\\BootstrapException.php',
-      2 => 'D:\\SIF\\src\\Foundation\\Exceptions\\InvalidBootResultException.php',
-      3 => 'D:\\SIF\\src\\Foundation\\Exceptions\\InvalidRuntimeTransitionException.php',
-      4 => 'D:\\SIF\\src\\Foundation\\Exceptions\\KernelBootException.php',
-      5 => 'D:\\SIF\\src\\Foundation\\Exceptions\\RuntimeException.php',
-      6 => 'D:\\SIF\\src\\Foundation\\Runtime.php',
-      7 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
+      2 => 'D:\\SIF\\src\\Foundation\\Exceptions\\DuplicateServiceProviderException.php',
+      3 => 'D:\\SIF\\src\\Foundation\\Exceptions\\InvalidBootResultException.php',
+      4 => 'D:\\SIF\\src\\Foundation\\Exceptions\\InvalidRuntimeTransitionException.php',
+      5 => 'D:\\SIF\\src\\Foundation\\Exceptions\\KernelBootException.php',
+      6 => 'D:\\SIF\\src\\Foundation\\Exceptions\\RuntimeException.php',
+      7 => 'D:\\SIF\\src\\Foundation\\Exceptions\\ServiceProviderNotFoundException.php',
+      8 => 'D:\\SIF\\src\\Foundation\\Runtime.php',
+      9 => 'D:\\SIF\\src\\Foundation\\ServiceProviderCollection.php',
+      10 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
+      11 => 'D:\\SIF\\tests\\Foundation\\Unit\\ServiceProviderCollectionTest.php',
     ),
   ),
   'D:\\SIF\\src\\Foundation\\Exceptions\\InvalidBootResultException.php' => 
@@ -621,17 +664,27 @@ return [
       2 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
     ),
   ),
+  'D:\\SIF\\src\\Foundation\\Exceptions\\ServiceProviderNotFoundException.php' => 
+  array (
+    'fileHash' => '0ea94047cf97177ed265b7e0fa467d19b834f3e3',
+    'dependentFiles' => 
+    array (
+      0 => 'D:\\SIF\\src\\Foundation\\ServiceProviderCollection.php',
+      1 => 'D:\\SIF\\tests\\Foundation\\Unit\\ServiceProviderCollectionTest.php',
+    ),
+  ),
   'D:\\SIF\\src\\Foundation\\Framework.php' => 
   array (
     'fileHash' => '40975d207bc3fbd12f2a26d07d5be432a592b8f3',
     'dependentFiles' => 
     array (
-      0 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
+      0 => 'D:\\SIF\\tests\\Foundation\\Integration\\ServiceProviderLifecycleTest.php',
+      1 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
     ),
   ),
   'D:\\SIF\\src\\Foundation\\Kernel.php' => 
   array (
-    'fileHash' => 'd45d43f451f6a0559e50d9f8a9335f85675cf544',
+    'fileHash' => 'bcd2fe5b1d5a2eb7de3362c401f3134af0c1c381',
     'dependentFiles' => 
     array (
       0 => 'D:\\SIF\\src\\Foundation\\Bootstrap.php',
@@ -639,7 +692,7 @@ return [
   ),
   'D:\\SIF\\src\\Foundation\\Lifecycle.php' => 
   array (
-    'fileHash' => '12ac36df23ad7b97967feb7feb32f3246802067b',
+    'fileHash' => '4b2232bd19eabc53fb24f1cfb7269adf001f683c',
     'dependentFiles' => 
     array (
       0 => 'D:\\SIF\\src\\Foundation\\Bootstrap.php',
@@ -667,9 +720,99 @@ return [
       5 => 'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php',
     ),
   ),
+  'D:\\SIF\\src\\Foundation\\ServiceProvider.php' => 
+  array (
+    'fileHash' => 'a72e525d3f9a73d3f5ee7b1160239ff238a9c22d',
+    'dependentFiles' => 
+    array (
+      0 => 'D:\\SIF\\tests\\Foundation\\Fixtures\\FirstRecordingProvider.php',
+      1 => 'D:\\SIF\\tests\\Foundation\\Fixtures\\RecordingProvider.php',
+      2 => 'D:\\SIF\\tests\\Foundation\\Fixtures\\SecondRecordingProvider.php',
+      3 => 'D:\\SIF\\tests\\Foundation\\Fixtures\\ThirdRecordingProvider.php',
+      4 => 'D:\\SIF\\tests\\Foundation\\Integration\\ServiceProviderLifecycleTest.php',
+      5 => 'D:\\SIF\\tests\\Foundation\\Unit\\ServiceProviderCollectionTest.php',
+    ),
+  ),
+  'D:\\SIF\\src\\Foundation\\ServiceProviderCollection.php' => 
+  array (
+    'fileHash' => '0e34e4cd34f332bcb39806b67c34394aa03ab096',
+    'dependentFiles' => 
+    array (
+      0 => 'D:\\SIF\\src\\Foundation\\Application.php',
+      1 => 'D:\\SIF\\src\\Foundation\\Bootstrap.php',
+      2 => 'D:\\SIF\\src\\Foundation\\Contracts\\ApplicationInterface.php',
+      3 => 'D:\\SIF\\src\\Foundation\\Contracts\\LifecycleInterface.php',
+      4 => 'D:\\SIF\\src\\Foundation\\Kernel.php',
+      5 => 'D:\\SIF\\src\\Foundation\\Lifecycle.php',
+      6 => 'D:\\SIF\\tests\\Foundation\\Integration\\ServiceProviderLifecycleTest.php',
+      7 => 'D:\\SIF\\tests\\Foundation\\Unit\\ServiceProviderCollectionTest.php',
+    ),
+  ),
+  'D:\\SIF\\tests\\Foundation\\Fixtures\\FirstRecordingProvider.php' => 
+  array (
+    'fileHash' => '90e82eba36d792eeb21d45e9c96b7be574084504',
+    'dependentFiles' => 
+    array (
+      0 => 'D:\\SIF\\tests\\Foundation\\Integration\\ServiceProviderLifecycleTest.php',
+      1 => 'D:\\SIF\\tests\\Foundation\\Unit\\ServiceProviderCollectionTest.php',
+    ),
+  ),
+  'D:\\SIF\\tests\\Foundation\\Fixtures\\OperationLog.php' => 
+  array (
+    'fileHash' => 'b7778ec4e69d981aa37603cff91bcac8e70f3d2a',
+    'dependentFiles' => 
+    array (
+      0 => 'D:\\SIF\\tests\\Foundation\\Fixtures\\RecordingProvider.php',
+      1 => 'D:\\SIF\\tests\\Foundation\\Integration\\ServiceProviderLifecycleTest.php',
+      2 => 'D:\\SIF\\tests\\Foundation\\Unit\\ServiceProviderCollectionTest.php',
+    ),
+  ),
+  'D:\\SIF\\tests\\Foundation\\Fixtures\\RecordingProvider.php' => 
+  array (
+    'fileHash' => 'cd0776d73e19e41d45362a0cb13b222f68f7f688',
+    'dependentFiles' => 
+    array (
+      0 => 'D:\\SIF\\tests\\Foundation\\Fixtures\\FirstRecordingProvider.php',
+      1 => 'D:\\SIF\\tests\\Foundation\\Fixtures\\SecondRecordingProvider.php',
+      2 => 'D:\\SIF\\tests\\Foundation\\Fixtures\\ThirdRecordingProvider.php',
+      3 => 'D:\\SIF\\tests\\Foundation\\Integration\\ServiceProviderLifecycleTest.php',
+      4 => 'D:\\SIF\\tests\\Foundation\\Unit\\ServiceProviderCollectionTest.php',
+    ),
+  ),
+  'D:\\SIF\\tests\\Foundation\\Fixtures\\SecondRecordingProvider.php' => 
+  array (
+    'fileHash' => '9767fd39753f2e41f0a2a58490810b817ece5cf8',
+    'dependentFiles' => 
+    array (
+      0 => 'D:\\SIF\\tests\\Foundation\\Integration\\ServiceProviderLifecycleTest.php',
+      1 => 'D:\\SIF\\tests\\Foundation\\Unit\\ServiceProviderCollectionTest.php',
+    ),
+  ),
+  'D:\\SIF\\tests\\Foundation\\Fixtures\\ThirdRecordingProvider.php' => 
+  array (
+    'fileHash' => '13c829b1831151a599476c40101365d92e744320',
+    'dependentFiles' => 
+    array (
+      0 => 'D:\\SIF\\tests\\Foundation\\Integration\\ServiceProviderLifecycleTest.php',
+    ),
+  ),
+  'D:\\SIF\\tests\\Foundation\\Integration\\ServiceProviderLifecycleTest.php' => 
+  array (
+    'fileHash' => 'ff9b3d36d9dfd51135c9bf0388cab27a648baa68',
+    'dependentFiles' => 
+    array (
+    ),
+  ),
   'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php' => 
   array (
     'fileHash' => '50f912dae47846dfdd5a02d38cfba530c20a8c0d',
+    'dependentFiles' => 
+    array (
+    ),
+  ),
+  'D:\\SIF\\tests\\Foundation\\Unit\\ServiceProviderCollectionTest.php' => 
+  array (
+    'fileHash' => 'cdbdb900b652c3ae0214d6ce9b1708c753327409',
     'dependentFiles' => 
     array (
     ),
@@ -681,7 +824,21 @@ return [
     0 => 
     \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
        'name' => 'Sif\\Foundation\\Application',
-       'phpDoc' => NULL,
+       'phpDoc' => 
+      \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+         'phpDocString' => '/** Owns the isolated runtime graph and its ordered provider collection. */',
+         'namespace' => 'Sif\\Foundation',
+         'uses' => 
+        array (
+          'applicationinterface' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+          'environmentinterface' => 'Sif\\Foundation\\Contracts\\EnvironmentInterface',
+          'kernelinterface' => 'Sif\\Foundation\\Contracts\\KernelInterface',
+          'runtimeinterface' => 'Sif\\Foundation\\Contracts\\RuntimeInterface',
+        ),
+         'constUses' => 
+        array (
+        ),
+      )),
        'abstract' => false,
        'final' => true,
        'extends' => NULL,
@@ -736,6 +893,17 @@ return [
             \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
                'name' => 'environment',
                'type' => 'Sif\\Foundation\\Contracts\\EnvironmentInterface',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            3 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'providers',
+               'type' => 'Sif\\Foundation\\ServiceProviderCollection',
                'byRef' => false,
                'variadic' => false,
                'hasDefault' => false,
@@ -804,6 +972,24 @@ return [
         )),
         4 => 
         \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'providers',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Sif\\Foundation\\ServiceProviderCollection',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        5 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
            'name' => 'boot',
            'phpDoc' => NULL,
            'byRef' => false,
@@ -820,7 +1006,7 @@ return [
           array (
           ),
         )),
-        5 => 
+        6 => 
         \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
            'name' => 'run',
            'phpDoc' => NULL,
@@ -838,7 +1024,7 @@ return [
           array (
           ),
         )),
-        6 => 
+        7 => 
         \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
            'name' => 'shutdown',
            'phpDoc' => NULL,
@@ -1448,6 +1634,24 @@ return [
         )),
         3 => 
         \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'providers',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Sif\\Foundation\\ServiceProviderCollection',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        4 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
            'name' => 'boot',
            'phpDoc' => NULL,
            'byRef' => false,
@@ -1464,7 +1668,7 @@ return [
           array (
           ),
         )),
-        4 => 
+        5 => 
         \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
            'name' => 'run',
            'phpDoc' => NULL,
@@ -1482,7 +1686,7 @@ return [
           array (
           ),
         )),
-        5 => 
+        6 => 
         \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
            'name' => 'shutdown',
            'phpDoc' => NULL,
@@ -1814,11 +2018,13 @@ return [
            'name' => 'bootStages',
            'phpDoc' => 
           \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/** @return list<\\Sif\\Foundation\\BootStage> */',
+             'phpDocString' => '/** @return list<BootStage> */',
              'namespace' => 'Sif\\Foundation\\Contracts',
              'uses' => 
             array (
               'bootresult' => 'Sif\\Foundation\\BootResult',
+              'bootstage' => 'Sif\\Foundation\\BootStage',
+              'serviceprovidercollection' => 'Sif\\Foundation\\ServiceProviderCollection',
             ),
              'constUses' => 
             array (
@@ -1843,11 +2049,13 @@ return [
            'name' => 'shutdownStages',
            'phpDoc' => 
           \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/** @return list<\\Sif\\Foundation\\BootStage> */',
+             'phpDocString' => '/** @return list<BootStage> */',
              'namespace' => 'Sif\\Foundation\\Contracts',
              'uses' => 
             array (
               'bootresult' => 'Sif\\Foundation\\BootResult',
+              'bootstage' => 'Sif\\Foundation\\BootStage',
+              'serviceprovidercollection' => 'Sif\\Foundation\\ServiceProviderCollection',
             ),
              'constUses' => 
             array (
@@ -1891,6 +2099,17 @@ return [
               array (
               ),
             )),
+            1 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'providers',
+               'type' => 'Sif\\Foundation\\ServiceProviderCollection',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
           ),
            'attributes' => 
           array (
@@ -1913,6 +2132,17 @@ return [
             \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
                'name' => 'application',
                'type' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            1 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'providers',
+               'type' => 'Sif\\Foundation\\ServiceProviderCollection',
                'byRef' => false,
                'variadic' => false,
                'hasDefault' => false,
@@ -2230,6 +2460,107 @@ return [
            'returnType' => '?DateTimeImmutable',
            'parameters' => 
           array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+    )),
+  ),
+  'D:\\SIF\\src\\Foundation\\Contracts\\ServiceProviderInterface.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedInterfaceNode::__set_state(array(
+       'name' => 'Sif\\Foundation\\Contracts\\ServiceProviderInterface',
+       'phpDoc' => NULL,
+       'extends' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'register',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'application',
+               'type' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'boot',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'application',
+               'type' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        2 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'shutdown',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'application',
+               'type' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
           ),
            'attributes' => 
           array (
@@ -2959,6 +3290,61 @@ return [
       ),
     )),
   ),
+  'D:\\SIF\\src\\Foundation\\Exceptions\\DuplicateServiceProviderException.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Sif\\Foundation\\Exceptions\\DuplicateServiceProviderException',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => true,
+       'extends' => 'Sif\\Foundation\\Exceptions\\FoundationException',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'forClass',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => true,
+           'returnType' => 'self',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'providerClass',
+               'type' => 'string',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
   'D:\\SIF\\src\\Foundation\\Exceptions\\FoundationException.php' => 
   array (
     0 => 
@@ -3141,6 +3527,61 @@ return [
       ),
        'statements' => 
       array (
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  'D:\\SIF\\src\\Foundation\\Exceptions\\ServiceProviderNotFoundException.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Sif\\Foundation\\Exceptions\\ServiceProviderNotFoundException',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => true,
+       'extends' => 'Sif\\Foundation\\Exceptions\\FoundationException',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'forClass',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => true,
+           'returnType' => 'self',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'providerClass',
+               'type' => 'string',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
       ),
        'attributes' => 
       array (
@@ -3419,7 +3860,21 @@ return [
     0 => 
     \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
        'name' => 'Sif\\Foundation\\Lifecycle',
-       'phpDoc' => NULL,
+       'phpDoc' => 
+      \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+         'phpDocString' => '/** Executes provider lifecycle hooks in deterministic order. */',
+         'namespace' => 'Sif\\Foundation',
+         'uses' => 
+        array (
+          'datetimeimmutable' => 'DateTimeImmutable',
+          'applicationinterface' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+          'lifecycleinterface' => 'Sif\\Foundation\\Contracts\\LifecycleInterface',
+          'booterror' => 'Sif\\Foundation\\DTO\\BootError',
+        ),
+         'constUses' => 
+        array (
+        ),
+      )),
        'abstract' => false,
        'final' => true,
        'extends' => NULL,
@@ -3438,7 +3893,21 @@ return [
         0 => 
         \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
            'name' => 'bootStages',
-           'phpDoc' => NULL,
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/** @return list<BootStage> */',
+             'namespace' => 'Sif\\Foundation',
+             'uses' => 
+            array (
+              'datetimeimmutable' => 'DateTimeImmutable',
+              'applicationinterface' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+              'lifecycleinterface' => 'Sif\\Foundation\\Contracts\\LifecycleInterface',
+              'booterror' => 'Sif\\Foundation\\DTO\\BootError',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
            'byRef' => false,
            'public' => true,
            'private' => false,
@@ -3456,7 +3925,21 @@ return [
         1 => 
         \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
            'name' => 'shutdownStages',
-           'phpDoc' => NULL,
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/** @return list<BootStage> */',
+             'namespace' => 'Sif\\Foundation',
+             'uses' => 
+            array (
+              'datetimeimmutable' => 'DateTimeImmutable',
+              'applicationinterface' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+              'lifecycleinterface' => 'Sif\\Foundation\\Contracts\\LifecycleInterface',
+              'booterror' => 'Sif\\Foundation\\DTO\\BootError',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
            'byRef' => false,
            'public' => true,
            'private' => false,
@@ -3495,6 +3978,17 @@ return [
               array (
               ),
             )),
+            1 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'providers',
+               'type' => 'Sif\\Foundation\\ServiceProviderCollection',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
           ),
            'attributes' => 
           array (
@@ -3517,6 +4011,17 @@ return [
             \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
                'name' => 'application',
                'type' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            1 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'providers',
+               'type' => 'Sif\\Foundation\\ServiceProviderCollection',
                'byRef' => false,
                'variadic' => false,
                'hasDefault' => false,
@@ -3918,6 +4423,846 @@ return [
       ),
     )),
   ),
+  'D:\\SIF\\src\\Foundation\\ServiceProvider.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Sif\\Foundation\\ServiceProvider',
+       'phpDoc' => 
+      \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+         'phpDocString' => '/** Base extension point with optional boot and shutdown hooks. */',
+         'namespace' => 'Sif\\Foundation',
+         'uses' => 
+        array (
+          'applicationinterface' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+          'serviceproviderinterface' => 'Sif\\Foundation\\Contracts\\ServiceProviderInterface',
+        ),
+         'constUses' => 
+        array (
+        ),
+      )),
+       'abstract' => true,
+       'final' => false,
+       'extends' => NULL,
+       'implements' => 
+      array (
+        0 => 'Sif\\Foundation\\Contracts\\ServiceProviderInterface',
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'register',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => true,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'application',
+               'type' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'boot',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'application',
+               'type' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        2 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'shutdown',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'application',
+               'type' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  'D:\\SIF\\src\\Foundation\\ServiceProviderCollection.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Sif\\Foundation\\ServiceProviderCollection',
+       'phpDoc' => 
+      \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+         'phpDocString' => '/**
+ * Type-safe provider collection preserving insertion order.
+ *
+ * @implements IteratorAggregate<int, ServiceProviderInterface>
+ */',
+         'namespace' => 'Sif\\Foundation',
+         'uses' => 
+        array (
+          'arrayiterator' => 'ArrayIterator',
+          'countable' => 'Countable',
+          'iteratoraggregate' => 'IteratorAggregate',
+          'serviceproviderinterface' => 'Sif\\Foundation\\Contracts\\ServiceProviderInterface',
+          'duplicateserviceproviderexception' => 'Sif\\Foundation\\Exceptions\\DuplicateServiceProviderException',
+          'serviceprovidernotfoundexception' => 'Sif\\Foundation\\Exceptions\\ServiceProviderNotFoundException',
+          'traversable' => 'Traversable',
+        ),
+         'constUses' => 
+        array (
+        ),
+      )),
+       'abstract' => false,
+       'final' => true,
+       'extends' => NULL,
+       'implements' => 
+      array (
+        0 => 'IteratorAggregate',
+        1 => 'Countable',
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'add',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'provider',
+               'type' => 'Sif\\Foundation\\Contracts\\ServiceProviderInterface',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'has',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/** @param class-string<ServiceProviderInterface> $providerClass */',
+             'namespace' => 'Sif\\Foundation',
+             'uses' => 
+            array (
+              'arrayiterator' => 'ArrayIterator',
+              'countable' => 'Countable',
+              'iteratoraggregate' => 'IteratorAggregate',
+              'serviceproviderinterface' => 'Sif\\Foundation\\Contracts\\ServiceProviderInterface',
+              'duplicateserviceproviderexception' => 'Sif\\Foundation\\Exceptions\\DuplicateServiceProviderException',
+              'serviceprovidernotfoundexception' => 'Sif\\Foundation\\Exceptions\\ServiceProviderNotFoundException',
+              'traversable' => 'Traversable',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'bool',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'providerClass',
+               'type' => 'string',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        2 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'get',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/** @param class-string<ServiceProviderInterface> $providerClass */',
+             'namespace' => 'Sif\\Foundation',
+             'uses' => 
+            array (
+              'arrayiterator' => 'ArrayIterator',
+              'countable' => 'Countable',
+              'iteratoraggregate' => 'IteratorAggregate',
+              'serviceproviderinterface' => 'Sif\\Foundation\\Contracts\\ServiceProviderInterface',
+              'duplicateserviceproviderexception' => 'Sif\\Foundation\\Exceptions\\DuplicateServiceProviderException',
+              'serviceprovidernotfoundexception' => 'Sif\\Foundation\\Exceptions\\ServiceProviderNotFoundException',
+              'traversable' => 'Traversable',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Sif\\Foundation\\Contracts\\ServiceProviderInterface',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'providerClass',
+               'type' => 'string',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        3 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'all',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/** @return list<ServiceProviderInterface> */',
+             'namespace' => 'Sif\\Foundation',
+             'uses' => 
+            array (
+              'arrayiterator' => 'ArrayIterator',
+              'countable' => 'Countable',
+              'iteratoraggregate' => 'IteratorAggregate',
+              'serviceproviderinterface' => 'Sif\\Foundation\\Contracts\\ServiceProviderInterface',
+              'duplicateserviceproviderexception' => 'Sif\\Foundation\\Exceptions\\DuplicateServiceProviderException',
+              'serviceprovidernotfoundexception' => 'Sif\\Foundation\\Exceptions\\ServiceProviderNotFoundException',
+              'traversable' => 'Traversable',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        4 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'reverse',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/** @return list<ServiceProviderInterface> */',
+             'namespace' => 'Sif\\Foundation',
+             'uses' => 
+            array (
+              'arrayiterator' => 'ArrayIterator',
+              'countable' => 'Countable',
+              'iteratoraggregate' => 'IteratorAggregate',
+              'serviceproviderinterface' => 'Sif\\Foundation\\Contracts\\ServiceProviderInterface',
+              'duplicateserviceproviderexception' => 'Sif\\Foundation\\Exceptions\\DuplicateServiceProviderException',
+              'serviceprovidernotfoundexception' => 'Sif\\Foundation\\Exceptions\\ServiceProviderNotFoundException',
+              'traversable' => 'Traversable',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        5 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'count',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'int',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        6 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'isEmpty',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'bool',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        7 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'getIterator',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/** @return Traversable<int, ServiceProviderInterface> */',
+             'namespace' => 'Sif\\Foundation',
+             'uses' => 
+            array (
+              'arrayiterator' => 'ArrayIterator',
+              'countable' => 'Countable',
+              'iteratoraggregate' => 'IteratorAggregate',
+              'serviceproviderinterface' => 'Sif\\Foundation\\Contracts\\ServiceProviderInterface',
+              'duplicateserviceproviderexception' => 'Sif\\Foundation\\Exceptions\\DuplicateServiceProviderException',
+              'serviceprovidernotfoundexception' => 'Sif\\Foundation\\Exceptions\\ServiceProviderNotFoundException',
+              'traversable' => 'Traversable',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Traversable',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  'D:\\SIF\\tests\\Foundation\\Fixtures\\FirstRecordingProvider.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Sif\\Foundation\\Tests\\Fixtures\\FirstRecordingProvider',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => true,
+       'extends' => 'Sif\\Foundation\\Tests\\Fixtures\\RecordingProvider',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  'D:\\SIF\\tests\\Foundation\\Fixtures\\OperationLog.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Sif\\Foundation\\Tests\\Fixtures\\OperationLog',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => true,
+       'extends' => NULL,
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'entries',
+          ),
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/** @var list<string> */',
+             'namespace' => 'Sif\\Foundation\\Tests\\Fixtures',
+             'uses' => 
+            array (
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'type' => 'array',
+           'public' => true,
+           'private' => false,
+           'static' => false,
+           'readonly' => false,
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  'D:\\SIF\\tests\\Foundation\\Fixtures\\RecordingProvider.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Sif\\Foundation\\Tests\\Fixtures\\RecordingProvider',
+       'phpDoc' => NULL,
+       'abstract' => true,
+       'final' => false,
+       'extends' => 'Sif\\Foundation\\ServiceProvider',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => '__construct',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => NULL,
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'log',
+               'type' => 'Sif\\Foundation\\Tests\\Fixtures\\OperationLog',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            1 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'label',
+               'type' => 'string',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            2 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'failureOperation',
+               'type' => '?string',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => true,
+               'attributes' => 
+              array (
+              ),
+            )),
+            3 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'failure',
+               'type' => '?Throwable',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => true,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'register',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'application',
+               'type' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        2 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'boot',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'application',
+               'type' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        3 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'shutdown',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'application',
+               'type' => 'Sif\\Foundation\\Contracts\\ApplicationInterface',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  'D:\\SIF\\tests\\Foundation\\Fixtures\\SecondRecordingProvider.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Sif\\Foundation\\Tests\\Fixtures\\SecondRecordingProvider',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => true,
+       'extends' => 'Sif\\Foundation\\Tests\\Fixtures\\RecordingProvider',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  'D:\\SIF\\tests\\Foundation\\Fixtures\\ThirdRecordingProvider.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Sif\\Foundation\\Tests\\Fixtures\\ThirdRecordingProvider',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => true,
+       'extends' => 'Sif\\Foundation\\Tests\\Fixtures\\RecordingProvider',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  'D:\\SIF\\tests\\Foundation\\Integration\\ServiceProviderLifecycleTest.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Sif\\Foundation\\Tests\\Integration\\ServiceProviderLifecycleTest',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => true,
+       'extends' => 'PHPUnit\\Framework\\TestCase',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'testRegisterBootAndShutdownUseApprovedOrder',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'testRegisterFailureStopsPhaseAndFailsRuntime',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        2 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'testBootFailureStopsPhaseAndFailsRuntime',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        3 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'testShutdownCollectsAllFailuresAndPreservesFirstCause',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
   'D:\\SIF\\tests\\Foundation\\Unit\\LifecycleOrchestrationTest.php' => 
   array (
     0 => 
@@ -4157,6 +5502,122 @@ return [
         12 => 
         \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
            'name' => 'testRepeatedRunBecomesFailureResult',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  'D:\\SIF\\tests\\Foundation\\Unit\\ServiceProviderCollectionTest.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Sif\\Foundation\\Tests\\Unit\\ServiceProviderCollectionTest',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => true,
+       'extends' => 'PHPUnit\\Framework\\TestCase',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'testNewCollectionIsEmpty',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'testAddsAndGetsProviderByClass',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        2 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'testRejectsDuplicateProviderClass',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        3 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'testRejectsMissingProvider',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        4 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'testPreservesInsertionAndReverseOrder',
            'phpDoc' => NULL,
            'byRef' => false,
            'public' => true,

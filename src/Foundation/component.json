@@ -1,0 +1,32 @@
+{
+  "id": "foundation.runtime",
+  "name": "Runtime Foundation",
+  "framework_version": "2.0.0-alpha1",
+  "component_version": "1.0.0",
+  "status": "alpha",
+  "php": "^8.2",
+  "namespace": "Sif\\Foundation",
+  "dependencies": [
+    "support"
+  ],
+  "capabilities": [
+    "runtime",
+    "foundation",
+    "providers",
+    "lifecycle"
+  ],
+  "public_contracts": [
+    "Sif\\Foundation\\Contracts\\ApplicationInterface",
+    "Sif\\Foundation\\Contracts\\BootstrapInterface",
+    "Sif\\Foundation\\Contracts\\EnvironmentInterface",
+    "Sif\\Foundation\\Contracts\\KernelInterface",
+    "Sif\\Foundation\\Contracts\\LifecycleInterface",
+    "Sif\\Foundation\\Contracts\\RuntimeInterface",
+    "Sif\\Foundation\\Contracts\\ServiceProviderInterface"
+  ],
+  "service_providers": [],
+  "documentation": [
+    "README.md",
+    "CHANGELOG.md"
+  ]
+}
