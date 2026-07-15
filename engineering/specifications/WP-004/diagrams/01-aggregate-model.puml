@@ -1,0 +1,44 @@
+@startuml
+title WP-004 Container Aggregate Model
+
+skinparam packageStyle rectangle
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+
+package "Container Aggregate" {
+    class Container <<Aggregate Root>>
+    class Binding <<Entity>>
+    class Alias <<Entity>>
+    class ServiceIdentifier <<Value Object>>
+    class BindingType <<Value Object>>
+    class Lifetime <<Value Object>>
+    class BindingMetadata <<Value Object>>
+    class ResolutionContext <<Value Object>>
+    class ResolutionPath <<Value Object>>
+    class ResolutionPolicy <<Value Object>>
+}
+
+Container "1" *-- "0..*" Binding : owns
+Container "1" *-- "0..*" Alias : owns
+Binding "1" *-- "1" ServiceIdentifier : canonical id
+Binding "1" *-- "1" BindingType
+Binding "1" *-- "1" Lifetime
+Binding "1" *-- "1" BindingMetadata
+Alias "1" *-- "1" ServiceIdentifier : alias id
+Alias "1" --> "1" ServiceIdentifier : canonical target
+ResolutionContext "1" *-- "1" ResolutionPath
+ResolutionContext "1" *-- "1" ResolutionPolicy
+
+note right of Container
+AG-001 One Binding per canonical ServiceIdentifier.
+AG-002 Aliases reference existing canonical identifiers.
+AG-003 Aliases do not reference themselves.
+AG-004 Alias graphs are acyclic.
+AG-005 Bindings are immutable.
+AG-006 ServiceIdentifier is immutable.
+AG-007 Singleton identity is binding-scoped.
+AG-008 Resolution paths are acyclic.
+AG-009 Container lifetime equals Application lifetime.
+end note
+
+@enduml

@@ -1,0 +1,64 @@
+@startuml
+title WP-004 Domain Overview
+
+skinparam packageStyle rectangle
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+
+package "External Actors" {
+    class Application
+    class Framework
+    class Runtime
+    class Bootstrap
+    class Lifecycle
+    class ServiceProvider
+}
+
+package "Container Aggregate" {
+    class Container <<Aggregate Root>>
+    class Binding <<Entity>>
+    class Alias <<Entity>>
+    class ServiceIdentifier <<Value Object>>
+    class BindingType <<Value Object>>
+    class Lifetime <<Value Object>>
+    class BindingMetadata <<Value Object>>
+    class ResolutionContext <<Value Object>>
+    class ResolutionPath <<Value Object>>
+    class ResolutionPolicy <<Value Object>>
+}
+
+package "Domain Services" {
+    class ResolutionEngine <<Domain Service>>
+    class BindingValidator <<Domain Service>>
+    class AliasResolver <<Domain Service>>
+    class FactoryResolver <<Domain Service>>
+}
+
+Application "1" *-- "1" Container : owns
+Framework --> Application : creates
+Bootstrap --> Application : constructs
+Lifecycle --> Application : coordinates
+ServiceProvider --> Application : registers through
+Runtime <-- Application : exposes
+
+Container "1" *-- "*" Binding : contains
+Container "1" *-- "*" Alias : contains
+Binding --> ServiceIdentifier : identified by
+Binding --> BindingType : classified by
+Binding --> Lifetime : governed by
+Binding --> BindingMetadata : described by
+Alias --> ServiceIdentifier : references
+ResolutionContext --> ResolutionPath : owns
+ResolutionContext --> ResolutionPolicy : follows
+
+Container --> BindingValidator : validates with
+Container --> AliasResolver : resolves aliases with
+Container --> ResolutionEngine : resolves services with
+ResolutionEngine --> FactoryResolver : delegates factory creation
+
+note bottom of Container
+The Container is the only Aggregate Root.
+Infrastructure repositories and caches are outside the domain model.
+end note
+
+@enduml

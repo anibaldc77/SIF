@@ -1,0 +1,65 @@
+@startuml
+title WP-004 Service Resolution Flow
+
+skinparam shadowing false
+
+start
+:Receive ServiceIdentifier;
+:Validate identifier;
+
+if (Identifier is alias?) then (yes)
+    :Resolve alias chain;
+    if (Alias cycle detected?) then (yes)
+        :Throw InvalidAliasException;
+        stop
+    endif
+endif
+
+:Locate canonical Binding;
+if (Binding exists?) then (no)
+    :Throw ServiceNotFoundException;
+    stop
+endif
+
+if (Binding already active in ResolutionPath?) then (yes)
+    :Throw CircularDependencyException;
+    stop
+endif
+
+:Push identifier to ResolutionContext;
+if (Existing shared instance available?) then (yes)
+    :Return cached instance;
+    :Pop ResolutionContext;
+    stop
+endif
+
+if (Binding type = Instance?) then (yes)
+    :Use registered object;
+else (no)
+    if (Binding type = Factory?) then (yes)
+        :Invoke factory with ContainerInterface;
+        if (Factory returns object?) then (no)
+            :Wrap failure in FactoryResolutionException;
+            :Pop ResolutionContext;
+            stop
+        endif
+    else (Class binding)
+        :Validate zero-argument public constructor;
+        if (Class can be instantiated?) then (no)
+            :Throw InvalidBindingException;
+            :Pop ResolutionContext;
+            stop
+        endif
+        :Instantiate class;
+    endif
+endif
+
+if (Binding is shared?) then (yes)
+    :Cache resolved instance;
+endif
+
+:Mark canonical identifier as resolved;
+:Pop ResolutionContext;
+:Return object;
+stop
+@enduml

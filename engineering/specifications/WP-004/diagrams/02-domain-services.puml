@@ -1,0 +1,42 @@
+@startuml
+title WP-004 Domain Services
+
+skinparam packageStyle rectangle
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+
+class Container <<Aggregate Root>>
+
+package "Domain Services" {
+    class BindingValidator <<Stateless>>
+    class AliasResolver <<Stateless>>
+    class ResolutionEngine <<Stateless>>
+    class FactoryResolver <<Stateless>>
+}
+
+class ServiceIdentifier <<Value Object>>
+class Binding <<Entity>>
+class Alias <<Entity>>
+class ResolutionContext <<Value Object>>
+class ResolutionPath <<Value Object>>
+
+Container --> BindingValidator : validates registration
+Container --> AliasResolver : resolves alias chains
+Container --> ResolutionEngine : coordinates resolution
+BindingValidator --> Binding : validates
+BindingValidator --> Alias : validates
+BindingValidator --> ServiceIdentifier : validates
+AliasResolver --> Alias : traverses
+AliasResolver --> ServiceIdentifier : returns canonical id
+ResolutionEngine --> Binding : resolves
+ResolutionEngine --> ResolutionContext : uses
+ResolutionEngine --> ResolutionPath : updates
+ResolutionEngine --> FactoryResolver : delegates factory bindings
+FactoryResolver --> Binding : invokes factory strategy
+
+note bottom
+All Domain Services are stateless.
+They preserve aggregate invariants and do not own container state.
+end note
+
+@enduml
