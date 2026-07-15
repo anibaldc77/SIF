@@ -1,0 +1,16 @@
+@startuml
+
+interface ContainerInterface
+interface FactoryInterface
+
+class Binding
+enum BindingType
+class ResolutionContext
+
+ContainerInterface --> Binding
+ContainerInterface --> BindingType
+ContainerInterface --> ResolutionContext
+
+FactoryInterface ..> ContainerInterface
+
+@enduml
