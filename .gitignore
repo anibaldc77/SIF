@@ -1,0 +1,69 @@
+###############################################################################
+# SIF Framework
+###############################################################################
+
+# Dependencies
+/vendor/
+
+# PHPUnit
+.phpunit.result.cache
+.phpunit.cache/
+
+# PHPStan
+/var/phpstan/cache/
+/var/phpstan/resultCache.php
+
+# Coverage
+/coverage/
+coverage.xml
+
+# Logs
+*.log
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Operating System
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Composer
+composer.phar
+
+# Node
+node_modules/
+
+# Environment
+.env
+.env.local
+
+###############################################################################
+# Builder generated temporary files
+###############################################################################
+
+/build/
+/dist/
+/tmp/
+
+###############################################################################
+# Archives
+###############################################################################
+
+*.zip
+*.tar
+*.gz
+*.7z
+
+###############################################################################
+# Runtime
+###############################################################################
+
+/storage/
