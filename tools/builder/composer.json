@@ -1,0 +1,12 @@
+{
+  "name": "sif/support",
+  "description": "Foundational support library for the SIF framework.",
+  "type": "library",
+  "license": "MIT",
+  "require": {"php": "^8.2", "ext-json": "*", "ext-mbstring": "*"},
+  "require-dev": {"phpunit/phpunit": "^10.5"},
+  "autoload": {"psr-4": {"Sif\\Builder\\FileSystem\\": "src/FileSystem/", "Sif\\Support\\": "src/Support/"}},
+  "autoload-dev": {"psr-4": {"Sif\\Builder\\FileSystem\\Tests\\": "tests/", "Sif\\Support\\Tests\\": "tests/Support/"}},
+  "scripts": {"test": "phpunit --colors=always"},
+  "minimum-stability": "stable"
+}
