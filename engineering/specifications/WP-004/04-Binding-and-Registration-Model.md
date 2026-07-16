@@ -4,7 +4,7 @@
 
 **Work Package:** WP-004 — Runtime Composition Engine
 
-**Version:** 0.3.0
+**Version:** 0.4.0
 
 **Status:** Draft for Review
 
@@ -1147,5 +1147,394 @@ A failed operation SHALL preserve the exact active registration state that exist
 | 0.2.0   | 2026-07-16 | Added Binding Model, Binding Strategies, Lifetime Policies, registration metadata and RR-001 through RR-006.                               |
 | 0.3.0   | 2026-07-16 | Added registration operations, replacement, removal, aliases, validation pipeline, state machine, failure model and RR-007 through RR-020. |
 
+# 23. Rule Index
 
+This section provides the canonical index of every normative rule defined by this specification.
+
+Rule identifiers are permanent. Existing identifiers SHALL NOT be renumbered or reused.
+
+## 23.1 Registration Rules
+
+| Rule | Title |
+|---|---|
+| RR-001 | Canonical Registration |
+| RR-002 | Unique Service Identifier |
+| RR-003 | Atomic Registration |
+| RR-004 | Immutable Binding Definition |
+| RR-005 | Validation Before Registration |
+| RR-006 | Deterministic Metadata |
+| RR-007 | Registration Does Not Resolve |
+| RR-008 | Registration Does Not Instantiate |
+| RR-009 | One Aggregate |
+| RR-010 | Explicit Strategy |
+| RR-011 | Explicit Lifetime |
+| RR-012 | Canonical Identity Stability |
+| RR-013 | Replacement by New Definition |
+| RR-014 | Removal Finality |
+| RR-015 | Alias Indirection Only |
+| RR-016 | Validation Is Side-Effect Free |
+| RR-017 | Registration Ordering |
+| RR-018 | Container Isolation |
+| RR-019 | Metadata Stability |
+| RR-020 | Failure Rollback |
+
+## 23.2 Replacement Rules
+
+| Rule | Title |
+|---|---|
+| RP-001 | Explicit Replacement |
+| RP-002 | Atomic Replacement |
+| RP-003 | Replacement Immutability |
+| RP-004 | Shared Instance Invalidation |
+
+## 23.3 Removal Rules
+
+| Rule | Title |
+|---|---|
+| RM-001 | Explicit Removal |
+| RM-002 | Complete Removal |
+| RM-003 | Alias Cleanup |
+| RM-004 | Unknown Registration Failure |
+
+## 23.4 Alias Rules
+
+| Rule | Title |
+|---|---|
+| AR-001 | Existing Canonical Target |
+| AR-002 | Distinct Identifiers |
+| AR-003 | Acyclic Alias Graph |
+| AR-004 | No Canonical Shadowing |
+| AR-005 | Alias Chain Support |
+| AR-006 | Canonical Behavior Inheritance |
+
+## 23.5 Validation Rules
+
+| Rule | Title |
+|---|---|
+| VR-001 | Complete Input |
+| VR-002 | Identifier Validity |
+| VR-003 | Strategy Compatibility |
+| VR-004 | Lifetime Compatibility |
+| VR-005 | Instance Lifetime |
+| VR-006 | Alias Lifetime Prohibition |
+| VR-007 | Validation Atomicity |
+
+## 23.6 Failure Rules
+
+| Rule | Title |
+|---|---|
+| FM-001 | No Partial State |
+| FM-002 | Typed Failure |
+| FM-003 | Cause Preservation |
+| FM-004 | Safe Diagnostics |
+| FM-005 | Deterministic Failure |
+
+---
+
+# 24. Traceability Matrix
+
+## 24.1 Purpose
+
+Every normative rule SHALL be traceable to:
+
+- one or more Domain Invariants;
+- one or more public or internal contracts;
+- one planned implementation responsibility;
+- one or more automated verification scenarios.
+
+Implementation reports SHALL reference rule identifiers rather than relying only on descriptive text.
+
+## 24.2 Registration Traceability
+
+| Rules | Related Invariants | Planned Responsibility | Required Verification |
+|---|---|---|---|
+| RR-001, RR-002 | INV-001, INV-002 | Canonical registration management | Unique identifier and duplicate registration tests |
+| RR-003, RR-020 | INV-001, INV-003, INV-015 | Atomic Aggregate mutation | Failure rollback and no-partial-state tests |
+| RR-004, RR-013, RR-019 | INV-003 | Immutable Binding management | Immutability and replacement identity tests |
+| RR-005, RR-016 | INV-017, INV-020 | Registration validation | Validation ordering and side-effect tests |
+| RR-006, RR-017 | INV-007 | Deterministic registration processing | Equivalent input and ordered registration tests |
+| RR-007, RR-008 | INV-017, INV-018 | Registration boundary enforcement | No resolution, construction or factory invocation tests |
+| RR-009, RR-018 | INV-015, INV-016 | Container ownership and isolation | Independent Container tests |
+| RR-010, RR-011 | INV-017 | Binding completeness validation | Missing strategy and lifetime tests |
+| RR-012 | INV-002, INV-003 | Canonical identity preservation | Identity stability tests |
+| RR-014 | INV-003 | Terminal Binding-state enforcement | Removed Binding reactivation rejection tests |
+| RR-015 | INV-004, INV-005, INV-006 | Alias registration | Alias contains no independent composition-data tests |
+
+## 24.3 Replacement Traceability
+
+| Rules | Related Invariants | Planned Responsibility | Required Verification |
+|---|---|---|---|
+| RP-001 | INV-001, INV-003, INV-017 | Explicit replacement API | Duplicate register versus explicit replace tests |
+| RP-002 | INV-001, INV-003, INV-015 | Atomic replacement transaction | Replacement rollback tests |
+| RP-003 | INV-003 | Immutable Binding replacement | Original Binding preservation tests |
+| RP-004 | INV-008 | Shared-instance invalidation | Replacement invalidates prior shared instance tests |
+
+## 24.4 Removal Traceability
+
+| Rules | Related Invariants | Planned Responsibility | Required Verification |
+|---|---|---|---|
+| RM-001 | INV-017, INV-018 | Explicit removal API | No implicit removal tests |
+| RM-002 | INV-003, INV-015 | Registration-state cleanup | Binding, resolved state and shared-instance cleanup tests |
+| RM-003 | INV-004, INV-006 | Alias cleanup | Direct and chained alias cleanup tests |
+| RM-004 | INV-007 | Typed unknown-service failure | Unknown removal tests |
+
+## 24.5 Alias Traceability
+
+| Rules | Related Invariants | Planned Responsibility | Required Verification |
+|---|---|---|---|
+| AR-001 | INV-004 | Canonical-target validation | Missing target rejection tests |
+| AR-002 | INV-005 | Self-reference validation | Direct self-alias rejection tests |
+| AR-003 | INV-006, INV-014 | Alias graph validation | Direct and indirect cycle tests |
+| AR-004 | INV-001 | Identifier collision validation | Canonical shadowing rejection tests |
+| AR-005 | INV-006 | Alias-chain traversal | Valid multi-level alias tests |
+| AR-006 | INV-004 | Canonical behavior inheritance | Strategy and lifetime inheritance tests |
+
+## 24.6 Validation Traceability
+
+| Rules | Related Invariants | Planned Responsibility | Required Verification |
+|---|---|---|---|
+| VR-001 | INV-017 | Registration-input validation | Missing mandatory element tests |
+| VR-002 | INV-002 | Service-Identifier validation | Empty, malformed and whitespace identifier tests |
+| VR-003 | INV-017 | Strategy compatibility validation | Invalid strategy-data combinations |
+| VR-004 | INV-008, INV-009, INV-010 | Lifetime compatibility validation | Invalid strategy-lifetime combinations |
+| VR-005 | INV-010 | Existing-instance validation | Transient existing-instance rejection |
+| VR-006 | INV-004 | Alias validation | Independent alias-lifetime rejection |
+| VR-007 | INV-001, INV-003, INV-015 | Validation transaction | Aggregate remains unchanged after validation failure |
+
+## 24.7 Failure Traceability
+
+| Rules | Related Invariants | Planned Responsibility | Required Verification |
+|---|---|---|---|
+| FM-001 | INV-001, INV-003, INV-015 | Transaction rollback | No partial mutation tests |
+| FM-002 | INV-007 | Exception hierarchy | Typed exception tests for every failure category |
+| FM-003 | INV-007 | Exception wrapping | Original cause preservation tests |
+| FM-004 | INV-019, INV-020 | Safe diagnostics | Secret, object-state and stack-detail exclusion tests |
+| FM-005 | INV-007 | Deterministic error mapping | Equivalent invalid operations produce equivalent failures |
+
+---
+
+# 25. Implementation Checklist
+
+An implementation SHALL NOT claim conformance until every mandatory checklist item is complete.
+
+## 25.1 Binding Model
+
+- [ ] Every Binding has exactly one canonical Service Identifier.
+- [ ] Binding definitions become immutable after registration.
+- [ ] Binding Strategy and Lifetime Policy are represented independently.
+- [ ] Alias registrations contain no independent implementation data.
+- [ ] Registration metadata remains stable after successful registration.
+
+## 25.2 Registration
+
+- [ ] Register Operation is explicit.
+- [ ] Register Operation rejects duplicate canonical identifiers.
+- [ ] Registration is atomic.
+- [ ] Registration does not resolve dependencies.
+- [ ] Registration does not instantiate implementation types.
+- [ ] Registration does not invoke factories.
+- [ ] Registration order is deterministic.
+- [ ] Registrations are isolated per Container.
+
+## 25.3 Replacement
+
+- [ ] Replacement is explicit.
+- [ ] Replacement creates a new immutable Binding.
+- [ ] Replacement preserves the canonical Service Identifier.
+- [ ] Failed replacement preserves the previous Binding.
+- [ ] Replacement invalidates shared state belonging to the previous Binding.
+
+## 25.4 Removal
+
+- [ ] Removal is explicit.
+- [ ] Removal deletes Container-owned registration state.
+- [ ] Removal invalidates direct and indirect aliases.
+- [ ] Removal clears shared-instance and resolved-state information.
+- [ ] Removing an unknown identifier produces a typed failure.
+- [ ] Removed Bindings cannot be reactivated.
+
+## 25.5 Aliases
+
+- [ ] Alias target exists.
+- [ ] Alias and target identifiers differ.
+- [ ] Alias graphs are acyclic.
+- [ ] Aliases cannot shadow canonical Bindings.
+- [ ] Alias chains terminate at one canonical Binding.
+- [ ] Aliases inherit canonical strategy and lifetime behavior.
+
+## 25.6 Validation
+
+- [ ] Validation precedes every Aggregate mutation.
+- [ ] Validation follows the specified stage order.
+- [ ] Validation is deterministic.
+- [ ] Validation has no observable side effects.
+- [ ] Invalid Binding Strategy combinations are rejected.
+- [ ] Invalid Lifetime Policy combinations are rejected.
+- [ ] Validation failure preserves the exact previous Aggregate state.
+
+## 25.7 Failure Handling
+
+- [ ] Every failure uses a typed Container exception.
+- [ ] Original causes are preserved when applicable.
+- [ ] Diagnostics exclude sensitive and unrelated Runtime state.
+- [ ] Equivalent failures map deterministically.
+- [ ] No failure returns `null` or an error code.
+- [ ] No failed operation leaves partial state.
+
+## 25.8 Verification and Quality
+
+- [ ] Every normative rule has automated verification.
+- [ ] Every relevant Domain Invariant has test coverage.
+- [ ] PHPStan level 8 passes with no baseline or suppressions.
+- [ ] PHP-CS-Fixer dry-run passes.
+- [ ] Composer validation passes.
+- [ ] Existing WP-002 and WP-003 regression tests pass.
+- [ ] Implementation report contains rule-level traceability.
+
+---
+
+# 26. Conformance
+
+## 26.1 Conformant Implementation
+
+An implementation MAY declare conformance with this specification only when:
+
+1. every mandatory normative rule is implemented;
+2. every listed Domain Invariant is preserved;
+3. every Registration Operation follows the specified state model;
+4. every mandatory checklist item is complete;
+5. automated verification demonstrates compliance;
+6. no undocumented registration behavior is exposed as public API.
+
+The conformance declaration SHALL identify:
+
+- specification identifier;
+- specification version;
+- implementation version;
+- verification environment;
+- Quality Gate result.
+
+## 26.2 Partial Implementation
+
+A partial implementation SHALL NOT identify itself as conformant.
+
+It MAY be identified as experimental when:
+
+- its incomplete areas are explicitly documented;
+- it does not claim stable compatibility;
+- it is not used as the production Runtime Composition Engine.
+
+## 26.3 Extensions
+
+Extensions MAY introduce additional internal behavior provided that they:
+
+- preserve every normative rule;
+- preserve every Domain Invariant;
+- do not alter compatibility-protected public contracts;
+- do not change observable registration semantics;
+- remain explicitly documented.
+
+---
+
+# 27. Compatibility
+
+The following observable behavior is compatibility protected after the first stable release:
+
+- canonical identifier uniqueness;
+- Binding immutability;
+- atomic registration;
+- explicit replacement;
+- explicit removal;
+- Alias indirection semantics;
+- validation-before-mutation;
+- typed failure behavior;
+- deterministic operation ordering;
+- Container isolation.
+
+A breaking change to any compatibility-protected behavior requires:
+
+- an approved architectural decision;
+- an updated specification version;
+- a documented migration strategy;
+- semantic-version review.
+
+Internal storage, indexing and optimization strategies are not compatibility protected when observable behavior remains unchanged.
+
+---
+
+# 28. Change Impact
+
+Changing this specification may affect:
+
+- public Container contracts;
+- Binding and Alias domain models;
+- registration validation;
+- replacement and removal semantics;
+- shared-instance invalidation;
+- exception hierarchy;
+- Resolution Engine assumptions;
+- Runtime integration;
+- PHPUnit verification;
+- SIF Builder traceability generation;
+- component metadata;
+- implementation reports.
+
+Any change affecting Domain concepts or architectural boundaries requires an approved ADR before this document is updated.
+
+Editorial clarification that does not alter observable behavior MAY be incorporated through a patch revision.
+
+---
+
+# 29. Implementation Notes
+
+This section is informative.
+
+Implementations may use arrays, maps, collections or dedicated internal repositories to store registration state.
+
+Storage mechanisms remain internal and SHALL NOT alter observable behavior.
+
+Registration transactions need not use a database transaction. Atomicity refers to the logical consistency of the Container Aggregate.
+
+A copy-on-write or validate-before-commit implementation may be used to preserve rollback guarantees.
+
+Alias validation may traverse the complete prospective graph before committing the Alias.
+
+Shared-instance invalidation belongs to the Registration Model, while creation and reuse of shared instances are specified by the Resolution Engine.
+
+The `Scoped` Lifetime Policy remains declarative in this chapter. Scope creation and ownership require a separate approved specification before becoming operational.
+
+---
+
+# 30. Acceptance Criteria
+
+This specification is ready for Release Candidate status when:
+
+- every Registration Operation is defined;
+- every Binding Strategy is defined;
+- every Lifetime Policy is defined;
+- validation order is deterministic;
+- Binding states and transitions are complete;
+- replacement and removal semantics are unambiguous;
+- Alias behavior is complete;
+- failure behavior is typed and deterministic;
+- Rule Index is complete;
+- traceability covers every normative rule;
+- implementation checklist is complete;
+- conformance and compatibility requirements are defined;
+- no unresolved architectural decision remains.
+
+---
+
+# 31. Revision History
+
+| Version | Date | Status | Description |
+|---|---|---|---|
+| 0.1.0 | 2026-07-16 | Approved | Initial purpose, scope, lifecycle and registration invariants. |
+| 0.2.0 | 2026-07-16 | Approved | Added Binding Model, Binding Strategies, Lifetime Policies, registration metadata and RR-001 through RR-006. |
+| 0.3.0 | 2026-07-16 | Approved | Added registration operations, replacement, removal, Alias rules, validation pipeline, state machine, failure model and RR-007 through RR-020. |
+| 0.4.0 | 2026-07-16 | Draft for Review | Added Rule Index, Traceability Matrix, Implementation Checklist, Conformance, Compatibility, Change Impact, Implementation Notes and final acceptance criteria. |
+
+---
+
+# End of Specification
 
