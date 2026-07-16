@@ -1,8 +1,8 @@
-# WP-004 — Dependency Injection Container
+# WP-004 — Runtime Composition Engine
 
 **Document ID:** SPEC-WP-004-DI-CONTAINER
 
-**Status:** Drafting
+**Status:** Architecture Review
 
 **Version:** 1.0.0
 
@@ -75,23 +75,22 @@ Each chapter is maintained independently while the complete specification is ver
 
 ```
 WP-004/
-
-README.md
-SUMMARY.md
-
-01-Foundation.md
-02-Architecture.md
-03-Contracts.md
-04-Binding-Model.md
-05-Resolution-Engine.md
-06-Runtime-Integration.md
-07-Testing-and-Quality.md
-08-Product-Completion.md
-
-appendix/
-examples/
-diagrams/
-```
+│
+├── README.md
+├── SUMMARY.md
+├── 00-Domain-Model.md
+├── 01-Foundation.md
+├── 02-Architecture.md
+├── 03-Contracts.md
+├── 04-Binding-and-Registration-Model.md
+├── 05-Resolution-Engine.md
+├── 06-Runtime-Orchestration.md
+├── 07-Testing-and-Verification.md
+├── 08-Product-Completion.md
+├── domain/
+├── appendix/
+├── diagrams/
+└── examples/
 
 ---
 
@@ -154,30 +153,42 @@ Breaking changes require:
 
 The implementation lifecycle of WP-004 is:
 
-Specification
-
-↓
-
-Architecture Review
-
-↓
-
-Approval
-
-↓
-
+Draft
+    │
+    ▼
+Technical Review
+    │
+    ▼
+Release Candidate
+    │
+    ▼
 Implementation
+    │
+    ▼
+Verification
+    │
+    ▼
+Approved
 
-↓
+---
 
-Quality Gate
+# Runtime Architecture
 
-↓
+Registration
+      │
+      ▼
+Resolution
+      │
+      ▼
+Runtime Orchestration
+      │
+      ▼
+Testing & Verification
 
-Release
+---
 
-Implementations SHALL NOT precede the approved specification.
-
+# Reading Order
+El orden recomendado de lectura de las especificaciones.
 ---
 
 # Related Documents
