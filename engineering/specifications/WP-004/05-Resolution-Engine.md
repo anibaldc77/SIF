@@ -4,9 +4,9 @@
 
 **Work Package:** WP-004 — Runtime Composition Engine
 
-**Version:** 0.4.0
+**Version:** 1.0.0-rc.1
 
-**Status:** Draft for Review
+**Status:** Release Candidate
 
 **Category:** Normative Specification
 
@@ -919,4 +919,4 @@ This specification is ready for Release Candidate status when:
 | 0.1.0   | 2026-07-16 | Approved         | Initial specification defining purpose, scope, concepts, pipeline, lifecycle and invariants.                                |
 | 0.2.0   | 2026-07-16 | Approved         | Added Resolution Algorithm, Resolution Context Model, Dependency Resolution, Lifetime Resolution and RE-001 through RE-010. |
 | 0.3.0   | 2026-07-16 | Draft for Review | Added Circular Dependency Detection, Resolution Cache, Resolution State Machine, Failure Model and RE-011 through RE-025.   |
-
+| 1.0.0-rc.1 | 2026-07-16 | Release Candidate | Completed normative and cross-specification review against the Binding and Registration Model. |
