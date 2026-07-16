@@ -4,7 +4,7 @@
 
 **Work Package:** WP-004 — Runtime Composition Engine
 
-**Version:** 0.1.0
+**Version:** 0.2.0
 
 **Status:** Draft for Review
 
@@ -215,8 +215,222 @@ The Runtime SHALL preserve the following invariants.
 
 ---
 
+# 10. Bootstrap Process
+
+## 10.1 Overview
+
+Bootstrap is the deterministic process that initializes the Runtime Composition Engine.
+
+Bootstrap SHALL execute exactly once during the lifetime of a Runtime.
+
+A Bootstrap process SHALL either complete successfully or terminate the Runtime initialization with a typed exception.
+
+---
+
+## 10.2 Bootstrap Stages
+
+The Bootstrap process SHALL execute the following stages in order:
+
+1. Runtime creation
+2. Runtime initialization
+3. Service Provider discovery
+4. Service Provider registration
+5. Module registration
+6. Binding validation
+7. Runtime finalization
+8. Runtime freeze
+9. Runtime ready
+
+No implementation MAY alter the observable order of these stages.
+
+---
+
+## 10.3 Bootstrap Completion
+
+Bootstrap completes when the Runtime reaches the **Frozen** state.
+
+Only after successful completion MAY Resolution Requests be accepted.
+
+---
+
+# 11. Service Provider Orchestration
+
+## 11.1 Responsibilities
+
+A Service Provider participates in Runtime initialization.
+
+A Service Provider MAY:
+
+* register Bindings;
+* register Aliases;
+* register configuration metadata;
+* participate in module initialization.
+
+A Service Provider SHALL NOT resolve runtime services during registration unless explicitly permitted by a future specification.
+
+---
+
+## 11.2 Execution Order
+
+Service Providers SHALL execute in deterministic order.
+
+Equivalent Runtime configurations SHALL execute Service Providers in the same observable sequence.
+
+---
+
+## 11.3 Failure Handling
+
+Failure of a mandatory Service Provider SHALL terminate Bootstrap.
+
+The Runtime SHALL NOT transition to the Frozen state after a failed Bootstrap.
+
+---
+
+# 12. Module Orchestration
+
+## 12.1 Overview
+
+Modules participate in Runtime initialization through the Runtime Orchestration Model.
+
+Module initialization SHALL occur during the Registration Window.
+
+---
+
+## 12.2 Registration Order
+
+Module registration SHALL be deterministic.
+
+Module dependencies SHALL be satisfied before dependent modules execute.
+
+---
+
+## 12.3 Module Isolation
+
+Module initialization SHALL NOT modify already finalized Runtime state.
+
+Modules SHALL interact only through documented Runtime contracts.
+
+---
+
+# 13. Runtime Finalization
+
+## 13.1 Purpose
+
+Runtime Finalization completes Bootstrap and prepares the Runtime for execution.
+
+---
+
+## 13.2 Finalization Responsibilities
+
+Runtime Finalization SHALL:
+
+* verify Runtime consistency;
+* complete registration validation;
+* invalidate temporary bootstrap state;
+* prepare shared runtime structures;
+* freeze Registration.
+
+---
+
+## 13.3 Frozen Runtime
+
+After finalization:
+
+* Registration Operations SHALL be rejected.
+* Resolution Requests SHALL become available.
+* Runtime metadata SHALL remain immutable.
+
+---
+
+# 14. Runtime Rules
+
+## RT-001 — Bootstrap Once
+
+**Statement**
+
+Bootstrap SHALL execute exactly once.
+
+**Rationale**
+
+Guarantees deterministic Runtime initialization.
+
+---
+
+## RT-002 — Deterministic Bootstrap
+
+**Statement**
+
+Equivalent Runtime configurations SHALL produce equivalent Bootstrap sequences.
+
+---
+
+## RT-003 — Registration Window
+
+**Statement**
+
+Registration Operations SHALL be permitted only during the Registration Window.
+
+---
+
+## RT-004 — Freeze Before Resolution
+
+**Statement**
+
+Resolution SHALL become available only after Runtime Finalization completes.
+
+---
+
+## RT-005 — Frozen Runtime
+
+**Statement**
+
+A Frozen Runtime SHALL reject Registration Operations.
+
+---
+
+## RT-006 — Deterministic Provider Execution
+
+**Statement**
+
+Service Providers SHALL execute in deterministic order.
+
+---
+
+## RT-007 — Module Dependency Order
+
+**Statement**
+
+Dependent Modules SHALL execute only after all required Modules have completed initialization.
+
+---
+
+## RT-008 — Finalization Consistency
+
+**Statement**
+
+Runtime Finalization SHALL verify Runtime consistency before freezing the Container.
+
+---
+
+## RT-009 — Runtime Isolation
+
+**Statement**
+
+One Runtime SHALL NOT affect the state of another Runtime.
+
+---
+
+## RT-010 — Bootstrap Failure
+
+**Statement**
+
+A failed Bootstrap SHALL prevent the Runtime from entering the Running state.
+
+---
+
 # Revision History
 
-| Version | Date       | Status           | Description                                                                                                  |
-| ------- | ---------- | ---------------- | ------------------------------------------------------------------------------------------------------------ |
-| 0.1.0   | 2026-07-16 | Draft for Review | Initial specification defining Runtime concepts, lifecycle, orchestration principles and Runtime invariants. |
+| Version | Date       | Status           | Description                                                                                                                    |
+| ------- | ---------- | ---------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| 0.1.0   | 2026-07-16 | Approved         | Initial Runtime concepts, lifecycle, orchestration principles and invariants.                                                  |
+| 0.2.0   | 2026-07-16 | Draft for Review | Added Bootstrap Process, Service Provider Orchestration, Module Orchestration, Runtime Finalization and RT-001 through RT-010. |
