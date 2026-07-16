@@ -4,7 +4,7 @@
 
 **Work Package:** WP-004 — Runtime Composition Engine
 
-**Version:** 0.2.0
+**Version:** 0.3.0
 
 **Status:** Draft for Review
 
@@ -470,12 +470,249 @@ Equivalent Resolution Requests executed against equivalent Container state SHALL
 
 Supports verification and reproducibility.
 
+# 15. Circular Dependency Detection
+
+## 15.1 Overview
+
+The Resolution Engine SHALL detect circular dependencies before infinite recursion occurs.
+
+Circular dependency detection SHALL operate during dependency traversal using the active Resolution Stack.
+
+---
+
+## 15.2 Detection Algorithm
+
+Before resolving a dependency, the Resolution Engine SHALL verify whether the target Service Identifier already exists in the active Resolution Stack.
+
+If present, the Resolution Request SHALL terminate with a typed CircularDependencyException.
+
+---
+
+## 15.3 Diagnostic Information
+
+The exception SHOULD expose:
+
+* the Resolution Request identifier;
+* the dependency path;
+* the Service Identifier where the cycle was detected.
+
+Diagnostics SHALL NOT expose internal Container implementation details.
+
+---
+
+# 16. Resolution Cache
+
+## 16.1 Purpose
+
+The Resolution Cache stores reusable runtime instances according to the applicable Lifetime Policy.
+
+The cache SHALL NOT participate in registration.
+
+---
+
+## 16.2 Cache Lookup
+
+Cache lookup SHALL occur immediately after Lifetime evaluation.
+
+If a reusable instance exists, it SHALL be returned without further dependency resolution.
+
+---
+
+## 16.3 Cache Population
+
+A newly created Singleton or Scoped instance SHALL be inserted into the Resolution Cache before completing the Resolution Request.
+
+Transient instances SHALL NEVER be cached.
+
+---
+
+## 16.4 Cache Consistency
+
+The Resolution Cache SHALL remain consistent with the Binding state.
+
+Replacing or removing a Binding SHALL invalidate any associated cached instance.
+
+---
+
+# 17. Resolution State Machine
+
+## 17.1 States
+
+Every Resolution Request SHALL exist in exactly one of the following conceptual states.
+
+| State        | Description                            |
+| ------------ | -------------------------------------- |
+| Created      | Request accepted by the Container.     |
+| Resolving    | Dependency traversal in progress.      |
+| Constructing | Target instance is being created.      |
+| Completed    | Resolution finished successfully.      |
+| Failed       | Resolution terminated due to an error. |
+
+---
+
+## 17.2 Valid Transitions
+
+```text
+Created
+    │
+    ▼
+Resolving
+    │
+    ├── success ─────────► Constructing
+    │                         │
+    │                         ▼
+    │                    Completed
+    │
+    └── failure ─────────► Failed
+```
+
+No other transitions are valid.
+
+---
+
+## 17.3 Terminal States
+
+Completed and Failed are terminal states.
+
+A completed Resolution Request SHALL NOT resume execution.
+
+---
+
+# 18. Resolution Failure Model
+
+## 18.1 General Rule
+
+Every Resolution failure SHALL be represented by a typed exception.
+
+Returning `null` or error codes as failure indicators is prohibited.
+
+---
+
+## 18.2 Failure Categories
+
+| Category                 | Description                                             |
+| ------------------------ | ------------------------------------------------------- |
+| Unknown Service          | No Binding exists for the requested Service Identifier. |
+| Circular Dependency      | Dependency cycle detected.                              |
+| Construction Failure     | Instance creation failed.                               |
+| Dependency Failure       | A dependency could not be resolved.                     |
+| Lifetime Violation       | Lifetime semantics cannot be satisfied.                 |
+| Internal Runtime Failure | Unexpected Resolution Engine error.                     |
+
+---
+
+## 18.3 Failure Guarantees
+
+A failed Resolution Request SHALL:
+
+* preserve Container consistency;
+* preserve registered Bindings;
+* preserve unrelated cached instances;
+* terminate the active Resolution Context.
+
+---
+
+# 19. Additional Resolution Rules
+
+## RE-011 — Circular Detection
+
+The Resolution Engine SHALL detect circular dependencies before recursive resolution continues.
+
+---
+
+## RE-012 — Stack Integrity
+
+The Resolution Stack SHALL accurately represent the active dependency path.
+
+---
+
+## RE-013 — Context Lifetime
+
+A Resolution Context SHALL exist only for the duration of one Resolution Request.
+
+---
+
+## RE-014 — Cache Before Construction
+
+Reusable cached instances SHALL be evaluated before object construction.
+
+---
+
+## RE-015 — Singleton Reuse
+
+Singleton resolution SHALL always return the same Container-owned instance.
+
+---
+
+## RE-016 — Scoped Reuse
+
+Scoped resolution SHALL reuse one instance within the active Scope.
+
+---
+
+## RE-017 — Transient Creation
+
+Transient resolution SHALL always create a new instance.
+
+---
+
+## RE-018 — Constructor After Dependencies
+
+Object construction SHALL begin only after all mandatory dependencies have been resolved.
+
+---
+
+## RE-019 — Stack Cleanup
+
+The Resolution Stack SHALL be restored to its previous state after every completed or failed dependency resolution.
+
+---
+
+## RE-020 — Context Disposal
+
+The Resolution Context SHALL be destroyed immediately after the Resolution Request terminates.
+
+---
+
+## RE-021 — Cache Consistency
+
+The Resolution Cache SHALL remain synchronized with Binding replacement and removal operations.
+
+---
+
+## RE-022 — Deterministic Exceptions
+
+Equivalent failures SHALL produce equivalent typed exceptions.
+
+---
+
+## RE-023 — Failure Isolation
+
+Failure in one Resolution Request SHALL NOT affect concurrent Resolution Requests.
+
+---
+
+## RE-024 — Observable Consistency
+
+Observable Runtime behavior SHALL remain deterministic regardless of internal optimizations.
+
+---
+
+## RE-025 — Resolution Completion
+
+A Resolution Request SHALL produce either:
+
+* one resolved runtime instance; or
+* one typed Resolution exception.
+
+No third observable outcome is permitted.
+
 ---
 
 # Revision History
 
 | Version | Date       | Status           | Description                                                                                                                 |
 | ------- | ---------- | ---------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| 0.1.0   | 2026-07-16 | Approved         | Initial specification defining purpose, scope, concepts, resolution pipeline, lifecycle and invariants.                     |
-| 0.2.0   | 2026-07-16 | Draft for Review | Added Resolution Algorithm, Resolution Context Model, Dependency Resolution, Lifetime Resolution and RE-001 through RE-010. |
-
+| 0.1.0   | 2026-07-16 | Approved         | Initial specification defining purpose, scope, concepts, pipeline, lifecycle and invariants.                                |
+| 0.2.0   | 2026-07-16 | Approved         | Added Resolution Algorithm, Resolution Context Model, Dependency Resolution, Lifetime Resolution and RE-001 through RE-010. |
+| 0.3.0   | 2026-07-16 | Draft for Review | Added Circular Dependency Detection, Resolution Cache, Resolution State Machine, Failure Model and RE-011 through RE-025.   |
