@@ -207,3 +207,249 @@ The Runtime Composition Engine shall preserve the following invariants during re
 | Version | Date       | Description            |
 | ------- | ---------- | ---------------------- |
 | 0.1.0   | 2026-07-16 | Initial draft created. |
+
+# 10. Binding Model
+
+## 10.1 Overview
+
+A Binding represents the fundamental composition rule managed by the Runtime Composition Engine.
+
+A Binding associates a canonical Service Identifier with an implementation strategy and a lifetime policy. It contains only composition metadata and never represents a runtime instance.
+
+The Binding Model is immutable after successful registration.
+
+---
+
+## 10.2 Design Objectives
+
+The Binding Model is designed to satisfy the following objectives:
+
+* deterministic registration;
+* explicit composition;
+* implementation independence;
+* immutable runtime metadata;
+* traceable composition rules;
+* extensibility without breaking compatibility.
+
+---
+
+## 10.3 Conceptual Model
+
+A Binding is composed of the following logical elements:
+
+| Element            | Required | Description                          |
+| ------------------ | -------- | ------------------------------------ |
+| Service Identifier | Yes      | Canonical identifier of the service. |
+| Binding Strategy   | Yes      | Defines how the service is obtained. |
+| Lifetime Policy    | Yes      | Defines instance ownership.          |
+| Metadata           | Yes      | Internal registration metadata.      |
+| Tags               | Optional | Logical categorization.              |
+| Aliases            | Optional | Secondary identifiers.               |
+
+A Binding SHALL contain exactly one canonical Service Identifier.
+
+Aliases SHALL NOT replace the canonical identifier.
+
+---
+
+## 10.4 Binding Immutability
+
+Once registration has completed successfully, the Binding definition becomes immutable.
+
+Modifications SHALL require a new registration operation.
+
+The Runtime Composition Engine SHALL NOT mutate Binding metadata during dependency resolution.
+
+---
+
+# 11. Binding Strategies
+
+## 11.1 Overview
+
+Binding Strategies define how a runtime service is produced.
+
+Strategies define composition behavior only.
+
+They do not execute object construction during registration.
+
+---
+
+## 11.2 Supported Strategies
+
+The Runtime Composition Engine defines four standard Binding Strategies.
+
+| Strategy       | Description                                         |
+| -------------- | --------------------------------------------------- |
+| Implementation | Instantiates an implementation type.                |
+| Factory        | Delegates creation to a factory.                    |
+| Instance       | Uses an existing object instance.                   |
+| Alias          | Redirects resolution to another Service Identifier. |
+
+Implementations MAY define additional strategies provided that they preserve all invariants established by this specification.
+
+---
+
+## 11.3 Implementation Binding
+
+Implementation Binding associates a Service Identifier with a concrete implementation type.
+
+The implementation type SHALL satisfy the corresponding service contract.
+
+---
+
+## 11.4 Factory Binding
+
+Factory Binding delegates instance creation to a factory object or callable.
+
+Factories SHALL execute only during dependency resolution.
+
+Factories SHALL NOT execute during registration.
+
+---
+
+## 11.5 Instance Binding
+
+Instance Binding associates a Service Identifier with an already existing runtime instance.
+
+Ownership of externally supplied instances remains implementation-defined.
+
+---
+
+## 11.6 Alias Binding
+
+Alias Binding redirects one Service Identifier to another canonical Service Identifier.
+
+Alias chains SHALL remain acyclic.
+
+Circular aliases SHALL be rejected during validation.
+
+---
+
+# 12. Lifetime Policies
+
+## 12.1 Overview
+
+Lifetime Policies define instance ownership.
+
+Lifetime Policies are independent from Binding Strategies.
+
+The same Binding Strategy may be associated with different Lifetime Policies.
+
+---
+
+## 12.2 Standard Lifetime Policies
+
+The Runtime Composition Engine defines the following standard policies.
+
+| Policy    | Description                                                   |
+| --------- | ------------------------------------------------------------- |
+| Transient | A new instance is produced for each resolution.               |
+| Singleton | One shared instance exists for the lifetime of the container. |
+| Scoped    | One instance exists per logical execution scope.              |
+
+Additional policies MAY be introduced through implementation extensions without modifying this specification.
+
+---
+
+## 12.3 Lifetime Independence
+
+Lifetime Policies SHALL NOT affect registration.
+
+They influence only runtime composition behavior.
+
+Registration metadata remains identical regardless of the selected Lifetime Policy.
+
+---
+
+# 13. Registration Metadata
+
+Each successful registration produces immutable metadata describing the composition rule.
+
+Registration metadata SHALL include, at minimum:
+
+| Metadata                     | Description                    |
+| ---------------------------- | ------------------------------ |
+| Registration Identifier      | Unique registration reference. |
+| Registration Timestamp       | Registration creation time.    |
+| Binding Strategy             | Registered strategy.           |
+| Lifetime Policy              | Selected lifetime.             |
+| Validation Status            | Successful validation result.  |
+| Canonical Service Identifier | Primary identifier.            |
+
+Implementations MAY extend registration metadata with implementation-specific information.
+
+---
+
+# 14. Registration Rules
+
+## RR-001 — Canonical Registration
+
+**Statement**
+
+Every Binding SHALL define exactly one canonical Service Identifier.
+
+**Rationale**
+
+Guarantees deterministic lookup.
+
+---
+
+## RR-002 — Unique Service Identifier
+
+**Statement**
+
+Two active Bindings SHALL NOT share the same canonical Service Identifier.
+
+**Rationale**
+
+Preserves registration uniqueness.
+
+---
+
+## RR-003 — Atomic Registration
+
+**Statement**
+
+Registration SHALL complete atomically.
+
+Partial registration state SHALL NOT be observable.
+
+**Rationale**
+
+Maintains runtime consistency.
+
+---
+
+## RR-004 — Immutable Binding Definition
+
+**Statement**
+
+A successfully registered Binding SHALL become immutable.
+
+**Rationale**
+
+Ensures deterministic runtime metadata.
+
+---
+
+## RR-005 — Validation Before Registration
+
+**Statement**
+
+Validation SHALL complete successfully before registration occurs.
+
+**Rationale**
+
+Prevents inconsistent composition metadata.
+
+---
+
+## RR-006 — Deterministic Metadata
+
+**Statement**
+
+Equivalent registration operations SHALL generate equivalent Binding metadata.
+
+**Rationale**
+
+Supports reproducibility, verification and traceability.
