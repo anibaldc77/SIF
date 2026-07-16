@@ -4,9 +4,9 @@
 
 **Work Package:** WP-004 — Runtime Composition Engine
 
-**Version:** 0.4.0
+**Version:** 1.0.0-rc.1
 
-**Status:** Draft for Review
+**Status:** Release Candidate
 
 **Category:** Normative Specification
 
@@ -885,7 +885,7 @@ This specification is ready for Release Candidate status when:
 | 0.2.0   | 2026-07-16 | Approved         | Added Bootstrap Process, Provider Orchestration, Module Orchestration, Runtime Finalization and RT-001 through RT-010.                                    |
 | 0.3.0   | 2026-07-16 | Approved         | Added Runtime State Machine, Runtime Events, Scope Lifecycle, Shutdown Process, Runtime Exception Model and RT-011 through RT-025.                        |
 | 0.4.0   | 2026-07-16 | Draft for Review | Added Rule Index, Traceability Matrix, Implementation Checklist, Conformance, Compatibility, Change Impact, Implementation Notes and Acceptance Criteria. |
-
+| 1.0.0-rc.1 | 2026-07-16 | Release Candidate | Completed normative review, lifecycle validation, traceability verification and cross-specification review against WP-004-04 and WP-004-05. |
 ---
 
 # End of Specification
