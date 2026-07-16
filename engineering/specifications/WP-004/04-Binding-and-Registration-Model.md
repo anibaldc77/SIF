@@ -4,9 +4,9 @@
 
 **Work Package:** WP-004 — Runtime Composition Engine
 
-**Version:** 0.4.0
+**Version:** 1.0.0-rc.1
 
-**Status:** Draft for Review
+**Status:** Release Candidate
 
 **Category:** Normative Specification
 
