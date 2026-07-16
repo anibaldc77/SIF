@@ -1,10 +1,10 @@
-# WP-004 — Resolution Engine
+﻿# WP-004 — Resolution Engine
 
 **Document ID:** WP-004-05
 
 **Work Package:** WP-004 — Runtime Composition Engine
 
-**Version:** 0.3.0
+**Version:** 0.4.0
 
 **Status:** Draft for Review
 
@@ -707,6 +707,209 @@ A Resolution Request SHALL produce either:
 
 No third observable outcome is permitted.
 
+# 20. Rule Index
+
+This section defines the canonical index of every normative rule established by this specification.
+
+Rule identifiers are permanent.
+
+Identifiers SHALL NOT be renumbered or reused.
+
+## 20.1 Resolution Rules
+
+| Rule   | Title                          |
+| ------ | ------------------------------ |
+| RE-001 | Canonical Resolution           |
+| RE-002 | Registered Bindings Only       |
+| RE-003 | Immutable Registration         |
+| RE-004 | Deterministic Traversal        |
+| RE-005 | Lifetime Before Construction   |
+| RE-006 | Recursive Resolution           |
+| RE-007 | Constructor Completeness       |
+| RE-008 | Resolution Context Isolation   |
+| RE-009 | No Partial Resolution          |
+| RE-010 | Deterministic Result           |
+| RE-011 | Circular Detection             |
+| RE-012 | Stack Integrity                |
+| RE-013 | Context Lifetime               |
+| RE-014 | Cache Before Construction      |
+| RE-015 | Singleton Reuse                |
+| RE-016 | Scoped Reuse                   |
+| RE-017 | Transient Creation             |
+| RE-018 | Constructor After Dependencies |
+| RE-019 | Stack Cleanup                  |
+| RE-020 | Context Disposal               |
+| RE-021 | Cache Consistency              |
+| RE-022 | Deterministic Exceptions       |
+| RE-023 | Failure Isolation              |
+| RE-024 | Observable Consistency         |
+| RE-025 | Resolution Completion          |
+
+---
+
+# 21. Traceability Matrix
+
+## 21.1 Purpose
+
+Every normative Resolution Rule SHALL be traceable to:
+
+* Resolution Invariants;
+* Runtime responsibilities;
+* implementation components;
+* automated verification scenarios.
+
+---
+
+## 21.2 Resolution Traceability
+
+| Rules                          | Related Invariants | Planned Responsibility            | Required Verification                   |
+| ------------------------------ | ------------------ | --------------------------------- | --------------------------------------- |
+| RE-001, RE-002                 | INV-RE01, INV-RE03 | Resolution entry point            | Canonical identifier lookup tests       |
+| RE-003                         | INV-RE03           | Immutable Binding usage           | Binding immutability tests              |
+| RE-004, RE-010                 | INV-RE04           | Deterministic traversal           | Equivalent graph traversal tests        |
+| RE-005, RE-014                 | INV-RE07           | Lifetime evaluation               | Cache-before-construction tests         |
+| RE-006, RE-018                 | INV-RE04           | Recursive dependency resolution   | Recursive dependency tests              |
+| RE-007                         | INV-RE04           | Constructor dependency validation | Missing dependency tests                |
+| RE-008, RE-013, RE-020         | INV-RE02           | Resolution Context lifecycle      | Context isolation tests                 |
+| RE-009                         | INV-RE08           | Failure rollback                  | No partial runtime state tests          |
+| RE-011, RE-012, RE-019         | INV-RE05, INV-RE06 | Resolution Stack management       | Circular dependency tests               |
+| RE-015, RE-016, RE-017, RE-021 | INV-RE07           | Lifetime-specific behavior        | Singleton, Scoped and Transient tests   |
+| RE-022                         | INV-RE08           | Exception mapping                 | Typed exception tests                   |
+| RE-023                         | INV-RE02           | Concurrent resolution isolation   | Parallel resolution tests               |
+| RE-024                         | INV-RE04           | Observable behavior               | Deterministic execution tests           |
+| RE-025                         | INV-RE08           | Resolution completion             | Successful resolution and failure tests |
+
+---
+
+# 22. Implementation Checklist
+
+An implementation SHALL NOT claim conformance until every mandatory checklist item is complete.
+
+## 22.1 Resolution
+
+* [ ] Resolution always starts from one canonical Service Identifier.
+* [ ] Only registered Bindings participate in Resolution.
+* [ ] Registered Bindings remain immutable.
+* [ ] Resolution traversal is deterministic.
+* [ ] Recursive dependency resolution is implemented.
+* [ ] Constructor dependencies are resolved before instance creation.
+
+## 22.2 Lifetime
+
+* [ ] Lifetime evaluation precedes object construction.
+* [ ] Singleton instances are reused.
+* [ ] Scoped instances are reused inside one Scope.
+* [ ] Transient instances are never reused.
+* [ ] Cache population follows Lifetime Policy.
+
+## 22.3 Circular Dependencies
+
+* [ ] Resolution Stack is maintained correctly.
+* [ ] Circular dependencies are detected.
+* [ ] Circular dependencies generate typed exceptions.
+* [ ] Stack cleanup always occurs.
+
+## 22.4 Failure Handling
+
+* [ ] Failed resolutions never expose partial runtime state.
+* [ ] Every failure produces a typed exception.
+* [ ] Concurrent Resolution Requests remain isolated.
+* [ ] Resolution Context is destroyed after completion.
+
+## 22.5 Verification
+
+* [ ] Every Resolution Rule has automated tests.
+* [ ] Every Resolution Invariant is verified.
+* [ ] Static analysis passes.
+* [ ] Coding standards pass.
+* [ ] Existing regression tests pass.
+
+---
+
+# 23. Conformance
+
+An implementation MAY declare conformance with this specification only when:
+
+* every Resolution Rule is implemented;
+* every Resolution Invariant is preserved;
+* automated verification succeeds;
+* no observable behavior contradicts this specification.
+
+---
+
+# 24. Compatibility
+
+The following behaviors are compatibility protected:
+
+* deterministic traversal;
+* recursive dependency resolution;
+* Lifetime semantics;
+* Resolution Context isolation;
+* Resolution Stack semantics;
+* Circular dependency detection;
+* typed Resolution failures.
+
+Breaking any of these behaviors requires an approved ADR.
+
+---
+
+# 25. Change Impact
+
+Changes to this specification may affect:
+
+* Container implementation;
+* Resolution Context;
+* Resolution Stack;
+* Lifetime management;
+* Scope implementation;
+* Runtime diagnostics;
+* PHPUnit verification;
+* Builder traceability generation.
+
+Architectural changes require an approved ADR.
+
+---
+
+# 26. Implementation Notes
+
+This section is informative.
+
+Implementations MAY optimize dependency traversal, cache lookup and object construction provided that observable behavior remains identical.
+
+Internal algorithms are not compatibility protected.
+
+Observable Resolution semantics are.
+
+---
+
+# 27. Acceptance Criteria
+
+This specification is ready for Release Candidate status when:
+
+* Resolution Algorithm is complete;
+* Lifetime behavior is fully specified;
+* Circular dependency detection is defined;
+* Failure behavior is typed;
+* Rule Index is complete;
+* Traceability Matrix is complete;
+* Implementation Checklist is complete;
+* no unresolved architectural decisions remain.
+
+---
+
+# 28. Revision History
+
+| Version | Date       | Status           | Description                                                                                                                                               |
+| ------- | ---------- | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 0.1.0   | 2026-07-16 | Approved         | Initial concepts, lifecycle and invariants.                                                                                                               |
+| 0.2.0   | 2026-07-16 | Approved         | Added Resolution Algorithm, Context Model, Lifetime Resolution and RE-001 through RE-010.                                                                 |
+| 0.3.0   | 2026-07-16 | Approved         | Added Circular Dependency Detection, Resolution Cache, State Machine, Failure Model and RE-011 through RE-025.                                            |
+| 0.4.0   | 2026-07-16 | Draft for Review | Added Rule Index, Traceability Matrix, Implementation Checklist, Conformance, Compatibility, Change Impact, Implementation Notes and Acceptance Criteria. |
+
+---
+
+# End of Specification
+
 ---
 
 # Revision History
@@ -716,3 +919,4 @@ No third observable outcome is permitted.
 | 0.1.0   | 2026-07-16 | Approved         | Initial specification defining purpose, scope, concepts, pipeline, lifecycle and invariants.                                |
 | 0.2.0   | 2026-07-16 | Approved         | Added Resolution Algorithm, Resolution Context Model, Dependency Resolution, Lifetime Resolution and RE-001 through RE-010. |
 | 0.3.0   | 2026-07-16 | Draft for Review | Added Circular Dependency Detection, Resolution Cache, Resolution State Machine, Failure Model and RE-011 through RE-025.   |
+
