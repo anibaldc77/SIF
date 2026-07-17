@@ -1,296 +1,135 @@
-# WP-004 — Dependency Injection Container
+# WP-004 — Executive Summary
 
-**Specification Summary**
+**Document ID:** WP-004-SUMMARY
 
-Document ID: **SPEC-WP-004-DI-CONTAINER**
+**Work Package:** WP-004 — Runtime Composition Engine
 
-Version: **1.0.0**
+**Version:** 1.0.0
 
-Status: **Drafting**
+**Status:** Approved
 
----
-
-# Table of Contents
-
-## Chapter 1 — Foundation
-
-Defines the purpose, scope, terminology, architectural principles and conformance rules of the Dependency Injection Container.
-
-Document:
-
-```
-01-Foundation.md
-```
+**Category:** Executive Summary
 
 ---
 
-## Chapter 2 — Architecture
+# Purpose
 
-Defines the architectural model of the Container and its relationship with the Runtime Foundation.
+This document provides an executive overview of the Runtime Composition Engine specification.
 
-Topics include:
+It summarizes the current status of every specification, architectural milestone, implementation readiness and review status.
 
-- Architectural Vision
-- Core Principles
-- Ownership Model
-- Runtime Integration
-- Service Provider Integration
-- Architectural Invariants
-- High-Level Architecture
-
-Document:
-
-```
-02-Architecture.md
-```
+This document is informative.
 
 ---
 
-## Chapter 3 — Contracts
-
-Defines every public contract exposed by WP-004.
-
-Topics include:
-
-- ContainerInterface
-- FactoryInterface
-- Binding
-- BindingType
-- ResolutionContext
-- Public API
-- Internal API
-- Exception Hierarchy
-- Compatibility Rules
-
-Document:
-
-```
-03-Contracts.md
-```
-
----
-
-## Chapter 4 — Binding Model
-
-Defines the registration model used by the Container.
-
-Topics include:
-
-- Canonical Identifier
-- Bindings
-- Singleton
-- Transient
-- Existing Instance
-- Factory Binding
-- Alias
-- Binding Metadata
-- Validation Rules
-- Lifetime
-- Binding State Machine
-
-Document:
-
-```
-04-Binding-Model.md
-```
-
----
-
-## Chapter 5 — Resolution Engine
-
-Defines the complete dependency resolution algorithm.
-
-Topics include:
-
-- Resolution Pipeline
-- Alias Resolution
-- Circular Dependency Detection
-- Factory Execution
-- Shared Service Creation
-- Instance Resolution
-- Error Handling
-- Diagnostics
-
-Document:
-
-```
-05-Resolution-Engine.md
-```
-
----
-
-## Chapter 6 — Runtime Integration
-
-Defines the integration between the Dependency Injection Container and Runtime Foundation.
-
-Topics include:
-
-- Framework
-- Runtime
-- Bootstrap
-- Lifecycle
-- Application
-- Service Providers
-- Container Ownership
-- Lifetime
-
-Document:
-
-```
-06-Runtime-Integration.md
-```
-
----
-
-## Chapter 7 — Testing and Quality
-
-Defines every quality requirement of WP-004.
-
-Topics include:
-
-- PHPUnit
-- PHPStan
-- PHP-CS-Fixer
-- Composer
-- Metadata
-- Documentation
-- Examples
-- Quality Gates
-- Acceptance Criteria
-
-Document:
-
-```
-07-Testing-and-Quality.md
-```
-
----
-
-## Chapter 8 — Product Completion
-
-Defines every deliverable required before WP-004 can be considered complete.
-
-Topics include:
-
-- README
-- CHANGELOG
-- component.json
-- component.lock
-- Examples
-- Diagrams
-- Implementation Report
-- Release Checklist
-
-Document:
-
-```
-08-Product-Completion.md
-```
-
----
-
-# Appendix
-
-Additional normative information.
-
-```
-appendix/
-```
-
-Contains:
-
-- glossary.md
-- terminology.md
-- compatibility.md
-
----
-
-# Examples
-
-Complete implementation examples.
-
-```
-examples/
-```
-
-Contains:
-
-- basic-registration.md
-- singleton.md
-- factories.md
-- aliases.md
-
----
-
-# Diagrams
-
-Official PlantUML diagrams.
-
-```
-diagrams/
-```
-
-Contains:
-
-- container-class.puml
-- resolution-sequence.puml
-- binding-state.puml
-- runtime-integration.puml
-- service-provider-flow.puml
-- exception-hierarchy.puml
-
----
-
-# Architecture Decision Records
-
-Related ADRs.
-
-```
-engineering/adr/
-```
-
-Required:
-
-- ADR-0003 — Explicit Dependency Injection Container
-- ADR-0004 — Modular Engineering Specifications
-
----
-
-# Review Documents
-
-Implementation reports are maintained under:
-
-```
-engineering/reviews/
-```
-
-The implementation of every phase SHALL reference the corresponding chapter of this specification.
-
----
-
-# Navigation Rules
-
-This document SHALL be treated as the official entry point of SPEC-WP-004-DI-CONTAINER.
-
-Every chapter is normative unless explicitly marked as informative.
-
-The specification SHALL be versioned as a whole while individual chapters MAY evolve through independent commits during development.
+# Current Status
+
+| Area                     | Status      |
+| ------------------------ | ----------- |
+| Architecture Definition  | Complete    |
+| Normative Specifications | In Progress |
+| Runtime Design           | Complete    |
+| Architecture Review      | In Progress |
+| Implementation           | Not Started |
+| Verification             | Not Started |
 
 ---
 
 # Specification Status
 
-| Chapter | Status |
-|----------|--------|
-| 01 Foundation | Approved |
-| 02 Architecture | Draft |
-| 03 Contracts | Draft |
-| 04 Binding Model | Draft |
-| 05 Resolution Engine | Draft |
-| 06 Runtime Integration | Draft |
-| 07 Testing and Quality | Draft |
-| 08 Product Completion | Draft |
+| Document                             | Version    | Status            | Purpose                  |
+| ------------------------------------ | ---------- | ----------------- | ------------------------ |
+| 00-Domain-Model.md                   | 1.0        | Baseline          | Domain concepts          |
+| 01-Foundation.md                     | 1.0        | Baseline          | Architectural foundation |
+| 02-Architecture.md                   | 1.0        | Baseline          | High-level architecture  |
+| 03-Contracts.md                      | 1.0        | Baseline          | Public contracts         |
+| 04-Binding-and-Registration-Model.md | 1.0.0-rc.1 | Release Candidate | Registration             |
+| 05-Resolution-Engine.md              | 1.0.0-rc.1 | Release Candidate | Resolution               |
+| 06-Runtime-Orchestration.md          | 1.0.0-rc.1 | Release Candidate | Runtime lifecycle        |
+| 07-Testing-and-Verification.md       | 1.0.0-rc.1 | Release Candidate | Verification model       |
+| 08-Product-Completion.md             | 0.1.0      | Draft             | Completion criteria      |
 
 ---
 
-End of Summary
+# Architectural Layers
+
+```text
+Registration
+        │
+        ▼
+Resolution
+        │
+        ▼
+Runtime Orchestration
+        │
+        ▼
+Testing & Verification
+        │
+        ▼
+Product Completion
+```
+
+---
+
+# Approved Architectural Decisions
+
+| Decision                             | Status   |
+| ------------------------------------ | -------- |
+| AB-0011 — Specification Lifecycle    | Approved |
+| AB-0012 — Runtime Orchestration      | Approved |
+| AB-0013 — Runtime State Machine      | Approved |
+| AB-0014 — WP-004 Architecture Review | Approved |
+
+---
+
+# Implementation Readiness
+
+| Area                  | Readiness |
+| --------------------- | --------- |
+| Registration Model    | Ready     |
+| Resolution Engine     | Ready     |
+| Runtime Orchestration | Ready     |
+| Verification Model    | Ready     |
+| Product Completion    | Pending   |
+
+Implementation of the Runtime Composition Engine SHALL begin only after WP-004 reaches completion.
+
+---
+
+# Remaining Work
+
+The following activities remain before WP-004 can be declared complete:
+
+* Complete Product Completion specification.
+* Execute the Architecture Review.
+* Publish ADR-0008 through ADR-0011.
+* Promote all Release Candidates to Approved after implementation and verification.
+
+---
+
+# Next Milestones
+
+1. Complete `08-Product-Completion.md`.
+2. Publish the Architecture Review.
+3. Publish ADR-0008 to ADR-0011.
+4. Begin Runtime Composition Engine implementation.
+5. Execute Verification and Quality Gates.
+6. Promote WP-004 specifications to Approved.
+
+---
+
+# Overall Assessment
+
+WP-004 has reached architectural maturity.
+
+The Runtime Composition Engine has been fully specified at the architectural level.
+
+Remaining work is primarily related to governance, implementation, verification and final approval.
+
+---
+
+# Revision History
+
+| Version | Date       | Status   | Description                           |
+| ------- | ---------- | -------- | ------------------------------------- |
+| 1.0.0   | 2026-07-16 | Approved | Initial executive summary for WP-004. |
