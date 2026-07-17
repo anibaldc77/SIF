@@ -11,22 +11,33 @@
     "phpstan/phpstan": "^1.12",
     "friendsofphp/php-cs-fixer": "^3.64"
   },
-  "autoload": {
-    "psr-4": {
-      "Sif\\": "src/"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Sif\\Foundation\\Tests\\": "tests/Foundation/"
-    }
-  },
+"autoload": {
+  "psr-4": {
+    "Sif\\Builder\\Metadata\\": "tools/builder/src/Metadata/",
+    "Sif\\Builder\\FileSystem\\": "tools/builder/src/FileSystem/",
+    "Sif\\Support\\": "tools/builder/src/Support/",
+    "Sif\\": "src/"
+  }
+},
+"autoload-dev": {
+  "psr-4": {
+    "Sif\\Builder\\Tests\\Metadata\\": "tools/builder/tests/Metadata/",
+    "Sif\\Builder\\FileSystem\\Tests\\": "tools/builder/tests/",
+    "Sif\\Support\\Tests\\": "tools/builder/tests/Support/",
+    "Sif\\Foundation\\Tests\\": "tests/Foundation/"
+  }
+},
   "scripts": {
     "test": "@php vendor/bin/phpunit --configuration phpunit.xml",
     "analyse": "@php vendor/bin/phpstan analyse --configuration=phpstan.neon --memory-limit=1G",
     "style": "@php vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.php --diff",
     "style:check": "@php vendor/bin/php-cs-fixer fix --dry-run --config=.php-cs-fixer.php --diff",
-    "quality": ["@composer validate --strict --no-check-publish", "@test", "@analyse", "@style:check"]
+    "quality": [
+      "@composer validate --strict --no-check-publish",
+      "@test",
+      "@analyse",
+      "@style:check"
+    ]
   },
   "minimum-stability": "stable",
   "config": {
