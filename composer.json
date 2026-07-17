@@ -13,6 +13,7 @@
   },
 "autoload": {
   "psr-4": {
+    "Sif\\Builder\\Repository\\": "tools/builder/src/Repository/",
     "Sif\\Builder\\Metadata\\": "tools/builder/src/Metadata/",
     "Sif\\Builder\\FileSystem\\": "tools/builder/src/FileSystem/",
     "Sif\\Support\\": "tools/builder/src/Support/",
@@ -21,6 +22,7 @@
 },
 "autoload-dev": {
   "psr-4": {
+    "Sif\\Builder\\Tests\\Repository\\": "tools/builder/tests/Repository/",
     "Sif\\Builder\\Tests\\Metadata\\": "tools/builder/tests/Metadata/",
     "Sif\\Builder\\FileSystem\\Tests\\": "tools/builder/tests/",
     "Sif\\Support\\Tests\\": "tools/builder/tests/Support/",

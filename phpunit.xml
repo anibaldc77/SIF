@@ -7,5 +7,8 @@
         <testsuite name="Builder Metadata">
             <directory suffix="Test.php">tools/builder/tests/Metadata</directory>
         </testsuite>
+        <testsuite name="Builder Repository">
+            <directory suffix="Test.php">tools/builder/tests/Repository</directory>
+        </testsuite>
     </testsuites>
 </phpunit>
