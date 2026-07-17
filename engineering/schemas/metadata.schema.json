@@ -1,0 +1,221 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sif-framework.dev/schemas/metadata.schema.json",
+  "title": "SIF Engineering Artifact Core Metadata",
+  "description": "Validates the Core Metadata Schema defined by ES-002. Cross-document semantic constraints such as identifier uniqueness, reference existence, dependency cycles and date ordering require additional SIF Builder validation.",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "status",
+    "version",
+    "category",
+    "authors",
+    "created",
+    "updated",
+    "tags",
+    "depends_on",
+    "related_adrs"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[A-Z](?:[A-Z0-9]|-(?!-))*[A-Z0-9]$|^[A-Z]$",
+      "description": "Permanent canonical identifier."
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": ".*\\S.*"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "Draft",
+        "Draft for Review",
+        "Technical Review",
+        "Release Candidate",
+        "Approved",
+        "Deprecated",
+        "Superseded",
+        "Archived"
+      ]
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)(?:-(?:0|[1-9][0-9]*|[0-9A-Za-z-]*[A-Za-z-][0-9A-Za-z-]*)(?:\\.(?:0|[1-9][0-9]*|[0-9A-Za-z-]*[A-Za-z-][0-9A-Za-z-]*))*)?$",
+      "description": "Semantic Versioning 2.0.0 without build metadata."
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "Constitution",
+        "Architecture Specification",
+        "Engineering Standard",
+        "Policy",
+        "Architecture Decision Record",
+        "Request for Comments",
+        "Work Package",
+        "Normative Specification",
+        "Architecture Review",
+        "Implementation Review",
+        "Informative Document",
+        "Template"
+      ]
+    },
+    "document_class": {
+      "type": "string",
+      "enum": [
+        "NormativeDocument",
+        "GovernanceDocument",
+        "ReviewDocument",
+        "InformativeDocument",
+        "TemplateDocument"
+      ]
+    },
+    "authors": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": ".*\\S.*"
+      }
+    },
+    "created": {
+      "type": "string",
+      "format": "date"
+    },
+    "updated": {
+      "type": "string",
+      "format": "date"
+    },
+    "tags": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      }
+    },
+    "work_package": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^WP-[0-9]{3}$"
+    },
+    "depends_on": {
+      "$ref": "#/$defs/referenceList"
+    },
+    "related_adrs": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^ADR-[0-9]{4}$"
+      }
+    },
+    "supersedes": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/referenceIdentifier"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "superseded_by": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/referenceIdentifier"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    }
+  },
+  "$defs": {
+    "referenceIdentifier": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[A-Z](?:[A-Z0-9]|-(?!-))*[A-Z0-9]$|^[A-Z]$"
+    },
+    "referenceList": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/referenceIdentifier"
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "Superseded"
+          }
+        },
+        "required": [
+          "status"
+        ]
+      },
+      "then": {
+        "required": [
+          "superseded_by"
+        ],
+        "properties": {
+          "superseded_by": {
+            "$ref": "#/$defs/referenceIdentifier"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "Release Candidate"
+          }
+        },
+        "required": [
+          "status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "version": {
+            "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)-rc\\.(0|[1-9][0-9]*)$"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "Approved"
+          }
+        },
+        "required": [
+          "status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "version": {
+            "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)$"
+          }
+        }
+      }
+    }
+  ],
+  "additionalProperties": true
+}
