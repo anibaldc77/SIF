@@ -1,0 +1,25 @@
+{
+  "id": "ES-003",
+  "title": "Document Class Model",
+  "status": "Draft for Review",
+  "version": "0.1.0",
+  "category": "Engineering Standard",
+  "document_class": "NormativeDocument",
+  "authors": [
+    "SIF Architecture Board"
+  ],
+  "created": "2026-07-17",
+  "updated": "2026-07-17",
+  "tags": [
+    "documentation",
+    "document-class"
+  ],
+  "work_package": "WP-100",
+  "depends_on": [
+    "ES-001",
+    "ES-002"
+  ],
+  "related_adrs": [],
+  "supersedes": null,
+  "superseded_by": null
+}

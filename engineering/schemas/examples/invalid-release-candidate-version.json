@@ -1,0 +1,19 @@
+{
+  "id": "ES-998",
+  "title": "Invalid Release Candidate",
+  "status": "Release Candidate",
+  "version": "1.0.0",
+  "category": "Engineering Standard",
+  "document_class": "NormativeDocument",
+  "authors": [
+    "SIF Architecture Board"
+  ],
+  "created": "2026-07-17",
+  "updated": "2026-07-17",
+  "tags": [
+    "invalid"
+  ],
+  "work_package": "WP-100",
+  "depends_on": [],
+  "related_adrs": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "ADR-0008",
+  "title": "Specification Lifecycle",
+  "status": "Approved",
+  "version": "1.0.0",
+  "category": "Architecture Decision Record",
+  "document_class": "GovernanceDocument",
+  "authors": [
+    "SIF Architecture Board"
+  ],
+  "created": "2026-07-17",
+  "updated": "2026-07-17",
+  "tags": [
+    "architecture",
+    "lifecycle"
+  ],
+  "work_package": "WP-100",
+  "depends_on": [
+    "ES-001"
+  ],
+  "related_adrs": [],
+  "supersedes": null,
+  "superseded_by": null
+}
