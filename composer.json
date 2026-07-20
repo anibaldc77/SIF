@@ -19,7 +19,8 @@
       "Sif\\Builder\\Metadata\\": "tools/builder/src/Metadata/",
       "Sif\\Builder\\Repository\\": "tools/builder/src/Repository/",
       "Sif\\Builder\\Reference\\": "tools/builder/src/Reference/",
-      "Sif\\Builder\\Application\\": "tools/builder/src/Application/"
+      "Sif\\Builder\\Application\\": "tools/builder/src/Application/",
+      "Sif\\Builder\\Engine\\": "tools/builder/src/Engine/"
     }
   },
   "autoload-dev": {
