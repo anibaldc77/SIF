@@ -11,24 +11,25 @@
     "phpstan/phpstan": "^1.12",
     "friendsofphp/php-cs-fixer": "^3.64"
   },
-"autoload": {
-  "psr-4": {
-    "Sif\\Builder\\Repository\\": "tools/builder/src/Repository/",
-    "Sif\\Builder\\Metadata\\": "tools/builder/src/Metadata/",
-    "Sif\\Builder\\FileSystem\\": "tools/builder/src/FileSystem/",
-    "Sif\\Support\\": "tools/builder/src/Support/",
-    "Sif\\": "src/"
-  }
-},
-"autoload-dev": {
-  "psr-4": {
-    "Sif\\Builder\\Tests\\Repository\\": "tools/builder/tests/Repository/",
-    "Sif\\Builder\\Tests\\Metadata\\": "tools/builder/tests/Metadata/",
-    "Sif\\Builder\\FileSystem\\Tests\\": "tools/builder/tests/",
-    "Sif\\Support\\Tests\\": "tools/builder/tests/Support/",
-    "Sif\\Foundation\\Tests\\": "tests/Foundation/"
-  }
-},
+  "autoload": {
+    "psr-4": {
+      "Sif\\Foundation\\": "src/Foundation/",
+      "Sif\\Support\\": "tools/builder/src/Support/",
+      "Sif\\Builder\\FileSystem\\": "tools/builder/src/FileSystem/"
+      "Sif\\Builder\\Metadata\\": "tools/builder/src/Metadata/",
+      "Sif\\Builder\\Repository\\": "tools/builder/src/Repository/",
+      "Sif\\Builder\\Reference\\": "tools/builder/src/Reference/",
+      "Sif\\Builder\\Application\\": "tools/builder/src/Application/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Sif\\Foundation\\Tests\\": "tests/Foundation/",
+      "Sif\\Support\\Tests\\": "tools/builder/tests/Support/",
+      "Sif\\Builder\\FileSystem\\Tests\\": "tools/builder/tests/",
+      "Sif\\Builder\\Tests\\": "tools/builder/tests/"
+    }
+  },
   "scripts": {
     "test": "@php vendor/bin/phpunit --configuration phpunit.xml",
     "analyse": "@php vendor/bin/phpstan analyse --configuration=phpstan.neon --memory-limit=1G",
