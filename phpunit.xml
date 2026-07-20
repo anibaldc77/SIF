@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <phpunit bootstrap="tests/bootstrap.php" colors="true">
     <testsuites>
-        <testsuite name="foundation">
-            <directory>tests/Foundation</directory>
-        </testsuite>
-        <testsuite name="Builder Metadata">
-            <directory suffix="Test.php">tools/builder/tests/Metadata</directory>
-        </testsuite>
-        <testsuite name="Builder Repository">
-            <directory suffix="Test.php">tools/builder/tests/Repository</directory>
+        <testsuite name="sif">
+            <directory suffix="Test.php">tests</directory>
+            <directory suffix="Test.php">tools/builder/tests</directory>
         </testsuite>
     </testsuites>
 </phpunit>
