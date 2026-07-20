@@ -34,7 +34,13 @@ final class MarkdownRepositoryIndexWriterTest extends TestCase
         $second = $writer->render($index, $statistics);
 
         self::assertSame($first, $second);
-        self::assertLessThan(strpos($first, 'WP-101'), strpos($first, 'ADR-001'));
+        
+        $adrPosition = strpos($first, '| ADR-001 |');
+        $wpPosition = strpos($first, '| WP-101 |');
+
+        self::assertNotFalse($adrPosition);
+        self::assertNotFalse($wpPosition);
+        self::assertLessThan($wpPosition, $adrPosition);
         self::assertStringContainsString('Índice de Ingeniería', $first);
         self::assertStringContainsString('Decisión \\| principal', $first);
         self::assertStringContainsString('`D:/SIF/engineering/WP-101.md`', $first);
