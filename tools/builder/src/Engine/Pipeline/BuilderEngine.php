@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Sif\Builder\Engine\Pipeline;
 
+use Sif\Builder\Engine\Artifact\ArtifactWriterInterface;
 use Sif\Builder\Engine\BuilderContext;
 use Sif\Builder\Engine\BuilderPhase;
 use Sif\Builder\Engine\BuilderRequest;
@@ -31,6 +32,7 @@ final readonly class BuilderEngine implements BuilderEngineInterface
         private BuilderLifecycle $lifecycle = new BuilderLifecycle(),
         private ?BuilderStageInterface $discoveryStage = null,
         private ?BuilderStageInterface $indexingStage = null,
+        private ?ArtifactWriterInterface $artifactWriter = null,
     ) {
     }
 
@@ -68,7 +70,7 @@ final readonly class BuilderEngine implements BuilderEngineInterface
 
             if ($this->mayGenerate($request->policy, $diagnostics)) {
                 [$context, $diagnostics, $completedPhases] = $this->executeStage(
-                    new GeneratorStage($generatorSelection->generators),
+                    new GeneratorStage($generatorSelection->generators, $this->artifactWriter),
                     $context,
                     $diagnostics,
                     $completedPhases,

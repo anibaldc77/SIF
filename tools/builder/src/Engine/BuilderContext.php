@@ -28,6 +28,7 @@ final readonly class BuilderContext
         ?RepositoryIndex $repositoryIndex = null,
         array $configuration = [],
         ?RepositoryWorkspace $repositoryWorkspace = null,
+        public ?string $outputRoot = null,
     ) {
         if (trim($this->runIdentifier) === '') {
             throw new InvalidBuilderContextException('Run identifier must not be empty.');
@@ -66,6 +67,7 @@ final readonly class BuilderContext
             runIdentifier: $runIdentifier,
             repositoryRoot: $request->repositoryRoot,
             profile: $request->profile,
+            outputRoot: $request->outputRoot,
         );
     }
 
@@ -95,6 +97,7 @@ final readonly class BuilderContext
             repositoryIndex: $this->repositoryIndex,
             configuration: $this->configuration,
             repositoryWorkspace: $this->repositoryWorkspace,
+            outputRoot: $this->outputRoot,
         );
     }
 
@@ -108,6 +111,7 @@ final readonly class BuilderContext
             repositoryIndex: $repositoryIndex,
             configuration: $this->configuration,
             repositoryWorkspace: $this->repositoryWorkspace,
+            outputRoot: $this->outputRoot,
         );
     }
 
@@ -121,6 +125,7 @@ final readonly class BuilderContext
             repositoryIndex: $workspace->repositoryIndex(),
             configuration: $this->configuration,
             repositoryWorkspace: $workspace,
+            outputRoot: $this->outputRoot,
         );
     }
 
@@ -135,6 +140,7 @@ final readonly class BuilderContext
             repositoryIndex: $this->repositoryIndex,
             configuration: $configuration,
             repositoryWorkspace: $this->repositoryWorkspace,
+            outputRoot: $this->outputRoot,
         );
     }
 }
