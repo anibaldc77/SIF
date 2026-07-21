@@ -38,6 +38,16 @@ final class ArtifactCollection implements Countable, IteratorAggregate
         ksort($this->artifacts);
     }
 
+    public function merge(self $other): self
+    {
+        $merged = new self($this->artifacts);
+        foreach ($other->artifacts as $artifact) {
+            $merged->add($artifact);
+        }
+
+        return $merged;
+    }
+
     /** @return list<GeneratedArtifact> */
     public function all(): array
     {

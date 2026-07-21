@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Sif\Builder\Engine\Pipeline;
 
+use Sif\Builder\Engine\Artifact\ArtifactCollection;
 use Sif\Builder\Engine\Artifact\ArtifactWriterInterface;
 use Sif\Builder\Engine\BuilderContext;
 use Sif\Builder\Engine\BuilderPhase;
@@ -40,6 +41,7 @@ final readonly class BuilderEngine implements BuilderEngineInterface
     {
         $completedPhases = [];
         $diagnostics = new DiagnosticCollection();
+        $artifacts = new ArtifactCollection();
         $context = BuilderContext::fromRequest($this->runIdentifiers->next(), $request);
 
         try {
@@ -53,34 +55,38 @@ final readonly class BuilderEngine implements BuilderEngineInterface
                 ->merge($generatorSelection->diagnostics);
 
             foreach ($this->preAnalysisStages() as $stage) {
-                [$context, $diagnostics, $completedPhases] = $this->executeStage(
+                [$context, $diagnostics, $artifacts, $completedPhases] = $this->executeStage(
                     $stage,
                     $context,
                     $diagnostics,
+                    $artifacts,
                     $completedPhases,
                 );
             }
 
-            [$context, $diagnostics, $completedPhases] = $this->executeStage(
+            [$context, $diagnostics, $artifacts, $completedPhases] = $this->executeStage(
                 new AnalyzerStage($analyzerSelection->analyzers),
                 $context,
                 $diagnostics,
+                $artifacts,
                 $completedPhases,
             );
 
             if ($this->mayGenerate($request->policy, $diagnostics)) {
-                [$context, $diagnostics, $completedPhases] = $this->executeStage(
+                [$context, $diagnostics, $artifacts, $completedPhases] = $this->executeStage(
                     new GeneratorStage($generatorSelection->generators, $this->artifactWriter),
                     $context,
                     $diagnostics,
+                    $artifacts,
                     $completedPhases,
                 );
             }
 
-            [$context, $diagnostics, $completedPhases] = $this->executeStage(
+            [$context, $diagnostics, $artifacts, $completedPhases] = $this->executeStage(
                 new PhaseStage(BuilderPhase::FINALIZING),
                 $context,
                 $diagnostics,
+                $artifacts,
                 $completedPhases,
             );
 
@@ -92,10 +98,14 @@ final readonly class BuilderEngine implements BuilderEngineInterface
                     $completedPhases,
                     'Builder execution completed with errors under strict policy.',
                     $diagnostics,
+                    null,
+                    $artifacts,
+                    null,
+                    $context->runIdentifier,
                 );
             }
 
-            return BuilderResult::succeeded($completedPhases, $diagnostics);
+            return BuilderResult::succeeded($completedPhases, $diagnostics, $artifacts, null, $context->runIdentifier);
         } catch (Throwable $throwable) {
             if ($context->phase !== BuilderPhase::FAILED && !$context->phase->isTerminal()) {
                 try {
@@ -118,6 +128,9 @@ final readonly class BuilderEngine implements BuilderEngineInterface
                 'Builder pipeline failed unexpectedly.',
                 $diagnostics,
                 $throwable,
+                $artifacts,
+                null,
+                $context->runIdentifier,
             );
         }
     }
@@ -134,12 +147,13 @@ final readonly class BuilderEngine implements BuilderEngineInterface
 
     /**
      * @param list<BuilderPhase> $completedPhases
-     * @return array{BuilderContext, DiagnosticCollection, list<BuilderPhase>}
+     * @return array{BuilderContext, DiagnosticCollection, ArtifactCollection, list<BuilderPhase>}
      */
     private function executeStage(
         BuilderStageInterface $stage,
         BuilderContext $context,
         DiagnosticCollection $diagnostics,
+        ArtifactCollection $artifacts,
         array $completedPhases,
     ): array {
         $this->lifecycle->transition($context->phase, $stage->phase());
@@ -158,6 +172,7 @@ final readonly class BuilderEngine implements BuilderEngineInterface
         return [
             $result->context,
             $diagnostics->merge($result->diagnostics),
+            $artifacts->merge($result->artifacts),
             $completedPhases,
         ];
     }

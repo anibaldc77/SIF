@@ -73,6 +73,6 @@ final readonly class GeneratorStage implements BuilderStageInterface
             }
         }
 
-        return new StageResult($context, $diagnostics);
+        return new StageResult($context, $diagnostics, $artifacts);
     }
 }
