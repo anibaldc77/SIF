@@ -1,0 +1,28 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+use Sif\Builder\Cli\Application\CliRunner;
+use Sif\Builder\Cli\Output\ConsoleOutput;
+use Sif\Builder\Cli\Runtime\DefaultCliApplicationFactory;
+
+$autoload = dirname(__DIR__) . '/vendor/autoload.php';
+if (!is_file($autoload)) {
+    fwrite(STDERR, "SIF Builder requires Composer dependencies. Run composer install.\n");
+    exit(3);
+}
+
+require $autoload;
+
+$workingDirectory = getcwd();
+if ($workingDirectory === false) {
+    fwrite(STDERR, "SIF Builder could not determine the current working directory.\n");
+    exit(3);
+}
+
+$application = (new DefaultCliApplicationFactory($workingDirectory))->create();
+$runner = new CliRunner($application, new ConsoleOutput());
+
+/** @var list<string> $argv */
+exit($runner->run($argv));
