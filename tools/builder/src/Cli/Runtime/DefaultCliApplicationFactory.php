@@ -20,6 +20,7 @@ use Sif\Builder\Cli\Reporting\BuilderCommandResultFactory;
 use Sif\Builder\Engine\Artifact\AtomicArtifactWriter;
 use Sif\Builder\Engine\Extension\AnalyzerRegistry;
 use Sif\Builder\Engine\Extension\GeneratorRegistry;
+use Sif\Builder\Generator\RepositoryIndex\RepositoryIndexGenerator;
 
 final readonly class DefaultCliApplicationFactory implements CliApplicationFactoryInterface
 {
@@ -34,6 +35,7 @@ final readonly class DefaultCliApplicationFactory implements CliApplicationFacto
     {
         $analyzers = new AnalyzerRegistry();
         $generators = new GeneratorRegistry();
+        $generators->register(new RepositoryIndexGenerator());
         $reporters = ['report.markdown', 'report.json'];
 
         $requestFactory = new BuilderRequestFactory(
@@ -46,7 +48,7 @@ final readonly class DefaultCliApplicationFactory implements CliApplicationFacto
         );
         $resultFactory = new BuilderCommandResultFactory();
         $versionProvider = new StaticVersionProvider($this->applicationName, $this->version);
-        $catalog = new StaticComponentCatalog([], [], $reporters);
+        $catalog = new StaticComponentCatalog([], [RepositoryIndexGenerator::IDENTIFIER], $reporters);
 
         $commands = new CommandRegistry();
         $commands->register(new BuildCommand($requestFactory, $engineFactory, $resultFactory));
