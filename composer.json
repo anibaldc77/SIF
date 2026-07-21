@@ -20,7 +20,8 @@
       "Sif\\Builder\\Repository\\": "tools/builder/src/Repository/",
       "Sif\\Builder\\Reference\\": "tools/builder/src/Reference/",
       "Sif\\Builder\\Application\\": "tools/builder/src/Application/",
-      "Sif\\Builder\\Engine\\": "tools/builder/src/Engine/"
+      "Sif\\Builder\\Engine\\": "tools/builder/src/Engine/",
+      "Sif\\Builder\\Cli\\": "tools/builder/src/Cli/"
     }
   },
   "autoload-dev": {
@@ -28,7 +29,8 @@
       "Sif\\Foundation\\Tests\\": "tests/Foundation/",
       "Sif\\Support\\Tests\\": "tools/builder/tests/Support/",
       "Sif\\Builder\\FileSystem\\Tests\\": "tools/builder/tests/",
-      "Sif\\Builder\\Tests\\": "tools/builder/tests/"
+      "Sif\\Builder\\Tests\\": "tools/builder/tests/",
+      "Sif\\Builder\\Tests\\Cli\\": "tools/builder/tests/Cli/"
     }
   },
   "scripts": {
