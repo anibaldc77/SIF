@@ -29,6 +29,8 @@ final readonly class BuilderEngine implements BuilderEngineInterface
         private GeneratorRegistry $generators,
         private RunIdentifierProviderInterface $runIdentifiers = new RandomRunIdentifierProvider(),
         private BuilderLifecycle $lifecycle = new BuilderLifecycle(),
+        private ?BuilderStageInterface $discoveryStage = null,
+        private ?BuilderStageInterface $indexingStage = null,
     ) {
     }
 
@@ -123,8 +125,8 @@ final readonly class BuilderEngine implements BuilderEngineInterface
     {
         return [
             new PhaseStage(BuilderPhase::PREPARING),
-            new PhaseStage(BuilderPhase::DISCOVERING),
-            new PhaseStage(BuilderPhase::INDEXING),
+            $this->discoveryStage ?? new PhaseStage(BuilderPhase::DISCOVERING),
+            $this->indexingStage ?? new PhaseStage(BuilderPhase::INDEXING),
         ];
     }
 

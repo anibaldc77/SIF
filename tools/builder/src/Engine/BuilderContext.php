@@ -5,11 +5,14 @@ declare(strict_types=1);
 namespace Sif\Builder\Engine;
 
 use Sif\Builder\Engine\Exception\InvalidBuilderContextException;
+use Sif\Builder\Engine\Repository\RepositoryWorkspace;
 use Sif\Builder\Repository\RepositoryIndex;
 
 final readonly class BuilderContext
 {
     private ?RepositoryIndex $repositoryIndex;
+
+    private ?RepositoryWorkspace $repositoryWorkspace;
 
     /** @var array<string, bool|float|int|string|null> */
     public array $configuration;
@@ -24,6 +27,7 @@ final readonly class BuilderContext
         public BuilderPhase $phase = BuilderPhase::CREATED,
         ?RepositoryIndex $repositoryIndex = null,
         array $configuration = [],
+        ?RepositoryWorkspace $repositoryWorkspace = null,
     ) {
         if (trim($this->runIdentifier) === '') {
             throw new InvalidBuilderContextException('Run identifier must not be empty.');
@@ -53,6 +57,7 @@ final readonly class BuilderContext
         ksort($configuration);
         $this->configuration = $configuration;
         $this->repositoryIndex = $repositoryIndex === null ? null : clone $repositoryIndex;
+        $this->repositoryWorkspace = $repositoryWorkspace;
     }
 
     public static function fromRequest(string $runIdentifier, BuilderRequest $request): self
@@ -66,7 +71,18 @@ final readonly class BuilderContext
 
     public function repositoryIndex(): ?RepositoryIndex
     {
+        $workspaceIndex = $this->repositoryWorkspace?->repositoryIndex();
+
+        if ($workspaceIndex !== null) {
+            return $workspaceIndex;
+        }
+
         return $this->repositoryIndex === null ? null : clone $this->repositoryIndex;
+    }
+
+    public function repositoryWorkspace(): ?RepositoryWorkspace
+    {
+        return $this->repositoryWorkspace;
     }
 
     public function withPhase(BuilderPhase $phase): self
@@ -78,6 +94,7 @@ final readonly class BuilderContext
             phase: $phase,
             repositoryIndex: $this->repositoryIndex,
             configuration: $this->configuration,
+            repositoryWorkspace: $this->repositoryWorkspace,
         );
     }
 
@@ -90,6 +107,20 @@ final readonly class BuilderContext
             phase: $this->phase,
             repositoryIndex: $repositoryIndex,
             configuration: $this->configuration,
+            repositoryWorkspace: $this->repositoryWorkspace,
+        );
+    }
+
+    public function withRepositoryWorkspace(RepositoryWorkspace $workspace): self
+    {
+        return new self(
+            runIdentifier: $this->runIdentifier,
+            repositoryRoot: $this->repositoryRoot,
+            profile: $this->profile,
+            phase: $this->phase,
+            repositoryIndex: $workspace->repositoryIndex(),
+            configuration: $this->configuration,
+            repositoryWorkspace: $workspace,
         );
     }
 
@@ -103,6 +134,7 @@ final readonly class BuilderContext
             phase: $this->phase,
             repositoryIndex: $this->repositoryIndex,
             configuration: $configuration,
+            repositoryWorkspace: $this->repositoryWorkspace,
         );
     }
 }
