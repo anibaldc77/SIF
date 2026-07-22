@@ -20,11 +20,19 @@ use Sif\Builder\Cli\Reporting\BuilderCommandResultFactory;
 use Sif\Builder\Engine\Artifact\AtomicArtifactWriter;
 use Sif\Builder\Engine\Extension\AnalyzerRegistry;
 use Sif\Builder\Engine\Extension\GeneratorRegistry;
+use Sif\Builder\Engine\Pipeline\Stage\RepositoryDiscoveryStage;
+use Sif\Builder\Engine\Pipeline\Stage\RepositoryIndexingStage;
 use Sif\Builder\Generator\DocumentationNavigation\DocumentationNavigationGenerator;
 use Sif\Builder\Generator\ReferenceGraph\ReferenceGraphGenerator;
 use Sif\Builder\Generator\ReferenceReport\ReferenceReportGenerator;
 use Sif\Builder\Generator\RepositoryManifest\RepositoryManifestGenerator;
 use Sif\Builder\Generator\RepositoryIndex\RepositoryIndexGenerator;
+use Sif\Builder\Metadata\CoreMetadataValidator;
+use Sif\Builder\Metadata\MarkdownFrontMatterReader;
+use Sif\Builder\Metadata\MarkdownRepositoryScanner;
+use Sif\Builder\Reference\Parser\FrontMatterReferenceParser;
+use Sif\Builder\Reference\Resolution\ReferenceResolver;
+use Sif\Builder\Repository\RepositoryIndexBuilder;
 
 final readonly class DefaultCliApplicationFactory implements CliApplicationFactoryInterface
 {
@@ -46,19 +54,31 @@ final readonly class DefaultCliApplicationFactory implements CliApplicationFacto
         $generators->register(new DocumentationNavigationGenerator());
         $reporters = ['report.markdown', 'report.json'];
 
-        $requestFactory = new BuilderRequestFactory(
-            new WorkingDirectoryPathResolver($this->workingDirectory),
-        );
+        $requestFactory = new BuilderRequestFactory(new WorkingDirectoryPathResolver($this->workingDirectory));
         $engineFactory = new DefaultBuilderEngineFactory(
             analyzers: $analyzers,
             generators: $generators,
+            discoveryStage: new RepositoryDiscoveryStage(
+                new MarkdownRepositoryScanner(new MarkdownFrontMatterReader(), new CoreMetadataValidator()),
+            ),
+            indexingStage: new RepositoryIndexingStage(
+                new RepositoryIndexBuilder(),
+                new FrontMatterReferenceParser(),
+                new ReferenceResolver(),
+            ),
             artifactWriter: new AtomicArtifactWriter(),
         );
         $resultFactory = new BuilderCommandResultFactory();
         $versionProvider = new StaticVersionProvider($this->applicationName, $this->version);
         $catalog = new StaticComponentCatalog(
             [],
-            [RepositoryIndexGenerator::IDENTIFIER, ReferenceReportGenerator::IDENTIFIER, ReferenceGraphGenerator::IDENTIFIER, RepositoryManifestGenerator::IDENTIFIER, DocumentationNavigationGenerator::IDENTIFIER],
+            [
+                RepositoryIndexGenerator::IDENTIFIER,
+                ReferenceReportGenerator::IDENTIFIER,
+                ReferenceGraphGenerator::IDENTIFIER,
+                RepositoryManifestGenerator::IDENTIFIER,
+                DocumentationNavigationGenerator::IDENTIFIER,
+            ],
             $reporters,
         );
 
