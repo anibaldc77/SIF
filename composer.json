@@ -23,7 +23,8 @@
       "Sif\\Builder\\Engine\\": "tools/builder/src/Engine/",
       "Sif\\Builder\\Cli\\": "tools/builder/src/Cli/",
       "Sif\\Builder\\Generator\\": "tools/builder/src/Generator/",
-      "Sif\\Builder\\Analyzer\\": "tools/builder/src/Analyzer/"
+      "Sif\\Builder\\Analyzer\\": "tools/builder/src/Analyzer/",
+            "Sif\\Builder\\Configuration\\": "tools/builder/src/Configuration/"
     }
   },
   "autoload-dev": {
@@ -34,7 +35,8 @@
       "Sif\\Builder\\Tests\\": "tools/builder/tests/",
       "Sif\\Builder\\Tests\\Cli\\": "tools/builder/tests/Cli/",
       "Sif\\Builder\\Tests\\Generator\\": "tools/builder/tests/Generator/",
-            "Sif\\Builder\\Tests\\Analyzer\\": "tools/builder/tests/Analyzer/"
+            "Sif\\Builder\\Tests\\Analyzer\\": "tools/builder/tests/Analyzer/",
+            "Sif\\Builder\\Tests\\Configuration\\": "tools/builder/tests/Configuration/"
     }
   },
   "scripts": {
