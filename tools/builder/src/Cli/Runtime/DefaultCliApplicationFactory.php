@@ -8,7 +8,6 @@ use Sif\Builder\Analyzer\DocumentConsistency\DocumentConsistencyAnalyzer;
 use Sif\Builder\Analyzer\GeneratedArtifacts\GeneratedArtifactsAnalyzer;
 use Sif\Builder\Analyzer\MetadataCompleteness\MetadataCompletenessAnalyzer;
 use Sif\Builder\Analyzer\ReferenceIntegrity\ReferenceIntegrityAnalyzer;
-use Sif\Builder\Analyzer\RepositoryPolicy\RepositoryPolicyAnalyzer;
 use Sif\Builder\Cli\Application\CliApplication;
 use Sif\Builder\Cli\Command\BuildCommand;
 use Sif\Builder\Cli\Command\HelpCommand;
@@ -22,6 +21,11 @@ use Sif\Builder\Cli\Contract\CliApplicationInterface;
 use Sif\Builder\Cli\Input\ArgumentParser;
 use Sif\Builder\Cli\Registry\CommandRegistry;
 use Sif\Builder\Cli\Reporting\BuilderCommandResultFactory;
+use Sif\Builder\Configuration\Cli\CliRepositoryConfigurationResolver;
+use Sif\Builder\Configuration\Cli\ProfileAwareRepositoryPolicyAnalyzer;
+use Sif\Builder\Configuration\Cli\ProfileAwareReporterSelector;
+use Sif\Builder\Configuration\Cli\ProfiledBuilderRequestFactory;
+use Sif\Builder\Configuration\Cli\ResolvedCliConfigurationStore;
 use Sif\Builder\Engine\Artifact\AtomicArtifactWriter;
 use Sif\Builder\Engine\Extension\AnalyzerRegistry;
 use Sif\Builder\Engine\Extension\GeneratorRegistry;
@@ -50,21 +54,28 @@ final readonly class DefaultCliApplicationFactory implements CliApplicationFacto
 
     public function create(): CliApplicationInterface
     {
+        $paths = new WorkingDirectoryPathResolver($this->workingDirectory);
+        $configurationStore = new ResolvedCliConfigurationStore();
+        $requestFactory = new ProfiledBuilderRequestFactory(
+            new BuilderRequestFactory($paths),
+            new CliRepositoryConfigurationResolver($paths),
+            $configurationStore,
+        );
+
         $analyzers = new AnalyzerRegistry();
         $analyzers->register(new MetadataCompletenessAnalyzer());
         $analyzers->register(new ReferenceIntegrityAnalyzer());
         $analyzers->register(new DocumentConsistencyAnalyzer());
-        $analyzers->register(new RepositoryPolicyAnalyzer());
+        $analyzers->register(new ProfileAwareRepositoryPolicyAnalyzer($configurationStore));
         $analyzers->register(GeneratedArtifactsAnalyzer::builtIn());
+
         $generators = new GeneratorRegistry();
         $generators->register(new RepositoryIndexGenerator());
         $generators->register(new ReferenceReportGenerator());
         $generators->register(new ReferenceGraphGenerator());
         $generators->register(new RepositoryManifestGenerator());
         $generators->register(new DocumentationNavigationGenerator());
-        $reporters = ['report.markdown', 'report.json'];
 
-        $requestFactory = new BuilderRequestFactory(new WorkingDirectoryPathResolver($this->workingDirectory));
         $engineFactory = new DefaultBuilderEngineFactory(
             analyzers: $analyzers,
             generators: $generators,
@@ -78,24 +89,14 @@ final readonly class DefaultCliApplicationFactory implements CliApplicationFacto
             ),
             artifactWriter: new AtomicArtifactWriter(),
         );
-        $resultFactory = new BuilderCommandResultFactory();
+        $resultFactory = new BuilderCommandResultFactory(
+            new ProfileAwareReporterSelector($configurationStore),
+        );
         $versionProvider = new StaticVersionProvider($this->applicationName, $this->version);
         $catalog = new StaticComponentCatalog(
-            [
-                MetadataCompletenessAnalyzer::IDENTIFIER,
-                ReferenceIntegrityAnalyzer::IDENTIFIER,
-                DocumentConsistencyAnalyzer::IDENTIFIER,
-                RepositoryPolicyAnalyzer::IDENTIFIER,
-                GeneratedArtifactsAnalyzer::IDENTIFIER,
-            ],
-            [
-                RepositoryIndexGenerator::IDENTIFIER,
-                ReferenceReportGenerator::IDENTIFIER,
-                ReferenceGraphGenerator::IDENTIFIER,
-                RepositoryManifestGenerator::IDENTIFIER,
-                DocumentationNavigationGenerator::IDENTIFIER,
-            ],
-            $reporters,
+            ['metadata.completeness', 'reference.integrity', 'document.consistency', 'repository.policy', 'generated.artifacts'],
+            ['repository.index', 'reference.report', 'reference.graph', 'repository.manifest', 'documentation.navigation'],
+            ['report.markdown', 'report.json'],
         );
 
         $commands = new CommandRegistry();
