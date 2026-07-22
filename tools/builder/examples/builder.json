@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "default_profile": "development",
+  "repository_policies": {
+    "required.category": [
+      {
+        "id": "repository.architecture",
+        "category": "Architecture Decision Record",
+        "severity": "error"
+      }
+    ],
+    "required.metadata": [
+      {
+        "id": "repository.summary",
+        "field": "summary",
+        "severity": "warning"
+      }
+    ]
+  },
+  "profiles": {
+    "base": {
+      "analyzers": [
+        "metadata.completeness",
+        "reference.integrity",
+        "document.consistency",
+        "repository.policy",
+        "generated.artifacts"
+      ],
+      "generators": [],
+      "reporters": ["report.markdown"],
+      "execution": {
+        "strict": false
+      }
+    },
+    "development": {
+      "extends": "base",
+      "generators": [
+        "repository.index",
+        "reference.report",
+        "reference.graph",
+        "repository.manifest",
+        "documentation.navigation"
+      ],
+      "reporters": ["report.markdown", "report.json"]
+    },
+    "ci": {
+      "extends": "development",
+      "execution": {
+        "strict": true
+      }
+    }
+  }
+}
