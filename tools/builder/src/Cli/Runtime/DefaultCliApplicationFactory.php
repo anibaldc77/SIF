@@ -20,6 +20,7 @@ use Sif\Builder\Cli\Reporting\BuilderCommandResultFactory;
 use Sif\Builder\Engine\Artifact\AtomicArtifactWriter;
 use Sif\Builder\Engine\Extension\AnalyzerRegistry;
 use Sif\Builder\Engine\Extension\GeneratorRegistry;
+use Sif\Builder\Generator\DocumentationNavigation\DocumentationNavigationGenerator;
 use Sif\Builder\Generator\ReferenceGraph\ReferenceGraphGenerator;
 use Sif\Builder\Generator\ReferenceReport\ReferenceReportGenerator;
 use Sif\Builder\Generator\RepositoryManifest\RepositoryManifestGenerator;
@@ -42,6 +43,7 @@ final readonly class DefaultCliApplicationFactory implements CliApplicationFacto
         $generators->register(new ReferenceReportGenerator());
         $generators->register(new ReferenceGraphGenerator());
         $generators->register(new RepositoryManifestGenerator());
+        $generators->register(new DocumentationNavigationGenerator());
         $reporters = ['report.markdown', 'report.json'];
 
         $requestFactory = new BuilderRequestFactory(
@@ -56,7 +58,7 @@ final readonly class DefaultCliApplicationFactory implements CliApplicationFacto
         $versionProvider = new StaticVersionProvider($this->applicationName, $this->version);
         $catalog = new StaticComponentCatalog(
             [],
-            [RepositoryIndexGenerator::IDENTIFIER, ReferenceReportGenerator::IDENTIFIER, ReferenceGraphGenerator::IDENTIFIER, RepositoryManifestGenerator::IDENTIFIER],
+            [RepositoryIndexGenerator::IDENTIFIER, ReferenceReportGenerator::IDENTIFIER, ReferenceGraphGenerator::IDENTIFIER, RepositoryManifestGenerator::IDENTIFIER, DocumentationNavigationGenerator::IDENTIFIER],
             $reporters,
         );
 
