@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Sif\Builder\Cli\Runtime;
 
+use Sif\Builder\Analyzer\MetadataCompleteness\MetadataCompletenessAnalyzer;
 use Sif\Builder\Cli\Application\CliApplication;
 use Sif\Builder\Cli\Command\BuildCommand;
 use Sif\Builder\Cli\Command\HelpCommand;
@@ -46,6 +47,7 @@ final readonly class DefaultCliApplicationFactory implements CliApplicationFacto
     public function create(): CliApplicationInterface
     {
         $analyzers = new AnalyzerRegistry();
+        $analyzers->register(new MetadataCompletenessAnalyzer());
         $generators = new GeneratorRegistry();
         $generators->register(new RepositoryIndexGenerator());
         $generators->register(new ReferenceReportGenerator());
@@ -71,7 +73,7 @@ final readonly class DefaultCliApplicationFactory implements CliApplicationFacto
         $resultFactory = new BuilderCommandResultFactory();
         $versionProvider = new StaticVersionProvider($this->applicationName, $this->version);
         $catalog = new StaticComponentCatalog(
-            [],
+            [MetadataCompletenessAnalyzer::IDENTIFIER],
             [
                 RepositoryIndexGenerator::IDENTIFIER,
                 ReferenceReportGenerator::IDENTIFIER,
