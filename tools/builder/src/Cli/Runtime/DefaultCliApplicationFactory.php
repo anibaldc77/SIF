@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Sif\Builder\Cli\Runtime;
 
 use Sif\Builder\Analyzer\DocumentConsistency\DocumentConsistencyAnalyzer;
+use Sif\Builder\Analyzer\GeneratedArtifacts\GeneratedArtifactsAnalyzer;
 use Sif\Builder\Analyzer\MetadataCompleteness\MetadataCompletenessAnalyzer;
 use Sif\Builder\Analyzer\ReferenceIntegrity\ReferenceIntegrityAnalyzer;
 use Sif\Builder\Analyzer\RepositoryPolicy\RepositoryPolicyAnalyzer;
@@ -54,6 +55,7 @@ final readonly class DefaultCliApplicationFactory implements CliApplicationFacto
         $analyzers->register(new ReferenceIntegrityAnalyzer());
         $analyzers->register(new DocumentConsistencyAnalyzer());
         $analyzers->register(new RepositoryPolicyAnalyzer());
+        $analyzers->register(GeneratedArtifactsAnalyzer::builtIn());
         $generators = new GeneratorRegistry();
         $generators->register(new RepositoryIndexGenerator());
         $generators->register(new ReferenceReportGenerator());
@@ -84,6 +86,7 @@ final readonly class DefaultCliApplicationFactory implements CliApplicationFacto
                 ReferenceIntegrityAnalyzer::IDENTIFIER,
                 DocumentConsistencyAnalyzer::IDENTIFIER,
                 RepositoryPolicyAnalyzer::IDENTIFIER,
+                GeneratedArtifactsAnalyzer::IDENTIFIER,
             ],
             [
                 RepositoryIndexGenerator::IDENTIFIER,
