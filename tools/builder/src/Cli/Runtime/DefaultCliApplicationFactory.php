@@ -22,6 +22,7 @@ use Sif\Builder\Engine\Extension\AnalyzerRegistry;
 use Sif\Builder\Engine\Extension\GeneratorRegistry;
 use Sif\Builder\Generator\ReferenceGraph\ReferenceGraphGenerator;
 use Sif\Builder\Generator\ReferenceReport\ReferenceReportGenerator;
+use Sif\Builder\Generator\RepositoryManifest\RepositoryManifestGenerator;
 use Sif\Builder\Generator\RepositoryIndex\RepositoryIndexGenerator;
 
 final readonly class DefaultCliApplicationFactory implements CliApplicationFactoryInterface
@@ -40,6 +41,7 @@ final readonly class DefaultCliApplicationFactory implements CliApplicationFacto
         $generators->register(new RepositoryIndexGenerator());
         $generators->register(new ReferenceReportGenerator());
         $generators->register(new ReferenceGraphGenerator());
+        $generators->register(new RepositoryManifestGenerator());
         $reporters = ['report.markdown', 'report.json'];
 
         $requestFactory = new BuilderRequestFactory(
@@ -54,7 +56,7 @@ final readonly class DefaultCliApplicationFactory implements CliApplicationFacto
         $versionProvider = new StaticVersionProvider($this->applicationName, $this->version);
         $catalog = new StaticComponentCatalog(
             [],
-            [RepositoryIndexGenerator::IDENTIFIER, ReferenceReportGenerator::IDENTIFIER, ReferenceGraphGenerator::IDENTIFIER],
+            [RepositoryIndexGenerator::IDENTIFIER, ReferenceReportGenerator::IDENTIFIER, ReferenceGraphGenerator::IDENTIFIER, RepositoryManifestGenerator::IDENTIFIER],
             $reporters,
         );
 
