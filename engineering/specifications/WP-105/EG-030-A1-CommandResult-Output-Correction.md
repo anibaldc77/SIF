@@ -1,3 +1,25 @@
+---
+id: EG-030-A1
+title: CommandResult Output Correction
+summary: The CLI integration test introduced by EG-030 attempted to inspect CommandResult::$output. The CLI core model defined by WP-104 exposes the nullable properties standardOutput and standardError. The undefined property therefore evaluated to.
+status: Draft for Review
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-21
+updated: 2026-07-22
+tags:
+  - commandresult
+  - output
+  - correction
+work_package: WP-105
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # EG-030-A1 — CommandResult Output Correction
 
 ## Status

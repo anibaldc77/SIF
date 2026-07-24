@@ -1,10 +1,11 @@
 ---
 id: EG-031
 title: "Built-in Generators End-to-End Validation"
+summary: Close WP-105 by validating the complete production composition of discovery, metadata validation, repository indexing, reference parsing and resolution, generator selection, artifact generation, atomic persistence, reporting, and exit-code.
 status: Approved
 version: 1.0.0
-category: "Normative Specification"
-document_class: NormativeDocument
+category: Implementation Review
+document_class: ReviewDocument
 authors: [SIF Team]
 created: 2026-07-22
 updated: 2026-07-22

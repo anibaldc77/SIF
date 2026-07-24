@@ -1,10 +1,11 @@
 ---
 id: EG-026
 title: Repository Index Generator
-class: specification
-category: builder
-status: approved
+summary: This specification governs the first built-in SIF Builder generator. The repository.index extension transforms the repository workspace into a deterministic Markdown artifact without performing direct file-system writes.
+status: Approved
 version: 1.0.0
+category: Normative Specification
+document_class: NormativeDocument
 work_package: WP-105
 implements:
   - EG-025
@@ -13,6 +14,21 @@ references:
   - EG-016
   - EG-020
   - EG-024
+authors:
+  - SIF Team
+created: 2026-07-21
+updated: 2026-07-21
+tags:
+  - builder
+  - generator
+  - repository-index
+depends_on:
+  - EG-025
+  - EG-015
+  - EG-016
+  - EG-020
+  - EG-024
+related_adrs: []
 ---
 
 # EG-026 — Repository Index Generator

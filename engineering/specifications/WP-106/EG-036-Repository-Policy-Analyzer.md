@@ -1,3 +1,25 @@
+---
+id: EG-036
+title: Repository Policy Analyzer
+summary: Aplicar reglas institucionales explícitas e inmutables sobre el conjunto documental descubierto por SIF Builder, sin incorporar políticas arbitrarias dentro del Engine ni leer configuración global.
+status: Draft for Review
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-22
+updated: 2026-07-22
+tags:
+  - repository
+  - policy
+  - analyzer
+work_package: WP-106
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # EG-036 — Repository Policy Analyzer
 
 ## Estado

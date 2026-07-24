@@ -1,3 +1,25 @@
+---
+id: EG-033
+title: Metadata Completeness Analyzer
+summary: Implementar el analizador incorporado metadata.completeness para detectar ausencias y vacíos en los metadatos normalizados del repositorio sin escribir archivos ni modificar el contexto de ejecución.
+status: Draft for Review
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-22
+updated: 2026-07-22
+tags:
+  - metadata
+  - completeness
+  - analyzer
+work_package: WP-106
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # EG-033 — Metadata Completeness Analyzer
 
 ## Estado

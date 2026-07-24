@@ -1,3 +1,23 @@
+---
+id: FOUNDATION-README
+title: Runtime Foundation
+summary: Runtime Foundation creates and orchestrates an isolated SIF application runtime. It contains no container, configuration loader, event dispatcher, module loader, HTTP dispatch, console routing, or database integration.
+status: Draft for Review
+version: 0.1.0
+category: Informative Document
+document_class: InformativeDocument
+authors:
+  - SIF Team
+created: 2026-07-15
+updated: 2026-07-22
+tags:
+  - runtime
+  - foundation
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # Runtime Foundation
 
 Runtime Foundation creates and orchestrates an isolated SIF application runtime. It contains no container, configuration loader, event dispatcher, module loader, HTTP dispatch, console routing, or database integration.

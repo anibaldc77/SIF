@@ -1,6 +1,7 @@
 ---
-id: ENGINEERING-MODELS-README
+id: MODELS-README
 title: Engineering Models
+summary: Engineering models describe stable concepts shared across standards, schemas, templates and SIF Builder. They explain the domain without replacing normative requirements.
 status: Draft for Review
 version: 0.1.0
 category: Informative Document

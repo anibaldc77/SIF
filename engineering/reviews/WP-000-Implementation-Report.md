@@ -1,3 +1,24 @@
+---
+id: WP-000-IMPLEMENTATION-REPORT
+title: WP-000 Implementation Report
+summary: Repository standards only. No Runtime, Container, Events, Audit, ORM, Builder, public API, or functional test behavior was changed.
+status: Draft for Review
+version: 0.1.0
+category: Implementation Review
+document_class: ReviewDocument
+authors:
+  - SIF Team
+created: 2026-07-15
+updated: 2026-07-22
+tags:
+  - implementation
+  - report
+work_package: WP-000
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # WP-000 Implementation Report
 
 ## Scope

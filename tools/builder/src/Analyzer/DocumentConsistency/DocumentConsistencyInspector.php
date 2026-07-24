@@ -148,14 +148,14 @@ final readonly class DocumentConsistencyInspector
             }
 
             $baseName = pathinfo(str_replace('\\', '/', $document->path), PATHINFO_FILENAME);
-            if ($identifier !== '' && $baseName !== $identifier && !str_starts_with($baseName, $identifier . '-')) {
+            if (!$this->identifierMatchesFilename($identifier, $baseName)) {
                 $findings[] = $this->finding(
                     'DOCCONS-206',
                     DiagnosticSeverity::WARNING,
                     $document,
                     sprintf('Document identifier "%s" is inconsistent with filename "%s".', $identifier, $baseName),
                     ['identifier' => $identifier, 'filename' => $baseName],
-                    'Rename the file so its basename starts with the document identifier.',
+                    'Use an identifier equal to, prefixed by, or contextually scoped to the canonical filename token.',
                 );
             }
         }
@@ -166,6 +166,48 @@ final readonly class DocumentConsistencyInspector
         );
 
         return $findings;
+    }
+
+
+    private function identifierMatchesFilename(string $identifier, string $baseName): bool
+    {
+        if ($identifier === '') {
+            return true;
+        }
+
+        $canonicalIdentifier = $this->canonicalToken($identifier);
+        $canonicalBaseName = $this->canonicalToken($baseName);
+
+        if ($canonicalIdentifier === $canonicalBaseName
+            || str_starts_with($canonicalBaseName, $canonicalIdentifier . '-')
+        ) {
+            return true;
+        }
+
+        $governedIdentifier = $this->governedFilenameIdentifier($canonicalBaseName);
+        if ($governedIdentifier === null) {
+            return true;
+        }
+
+        return $canonicalIdentifier === $governedIdentifier
+            || str_starts_with($canonicalIdentifier, $governedIdentifier . '-');
+    }
+
+    private function canonicalToken(string $value): string
+    {
+        $canonical = strtoupper(trim($value));
+        $canonical = preg_replace('/[^A-Z0-9]+/', '-', $canonical) ?? '';
+
+        return trim($canonical, '-');
+    }
+
+    private function governedFilenameIdentifier(string $canonicalBaseName): ?string
+    {
+        if (preg_match('/^(EG-\d+|ADR-\d+|RFC-\d+|WP-\d+|ES-\d+|SIF-DP-\d+)(?:-|$)/', $canonicalBaseName, $matches) !== 1) {
+            return null;
+        }
+
+        return $matches[1];
     }
 
     /** @param array<string, scalar|null> $context */

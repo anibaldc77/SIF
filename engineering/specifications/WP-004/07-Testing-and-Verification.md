@@ -1,3 +1,24 @@
+---
+id: WP-004-07-TESTING-AND-VERIFICATION
+title: Testing and Verification
+summary: **Work Package:** WP-004 — Runtime Composition Engine.
+status: Draft for Review
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-16
+updated: 2026-07-22
+tags:
+  - testing
+  - verification
+work_package: WP-004
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # WP-004 — Testing and Verification
 
 **Document ID:** WP-004-07

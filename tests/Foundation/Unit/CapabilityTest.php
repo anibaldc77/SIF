@@ -15,7 +15,7 @@ final class CapabilityTest extends TestCase
     {
         $application = Framework::create();
 
-        self::assertSame(['runtime', 'foundation', 'providers', 'lifecycle'], $application->capabilities());
+        self::assertSame(['runtime', 'foundation', 'providers', 'lifecycle', 'configuration'], $application->capabilities());
         self::assertTrue($application->hasCapability('runtime'));
         self::assertFalse($application->hasCapability('events'));
     }
@@ -27,7 +27,7 @@ final class CapabilityTest extends TestCase
         $application->addCapability('runtime.events');
 
         self::assertTrue($application->hasCapability(' RUNTIME.EVENTS '));
-        self::assertSame(['runtime', 'foundation', 'providers', 'lifecycle', 'runtime.events'], $application->capabilities());
+        self::assertSame(['runtime', 'foundation', 'providers', 'lifecycle', 'configuration', 'runtime.events'], $application->capabilities());
         self::assertSame(1, array_count_values($application->capabilities())['runtime.events']);
     }
 
@@ -59,6 +59,6 @@ final class CapabilityTest extends TestCase
 
         self::assertTrue($first->hasCapability('runtime.events'));
         self::assertFalse($second->hasCapability('runtime.events'));
-        self::assertSame(['runtime', 'foundation', 'providers', 'lifecycle'], $second->capabilities());
+        self::assertSame(['runtime', 'foundation', 'providers', 'lifecycle', 'configuration'], $second->capabilities());
     }
 }

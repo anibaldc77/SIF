@@ -1,3 +1,24 @@
+---
+id: WP-004-ARCHITECTURE-REVIEW
+title: Architecture Review
+summary: **Document ID:** REVIEW-WP-004.
+status: Draft for Review
+version: 0.1.0
+category: Implementation Review
+document_class: ReviewDocument
+authors:
+  - SIF Team
+created: 2026-07-17
+updated: 2026-07-22
+tags:
+  - architecture
+  - review
+work_package: WP-004
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # WP-004 — Architecture Review
 
 **Document ID:** REVIEW-WP-004

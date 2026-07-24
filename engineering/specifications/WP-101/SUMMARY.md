@@ -1,9 +1,10 @@
 ---
 id: WP-101-SUMMARY
 title: WP-101 Delivery Summary
+summary: Status: ready for implementation validation.
 status: Draft
 version: 0.1.0
-category: Engineering Summary
+category: Informative Document
 document_class: InformativeDocument
 authors:
   - SIF Architecture Board

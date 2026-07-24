@@ -1,3 +1,25 @@
+---
+id: EG-016
+title: Artifact Generation
+summary: Defines generated artifacts, deterministic collision handling, output-root enforcement and atomic persistence.
+status: Approved
+version: 1.0.0
+category: Normative Specification
+document_class: NormativeDocument
+work_package: WP-103
+authors:
+  - SIF Team
+created: 2026-07-21
+updated: 2026-07-21
+tags:
+  - builder
+  - artifacts
+  - generation
+depends_on: []
+related_adrs: []
+references: []
+---
+
 # EG-016 — Artifact Generation
 
 ## Status

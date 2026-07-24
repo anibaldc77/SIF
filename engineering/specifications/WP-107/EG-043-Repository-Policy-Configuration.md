@@ -1,3 +1,25 @@
+---
+id: EG-043
+title: Repository Policy Configuration
+summary: Convert the declarative repository_policies section of .sif/builder.json into the immutable RepositoryPolicySet consumed by RepositoryPolicyAnalyzer.
+status: Draft for Review
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-22
+updated: 2026-07-22
+tags:
+  - repository
+  - policy
+  - configuration
+work_package: WP-107
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # EG-043 — Repository Policy Configuration
 
 ## Status

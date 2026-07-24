@@ -1,3 +1,22 @@
+---
+id: SIF-CONTRIBUTING
+title: Contributing to SIF
+summary: Thank you for contributing. Review the [Engineering Handbook](engineering/handbook/HANDBOOK.md) before opening work.
+status: Draft for Review
+version: 0.1.0
+category: Policy
+document_class: GovernanceDocument
+authors:
+  - SIF Team
+created: 2026-07-15
+updated: 2026-07-22
+tags:
+  - contributing
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # Contributing to SIF
 
 Thank you for contributing. Review the [Engineering Handbook](engineering/handbook/HANDBOOK.md) before opening work.

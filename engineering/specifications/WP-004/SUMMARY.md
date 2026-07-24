@@ -1,3 +1,24 @@
+---
+id: WP-004-SUMMARY
+title: Executive Summary
+summary: **Document ID:** WP-004-SUMMARY.
+status: Draft for Review
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-15
+updated: 2026-07-22
+tags:
+  - executive
+  - summary
+work_package: WP-004
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # WP-004 — Executive Summary
 
 **Document ID:** WP-004-SUMMARY

@@ -1,3 +1,25 @@
+---
+id: EG-023
+title: Reporting and Exit Mapping
+summary: Status: Implemented Work Package: WP-104 Increment: 5.
+status: Draft for Review
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-21
+updated: 2026-07-22
+tags:
+  - reporting
+  - exit
+  - mapping
+work_package: WP-104
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # EG-023 — Reporting and Exit Mapping
 
 Status: Implemented  

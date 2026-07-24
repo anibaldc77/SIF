@@ -1,6 +1,7 @@
 ---
-id: MODEL-METADATA
+id: METADATA-MODEL
 title: Engineering Metadata Model
+summary: This model describes the domain concepts used to identify, classify, version, relate and validate governed SIF engineering artifacts. ES-002 remains the normative authority.
 status: Draft for Review
 version: 0.1.0
 category: Informative Document

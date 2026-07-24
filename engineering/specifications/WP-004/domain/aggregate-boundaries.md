@@ -1,3 +1,24 @@
+---
+id: AGGREGATE-BOUNDARIES
+title: Aggregate Boundaries
+summary: **Specification:** SPEC-WP-004-DI-CONTAINER.
+status: Draft for Review
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-17
+updated: 2026-07-22
+tags:
+  - aggregate
+  - boundaries
+work_package: WP-004
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # WP-004 — Aggregate Boundaries
 
 **Specification:** SPEC-WP-004-DI-CONTAINER

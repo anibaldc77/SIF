@@ -5,11 +5,20 @@ declare(strict_types=1);
 namespace Sif\Foundation;
 
 use DateTimeImmutable;
+use Sif\Foundation\Capability\Contracts\CapabilityProviderInterface;
 use Sif\Foundation\Contracts\ApplicationInterface;
+use Sif\Foundation\Contracts\CapabilityAwareApplicationInterface;
+use Sif\Foundation\Contracts\ConfigurationAwareApplicationInterface;
+use Sif\Foundation\Contracts\EnvironmentAwareApplicationInterface;
 use Sif\Foundation\Contracts\LifecycleInterface;
 use Sif\Foundation\DTO\BootError;
 
-/** Executes provider lifecycle hooks in deterministic order. */
+/**
+ * Executes provider lifecycle hooks in deterministic order.
+ *
+ * Runtime state transitions are intentionally excluded. Kernel owns lifecycle
+ * authority and applies state changes from the BootResult returned here.
+ */
 final class Lifecycle implements LifecycleInterface
 {
     /** @return list<BootStage> */
@@ -40,7 +49,31 @@ final class Lifecycle implements LifecycleInterface
             try {
                 $provider->register($application);
             } catch (\Throwable $cause) {
-                return $this->bootFailure($application, $cause, $startedAt, 'provider.register_failed');
+                return $this->bootFailure(
+                    $cause,
+                    $startedAt,
+                    'provider.register_failed',
+                );
+            }
+        }
+
+        if ($application instanceof CapabilityAwareApplicationInterface) {
+            foreach ($providers as $provider) {
+                if (!$provider instanceof CapabilityProviderInterface) {
+                    continue;
+                }
+
+                try {
+                    foreach ($provider->capabilities() as $capability) {
+                        $application->registerCapability($capability);
+                    }
+                } catch (\Throwable $cause) {
+                    return $this->bootFailure(
+                        $cause,
+                        $startedAt,
+                        'capability.registration_failed',
+                    );
+                }
             }
         }
 
@@ -48,13 +81,27 @@ final class Lifecycle implements LifecycleInterface
             try {
                 $provider->boot($application);
             } catch (\Throwable $cause) {
-                return $this->bootFailure($application, $cause, $startedAt, 'provider.boot_failed');
+                return $this->bootFailure(
+                    $cause,
+                    $startedAt,
+                    'provider.boot_failed',
+                );
             }
         }
 
-        $application->runtime()->transitionTo(RuntimeState::Booted, BootStage::Booted);
+        if ($application instanceof ConfigurationAwareApplicationInterface) {
+            $application->configuration()->freeze();
+        }
 
-        return BootResult::success(BootStage::Booted, $startedAt, new DateTimeImmutable());
+        if ($application instanceof EnvironmentAwareApplicationInterface) {
+            $application->variables()->freeze();
+        }
+
+        return BootResult::success(
+            BootStage::Booted,
+            $startedAt,
+            new DateTimeImmutable(),
+        );
     }
 
     public function shutdown(
@@ -80,8 +127,6 @@ final class Lifecycle implements LifecycleInterface
         }
 
         if ($firstCause !== null) {
-            $application->runtime()->fail($firstCause, BootStage::Failed);
-
             return BootResult::failure(
                 BootStage::Failed,
                 $startedAt,
@@ -91,24 +136,27 @@ final class Lifecycle implements LifecycleInterface
             );
         }
 
-        $application->runtime()->transitionTo(RuntimeState::Stopped, BootStage::Shutdown);
-
-        return BootResult::success(BootStage::Shutdown, $startedAt, new DateTimeImmutable());
+        return BootResult::success(
+            BootStage::Shutdown,
+            $startedAt,
+            new DateTimeImmutable(),
+        );
     }
 
     private function bootFailure(
-        ApplicationInterface $application,
         \Throwable $cause,
         DateTimeImmutable $startedAt,
         string $code,
     ): BootResult {
-        $application->runtime()->fail($cause, BootStage::Failed);
-
         return BootResult::failure(
             BootStage::Failed,
             $startedAt,
             new DateTimeImmutable(),
-            [new BootError($code, $cause->getMessage(), BootStage::Providers)],
+            [new BootError(
+                $code,
+                $cause->getMessage(),
+                BootStage::Providers,
+            )],
             $cause,
         );
     }

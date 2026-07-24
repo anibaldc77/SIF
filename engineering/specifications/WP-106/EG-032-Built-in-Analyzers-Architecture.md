@@ -1,10 +1,38 @@
+---
+id: EG-032
+title: Built-in Analyzers Architecture
+summary: Defines the architecture, contracts, ordering and governance principles for the built-in SIF Builder analyzers.
+status: Draft for Review
+version: 1.0.0
+category: Normative Specification
+document_class: NormativeDocument
+work_package: WP-106
+authors:
+  - SIF Team
+created: 2026-07-22
+updated: 2026-07-22
+tags:
+  - builder
+  - analyzers
+  - architecture
+depends_on:
+  - EG-011
+  - EG-014
+  - EG-009
+related_adrs: []
+references:
+  - EG-011
+  - EG-014
+  - EG-009
+---
+
 # EG-032 — Built-in Analyzers Architecture
 
 ## Estado
 
 - Work Package: WP-106
 - Versión: 1.0.0
-- Estado: Proposed
+- Estado: Draft for Review
 - Tipo: Engineering Specification
 - Alcance: SIF Builder
 

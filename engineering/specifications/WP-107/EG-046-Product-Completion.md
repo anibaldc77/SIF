@@ -4,8 +4,8 @@ title: "WP-107 Product Completion"
 summary: "Completes WP-107 with operational documentation, an executable configuration example and release validation guidance."
 status: Approved
 version: 1.0.0
-category: "Engineering Guide"
-document_class: GovernanceDocument
+category: Implementation Review
+document_class: ReviewDocument
 authors: [SIF Team]
 created: 2026-07-22
 updated: 2026-07-22

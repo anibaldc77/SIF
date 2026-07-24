@@ -1,3 +1,25 @@
+---
+id: EG-011
+title: Builder Engine Architecture
+summary: Defines the architecture and orchestration boundaries of the SIF Builder execution engine.
+status: Draft
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+work_package: WP-103
+authors:
+  - SIF Team
+created: 2026-07-20
+updated: 2026-07-20
+tags:
+  - builder
+  - engine
+  - architecture
+depends_on: []
+related_adrs: []
+references: []
+---
+
 # EG-011 — Builder Engine Architecture
 
 - Work Package: WP-103

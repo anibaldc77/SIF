@@ -1,6 +1,7 @@
 ---
 id: EG-003
 title: Metadata Subsystem Consolidation
+summary: Consolidate metadata capabilities as a stable, reusable SIF Builder subsystem before repository indexing, documentation generation, release automation, and traceability features expand.
 status: Draft for Review
 version: 0.1.0
 category: Normative Specification

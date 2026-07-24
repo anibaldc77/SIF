@@ -1,6 +1,7 @@
 ---
 id: EG-004
 title: Engineering Repository Index
+summary: Define the stable repository-level model used by SIF Builder to represent valid engineering documents independently from parsing, storage, presentation, and reference resolution.
 status: Draft for Review
 version: 0.1.0
 category: Normative Specification

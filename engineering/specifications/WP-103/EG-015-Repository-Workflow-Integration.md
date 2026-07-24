@@ -1,3 +1,25 @@
+---
+id: EG-015
+title: Repository Workflow Integration
+summary: Defines integration of discovery, indexing, reference parsing and resolution into the Builder Engine pipeline.
+status: Approved
+version: 1.0.0
+category: Normative Specification
+document_class: NormativeDocument
+work_package: WP-103
+authors:
+  - SIF Team
+created: 2026-07-21
+updated: 2026-07-21
+tags:
+  - builder
+  - repository
+  - workflow
+depends_on: []
+related_adrs: []
+references: []
+---
+
 # EG-015 — Repository Workflow Integration
 
 **Work Package:** WP-103 — Builder Engine  

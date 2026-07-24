@@ -1,10 +1,10 @@
 ---
 id: EG-040
 title: Configuration Model and JSON Loader
-category: Engineering Specification
-document_class: Engineering Guide
 status: Draft
 version: 1.0.0
+category: Normative Specification
+document_class: NormativeDocument
 work_package: WP-107
 summary: Immutable repository configuration model and deterministic JSON loading for SIF Builder.
 tags:
@@ -12,6 +12,13 @@ tags:
   - configuration
   - json
   - validation
+authors:
+  - SIF Team
+created: 2026-07-22
+updated: 2026-07-22
+depends_on:
+  - EG-039
+related_adrs: []
 ---
 
 # EG-040 — Configuration Model and JSON Loader

@@ -1,3 +1,26 @@
+---
+id: EG-041
+title: Build Profile Model and Resolver
+summary: Implemented — WP-107 Increment 2.
+status: Draft for Review
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-22
+updated: 2026-07-22
+tags:
+  - build
+  - profile
+  - model
+  - resolver
+work_package: WP-107
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # EG-041 — Build Profile Model and Resolver
 
 ## Status

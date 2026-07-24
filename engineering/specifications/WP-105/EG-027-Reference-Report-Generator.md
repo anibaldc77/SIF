@@ -1,3 +1,25 @@
+---
+id: EG-027
+title: Reference Report Generator
+summary: Generate a deterministic Markdown report that describes the health and topology of repository references using the indexed repository and the result produced by the WP-102 reference resolver.
+status: Draft for Review
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-21
+updated: 2026-07-22
+tags:
+  - reference
+  - report
+  - generator
+work_package: WP-105
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # EG-027 — Reference Report Generator
 
 ## 1. Identification

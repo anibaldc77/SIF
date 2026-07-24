@@ -57,7 +57,7 @@ final class RuntimeEventTest extends TestCase
         self::assertSame('production', $payload['environment']);
         self::assertSame('created', $payload['state']);
         self::assertSame('created', $payload['stage']);
-        self::assertSame(['runtime', 'foundation', 'providers', 'lifecycle'], $payload['capabilities']);
+        self::assertSame(['runtime', 'foundation', 'providers', 'lifecycle', 'configuration'], $payload['capabilities']);
         self::assertSame('2026-07-15T10:30:00+00:00', $payload['timestamp']);
         self::assertNotContains($application, $payload);
     }

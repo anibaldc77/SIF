@@ -1,9 +1,25 @@
 ---
 id: EG-009
 title: Reference Resolution
+summary: Resolver las referencias normalizadas producidas por EG-008 contra el RepositoryIndex de WP-101, conservando resultados deterministas y diagnósticos estructurados para destinos inexistentes.
 work_package: WP-102
 status: Draft
 version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-20
+updated: 2026-07-20
+tags:
+  - builder
+  - references
+  - resolution
+depends_on:
+  - EG-004
+  - EG-007
+  - EG-008
+related_adrs: []
 ---
 
 # EG-009 — Reference Resolution

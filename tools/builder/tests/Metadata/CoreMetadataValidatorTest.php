@@ -56,6 +56,20 @@ final class CoreMetadataValidatorTest extends TestCase
         self::assertContains('META_SUPERSEDED_BY', $this->errorCodes($this->validator->validate($metadata)->errors()));
     }
 
+    public function testArchitectureDecisionRecordUsesGovernanceTaxonomy(): void
+    {
+        $metadata = $this->validMetadata();
+        $metadata['id'] = 'ADR-0005';
+        $metadata['title'] = 'Adopt a Capability-Driven Runtime';
+        $metadata['status'] = 'Approved';
+        $metadata['version'] = '1.0.0';
+        $metadata['category'] = 'Architecture Decision Record';
+        $metadata['document_class'] = 'GovernanceDocument';
+        $metadata['related_adrs'] = ['ADR-0004'];
+
+        self::assertTrue($this->validator->validate($metadata)->isValid());
+    }
+
     public function testCategoryAndDocumentClassMustBeCompatible(): void
     {
         $metadata = $this->validMetadata();

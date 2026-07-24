@@ -1,3 +1,24 @@
+---
+id: DOMAIN-SERVICES
+title: Domain Services
+summary: **Specification:** SPEC-WP-004-DI-CONTAINER.
+status: Draft for Review
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-17
+updated: 2026-07-22
+tags:
+  - domain
+  - services
+work_package: WP-004
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # WP-004 — Domain Services
 
 **Specification:** SPEC-WP-004-DI-CONTAINER

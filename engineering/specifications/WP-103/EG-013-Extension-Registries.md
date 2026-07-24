@@ -1,3 +1,24 @@
+---
+id: EG-013
+title: Extension Registries
+summary: Introduce the governed analyzer and generator extension points required by the Builder Engine, together with deterministic registries, explicit selection results, missing-extension diagnostics, duplicate rejection, and registry freeze behav.
+status: Draft for Review
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-20
+updated: 2026-07-22
+tags:
+  - extension
+  - registries
+work_package: WP-103
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # EG-013 — Extension Registries
 
 - Work Package: WP-103

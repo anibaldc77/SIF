@@ -1,3 +1,24 @@
+---
+id: WP-004-02-ARCHITECTURE
+title: Chapter 2 — Architecture
+summary: **Specification:** SPEC-WP-004-DI-CONTAINER.
+status: Draft for Review
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-15
+updated: 2026-07-22
+tags:
+  - chapter
+  - architecture
+work_package: WP-004
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # Chapter 2 — Architecture
 
 **Specification:** SPEC-WP-004-DI-CONTAINER

@@ -1,3 +1,25 @@
+---
+id: EG-030
+title: Documentation Navigation Generator
+summary: Define the built-in documentation.navigation generator, responsible for producing a stable human-oriented entry point to governed engineering documentation.
+status: Draft for Review
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-21
+updated: 2026-07-22
+tags:
+  - documentation
+  - navigation
+  - generator
+work_package: WP-105
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # EG-030 — Documentation Navigation Generator
 
 - **Work package:** WP-105

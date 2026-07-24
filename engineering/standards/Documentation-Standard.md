@@ -1,3 +1,24 @@
+---
+id: DOCUMENTATION-STANDARD
+title: Engineering Documentation Standard
+summary: **Title:** Engineering Documentation Standard.
+status: Draft for Review
+version: 0.1.0
+category: Engineering Standard
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-17
+updated: 2026-07-22
+tags:
+  - engineering
+  - documentation
+  - standard
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # ES-001 — Engineering Documentation Standard
 
 **Document ID:** ES-001

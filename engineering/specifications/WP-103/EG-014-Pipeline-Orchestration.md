@@ -1,3 +1,25 @@
+---
+id: EG-014
+title: Pipeline Orchestration
+summary: Defines deterministic lifecycle orchestration, extension ordering and failure-policy behavior for the Builder Engine.
+status: Approved
+version: 1.0.0
+category: Normative Specification
+document_class: NormativeDocument
+work_package: WP-103
+authors:
+  - SIF Team
+created: 2026-07-21
+updated: 2026-07-21
+tags:
+  - builder
+  - pipeline
+  - orchestration
+depends_on: []
+related_adrs: []
+references: []
+---
+
 # EG-014 — Pipeline Orchestration
 
 - Work Package: WP-103 — Builder Engine

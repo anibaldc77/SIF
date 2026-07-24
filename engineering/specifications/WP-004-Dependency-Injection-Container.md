@@ -1,3 +1,26 @@
+---
+id: WP-004-DEPENDENCY-INJECTION-CONTAINER
+title: Dependency Injection Container Specification
+summary: **Document ID:** SPEC-WP-004-DI-CONTAINER **Version:** 1.0.0 **Status:** Draft (Chapter 1 Approved) **Framework:** SIF 2.0.0-alpha1 **Work Package:** WP-004 **Depends On:** WP-000, WP-002, WP-003.
+status: Draft for Review
+version: 0.1.0
+category: Work Package
+document_class: GovernanceDocument
+authors:
+  - SIF Team
+created: 2026-07-15
+updated: 2026-07-22
+tags:
+  - dependency
+  - injection
+  - container
+  - specification
+work_package: WP-004
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # WP-004 — Dependency Injection Container Specification
 
 **Document ID:** SPEC-WP-004-DI-CONTAINER  

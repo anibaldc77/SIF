@@ -1,14 +1,15 @@
 ---
-id: ES-XXX
+id: STANDARDS-TEMPLATE
 title: Standard Title
+summary: Describe the purpose, scope and intended engineering outcome of the Standard.
 status: Draft
 version: 0.1.0
 category: Engineering Standard
 document_class: NormativeDocument
 authors:
   - SIF Architecture Board
-created: YYYY-MM-DD
-updated: YYYY-MM-DD
+created: 2026-01-01
+updated: 2026-01-01
 tags:
   - engineering-standard
 work_package: WP-100

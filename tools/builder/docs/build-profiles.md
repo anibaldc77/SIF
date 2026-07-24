@@ -1,3 +1,25 @@
+---
+id: BUILD-PROFILES
+title: Build Profiles and Repository Configuration
+summary: SIF Builder reads repository configuration from .sif/builder.json unless a different file is selected with --configuration=<path>.
+status: Draft for Review
+version: 0.1.0
+category: Informative Document
+document_class: InformativeDocument
+authors:
+  - SIF Team
+created: 2026-07-22
+updated: 2026-07-22
+tags:
+  - build
+  - profiles
+  - repository
+  - configuration
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # Build Profiles and Repository Configuration
 
 SIF Builder reads repository configuration from `.sif/builder.json` unless a different file is selected with `--configuration=<path>`.

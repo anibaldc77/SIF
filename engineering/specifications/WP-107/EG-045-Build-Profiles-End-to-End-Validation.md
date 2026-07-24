@@ -4,8 +4,8 @@ title: "Build Profiles End-to-End Validation"
 summary: "Closes WP-107 with executable validation of repository configuration, profile inheritance, extension selection, repository policies and CLI overrides."
 status: Approved
 version: 1.0.0
-category: "Engineering Standard"
-document_class: NormativeDocument
+category: Implementation Review
+document_class: ReviewDocument
 authors: [SIF Team]
 created: 2026-07-22
 updated: 2026-07-22

@@ -1,6 +1,7 @@
 ---
 id: ENGINEERING-README
 title: Engineering System
+summary: This directory contains the governed engineering knowledge of SIF. It connects architectural authority, normative rules, implementation planning, reviews and machine-readable validation artifacts.
 status: Draft for Review
 version: 0.1.0
 category: Informative Document

@@ -1,3 +1,24 @@
+---
+id: EG-007
+title: Reference Model
+summary: Define the immutable domain model used to represent typed references between engineering documents.
+status: Draft for Review
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-20
+updated: 2026-07-22
+tags:
+  - reference
+  - model
+work_package: WP-102
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # EG-007 — Reference Model
 
 ## Status

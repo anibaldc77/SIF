@@ -1,3 +1,25 @@
+---
+id: EG-026-A1
+title: CLI argv test correction
+summary: CliApplication::run() receives an ArgvInput whose token list starts with the command name. The executable name (argv[0]) is removed by the CliRunner boundary before the application is called.
+status: Draft for Review
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-21
+updated: 2026-07-22
+tags:
+  - argv
+  - test
+  - correction
+work_package: WP-105
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # EG-026-A1 — CLI argv test correction
 
 ## Status

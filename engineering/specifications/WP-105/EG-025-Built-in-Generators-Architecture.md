@@ -1,3 +1,25 @@
+---
+id: EG-025
+title: Built-in Generators Architecture
+summary: Defines the architecture, catalog and governance principles for built-in SIF Builder generators.
+status: Draft for Review
+version: 1.0.0
+category: Normative Specification
+document_class: NormativeDocument
+work_package: WP-105
+authors:
+  - SIF Team
+created: 2026-07-21
+updated: 2026-07-21
+tags:
+  - builder
+  - generators
+  - architecture
+depends_on: []
+related_adrs: []
+references: []
+---
+
 # EG-025 — Built-in Generators Architecture
 
 - **Work Package:** WP-105

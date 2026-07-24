@@ -1,12 +1,21 @@
 ---
 id: EG-005
 title: Repository Indexing Pipeline
+summary: Define the application pipeline that transforms a validated metadata scan into an immutable engineering repository index.
 status: Draft
 version: 0.1.0
-category: Engineering Specification
-document_class: TechnicalSpecification
+category: Normative Specification
+document_class: NormativeDocument
 work_package: WP-101
 tags: [builder, repository, indexing, metadata]
+authors:
+  - SIF Team
+created: 2026-07-17
+updated: 2026-07-17
+depends_on:
+  - EG-003
+  - EG-004
+related_adrs: []
 ---
 
 # EG-005 — Repository Indexing Pipeline

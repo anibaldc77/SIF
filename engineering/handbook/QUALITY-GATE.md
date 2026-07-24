@@ -1,3 +1,23 @@
+---
+id: QUALITY-GATE
+title: Quality Gate
+summary: Every merge candidate must pass:.
+status: Draft for Review
+version: 0.1.0
+category: Informative Document
+document_class: InformativeDocument
+authors:
+  - SIF Team
+created: 2026-07-15
+updated: 2026-07-22
+tags:
+  - quality
+  - gate
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # Quality Gate
 
 Every merge candidate must pass:

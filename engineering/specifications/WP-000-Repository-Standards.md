@@ -1,3 +1,24 @@
+---
+id: WP-000-REPOSITORY-STANDARDS
+title: Repository Standards
+summary: WP-000 establishes repository hygiene, contributor governance, quality automation, and release-safe metadata for SIF 2.0.0-alpha1. It does not change framework behavior or architecture.
+status: Draft for Review
+version: 0.1.0
+category: Engineering Standard
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-15
+updated: 2026-07-22
+tags:
+  - repository
+  - standards
+work_package: WP-000
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # WP-000 — Repository Standards
 
 ## Purpose

@@ -1,3 +1,25 @@
+---
+id: WP-004-04-BINDING-AND-REGISTRATION-MODEL
+title: Binding and Registration Model
+summary: **Work Package:** WP-004 — Runtime Composition Engine.
+status: Draft for Review
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-16
+updated: 2026-07-22
+tags:
+  - binding
+  - registration
+  - model
+work_package: WP-004
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # WP-004 — Binding and Registration Model
 
 **Document ID:** WP-004-04

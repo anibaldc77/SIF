@@ -21,9 +21,25 @@ final readonly class Kernel implements KernelInterface
         $startedAt = new DateTimeImmutable();
 
         try {
-            $application->runtime()->transitionTo(RuntimeState::Bootstrapping, BootStage::Bootstrap);
+            $application->runtime()->transitionTo(
+                RuntimeState::Bootstrapping,
+                BootStage::Bootstrap,
+            );
 
-            return $this->lifecycle->boot($application, $application->providers());
+            $result = $this->lifecycle->boot($application, $application->providers());
+
+            if ($result->failed()) {
+                $this->markFailed($application, $result->cause());
+
+                return $result;
+            }
+
+            $application->runtime()->transitionTo(
+                RuntimeState::Booted,
+                BootStage::Booted,
+            );
+
+            return $result;
         } catch (\Throwable $cause) {
             return $this->failure($application, $cause, $startedAt);
         }
@@ -42,9 +58,16 @@ final readonly class Kernel implements KernelInterface
         }
 
         try {
-            $application->runtime()->transitionTo(RuntimeState::Running, BootStage::Running);
+            $application->runtime()->transitionTo(
+                RuntimeState::Running,
+                BootStage::Running,
+            );
 
-            return BootResult::success(BootStage::Running, $startedAt, new DateTimeImmutable());
+            return BootResult::success(
+                BootStage::Running,
+                $startedAt,
+                new DateTimeImmutable(),
+            );
         } catch (\Throwable $cause) {
             return $this->failure($application, $cause, $startedAt);
         }
@@ -55,9 +78,28 @@ final readonly class Kernel implements KernelInterface
         $startedAt = new DateTimeImmutable();
 
         try {
-            $application->runtime()->transitionTo(RuntimeState::Stopping, BootStage::Shutdown);
+            $application->runtime()->transitionTo(
+                RuntimeState::Stopping,
+                BootStage::Shutdown,
+            );
 
-            return $this->lifecycle->shutdown($application, $application->providers());
+            $result = $this->lifecycle->shutdown(
+                $application,
+                $application->providers(),
+            );
+
+            if ($result->failed()) {
+                $this->markFailed($application, $result->cause());
+
+                return $result;
+            }
+
+            $application->runtime()->transitionTo(
+                RuntimeState::Stopped,
+                BootStage::Shutdown,
+            );
+
+            return $result;
         } catch (\Throwable $cause) {
             return $this->failure($application, $cause, $startedAt);
         }
@@ -68,16 +110,33 @@ final readonly class Kernel implements KernelInterface
         \Throwable $cause,
         DateTimeImmutable $startedAt,
     ): BootResult {
-        if (!$application->runtime()->hasFailed() && !$application->runtime()->isStopped()) {
-            $application->runtime()->fail($cause, BootStage::Failed);
-        }
+        $this->markFailed($application, $cause);
 
         return BootResult::failure(
             BootStage::Failed,
             $startedAt,
             new DateTimeImmutable(),
-            [new BootError('kernel.failure', $cause->getMessage(), BootStage::Failed)],
+            [new BootError(
+                'kernel.failure',
+                $cause->getMessage(),
+                BootStage::Failed,
+            )],
             $cause,
         );
+    }
+
+    private function markFailed(
+        ApplicationInterface $application,
+        ?\Throwable $cause,
+    ): void {
+        if (
+            $cause === null
+            || $application->runtime()->hasFailed()
+            || $application->runtime()->isStopped()
+        ) {
+            return;
+        }
+
+        $application->runtime()->fail($cause, BootStage::Failed);
     }
 }

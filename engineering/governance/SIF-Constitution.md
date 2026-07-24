@@ -1,3 +1,22 @@
+---
+id: SIF-CONSTITUTION
+title: SIF Constitution
+summary: Version: 1.0.0 Status: Draft Category: Constitutional Authority: SIF Architecture Board.
+status: Draft for Review
+version: 0.1.0
+category: Constitution
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-16
+updated: 2026-07-22
+tags:
+  - constitution
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # SIF Constitution
 
 Version: 1.0.0

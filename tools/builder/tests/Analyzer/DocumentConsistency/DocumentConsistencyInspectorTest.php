@@ -28,10 +28,38 @@ final class DocumentConsistencyInspectorTest extends TestCase
         self::assertSame([], (new DocumentConsistencyInspector())->inspect($registry));
     }
 
+
+    public function testAcceptsCanonicalFilenameVariantsAndScopedIdentifiers(): void
+    {
+        $registry = new MetadataRegistry();
+        $documents = [
+            ['README.md', 'SIF-README'],
+            ['CODE_OF_CONDUCT.md', 'CODE-OF-CONDUCT'],
+            ['WP-111-Implementation-Report.md', 'WP-111-IMPLEMENTATION-REPORT'],
+            ['01-Foundation.md', 'WP-004-01-FOUNDATION'],
+            ['repository-discovery.md', 'REPOSITORY-DISCOVERY'],
+            ['INCREMENT-5-DOCUMENT-CLASSIFICATION-NORMALIZATION.md', 'WP-108-I5'],
+        ];
+
+        foreach ($documents as [$path, $identifier]) {
+            $registry->register(new MetadataDocument($path, [
+                'id' => $identifier,
+                'status' => 'Approved',
+                'version' => '1.0.0',
+                'category' => 'Informative Document',
+                'document_class' => 'InformativeDocument',
+                'created' => '2026-07-01',
+                'updated' => '2026-07-22',
+            ]));
+        }
+
+        self::assertSame([], (new DocumentConsistencyInspector())->inspect($registry));
+    }
+
     public function testReportsAllSupportedConsistencyFailuresDeterministically(): void
     {
         $registry = new MetadataRegistry();
-        $registry->register(new MetadataDocument('engineering/UNRELATED.md', [
+        $registry->register(new MetadataDocument('engineering/EG-999-Unrelated.md', [
             'id' => 'WP-106',
             'title' => 'Work Package',
             'status' => 'released',

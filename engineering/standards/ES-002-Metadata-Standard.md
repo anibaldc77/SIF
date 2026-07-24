@@ -1,6 +1,7 @@
 ---
 id: ES-002
 title: Metadata Standard
+summary: This Standard defines the structured metadata model used by official SIF engineering artifacts.
 status: Draft for Review
 version: 0.1.0
 category: Engineering Standard

@@ -1,3 +1,24 @@
+---
+id: WP-004-03-CONTRACTS
+title: Chapter 3 — Contracts
+summary: **Specification:** SPEC-WP-004-DI-CONTAINER.
+status: Draft for Review
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-15
+updated: 2026-07-22
+tags:
+  - chapter
+  - contracts
+work_package: WP-004
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # Chapter 3 — Contracts
 
 **Specification:** SPEC-WP-004-DI-CONTAINER

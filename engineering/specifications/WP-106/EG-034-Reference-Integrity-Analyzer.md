@@ -2,10 +2,10 @@
 id: EG-034
 title: Reference Integrity Analyzer
 summary: Defines the built-in analyzer that reports demonstrable integrity problems in resolved repository references.
-document_class: Engineering Specification
-category: Work Package
 status: Approved
 version: 1.0.0
+category: Normative Specification
+document_class: NormativeDocument
 work_package: WP-106
 tags:
   - builder
@@ -15,6 +15,15 @@ references:
   - EG-032
   - EG-009
   - EG-010
+authors:
+  - SIF Team
+created: 2026-07-22
+updated: 2026-07-22
+depends_on:
+  - EG-032
+  - EG-009
+  - EG-010
+related_adrs: []
 ---
 
 # EG-034 — Reference Integrity Analyzer

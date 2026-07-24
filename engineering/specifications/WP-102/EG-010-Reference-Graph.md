@@ -1,3 +1,27 @@
+---
+id: EG-010
+title: Reference Graph
+summary: Defines the deterministic directed graph built from resolved repository references, including cycle detection and impact queries.
+status: Draft
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+work_package: WP-102
+authors:
+  - SIF Team
+created: 2026-07-20
+updated: 2026-07-20
+tags:
+  - builder
+  - references
+  - graph
+depends_on:
+  - EG-009
+related_adrs: []
+references:
+  - EG-009
+---
+
 # EG-010 — Reference Graph
 
 - Work Package: WP-102

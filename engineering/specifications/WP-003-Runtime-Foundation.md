@@ -1,3 +1,25 @@
+---
+id: WP-003-RUNTIME-FOUNDATION
+title: Runtime Foundation Specification
+summary: **Document ID:** SPEC-WP-003-RUNTIME-FOUNDATION **Version:** 1.0.0 **Framework Version:** SIF 2.0.0-alpha1 **Status:** Approved **Date:** 2026-07-15 **Owner:** SIF Architecture Board **Product Owner:** Aníbal Catapano **Architecture Authori.
+status: Draft for Review
+version: 0.1.0
+category: Work Package
+document_class: GovernanceDocument
+authors:
+  - SIF Team
+created: 2026-07-15
+updated: 2026-07-22
+tags:
+  - runtime
+  - foundation
+  - specification
+work_package: WP-003
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # WP-003 — Runtime Foundation Specification
 
 **Document ID:** SPEC-WP-003-RUNTIME-FOUNDATION  

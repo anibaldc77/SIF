@@ -5,10 +5,18 @@ namespace Sif\Foundation;
 
 use DateTimeImmutable;
 use Sif\Foundation\Contracts\RuntimeInterface;
+use Sif\Foundation\Environment\Contracts\EnvironmentProviderInterface;
+use Sif\Foundation\Environment\EnvironmentRepository;
 use Sif\Foundation\Exceptions\InvalidRuntimeTransitionException;
 
 final class Runtime implements RuntimeInterface
 {
+    public function __construct(
+        private readonly EnvironmentProviderInterface $environment = new EnvironmentRepository(),
+    ) {
+    }
+
+    public function environment(): EnvironmentProviderInterface { return $this->environment; }
     private RuntimeState $state = RuntimeState::Created;
     private BootStage $stage = BootStage::Created;
     private ?\Throwable $failure = null;
@@ -30,7 +38,7 @@ final class Runtime implements RuntimeInterface
         $allowed = match ($this->state) {
             RuntimeState::Created => [RuntimeState::Bootstrapping, RuntimeState::Failed],
             RuntimeState::Bootstrapping => [RuntimeState::Booted, RuntimeState::Failed],
-            RuntimeState::Booted => [RuntimeState::Running, RuntimeState::Failed],
+            RuntimeState::Booted => [RuntimeState::Running, RuntimeState::Stopping, RuntimeState::Failed],
             RuntimeState::Running => [RuntimeState::Stopping, RuntimeState::Failed],
             RuntimeState::Stopping => [RuntimeState::Stopped, RuntimeState::Failed],
             RuntimeState::Stopped, RuntimeState::Failed => [],

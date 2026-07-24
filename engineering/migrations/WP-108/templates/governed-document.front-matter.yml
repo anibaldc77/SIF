@@ -1,0 +1,19 @@
+---
+id: DOCUMENT-ID
+title: Document Title
+summary: Concise source-supported summary.
+status: Draft
+version: 0.1.0
+category: Informative Document
+document_class: InformativeDocument
+authors:
+  - REVIEW-REQUIRED
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+tags: []
+work_package: null
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---

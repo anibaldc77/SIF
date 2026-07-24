@@ -1,3 +1,25 @@
+---
+id: EG-012
+title: Engine Core Model
+summary: Implement the immutable core model required by the Builder Engine without introducing orchestration, extension registries, repository discovery, artifact writing, or reporting adapters.
+status: Draft for Review
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-20
+updated: 2026-07-22
+tags:
+  - engine
+  - core
+  - model
+work_package: WP-103
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # EG-012 — Engine Core Model
 
 - Work Package: WP-103

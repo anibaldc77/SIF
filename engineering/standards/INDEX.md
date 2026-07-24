@@ -1,9 +1,11 @@
 ---
-id: SIF-ENGINEERING-STANDARDS-INDEX
+id: STANDARDS-INDEX
 title: SIF Engineering Standards Index
+summary: This index is the official inventory of SIF Engineering Standards.
 status: Draft for Review
 version: 1.0.0
 category: Informative Document
+document_class: InformativeDocument
 authors:
   - SIF Architecture Board
 created: 2026-07-16

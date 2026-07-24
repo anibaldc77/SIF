@@ -1,3 +1,24 @@
+---
+id: EG-019
+title: CLI Core Model
+summary: This increment establishes the immutable public model used by the SIF Builder command-line adapter. It defines process outcomes, parsed command input, command execution results, and the minimum command/output contracts without implementing.
+status: Draft for Review
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-21
+updated: 2026-07-22
+tags:
+  - core
+  - model
+work_package: WP-104
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # EG-019 — CLI Core Model
 
 - **Work Package:** WP-104

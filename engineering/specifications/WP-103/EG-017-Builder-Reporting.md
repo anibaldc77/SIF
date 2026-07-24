@@ -1,3 +1,24 @@
+---
+id: EG-017
+title: Builder Reporting
+summary: Complete WP-103 with deterministic, presentation-only reporting over the immutable terminal BuilderResult.
+status: Draft for Review
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-21
+updated: 2026-07-22
+tags:
+  - builder
+  - reporting
+work_package: WP-103
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # EG-017 — Builder Reporting
 
 - Work Package: WP-103

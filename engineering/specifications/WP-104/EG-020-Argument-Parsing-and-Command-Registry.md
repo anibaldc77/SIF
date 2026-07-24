@@ -1,3 +1,25 @@
+---
+id: EG-020
+title: Argument Parsing and Command Registry
+summary: Defines immutable CLI argument parsing and deterministic command registration and lookup.
+status: Approved
+version: 1.0.0
+category: Normative Specification
+document_class: NormativeDocument
+work_package: WP-104
+authors:
+  - SIF Team
+created: 2026-07-21
+updated: 2026-07-21
+tags:
+  - builder
+  - cli
+  - arguments
+depends_on: []
+related_adrs: []
+references: []
+---
+
 # EG-020 — Argument Parsing and Command Registry
 
 - **Work Package:** WP-104

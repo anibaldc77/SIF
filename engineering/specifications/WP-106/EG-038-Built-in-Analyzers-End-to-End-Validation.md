@@ -4,8 +4,8 @@ title: "Built-in Analyzers End-to-End Validation"
 summary: "Closes WP-106 with executable validation of the five built-in analyzers, strict-policy behavior and generator coexistence."
 status: Approved
 version: 1.0.0
-category: "Engineering Standard"
-document_class: NormativeDocument
+category: Implementation Review
+document_class: ReviewDocument
 authors: [SIF Team]
 created: 2026-07-22
 updated: 2026-07-22

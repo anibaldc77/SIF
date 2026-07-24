@@ -4,29 +4,46 @@ declare(strict_types=1);
 
 namespace Sif\Foundation;
 
-use Sif\Foundation\Contracts\ApplicationInterface;
+use Sif\Foundation\Capability\CapabilityRegistry;
+use Sif\Foundation\Capability\Contracts\CapabilityInterface;
+use Sif\Foundation\Capability\NamedCapability;
+use Sif\Foundation\Configuration\ConfigurationRepository;
+use Sif\Foundation\Configuration\Contracts\MutableConfigurationInterface;
+use Sif\Foundation\Contracts\EnvironmentAwareApplicationInterface;
 use Sif\Foundation\Contracts\EnvironmentInterface;
+use Sif\Foundation\Environment\Contracts\MutableEnvironmentInterface;
+use Sif\Foundation\Environment\EnvironmentRepository;
 use Sif\Foundation\Contracts\KernelInterface;
 use Sif\Foundation\Contracts\RuntimeInterface;
 use Sif\Foundation\Exceptions\InvalidCapabilityException;
 
 /** Owns the isolated runtime graph and its ordered provider collection. */
-final class Application implements ApplicationInterface
+final class Application implements EnvironmentAwareApplicationInterface
 {
-    /** @var list<string> */
-    private array $capabilities = [
-        'runtime',
-        'foundation',
-        'providers',
-        'lifecycle',
-    ];
+    private CapabilityRegistry $capabilityRegistry;
+
+    private MutableConfigurationInterface $configuration;
+
+    private MutableEnvironmentInterface $variables;
 
     public function __construct(
         private readonly RuntimeInterface $runtime,
         private readonly KernelInterface $kernel,
         private readonly EnvironmentInterface $environment,
         private readonly ServiceProviderCollection $providers,
+        ?CapabilityRegistry $capabilityRegistry = null,
+        ?MutableConfigurationInterface $configuration = null,
+        ?MutableEnvironmentInterface $variables = null,
     ) {
+        $this->configuration = $configuration ?? new ConfigurationRepository();
+        $this->variables = $variables ?? new EnvironmentRepository();
+        $this->capabilityRegistry = $capabilityRegistry ?? new CapabilityRegistry();
+
+        foreach (['runtime', 'foundation', 'providers', 'lifecycle', 'configuration'] as $identifier) {
+            if (!$this->capabilityRegistry->has($identifier)) {
+                $this->capabilityRegistry->register(new NamedCapability($identifier));
+            }
+        }
     }
 
     public function runtime(): RuntimeInterface
@@ -52,21 +69,55 @@ final class Application implements ApplicationInterface
     /** @return list<string> */
     public function capabilities(): array
     {
-        return $this->capabilities;
+        return array_map(
+            static fn (CapabilityInterface $capability): string => $capability->identifier(),
+            $this->capabilityRegistry->all(),
+        );
     }
 
     public function hasCapability(string $capability): bool
     {
-        return in_array($this->normalizeCapability($capability), $this->capabilities, true);
+        return $this->capabilityRegistry->has($this->normalizeCapability($capability));
     }
 
     public function addCapability(string $capability): void
     {
-        $capability = $this->normalizeCapability($capability);
+        $identifier = $this->normalizeCapability($capability);
 
-        if (!in_array($capability, $this->capabilities, true)) {
-            $this->capabilities[] = $capability;
+        if (!$this->capabilityRegistry->has($identifier)) {
+            $this->capabilityRegistry->register(new NamedCapability($identifier));
         }
+    }
+
+    public function capabilityRegistry(): CapabilityRegistry
+    {
+        return $this->capabilityRegistry;
+    }
+
+    public function configuration(): MutableConfigurationInterface
+    {
+        return $this->configuration;
+    }
+
+    public function variables(): MutableEnvironmentInterface
+    {
+        return $this->variables;
+    }
+
+    public function registerCapability(CapabilityInterface $capability): void
+    {
+        $identifier = $this->normalizeCapability($capability->identifier());
+
+        if ($identifier !== $capability->identifier()) {
+            throw InvalidCapabilityException::invalid($capability->identifier());
+        }
+
+        $this->capabilityRegistry->register($capability);
+    }
+
+    public function capability(string $identifier): CapabilityInterface
+    {
+        return $this->capabilityRegistry->get($this->normalizeCapability($identifier));
     }
 
     public function boot(): BootResult
@@ -96,9 +147,7 @@ final class Application implements ApplicationInterface
             throw InvalidCapabilityException::invalid($capability);
         }
 
-        if (
-            !preg_match('/^[a-z0-9_-]+(?:\.[a-z0-9_-]+)*$/D', $capability)
-        ) {
+        if (!preg_match('/^[a-z0-9_-]+(?:\.[a-z0-9_-]+)*$/D', $capability)) {
             throw InvalidCapabilityException::invalid($capability);
         }
 

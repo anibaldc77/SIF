@@ -1,16 +1,25 @@
 ---
 id: EG-006
 title: Repository Documentation Generation
-document_class: EngineeringSpecification
-category: Engineering Generator
+summary: Define the deterministic generation of engineering/INDEX.generated.md from an immutable RepositoryIndex.
 status: Draft
 version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
 work_package: WP-101
 tags:
   - builder
   - repository
   - documentation
   - markdown
+authors:
+  - SIF Team
+created: 2026-07-17
+updated: 2026-07-17
+depends_on:
+  - EG-004
+  - EG-005
+related_adrs: []
 ---
 
 # EG-006 — Repository Documentation Generation

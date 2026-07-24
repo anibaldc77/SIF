@@ -2,10 +2,10 @@
 id: EG-035
 title: Document Consistency Analyzer
 summary: Defines the built-in analyzer that reports internally inconsistent document metadata.
-document_class: GovernanceDocument
-category: Work Package
 status: Approved
 version: 1.0.0
+category: Normative Specification
+document_class: NormativeDocument
 work_package: WP-106
 authors:
   - SIF Engineering

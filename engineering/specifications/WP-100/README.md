@@ -1,9 +1,11 @@
 ---
 id: WP-100-README
 title: WP-100 — Engineering Governance
+summary: WP-100 defines the cross-project engineering governance infrastructure of the SIF Framework.
 status: Draft
 version: 0.1.0
 category: Work Package
+document_class: GovernanceDocument
 authors:
   - SIF Architecture Board
 created: 2026-07-16

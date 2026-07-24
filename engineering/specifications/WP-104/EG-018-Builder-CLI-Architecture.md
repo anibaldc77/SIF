@@ -1,3 +1,24 @@
+---
+id: EG-018
+title: Builder CLI Architecture
+summary: WP-104 defines the command-line adapter for the SIF Builder Engine. The CLI shall expose the capabilities completed in WP-103 without moving orchestration, repository analysis, generation, reporting, or policy decisions out of the Engine.
+status: Draft for Review
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-21
+updated: 2026-07-22
+tags:
+  - builder
+  - architecture
+work_package: WP-104
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # EG-018 — Builder CLI Architecture
 
 - **Work Package:** WP-104

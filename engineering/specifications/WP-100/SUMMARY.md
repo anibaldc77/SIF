@@ -1,9 +1,11 @@
 ---
 id: WP-100-SUMMARY
 title: WP-100 — Executive Summary
+summary: 1. Review and commit standards infrastructure. 2. Promote ES-002 to Release Candidate. 3. Create ES-003 — Document Class Model. 4. Define Metadata Model and JSON Schema. 5. Integrate validation into SIF Builder.
 status: Draft
 version: 0.1.0
 category: Informative Document
+document_class: InformativeDocument
 authors:
   - SIF Architecture Board
 created: 2026-07-16

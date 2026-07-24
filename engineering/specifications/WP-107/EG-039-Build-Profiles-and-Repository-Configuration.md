@@ -1,10 +1,10 @@
 ---
 id: EG-039
 title: Build Profiles and Repository Configuration
-category: Engineering Specification
-document_class: Engineering Guide
 status: Draft
 version: 1.0.0
+category: Normative Specification
+document_class: NormativeDocument
 work_package: WP-107
 summary: Architecture for validated repository configuration and deterministic build profiles.
 tags:
@@ -12,6 +12,12 @@ tags:
   - configuration
   - profiles
   - governance
+authors:
+  - SIF Team
+created: 2026-07-22
+updated: 2026-07-22
+depends_on: []
+related_adrs: []
 ---
 
 # EG-039 — Build Profiles and Repository Configuration

@@ -1,3 +1,24 @@
+---
+id: ADR-0004
+title: Modular Engineering Specifications
+summary: **Title:** Adopt Modular Engineering Specifications.
+status: Draft for Review
+version: 0.1.0
+category: Architecture Decision Record
+document_class: GovernanceDocument
+authors:
+  - SIF Team
+created: 2026-07-17
+updated: 2026-07-22
+tags:
+  - modular
+  - engineering
+  - specifications
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # ADR-0004 — Modular Engineering Specifications
 
 **ADR ID:** ADR-0004

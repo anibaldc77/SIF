@@ -1,9 +1,11 @@
 ---
-id: SIF-ENGINEERING-STANDARDS-README
+id: STANDARDS-README
 title: SIF Engineering Standards
+summary: This directory contains the cross-project Engineering Standards of the SIF Framework.
 status: Draft for Review
 version: 1.0.0
 category: Informative Document
+document_class: InformativeDocument
 authors:
   - SIF Architecture Board
 created: 2026-07-16

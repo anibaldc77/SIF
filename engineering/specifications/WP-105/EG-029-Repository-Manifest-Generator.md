@@ -1,3 +1,25 @@
+---
+id: EG-029
+title: Repository Manifest Generator
+summary: **Work Package:** WP-105 **Status:** Approved for implementation **Version:** 1.0.0 **Generator:** repository.manifest.
+status: Draft for Review
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-21
+updated: 2026-07-22
+tags:
+  - repository
+  - manifest
+  - generator
+work_package: WP-105
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # EG-029 — Repository Manifest Generator
 
 **Work Package:** WP-105  

@@ -1,3 +1,26 @@
+---
+id: EG-022
+title: Engine Composition and Request Mapping
+summary: Connect the CLI command layer to the WP-103 Builder Engine through explicit factories, deterministic path resolution, and validated request mapping.
+status: Draft for Review
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-21
+updated: 2026-07-22
+tags:
+  - engine
+  - composition
+  - request
+  - mapping
+work_package: WP-104
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # EG-022 — Engine Composition and Request Mapping
 
 - **Work Package:** WP-104

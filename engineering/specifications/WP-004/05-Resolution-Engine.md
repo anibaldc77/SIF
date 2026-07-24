@@ -1,4 +1,25 @@
-﻿# WP-004 — Resolution Engine
+---
+id: WP-004-05-RESOLUTION-ENGINE
+title: Resolution Engine
+summary: **Work Package:** WP-004 — Runtime Composition Engine.
+status: Draft for Review
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-16
+updated: 2026-07-22
+tags:
+  - resolution
+  - engine
+work_package: WP-004
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
+# WP-004 — Resolution Engine
 
 **Document ID:** WP-004-05
 

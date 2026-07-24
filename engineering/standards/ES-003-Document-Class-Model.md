@@ -1,6 +1,7 @@
 ---
 id: ES-003
 title: Document Class Model
+summary: This Standard defines the document classes used to select structural and validation behavior for governed SIF engineering artifacts. Category describes what an artifact is; document class describes how it is governed and validated.
 status: Draft for Review
 version: 0.1.0
 category: Engineering Standard

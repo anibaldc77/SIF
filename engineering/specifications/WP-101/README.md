@@ -1,10 +1,11 @@
 ---
-id: WP-101
+id: WP-101-README
 title: Engineering Repository Index
+summary: Create a deterministic, queryable representation of valid engineering documents discovered through the SIF Builder metadata subsystem.
 status: Draft
 version: 0.1.0
 category: Work Package
-document_class: WorkPackageDocument
+document_class: GovernanceDocument
 authors:
   - SIF Architecture Board
 created: 2026-07-17

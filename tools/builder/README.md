@@ -1,3 +1,23 @@
+---
+id: BUILDER-README
+title: SIF Support Library
+summary: Biblioteca fundacional de SIF 2.0. Proporciona colecciones, value objects, utilidades inyectables y medición de tiempo, sin depender de otros componentes.
+status: Draft for Review
+version: 0.1.0
+category: Informative Document
+document_class: InformativeDocument
+authors:
+  - SIF Team
+created: 2026-07-15
+updated: 2026-07-22
+tags:
+  - support
+  - library
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # SIF Support Library
 
 Biblioteca fundacional de SIF 2.0. Proporciona colecciones, value objects, utilidades inyectables y medición de tiempo, sin depender de otros componentes.

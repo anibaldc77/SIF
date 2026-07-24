@@ -1,3 +1,24 @@
+---
+id: EG-044
+title: CLI Profile Integration
+summary: Integrates repository configuration and build profiles into build and validate without adding profile awareness to the Builder Engine.
+status: Draft for Review
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-22
+updated: 2026-07-22
+tags:
+  - profile
+  - integration
+work_package: WP-107
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # EG-044 — CLI Profile Integration
 
 ## Status

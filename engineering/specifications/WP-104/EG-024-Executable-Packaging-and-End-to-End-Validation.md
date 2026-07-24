@@ -1,3 +1,25 @@
+---
+id: EG-024
+title: Executable Packaging and End-to-End Validation
+summary: Defines the executable CLI boundary and end-to-end validation from argv to process exit code.
+status: Approved
+version: 1.0.0
+category: Normative Specification
+document_class: NormativeDocument
+work_package: WP-104
+authors:
+  - SIF Team
+created: 2026-07-21
+updated: 2026-07-21
+tags:
+  - builder
+  - cli
+  - validation
+depends_on: []
+related_adrs: []
+references: []
+---
+
 # EG-024 — Executable Packaging and End-to-End Validation
 
 **Work Package:** WP-104 — Builder CLI  

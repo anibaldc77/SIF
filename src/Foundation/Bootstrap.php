@@ -4,19 +4,86 @@ declare(strict_types=1);
 
 namespace Sif\Foundation;
 
-use Sif\Foundation\Contracts\ApplicationInterface;
+use Sif\Foundation\Capability\CapabilityRegistry;
+use Sif\Foundation\Configuration\ConfigurationRepository;
+use Sif\Foundation\Configuration\Loader\ConfigurationFileLoader;
 use Sif\Foundation\Contracts\BootstrapInterface;
+use Sif\Foundation\Contracts\EnvironmentAwareApplicationInterface;
 use Sif\Foundation\Contracts\EnvironmentInterface;
+use Sif\Foundation\Environment\CompositeEnvironmentProvider;
+use Sif\Foundation\Environment\Contracts\EnvironmentProviderInterface;
+use Sif\Foundation\Environment\DotenvEnvironmentProvider;
+use Sif\Foundation\Environment\EnvironmentRepository;
+use Sif\Foundation\Environment\NativeEnvironmentProvider;
 
 final class Bootstrap implements BootstrapInterface
 {
-    public function createApplication(EnvironmentInterface $environment): ApplicationInterface
+    private ConfigurationFileLoader $configurationLoader;
+
+    /** @var list<string> */
+    private array $configurationSources;
+
+    private EnvironmentProviderInterface $nativeEnvironment;
+
+    private ?string $dotenvSource;
+
+    /**
+     * Sources are processed from lowest to highest precedence.
+     *
+     * @param iterable<string> $configurationSources
+     */
+    public function __construct(
+        ?ConfigurationFileLoader $configurationLoader = null,
+        iterable $configurationSources = [],
+        ?EnvironmentProviderInterface $nativeEnvironment = null,
+        ?string $dotenvSource = null,
+    ) {
+        $this->configurationLoader = $configurationLoader
+            ?? ConfigurationFileLoader::withDefaultLoaders();
+        $this->configurationSources = [];
+        $this->nativeEnvironment = $nativeEnvironment ?? new NativeEnvironmentProvider();
+        $this->dotenvSource = $dotenvSource;
+
+        foreach ($configurationSources as $source) {
+            $this->configurationSources[] = $source;
+        }
+    }
+    public function createApplication(EnvironmentInterface $environment): EnvironmentAwareApplicationInterface
     {
-        $runtime = new Runtime();
         $lifecycle = new Lifecycle();
         $providers = new ServiceProviderCollection();
         $kernel = new Kernel($lifecycle);
+        $variables = $this->createEnvironmentRepository();
+        $runtime = new Runtime($variables);
+        $configuration = new ConfigurationRepository(
+            $this->configurationLoader->loadMany($this->configurationSources),
+        );
 
-        return new Application($runtime, $kernel, $environment, $providers);
+        return new Application(
+            $runtime,
+            $kernel,
+            $environment,
+            $providers,
+            new CapabilityRegistry(),
+            $configuration,
+            $variables,
+        );
+    }
+
+    private function createEnvironmentRepository(): EnvironmentRepository
+    {
+        if ($this->dotenvSource === null) {
+            return new EnvironmentRepository($this->nativeEnvironment);
+        }
+
+        $dotenv = DotenvEnvironmentProvider::fromFile(
+            $this->dotenvSource,
+            $this->nativeEnvironment,
+        );
+
+        return new EnvironmentRepository(new CompositeEnvironmentProvider(
+            $dotenv,
+            $this->nativeEnvironment,
+        ));
     }
 }

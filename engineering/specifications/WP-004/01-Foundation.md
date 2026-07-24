@@ -1,3 +1,24 @@
+---
+id: WP-004-01-FOUNDATION
+title: Chapter 1 — Foundation
+summary: **Specification:** SPEC-WP-004-DI-CONTAINER.
+status: Draft for Review
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-15
+updated: 2026-07-22
+tags:
+  - chapter
+  - foundation
+work_package: WP-004
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # Chapter 1 — Foundation
 
 **Specification:** SPEC-WP-004-DI-CONTAINER

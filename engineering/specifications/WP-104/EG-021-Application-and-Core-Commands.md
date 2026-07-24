@@ -1,3 +1,25 @@
+---
+id: EG-021
+title: Application and Core Commands
+summary: This increment implements command dispatch and the informational commands that do not require Builder Engine composition. It keeps the CLI independent from terminal globals and from the concrete Engine dependency graph.
+status: Draft for Review
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-21
+updated: 2026-07-22
+tags:
+  - application
+  - core
+  - commands
+work_package: WP-104
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # EG-021 — Application and Core Commands
 
 - **Work Package:** WP-104

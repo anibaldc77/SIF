@@ -1,3 +1,25 @@
+---
+id: EG-028
+title: Reference Graph Generator
+summary: reference.graph serializes the resolved repository reference topology into a deterministic, versioned JSON artifact suitable for automation and future visualization adapters.
+status: Draft for Review
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-21
+updated: 2026-07-22
+tags:
+  - reference
+  - graph
+  - generator
+work_package: WP-105
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # EG-028 — Reference Graph Generator
 
 - **Work Package:** WP-105

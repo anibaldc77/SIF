@@ -1,3 +1,27 @@
+---
+id: EG-033-A1
+title: Metadata Completeness Diagnostic Code Correction
+summary: The Builder diagnostic value object accepts diagnostic identifiers composed of a single uppercase family token, one hyphen, and a three-digit number. The functional family originally defined as META-COMP-201 through META-COMP-206 contains a.
+status: Draft for Review
+version: 0.1.0
+category: Normative Specification
+document_class: NormativeDocument
+authors:
+  - SIF Team
+created: 2026-07-22
+updated: 2026-07-22
+tags:
+  - metadata
+  - completeness
+  - diagnostic
+  - code
+  - correction
+work_package: WP-106
+depends_on: []
+related_adrs: []
+supersedes: null
+superseded_by: null
+---
 # EG-033-A1 — Metadata Completeness Diagnostic Code Correction
 
 ## Status
