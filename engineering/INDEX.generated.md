@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 163
-- Resolved references: 42
+- Total documents: 165
+- Resolved references: 44
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
 - INFORMATIVEDOCUMENT: 29
-- NORMATIVEDOCUMENT: 95
-- REVIEWDOCUMENT: 25
+- NORMATIVEDOCUMENT: 96
+- REVIEWDOCUMENT: 26
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 126
+- Draft for Review: 128
 
 ## Documents
 
@@ -158,6 +158,7 @@
 | EG-215 | Observation Contracts and Runtime Characterization | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-205/EG-215-Observation-Contracts-and-Characterization.md`](../D:/SIF/engineering/specifications/WP-205/EG-215-Observation-Contracts-and-Characterization.md) |
 | EG-216 | Explicit Runtime Observation Adapter | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-205/EG-216-Explicit-Runtime-Observation-Adapter.md`](../D:/SIF/engineering/specifications/WP-205/EG-216-Explicit-Runtime-Observation-Adapter.md) |
 | EG-217 | Observation Composition API | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-205/EG-217-Observation-Composition-API.md`](../D:/SIF/engineering/specifications/WP-205/EG-217-Observation-Composition-API.md) |
+| EG-218 | Observation Diagnostics and Reporting | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-205/EG-218-Observation-Diagnostics-and-Reporting.md`](../D:/SIF/engineering/specifications/WP-205/EG-218-Observation-Diagnostics-and-Reporting.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -204,4 +205,5 @@
 | WP-205-I2-B1-REVIEW | WP-205-I2-B1 Observation Contracts and Characterization Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-205-I2-B1-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-205-I2-B1-Implementation-Review.md) |
 | WP-205-I2-B2-REVIEW | WP-205-I2-B2 Explicit Runtime Observation Adapter Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-205-I2-B2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-205-I2-B2-Implementation-Review.md) |
 | WP-205-I2-B3-REVIEW | WP-205-I2-B3 Observation Composition API Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-205-I2-B3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-205-I2-B3-Implementation-Review.md) |
+| WP-205-I2-B4-REVIEW | WP-205-I2-B4 Observation Diagnostics and Reporting Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-205-I2-B4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-205-I2-B4-Implementation-Review.md) |
 | WP-205-I2A-REVIEW | WP-205-I2A Runtime Event Observation Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-205-I2A-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-205-I2A-Architecture-Review.md) |

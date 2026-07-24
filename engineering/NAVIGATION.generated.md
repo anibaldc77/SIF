@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **163**
+Governed documents: **165**
 
 ## Generated views
 
@@ -121,6 +121,7 @@ Governed documents: **163**
 - [`WP-205-I2-B1-REVIEW`](../D:/SIF/engineering/reviews/WP-205-I2-B1-Implementation-Review.md) — WP-205-I2-B1 Observation Contracts and Characterization Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-205-I2-B2-REVIEW`](../D:/SIF/engineering/reviews/WP-205-I2-B2-Implementation-Review.md) — WP-205-I2-B2 Explicit Runtime Observation Adapter Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-205-I2-B3-REVIEW`](../D:/SIF/engineering/reviews/WP-205-I2-B3-Implementation-Review.md) — WP-205-I2-B3 Observation Composition API Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-205-I2-B4-REVIEW`](../D:/SIF/engineering/reviews/WP-205-I2-B4-Implementation-Review.md) — WP-205-I2-B4 Observation Diagnostics and Reporting Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Informative Document
 
@@ -309,6 +310,7 @@ Governed documents: **163**
 - [`EG-215`](../D:/SIF/engineering/specifications/WP-205/EG-215-Observation-Contracts-and-Characterization.md) — Observation Contracts and Runtime Characterization _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-216`](../D:/SIF/engineering/specifications/WP-205/EG-216-Explicit-Runtime-Observation-Adapter.md) — Explicit Runtime Observation Adapter _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-217`](../D:/SIF/engineering/specifications/WP-205/EG-217-Observation-Composition-API.md) — Observation Composition API _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-218`](../D:/SIF/engineering/specifications/WP-205/EG-218-Observation-Diagnostics-and-Reporting.md) — Observation Diagnostics and Reporting _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 
