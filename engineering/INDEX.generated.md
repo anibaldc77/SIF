@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 159
-- Resolved references: 38
+- Total documents: 161
+- Resolved references: 40
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
 - INFORMATIVEDOCUMENT: 29
-- NORMATIVEDOCUMENT: 93
-- REVIEWDOCUMENT: 23
+- NORMATIVEDOCUMENT: 94
+- REVIEWDOCUMENT: 24
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 122
+- Draft for Review: 124
 
 ## Documents
 
@@ -156,6 +156,7 @@
 | EG-213 | Event Dispatcher Core | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-205/EG-213-Event-Dispatcher-Core.md`](../D:/SIF/engineering/specifications/WP-205/EG-213-Event-Dispatcher-Core.md) |
 | EG-214-A1 | Runtime Event Observation Architecture | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-205/EG-214-A1-Runtime-Event-Observation-Architecture.md`](../D:/SIF/engineering/specifications/WP-205/EG-214-A1-Runtime-Event-Observation-Architecture.md) |
 | EG-215 | Observation Contracts and Runtime Characterization | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-205/EG-215-Observation-Contracts-and-Characterization.md`](../D:/SIF/engineering/specifications/WP-205/EG-215-Observation-Contracts-and-Characterization.md) |
+| EG-216 | Explicit Runtime Observation Adapter | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-205/EG-216-Explicit-Runtime-Observation-Adapter.md`](../D:/SIF/engineering/specifications/WP-205/EG-216-Explicit-Runtime-Observation-Adapter.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -200,4 +201,5 @@
 | WP-204-I3B-REVIEW | WP-204-I3B Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-204-I3B-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-204-I3B-Implementation-Review.md) |
 | WP-205-I1-REVIEW | WP-205-I1 Event Dispatcher Core Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-205-I1-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-205-I1-Implementation-Review.md) |
 | WP-205-I2-B1-REVIEW | WP-205-I2-B1 Observation Contracts and Characterization Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-205-I2-B1-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-205-I2-B1-Implementation-Review.md) |
+| WP-205-I2-B2-REVIEW | WP-205-I2-B2 Explicit Runtime Observation Adapter Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-205-I2-B2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-205-I2-B2-Implementation-Review.md) |
 | WP-205-I2A-REVIEW | WP-205-I2A Runtime Event Observation Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-205-I2A-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-205-I2A-Architecture-Review.md) |
