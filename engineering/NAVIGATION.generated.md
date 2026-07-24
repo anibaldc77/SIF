@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **155**
+Governed documents: **157**
 
 ## Generated views
 
@@ -30,6 +30,10 @@ Governed documents: **155**
 ### Architecture Review — WP-201
 
 - [`WP-201-ARCHITECTURE-REVIEW`](../D:/SIF/engineering/reviews/WP-201-Architecture-Review.md) — WP-201 Runtime Core Model Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Architecture Review — WP-205
+
+- [`WP-205-I2A-REVIEW`](../D:/SIF/engineering/reviews/WP-205-I2A-Architecture-Review.md) — WP-205-I2A Runtime Event Observation Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Constitution
 
@@ -298,6 +302,7 @@ Governed documents: **155**
 ### Normative Specification — WP-205
 
 - [`EG-213`](../D:/SIF/engineering/specifications/WP-205/EG-213-Event-Dispatcher-Core.md) — Event Dispatcher Core _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-214-A1`](../D:/SIF/engineering/specifications/WP-205/EG-214-A1-Runtime-Event-Observation-Architecture.md) — Runtime Event Observation Architecture _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 
