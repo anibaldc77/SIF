@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **161**
+Governed documents: **163**
 
 ## Generated views
 
@@ -120,6 +120,7 @@ Governed documents: **161**
 - [`WP-205-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-205-I1-Implementation-Review.md) — WP-205-I1 Event Dispatcher Core Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-205-I2-B1-REVIEW`](../D:/SIF/engineering/reviews/WP-205-I2-B1-Implementation-Review.md) — WP-205-I2-B1 Observation Contracts and Characterization Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-205-I2-B2-REVIEW`](../D:/SIF/engineering/reviews/WP-205-I2-B2-Implementation-Review.md) — WP-205-I2-B2 Explicit Runtime Observation Adapter Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-205-I2-B3-REVIEW`](../D:/SIF/engineering/reviews/WP-205-I2-B3-Implementation-Review.md) — WP-205-I2-B3 Observation Composition API Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Informative Document
 
@@ -307,6 +308,7 @@ Governed documents: **161**
 - [`EG-214-A1`](../D:/SIF/engineering/specifications/WP-205/EG-214-A1-Runtime-Event-Observation-Architecture.md) — Runtime Event Observation Architecture _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-215`](../D:/SIF/engineering/specifications/WP-205/EG-215-Observation-Contracts-and-Characterization.md) — Observation Contracts and Runtime Characterization _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-216`](../D:/SIF/engineering/specifications/WP-205/EG-216-Explicit-Runtime-Observation-Adapter.md) — Explicit Runtime Observation Adapter _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-217`](../D:/SIF/engineering/specifications/WP-205/EG-217-Observation-Composition-API.md) — Observation Composition API _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 
