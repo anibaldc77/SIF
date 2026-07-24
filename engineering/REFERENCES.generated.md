@@ -6,11 +6,11 @@
 
 | Metric | Value |
 |---|---:|
-| Documents | 153 |
+| Documents | 155 |
 | References | 34 |
 | Resolved | 34 |
 | Broken | 0 |
-| Isolated documents | 120 |
+| Isolated documents | 122 |
 
 ## References by Type
 
@@ -107,6 +107,7 @@ _No broken references._
 - `EG-212` — Runtime Environment Integration
 - `EG-212-A1` — Runtime Environment Integration Hotfix
 - `EG-212-A2` — Runtime Environment Stabilization
+- `EG-213` — Event Dispatcher Core
 - `ENGINEERING-README` — Engineering System
 - `ES-002` — Metadata Standard
 - `ES-003` — Document Class Model
@@ -166,6 +167,7 @@ _No broken references._
 - `WP-112-IMPLEMENTATION-REPORT` — WP-112 Implementation Report
 - `WP-204-I3A-REPORT` — WP-204-I3A Implementation Report
 - `WP-204-I3B-REVIEW` — WP-204-I3B Implementation Review
+- `WP-205-I1-REVIEW` — WP-205-I1 Event Dispatcher Core Implementation Review
 
 ## Resolved References
 

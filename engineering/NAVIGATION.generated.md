@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **153**
+Governed documents: **155**
 
 ## Generated views
 
@@ -110,6 +110,10 @@ Governed documents: **153**
 
 - [`WP-204-I3A-REPORT`](../D:/SIF/engineering/reviews/WP-204-I3A-Implementation-Report.md) — WP-204-I3A Implementation Report _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-204-I3B-REVIEW`](../D:/SIF/engineering/reviews/WP-204-I3B-Implementation-Review.md) — WP-204-I3B Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Implementation Review — WP-205
+
+- [`WP-205-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-205-I1-Implementation-Review.md) — WP-205-I1 Event Dispatcher Core Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Informative Document
 
@@ -290,6 +294,10 @@ Governed documents: **153**
 - [`EG-212`](../D:/SIF/engineering/specifications/WP-204/EG-212-Runtime-Environment-Integration.md) — Runtime Environment Integration _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-212-A1`](../D:/SIF/engineering/specifications/WP-204/EG-212-A1-Runtime-Environment-Integration-Hotfix.md) — Runtime Environment Integration Hotfix _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-212-A2`](../D:/SIF/engineering/specifications/WP-204/EG-212-A2-Runtime-Environment-Stabilization.md) — Runtime Environment Stabilization _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-205
+
+- [`EG-213`](../D:/SIF/engineering/specifications/WP-205/EG-213-Event-Dispatcher-Core.md) — Event Dispatcher Core _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 

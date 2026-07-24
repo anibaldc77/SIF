@@ -4,7 +4,7 @@
 
 ## Summary
 
-- Total documents: 153
+- Total documents: 155
 - Resolved references: 34
 - Unresolved references: 0
 
@@ -12,14 +12,14 @@
 
 - GOVERNANCEDOCUMENT: 14
 - INFORMATIVEDOCUMENT: 29
-- NORMATIVEDOCUMENT: 90
-- REVIEWDOCUMENT: 20
+- NORMATIVEDOCUMENT: 91
+- REVIEWDOCUMENT: 21
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 116
+- Draft for Review: 118
 
 ## Documents
 
@@ -153,6 +153,7 @@
 | EG-212 | Runtime Environment Integration | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-204/EG-212-Runtime-Environment-Integration.md`](../D:/SIF/engineering/specifications/WP-204/EG-212-Runtime-Environment-Integration.md) |
 | EG-212-A1 | Runtime Environment Integration Hotfix | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-204/EG-212-A1-Runtime-Environment-Integration-Hotfix.md`](../D:/SIF/engineering/specifications/WP-204/EG-212-A1-Runtime-Environment-Integration-Hotfix.md) |
 | EG-212-A2 | Runtime Environment Stabilization | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-204/EG-212-A2-Runtime-Environment-Stabilization.md`](../D:/SIF/engineering/specifications/WP-204/EG-212-A2-Runtime-Environment-Stabilization.md) |
+| EG-213 | Event Dispatcher Core | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-205/EG-213-Event-Dispatcher-Core.md`](../D:/SIF/engineering/specifications/WP-205/EG-213-Event-Dispatcher-Core.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -195,3 +196,4 @@
 | WP-201-ARCHITECTURE-REVIEW | WP-201 Runtime Core Model Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-201-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-201-Architecture-Review.md) |
 | WP-204-I3A-REPORT | WP-204-I3A Implementation Report | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-204-I3A-Implementation-Report.md`](../D:/SIF/engineering/reviews/WP-204-I3A-Implementation-Report.md) |
 | WP-204-I3B-REVIEW | WP-204-I3B Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-204-I3B-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-204-I3B-Implementation-Review.md) |
+| WP-205-I1-REVIEW | WP-205-I1 Event Dispatcher Core Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-205-I1-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-205-I1-Implementation-Review.md) |
