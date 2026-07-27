@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 211
-- Resolved references: 90
+- Total documents: 225
+- Resolved references: 104
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
 - INFORMATIVEDOCUMENT: 29
-- NORMATIVEDOCUMENT: 119
-- REVIEWDOCUMENT: 49
+- NORMATIVEDOCUMENT: 126
+- REVIEWDOCUMENT: 56
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 174
+- Draft for Review: 188
 
 ## Documents
 
@@ -182,6 +182,13 @@
 | EG-239 | Explicit Audit Composition and Optional Static Facade | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-208/EG-239-Explicit-Audit-Composition-and-Optional-Static-Facade.md`](../D:/SIF/engineering/specifications/WP-208/EG-239-Explicit-Audit-Composition-and-Optional-Static-Facade.md) |
 | EG-240 | Audit Reference Integration and Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-208/EG-240-Audit-Reference-Integration-and-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-208/EG-240-Audit-Reference-Integration-and-Product-Completion.md) |
 | EG-241 | Persistence Architecture | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-209/EG-241-Persistence-Architecture.md`](../D:/SIF/engineering/specifications/WP-209/EG-241-Persistence-Architecture.md) |
+| EG-242 | Connection and Transaction Contracts | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-209/EG-242-Connection-and-Transaction-Contracts.md`](../D:/SIF/engineering/specifications/WP-209/EG-242-Connection-and-Transaction-Contracts.md) |
+| EG-243 | Query, Criteria, Sorting and Pagination Values | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-209/EG-243-Query-Criteria-Sorting-and-Pagination.md`](../D:/SIF/engineering/specifications/WP-209/EG-243-Query-Criteria-Sorting-and-Pagination.md) |
+| EG-244 | Mapper and Result-Set Contracts | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-209/EG-244-Mapper-and-Result-Set-Contracts.md`](../D:/SIF/engineering/specifications/WP-209/EG-244-Mapper-and-Result-Set-Contracts.md) |
+| EG-245 | Repository and Unit of Work Contracts | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-209/EG-245-Repository-and-Unit-of-Work-Contracts.md`](../D:/SIF/engineering/specifications/WP-209/EG-245-Repository-and-Unit-of-Work-Contracts.md) |
+| EG-246 | Persistence Capabilities and Failure Taxonomy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-209/EG-246-Persistence-Capabilities-and-Failure-Taxonomy.md`](../D:/SIF/engineering/specifications/WP-209/EG-246-Persistence-Capabilities-and-Failure-Taxonomy.md) |
+| EG-247 | In-Memory Reference Adapter | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-209/EG-247-In-Memory-Reference-Adapter.md`](../D:/SIF/engineering/specifications/WP-209/EG-247-In-Memory-Reference-Adapter.md) |
+| EG-248 | Persistence Reference Integration and Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-209/EG-248-Persistence-Reference-Integration-and-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-209/EG-248-Persistence-Reference-Integration-and-Product-Completion.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -253,3 +260,10 @@
 | WP-208-I7-REVIEW | WP-208-I7 Explicit Audit Composition and Static Facade Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-208-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-208-I7-Implementation-Review.md) |
 | WP-208-I8-REVIEW | WP-208-I8 Audit Reference Integration and Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-208-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-208-I8-Product-Completion-Review.md) |
 | WP-209-I1-REVIEW | WP-209-I1 Persistence Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-209-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-209-I1-Architecture-Review.md) |
+| WP-209-I2-REVIEW | WP-209-I2 Connection and Transaction Contracts Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-209-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-209-I2-Implementation-Review.md) |
+| WP-209-I3-REVIEW | WP-209-I3 Query Value Model Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-209-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-209-I3-Implementation-Review.md) |
+| WP-209-I4-REVIEW | WP-209-I4 Mapper and Result-Set Contracts Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-209-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-209-I4-Implementation-Review.md) |
+| WP-209-I5-REVIEW | WP-209-I5 Repository and Unit of Work Contracts Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-209-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-209-I5-Implementation-Review.md) |
+| WP-209-I6-REVIEW | WP-209-I6 Persistence Capabilities and Failure Taxonomy Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-209-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-209-I6-Implementation-Review.md) |
+| WP-209-I7-REVIEW | WP-209-I7 In-Memory Reference Adapter Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-209-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-209-I7-Implementation-Review.md) |
+| WP-209-I8-REVIEW | WP-209-I8 Persistence Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-209-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-209-I8-Product-Completion-Review.md) |
