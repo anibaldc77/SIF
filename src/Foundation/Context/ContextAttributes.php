@@ -8,18 +8,13 @@ use JsonException;
 use Sif\Foundation\Exceptions\InvalidContextAttributeKeyException;
 use Sif\Foundation\Exceptions\UnsupportedContextAttributeValueException;
 
-/**
- * Immutable collection of deterministic context attribute values.
- *
- */
+/** Immutable collection of deterministic context attribute values. */
 final readonly class ContextAttributes
 {
     /** @var array<string, mixed> */
     private array $values;
 
-    /**
-     * @param array<string, mixed> $values
-     */
+    /** @param array<string, mixed> $values */
     public function __construct(array $values = [])
     {
         self::assertJsonCompatible($values);
@@ -52,7 +47,6 @@ final readonly class ContextAttributes
         return array_key_exists($key, $this->values);
     }
 
-    /** @return mixed */
     public function get(string $key): mixed
     {
         return $this->values[$key] ?? null;
@@ -62,6 +56,19 @@ final readonly class ContextAttributes
     public function all(): array
     {
         return $this->values;
+    }
+
+    /**
+     * Returns a new collection where incoming top-level keys replace existing
+     * keys and all untouched values are preserved.
+     */
+    public function merged(self $incoming): self
+    {
+        if ($incoming->isEmpty()) {
+            return $this;
+        }
+
+        return new self(array_replace($this->values, $incoming->values));
     }
 
     private static function assertValue(mixed $value, string $path): void

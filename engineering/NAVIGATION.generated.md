@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **183**
+Governed documents: **209**
 
 ## Generated views
 
@@ -38,6 +38,10 @@ Governed documents: **183**
 ### Architecture Review — WP-207
 
 - [`WP-207-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-207-I1-Architecture-Review.md) — WP-207-I1 Execution Context Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Architecture Review — WP-208
+
+- [`WP-208-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-208-I1-Architecture-Review.md) — WP-208-I1 Audit Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Constitution
 
@@ -140,6 +144,21 @@ Governed documents: **183**
 ### Implementation Review — WP-207
 
 - [`WP-207-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-207-I2-Implementation-Review.md) — WP-207-I2 Execution Context Core Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-207-I3-REVIEW`](../D:/SIF/engineering/reviews/WP-207-I3-Implementation-Review.md) — WP-207-I3 Execution Context Factory and Derivation Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-207-I4-REVIEW`](../D:/SIF/engineering/reviews/WP-207-I4-Implementation-Review.md) — WP-207-I4 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-207-I5-REVIEW`](../D:/SIF/engineering/reviews/WP-207-I5-Implementation-Review.md) — WP-207-I5 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-207-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-207-I6-Implementation-Review.md) — WP-207-I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-207-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-207-I7-Product-Completion-Review.md) — WP-207-I7 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Implementation Review — WP-208
+
+- [`WP-208-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-208-I2-Implementation-Review.md) — WP-208-I2 Audit Core Value Model Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-208-I3-REVIEW`](../D:/SIF/engineering/reviews/WP-208-I3-Implementation-Review.md) — WP-208-I3 Immutable Audit Record and Payload Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-208-I4-REVIEW`](../D:/SIF/engineering/reviews/WP-208-I4-Implementation-Review.md) — WP-208-I4 Audit Factory, Serialization and Redaction Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-208-I5-REVIEW`](../D:/SIF/engineering/reviews/WP-208-I5-Implementation-Review.md) — WP-208-I5 Event-Driven Audit Emission Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-208-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-208-I6-Implementation-Review.md) — WP-208-I6 Customizable Audit Models and Change Sets Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-208-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-208-I7-Implementation-Review.md) — WP-208-I7 Explicit Audit Composition and Static Facade Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-208-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-208-I8-Product-Completion-Review.md) — WP-208-I8 Audit Reference Integration and Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Informative Document
 
@@ -344,6 +363,22 @@ Governed documents: **183**
 
 - [`EG-226`](../D:/SIF/engineering/specifications/WP-207/EG-226-Execution-Context-Architecture.md) — Execution Context Architecture _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-227`](../D:/SIF/engineering/specifications/WP-207/EG-227-Execution-Context-Core-Contracts-and-Immutable-Model.md) — Execution Context Core Contracts and Immutable Model _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-228`](../D:/SIF/engineering/specifications/WP-207/EG-228-Execution-Context-Factory-and-Derivation.md) — Execution Context Factory and Derivation _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-229`](../D:/SIF/engineering/specifications/WP-207/EG-229-Context-Serialization-Redaction-and-Diagnostics.md) — Context Serialization, Redaction and Diagnostic Snapshot _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-230`](../D:/SIF/engineering/specifications/WP-207/EG-230-Context-Propagation-and-Scoped-Execution.md) — Context Propagation and Scoped Execution _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-231`](../D:/SIF/engineering/specifications/WP-207/EG-231-Context-Integration-Contracts.md) — Context Integration Contracts _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-232`](../D:/SIF/engineering/specifications/WP-207/EG-232-WP-207-Product-Completion.md) — WP-207 Execution Context Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-208
+
+- [`EG-233`](../D:/SIF/engineering/specifications/WP-208/EG-233-Audit-Subsystem-Architecture.md) — Audit Subsystem Architecture _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-234`](../D:/SIF/engineering/specifications/WP-208/EG-234-Audit-Core-Value-Model.md) — Audit Core Value Model _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-235`](../D:/SIF/engineering/specifications/WP-208/EG-235-Immutable-Audit-Record-and-Payload.md) — Immutable Audit Record and Payload _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-236`](../D:/SIF/engineering/specifications/WP-208/EG-236-Audit-Factory-Canonical-Serialization-and-Redaction.md) — Audit Record Factory, Canonical Serialization and Redaction _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-237`](../D:/SIF/engineering/specifications/WP-208/EG-237-Event-Driven-Audit-Emission.md) — Event-Driven Audit Emission _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-238`](../D:/SIF/engineering/specifications/WP-208/EG-238-Customizable-Audit-Models-and-Change-Sets.md) — Customizable Audit Models and Change Sets _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-239`](../D:/SIF/engineering/specifications/WP-208/EG-239-Explicit-Audit-Composition-and-Optional-Static-Facade.md) — Explicit Audit Composition and Optional Static Facade _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-240`](../D:/SIF/engineering/specifications/WP-208/EG-240-Audit-Reference-Integration-and-Product-Completion.md) — Audit Reference Integration and Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 

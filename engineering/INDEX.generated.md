@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 183
-- Resolved references: 62
+- Total documents: 209
+- Resolved references: 88
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
 - INFORMATIVEDOCUMENT: 29
-- NORMATIVEDOCUMENT: 105
-- REVIEWDOCUMENT: 35
+- NORMATIVEDOCUMENT: 118
+- REVIEWDOCUMENT: 48
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 146
+- Draft for Review: 172
 
 ## Documents
 
@@ -168,6 +168,19 @@
 | EG-225 | WP-206 Runtime Observation Reference Integration Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-206/EG-225-WP-206-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-206/EG-225-WP-206-Product-Completion.md) |
 | EG-226 | Execution Context Architecture | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-207/EG-226-Execution-Context-Architecture.md`](../D:/SIF/engineering/specifications/WP-207/EG-226-Execution-Context-Architecture.md) |
 | EG-227 | Execution Context Core Contracts and Immutable Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-207/EG-227-Execution-Context-Core-Contracts-and-Immutable-Model.md`](../D:/SIF/engineering/specifications/WP-207/EG-227-Execution-Context-Core-Contracts-and-Immutable-Model.md) |
+| EG-228 | Execution Context Factory and Derivation | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-207/EG-228-Execution-Context-Factory-and-Derivation.md`](../D:/SIF/engineering/specifications/WP-207/EG-228-Execution-Context-Factory-and-Derivation.md) |
+| EG-229 | Context Serialization, Redaction and Diagnostic Snapshot | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-207/EG-229-Context-Serialization-Redaction-and-Diagnostics.md`](../D:/SIF/engineering/specifications/WP-207/EG-229-Context-Serialization-Redaction-and-Diagnostics.md) |
+| EG-230 | Context Propagation and Scoped Execution | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-207/EG-230-Context-Propagation-and-Scoped-Execution.md`](../D:/SIF/engineering/specifications/WP-207/EG-230-Context-Propagation-and-Scoped-Execution.md) |
+| EG-231 | Context Integration Contracts | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-207/EG-231-Context-Integration-Contracts.md`](../D:/SIF/engineering/specifications/WP-207/EG-231-Context-Integration-Contracts.md) |
+| EG-232 | WP-207 Execution Context Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-207/EG-232-WP-207-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-207/EG-232-WP-207-Product-Completion.md) |
+| EG-233 | Audit Subsystem Architecture | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-208/EG-233-Audit-Subsystem-Architecture.md`](../D:/SIF/engineering/specifications/WP-208/EG-233-Audit-Subsystem-Architecture.md) |
+| EG-234 | Audit Core Value Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-208/EG-234-Audit-Core-Value-Model.md`](../D:/SIF/engineering/specifications/WP-208/EG-234-Audit-Core-Value-Model.md) |
+| EG-235 | Immutable Audit Record and Payload | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-208/EG-235-Immutable-Audit-Record-and-Payload.md`](../D:/SIF/engineering/specifications/WP-208/EG-235-Immutable-Audit-Record-and-Payload.md) |
+| EG-236 | Audit Record Factory, Canonical Serialization and Redaction | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-208/EG-236-Audit-Factory-Canonical-Serialization-and-Redaction.md`](../D:/SIF/engineering/specifications/WP-208/EG-236-Audit-Factory-Canonical-Serialization-and-Redaction.md) |
+| EG-237 | Event-Driven Audit Emission | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-208/EG-237-Event-Driven-Audit-Emission.md`](../D:/SIF/engineering/specifications/WP-208/EG-237-Event-Driven-Audit-Emission.md) |
+| EG-238 | Customizable Audit Models and Change Sets | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-208/EG-238-Customizable-Audit-Models-and-Change-Sets.md`](../D:/SIF/engineering/specifications/WP-208/EG-238-Customizable-Audit-Models-and-Change-Sets.md) |
+| EG-239 | Explicit Audit Composition and Optional Static Facade | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-208/EG-239-Explicit-Audit-Composition-and-Optional-Static-Facade.md`](../D:/SIF/engineering/specifications/WP-208/EG-239-Explicit-Audit-Composition-and-Optional-Static-Facade.md) |
+| EG-240 | Audit Reference Integration and Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-208/EG-240-Audit-Reference-Integration-and-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-208/EG-240-Audit-Reference-Integration-and-Product-Completion.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -225,3 +238,16 @@
 | WP-206-I6-REVIEW | WP-206-I6 Runtime Observation Reference Integration Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-206-I6-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-206-I6-Product-Completion-Review.md) |
 | WP-207-I1-REVIEW | WP-207-I1 Execution Context Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-207-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-207-I1-Architecture-Review.md) |
 | WP-207-I2-REVIEW | WP-207-I2 Execution Context Core Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-207-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-207-I2-Implementation-Review.md) |
+| WP-207-I3-REVIEW | WP-207-I3 Execution Context Factory and Derivation Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-207-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-207-I3-Implementation-Review.md) |
+| WP-207-I4-REVIEW | WP-207-I4 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-207-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-207-I4-Implementation-Review.md) |
+| WP-207-I5-REVIEW | WP-207-I5 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-207-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-207-I5-Implementation-Review.md) |
+| WP-207-I6-REVIEW | WP-207-I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-207-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-207-I6-Implementation-Review.md) |
+| WP-207-I7-REVIEW | WP-207-I7 Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-207-I7-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-207-I7-Product-Completion-Review.md) |
+| WP-208-I1-REVIEW | WP-208-I1 Audit Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-208-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-208-I1-Architecture-Review.md) |
+| WP-208-I2-REVIEW | WP-208-I2 Audit Core Value Model Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-208-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-208-I2-Implementation-Review.md) |
+| WP-208-I3-REVIEW | WP-208-I3 Immutable Audit Record and Payload Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-208-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-208-I3-Implementation-Review.md) |
+| WP-208-I4-REVIEW | WP-208-I4 Audit Factory, Serialization and Redaction Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-208-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-208-I4-Implementation-Review.md) |
+| WP-208-I5-REVIEW | WP-208-I5 Event-Driven Audit Emission Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-208-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-208-I5-Implementation-Review.md) |
+| WP-208-I6-REVIEW | WP-208-I6 Customizable Audit Models and Change Sets Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-208-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-208-I6-Implementation-Review.md) |
+| WP-208-I7-REVIEW | WP-208-I7 Explicit Audit Composition and Static Facade Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-208-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-208-I7-Implementation-Review.md) |
+| WP-208-I8-REVIEW | WP-208-I8 Audit Reference Integration and Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-208-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-208-I8-Product-Completion-Review.md) |
