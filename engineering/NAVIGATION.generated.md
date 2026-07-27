@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **169**
+Governed documents: **171**
 
 ## Generated views
 
@@ -127,6 +127,7 @@ Governed documents: **169**
 ### Implementation Review — WP-206
 
 - [`WP-206-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-206-I1-Implementation-Review.md) — WP-206-I1 Runtime Observation Reference Integration Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-206-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-206-I2-Implementation-Review.md) — WP-206-I2 Runtime Observation Failure Reference Integration Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Informative Document
 
@@ -321,6 +322,7 @@ Governed documents: **169**
 ### Normative Specification — WP-206
 
 - [`EG-220`](../D:/SIF/engineering/specifications/WP-206/EG-220-Runtime-Observation-Reference-Integration.md) — Runtime Observation Reference Integration _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-221`](../D:/SIF/engineering/specifications/WP-206/EG-221-Runtime-Observation-Failure-Reference-Integration.md) — Runtime Observation Failure Reference Integration _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 

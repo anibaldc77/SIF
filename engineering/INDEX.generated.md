@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 169
-- Resolved references: 48
+- Total documents: 171
+- Resolved references: 50
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
 - INFORMATIVEDOCUMENT: 29
-- NORMATIVEDOCUMENT: 98
-- REVIEWDOCUMENT: 28
+- NORMATIVEDOCUMENT: 99
+- REVIEWDOCUMENT: 29
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 132
+- Draft for Review: 134
 
 ## Documents
 
@@ -161,6 +161,7 @@
 | EG-218 | Observation Diagnostics and Reporting | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-205/EG-218-Observation-Diagnostics-and-Reporting.md`](../D:/SIF/engineering/specifications/WP-205/EG-218-Observation-Diagnostics-and-Reporting.md) |
 | EG-219 | Observation Lifecycle Facade | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-205/EG-219-Observation-Lifecycle-Facade.md`](../D:/SIF/engineering/specifications/WP-205/EG-219-Observation-Lifecycle-Facade.md) |
 | EG-220 | Runtime Observation Reference Integration | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-206/EG-220-Runtime-Observation-Reference-Integration.md`](../D:/SIF/engineering/specifications/WP-206/EG-220-Runtime-Observation-Reference-Integration.md) |
+| EG-221 | Runtime Observation Failure Reference Integration | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-206/EG-221-Runtime-Observation-Failure-Reference-Integration.md`](../D:/SIF/engineering/specifications/WP-206/EG-221-Runtime-Observation-Failure-Reference-Integration.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -211,3 +212,4 @@
 | WP-205-I2-B5-REVIEW | WP-205-I2-B5 Observation Lifecycle Facade Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-205-I2-B5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-205-I2-B5-Implementation-Review.md) |
 | WP-205-I2A-REVIEW | WP-205-I2A Runtime Event Observation Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-205-I2A-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-205-I2A-Architecture-Review.md) |
 | WP-206-I1-REVIEW | WP-206-I1 Runtime Observation Reference Integration Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-206-I1-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-206-I1-Implementation-Review.md) |
+| WP-206-I2-REVIEW | WP-206-I2 Runtime Observation Failure Reference Integration Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-206-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-206-I2-Implementation-Review.md) |
