@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 225
-- Resolved references: 104
+- Total documents: 242
+- Resolved references: 121
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
 - INFORMATIVEDOCUMENT: 29
-- NORMATIVEDOCUMENT: 126
-- REVIEWDOCUMENT: 56
+- NORMATIVEDOCUMENT: 135
+- REVIEWDOCUMENT: 64
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 188
+- Draft for Review: 205
 
 ## Documents
 
@@ -189,6 +189,14 @@
 | EG-246 | Persistence Capabilities and Failure Taxonomy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-209/EG-246-Persistence-Capabilities-and-Failure-Taxonomy.md`](../D:/SIF/engineering/specifications/WP-209/EG-246-Persistence-Capabilities-and-Failure-Taxonomy.md) |
 | EG-247 | In-Memory Reference Adapter | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-209/EG-247-In-Memory-Reference-Adapter.md`](../D:/SIF/engineering/specifications/WP-209/EG-247-In-Memory-Reference-Adapter.md) |
 | EG-248 | Persistence Reference Integration and Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-209/EG-248-Persistence-Reference-Integration-and-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-209/EG-248-Persistence-Reference-Integration-and-Product-Completion.md) |
+| EG-249 | Dependency Injection Container 2.0 Architecture | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-210/EG-249-Dependency-Injection-Container-Architecture.md`](../D:/SIF/engineering/specifications/WP-210/EG-249-Dependency-Injection-Container-Architecture.md) |
+| EG-250 | Dependency Injection Core Definitions and Contracts | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-210/EG-250-Core-Definitions-and-Contracts.md`](../D:/SIF/engineering/specifications/WP-210/EG-250-Core-Definitions-and-Contracts.md) |
+| EG-251 | Deterministic Resolution Engine and Cycle Detection | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-210/EG-251-Deterministic-Resolution-Engine.md`](../D:/SIF/engineering/specifications/WP-210/EG-251-Deterministic-Resolution-Engine.md) |
+| EG-252 | Constructor Autowiring and Explicit Argument Bindings | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-210/EG-252-Constructor-Autowiring-and-Argument-Bindings.md`](../D:/SIF/engineering/specifications/WP-210/EG-252-Constructor-Autowiring-and-Argument-Bindings.md) |
+| EG-253 | Explicit Scopes and Scoped Lifetimes | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-210/EG-253-Explicit-Scopes-and-Scoped-Lifetimes.md`](../D:/SIF/engineering/specifications/WP-210/EG-253-Explicit-Scopes-and-Scoped-Lifetimes.md) |
+| EG-254 | Contextual Bindings and Tagged Services | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-210/EG-254-Contextual-Bindings-and-Tagged-Services.md`](../D:/SIF/engineering/specifications/WP-210/EG-254-Contextual-Bindings-and-Tagged-Services.md) |
+| EG-255 | Lazy References, Diagnostics and Compiled Definitions | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-210/EG-255-Lazy-References-Diagnostics-and-Compiled-Definitions.md`](../D:/SIF/engineering/specifications/WP-210/EG-255-Lazy-References-Diagnostics-and-Compiled-Definitions.md) |
+| EG-256 | Container Compatibility, Controlled Integration and Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-210/EG-256-Compatibility-Integration-and-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-210/EG-256-Compatibility-Integration-and-Product-Completion.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -206,6 +214,7 @@
 | WP-004-08-PRODUCT-COMPLETION | Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-004/08-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-004/08-Product-Completion.md) |
 | WP-004-README | Runtime Composition Engine | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-004/README.md`](../D:/SIF/engineering/specifications/WP-004/README.md) |
 | WP-004-SUMMARY | Executive Summary | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-004/SUMMARY.md`](../D:/SIF/engineering/specifications/WP-004/SUMMARY.md) |
+| WP-210-CONTAINER-2-MIGRATION-GUIDE | Container 2.0 Migration Guide | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-210-CONTAINER-2-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-210-CONTAINER-2-MIGRATION-GUIDE.md) |
 
 ### REVIEWDOCUMENT
 
@@ -267,3 +276,11 @@
 | WP-209-I6-REVIEW | WP-209-I6 Persistence Capabilities and Failure Taxonomy Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-209-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-209-I6-Implementation-Review.md) |
 | WP-209-I7-REVIEW | WP-209-I7 In-Memory Reference Adapter Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-209-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-209-I7-Implementation-Review.md) |
 | WP-209-I8-REVIEW | WP-209-I8 Persistence Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-209-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-209-I8-Product-Completion-Review.md) |
+| WP-210-I1-REVIEW | WP-210-I1 Dependency Injection Container Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-210-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-210-I1-Architecture-Review.md) |
+| WP-210-I2-REVIEW | WP-210-I2 Core Definitions and Contracts Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-210-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-210-I2-Implementation-Review.md) |
+| WP-210-I3-REVIEW | WP-210-I3 Deterministic Resolution Engine Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-210-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-210-I3-Implementation-Review.md) |
+| WP-210-I4-REVIEW | WP-210-I4 Constructor Autowiring and Argument Bindings Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-210-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-210-I4-Implementation-Review.md) |
+| WP-210-I5-REVIEW | WP-210-I5 Explicit Scopes and Scoped Lifetimes Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-210-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-210-I5-Implementation-Review.md) |
+| WP-210-I6-REVIEW | WP-210-I6 Contextual Bindings and Tagged Services Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-210-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-210-I6-Implementation-Review.md) |
+| WP-210-I7-REVIEW | WP-210-I7 Lazy References, Diagnostics and Compilation Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-210-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-210-I7-Implementation-Review.md) |
+| WP-210-I8-REVIEW | WP-210-I8 Compatibility Integration and Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-210-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-210-I8-Product-Completion-Review.md) |
