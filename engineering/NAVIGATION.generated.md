@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **209**
+Governed documents: **211**
 
 ## Generated views
 
@@ -42,6 +42,10 @@ Governed documents: **209**
 ### Architecture Review — WP-208
 
 - [`WP-208-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-208-I1-Architecture-Review.md) — WP-208-I1 Audit Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Architecture Review — WP-209
+
+- [`WP-209-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-209-I1-Architecture-Review.md) — WP-209-I1 Persistence Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Constitution
 
@@ -379,6 +383,10 @@ Governed documents: **209**
 - [`EG-238`](../D:/SIF/engineering/specifications/WP-208/EG-238-Customizable-Audit-Models-and-Change-Sets.md) — Customizable Audit Models and Change Sets _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-239`](../D:/SIF/engineering/specifications/WP-208/EG-239-Explicit-Audit-Composition-and-Optional-Static-Facade.md) — Explicit Audit Composition and Optional Static Facade _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-240`](../D:/SIF/engineering/specifications/WP-208/EG-240-Audit-Reference-Integration-and-Product-Completion.md) — Audit Reference Integration and Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-209
+
+- [`EG-241`](../D:/SIF/engineering/specifications/WP-209/EG-241-Persistence-Architecture.md) — Persistence Architecture _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 

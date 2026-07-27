@@ -6,9 +6,9 @@
 
 | Metric | Value |
 |---|---:|
-| Documents | 209 |
-| References | 88 |
-| Resolved | 88 |
+| Documents | 211 |
+| References | 90 |
+| Resolved | 90 |
 | Broken | 0 |
 | Isolated documents | 122 |
 
@@ -18,7 +18,7 @@
 |---|---:|
 | implements | 1 |
 | reference | 15 |
-| related | 72 |
+| related | 74 |
 
 ## Broken References
 
@@ -28,7 +28,7 @@ _No broken references._
 
 | Document | Type | Incoming | Outgoing | Broken outgoing |
 |---|---|---:|---:|---:|
-| `ADR-0005` — Adopt a Capability-Driven Runtime | GOVERNANCEDOCUMENT | 68 | 1 | 0 |
+| `ADR-0005` — Adopt a Capability-Driven Runtime | GOVERNANCEDOCUMENT | 70 | 1 | 0 |
 | `ADR-0004` — Modular Engineering Specifications | GOVERNANCEDOCUMENT | 4 | 0 | 0 |
 | `EG-009` — Reference Resolution | NORMATIVEDOCUMENT | 3 | 0 | 0 |
 | `EG-032` — Built-in Analyzers Architecture | NORMATIVEDOCUMENT | 2 | 3 | 0 |
@@ -229,6 +229,7 @@ _No broken references._
 | `EG-238` | `ADR-0005` | related | — |
 | `EG-239` | `ADR-0005` | related | — |
 | `EG-240` | `ADR-0005` | related | — |
+| `EG-241` | `ADR-0005` | related | — |
 | `WP-110-IMPLEMENTATION-REPORT` | `EG-051` | reference | — |
 | `WP-200-A1-IMPLEMENTATION-REPORT` | `ADR-0005` | related | — |
 | `WP-200-ARCHITECTURE-REVIEW` | `ADR-0005` | related | — |
@@ -261,3 +262,4 @@ _No broken references._
 | `WP-208-I6-REVIEW` | `ADR-0005` | related | — |
 | `WP-208-I7-REVIEW` | `ADR-0005` | related | — |
 | `WP-208-I8-REVIEW` | `ADR-0005` | related | — |
+| `WP-209-I1-REVIEW` | `ADR-0005` | related | — |

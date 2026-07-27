@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 209
-- Resolved references: 88
+- Total documents: 211
+- Resolved references: 90
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
 - INFORMATIVEDOCUMENT: 29
-- NORMATIVEDOCUMENT: 118
-- REVIEWDOCUMENT: 48
+- NORMATIVEDOCUMENT: 119
+- REVIEWDOCUMENT: 49
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 172
+- Draft for Review: 174
 
 ## Documents
 
@@ -181,6 +181,7 @@
 | EG-238 | Customizable Audit Models and Change Sets | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-208/EG-238-Customizable-Audit-Models-and-Change-Sets.md`](../D:/SIF/engineering/specifications/WP-208/EG-238-Customizable-Audit-Models-and-Change-Sets.md) |
 | EG-239 | Explicit Audit Composition and Optional Static Facade | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-208/EG-239-Explicit-Audit-Composition-and-Optional-Static-Facade.md`](../D:/SIF/engineering/specifications/WP-208/EG-239-Explicit-Audit-Composition-and-Optional-Static-Facade.md) |
 | EG-240 | Audit Reference Integration and Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-208/EG-240-Audit-Reference-Integration-and-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-208/EG-240-Audit-Reference-Integration-and-Product-Completion.md) |
+| EG-241 | Persistence Architecture | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-209/EG-241-Persistence-Architecture.md`](../D:/SIF/engineering/specifications/WP-209/EG-241-Persistence-Architecture.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -251,3 +252,4 @@
 | WP-208-I6-REVIEW | WP-208-I6 Customizable Audit Models and Change Sets Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-208-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-208-I6-Implementation-Review.md) |
 | WP-208-I7-REVIEW | WP-208-I7 Explicit Audit Composition and Static Facade Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-208-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-208-I7-Implementation-Review.md) |
 | WP-208-I8-REVIEW | WP-208-I8 Audit Reference Integration and Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-208-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-208-I8-Product-Completion-Review.md) |
+| WP-209-I1-REVIEW | WP-209-I1 Persistence Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-209-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-209-I1-Architecture-Review.md) |
