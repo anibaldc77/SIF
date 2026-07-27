@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 171
-- Resolved references: 50
+- Total documents: 183
+- Resolved references: 62
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
 - INFORMATIVEDOCUMENT: 29
-- NORMATIVEDOCUMENT: 99
-- REVIEWDOCUMENT: 29
+- NORMATIVEDOCUMENT: 105
+- REVIEWDOCUMENT: 35
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 134
+- Draft for Review: 146
 
 ## Documents
 
@@ -162,6 +162,12 @@
 | EG-219 | Observation Lifecycle Facade | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-205/EG-219-Observation-Lifecycle-Facade.md`](../D:/SIF/engineering/specifications/WP-205/EG-219-Observation-Lifecycle-Facade.md) |
 | EG-220 | Runtime Observation Reference Integration | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-206/EG-220-Runtime-Observation-Reference-Integration.md`](../D:/SIF/engineering/specifications/WP-206/EG-220-Runtime-Observation-Reference-Integration.md) |
 | EG-221 | Runtime Observation Failure Reference Integration | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-206/EG-221-Runtime-Observation-Failure-Reference-Integration.md`](../D:/SIF/engineering/specifications/WP-206/EG-221-Runtime-Observation-Failure-Reference-Integration.md) |
+| EG-222 | Runtime Observation Shutdown Reference Integration | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-206/EG-222-Runtime-Observation-Shutdown-Reference-Integration.md`](../D:/SIF/engineering/specifications/WP-206/EG-222-Runtime-Observation-Shutdown-Reference-Integration.md) |
+| EG-223 | Runtime Observation Boot Reference Integration | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-206/EG-223-Runtime-Observation-Boot-Reference-Integration.md`](../D:/SIF/engineering/specifications/WP-206/EG-223-Runtime-Observation-Boot-Reference-Integration.md) |
+| EG-224 | Runtime Observation Operation Matrix Reference Integration | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-206/EG-224-Runtime-Observation-Operation-Matrix-Reference-Integration.md`](../D:/SIF/engineering/specifications/WP-206/EG-224-Runtime-Observation-Operation-Matrix-Reference-Integration.md) |
+| EG-225 | WP-206 Runtime Observation Reference Integration Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-206/EG-225-WP-206-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-206/EG-225-WP-206-Product-Completion.md) |
+| EG-226 | Execution Context Architecture | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-207/EG-226-Execution-Context-Architecture.md`](../D:/SIF/engineering/specifications/WP-207/EG-226-Execution-Context-Architecture.md) |
+| EG-227 | Execution Context Core Contracts and Immutable Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-207/EG-227-Execution-Context-Core-Contracts-and-Immutable-Model.md`](../D:/SIF/engineering/specifications/WP-207/EG-227-Execution-Context-Core-Contracts-and-Immutable-Model.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -213,3 +219,9 @@
 | WP-205-I2A-REVIEW | WP-205-I2A Runtime Event Observation Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-205-I2A-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-205-I2A-Architecture-Review.md) |
 | WP-206-I1-REVIEW | WP-206-I1 Runtime Observation Reference Integration Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-206-I1-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-206-I1-Implementation-Review.md) |
 | WP-206-I2-REVIEW | WP-206-I2 Runtime Observation Failure Reference Integration Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-206-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-206-I2-Implementation-Review.md) |
+| WP-206-I3-REVIEW | WP-206-I3 Runtime Observation Shutdown Reference Integration Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-206-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-206-I3-Implementation-Review.md) |
+| WP-206-I4-REVIEW | WP-206-I4 Runtime Observation Boot Reference Integration Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-206-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-206-I4-Implementation-Review.md) |
+| WP-206-I5-REVIEW | WP-206-I5 Runtime Observation Operation Matrix Reference Integration Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-206-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-206-I5-Implementation-Review.md) |
+| WP-206-I6-REVIEW | WP-206-I6 Runtime Observation Reference Integration Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-206-I6-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-206-I6-Product-Completion-Review.md) |
+| WP-207-I1-REVIEW | WP-207-I1 Execution Context Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-207-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-207-I1-Architecture-Review.md) |
+| WP-207-I2-REVIEW | WP-207-I2 Execution Context Core Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-207-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-207-I2-Implementation-Review.md) |

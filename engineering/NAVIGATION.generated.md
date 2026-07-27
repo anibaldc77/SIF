@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **171**
+Governed documents: **183**
 
 ## Generated views
 
@@ -34,6 +34,10 @@ Governed documents: **171**
 ### Architecture Review — WP-205
 
 - [`WP-205-I2A-REVIEW`](../D:/SIF/engineering/reviews/WP-205-I2A-Architecture-Review.md) — WP-205-I2A Runtime Event Observation Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Architecture Review — WP-207
+
+- [`WP-207-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-207-I1-Architecture-Review.md) — WP-207-I1 Execution Context Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Constitution
 
@@ -128,6 +132,14 @@ Governed documents: **171**
 
 - [`WP-206-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-206-I1-Implementation-Review.md) — WP-206-I1 Runtime Observation Reference Integration Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-206-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-206-I2-Implementation-Review.md) — WP-206-I2 Runtime Observation Failure Reference Integration Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-206-I3-REVIEW`](../D:/SIF/engineering/reviews/WP-206-I3-Implementation-Review.md) — WP-206-I3 Runtime Observation Shutdown Reference Integration Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-206-I4-REVIEW`](../D:/SIF/engineering/reviews/WP-206-I4-Implementation-Review.md) — WP-206-I4 Runtime Observation Boot Reference Integration Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-206-I5-REVIEW`](../D:/SIF/engineering/reviews/WP-206-I5-Implementation-Review.md) — WP-206-I5 Runtime Observation Operation Matrix Reference Integration Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-206-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-206-I6-Product-Completion-Review.md) — WP-206-I6 Runtime Observation Reference Integration Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Implementation Review — WP-207
+
+- [`WP-207-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-207-I2-Implementation-Review.md) — WP-207-I2 Execution Context Core Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Informative Document
 
@@ -323,6 +335,15 @@ Governed documents: **171**
 
 - [`EG-220`](../D:/SIF/engineering/specifications/WP-206/EG-220-Runtime-Observation-Reference-Integration.md) — Runtime Observation Reference Integration _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-221`](../D:/SIF/engineering/specifications/WP-206/EG-221-Runtime-Observation-Failure-Reference-Integration.md) — Runtime Observation Failure Reference Integration _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-222`](../D:/SIF/engineering/specifications/WP-206/EG-222-Runtime-Observation-Shutdown-Reference-Integration.md) — Runtime Observation Shutdown Reference Integration _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-223`](../D:/SIF/engineering/specifications/WP-206/EG-223-Runtime-Observation-Boot-Reference-Integration.md) — Runtime Observation Boot Reference Integration _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-224`](../D:/SIF/engineering/specifications/WP-206/EG-224-Runtime-Observation-Operation-Matrix-Reference-Integration.md) — Runtime Observation Operation Matrix Reference Integration _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-225`](../D:/SIF/engineering/specifications/WP-206/EG-225-WP-206-Product-Completion.md) — WP-206 Runtime Observation Reference Integration Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-207
+
+- [`EG-226`](../D:/SIF/engineering/specifications/WP-207/EG-226-Execution-Context-Architecture.md) — Execution Context Architecture _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-227`](../D:/SIF/engineering/specifications/WP-207/EG-227-Execution-Context-Core-Contracts-and-Immutable-Model.md) — Execution Context Core Contracts and Immutable Model _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 
