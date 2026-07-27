@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **167**
+Governed documents: **169**
 
 ## Generated views
 
@@ -123,6 +123,10 @@ Governed documents: **167**
 - [`WP-205-I2-B3-REVIEW`](../D:/SIF/engineering/reviews/WP-205-I2-B3-Implementation-Review.md) — WP-205-I2-B3 Observation Composition API Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-205-I2-B4-REVIEW`](../D:/SIF/engineering/reviews/WP-205-I2-B4-Implementation-Review.md) — WP-205-I2-B4 Observation Diagnostics and Reporting Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-205-I2-B5-REVIEW`](../D:/SIF/engineering/reviews/WP-205-I2-B5-Implementation-Review.md) — WP-205-I2-B5 Observation Lifecycle Facade Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Implementation Review — WP-206
+
+- [`WP-206-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-206-I1-Implementation-Review.md) — WP-206-I1 Runtime Observation Reference Integration Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Informative Document
 
@@ -313,6 +317,10 @@ Governed documents: **167**
 - [`EG-217`](../D:/SIF/engineering/specifications/WP-205/EG-217-Observation-Composition-API.md) — Observation Composition API _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-218`](../D:/SIF/engineering/specifications/WP-205/EG-218-Observation-Diagnostics-and-Reporting.md) — Observation Diagnostics and Reporting _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-219`](../D:/SIF/engineering/specifications/WP-205/EG-219-Observation-Lifecycle-Facade.md) — Observation Lifecycle Facade _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-206
+
+- [`EG-220`](../D:/SIF/engineering/specifications/WP-206/EG-220-Runtime-Observation-Reference-Integration.md) — Runtime Observation Reference Integration _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 
