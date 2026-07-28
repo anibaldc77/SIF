@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Sif\Foundation;
 
 use Sif\Foundation\Capability\CapabilityRegistry;
+use Sif\Foundation\Configuration\Bootstrap\ConfigurationBootstrapper;
 use Sif\Foundation\Configuration\ConfigurationRepository;
 use Sif\Foundation\Configuration\Loader\ConfigurationFileLoader;
 use Sif\Foundation\Contracts\BootstrapInterface;
@@ -27,6 +28,8 @@ final class Bootstrap implements BootstrapInterface
 
     private ?string $dotenvSource;
 
+    private ?ConfigurationBootstrapper $configurationBootstrapper;
+
     /**
      * Sources are processed from lowest to highest precedence.
      *
@@ -37,12 +40,14 @@ final class Bootstrap implements BootstrapInterface
         iterable $configurationSources = [],
         ?EnvironmentProviderInterface $nativeEnvironment = null,
         ?string $dotenvSource = null,
+        ?ConfigurationBootstrapper $configurationBootstrapper = null,
     ) {
         $this->configurationLoader = $configurationLoader
             ?? ConfigurationFileLoader::withDefaultLoaders();
         $this->configurationSources = [];
         $this->nativeEnvironment = $nativeEnvironment ?? new NativeEnvironmentProvider();
         $this->dotenvSource = $dotenvSource;
+        $this->configurationBootstrapper = $configurationBootstrapper;
 
         foreach ($configurationSources as $source) {
             $this->configurationSources[] = $source;
@@ -55,9 +60,10 @@ final class Bootstrap implements BootstrapInterface
         $kernel = new Kernel($lifecycle);
         $variables = $this->createEnvironmentRepository();
         $runtime = new Runtime($variables);
-        $configuration = new ConfigurationRepository(
-            $this->configurationLoader->loadMany($this->configurationSources),
-        );
+        $configurationValues = $this->configurationBootstrapper !== null
+            ? $this->configurationBootstrapper->load()->snapshot()->values()
+            : $this->configurationLoader->loadMany($this->configurationSources);
+        $configuration = new ConfigurationRepository($configurationValues);
 
         return new Application(
             $runtime,

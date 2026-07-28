@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **242**
+Governed documents: **258**
 
 ## Generated views
 
@@ -50,6 +50,10 @@ Governed documents: **242**
 ### Architecture Review — WP-210
 
 - [`WP-210-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-210-I1-Architecture-Review.md) — WP-210-I1 Dependency Injection Container Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Architecture Review — WP-211
+
+- [`WP-211-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-211-I1-Architecture-Review.md) — WP-211-I1 Configuration 2.0 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Constitution
 
@@ -187,6 +191,16 @@ Governed documents: **242**
 - [`WP-210-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-210-I6-Implementation-Review.md) — WP-210-I6 Contextual Bindings and Tagged Services Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-210-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-210-I7-Implementation-Review.md) — WP-210-I7 Lazy References, Diagnostics and Compilation Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-210-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-210-I8-Product-Completion-Review.md) — WP-210-I8 Compatibility Integration and Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Implementation Review — WP-211
+
+- [`WP-211-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-211-I2-Implementation-Review.md) — WP-211-I2 Configuration Core Value Model and Typed Read Contracts Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-211-I3-REVIEW`](../D:/SIF/engineering/reviews/WP-211-I3-Implementation-Review.md) — WP-211-I3 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-211-I4-REVIEW`](../D:/SIF/engineering/reviews/WP-211-I4-Implementation-Review.md) — WP-211-I4 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-211-I5-REVIEW`](../D:/SIF/engineering/reviews/WP-211-I5-Implementation-Review.md) — WP-211 I5 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-211-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-211-I6-Implementation-Review.md) — WP-211 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-211-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-211-I7-Implementation-Review.md) — WP-211 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-211-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-211-I8-Implementation-Review.md) — WP-211 I8 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Informative Document
 
@@ -430,6 +444,17 @@ Governed documents: **242**
 - [`EG-255`](../D:/SIF/engineering/specifications/WP-210/EG-255-Lazy-References-Diagnostics-and-Compiled-Definitions.md) — Lazy References, Diagnostics and Compiled Definitions _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-256`](../D:/SIF/engineering/specifications/WP-210/EG-256-Compatibility-Integration-and-Product-Completion.md) — Container Compatibility, Controlled Integration and Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-210-CONTAINER-2-MIGRATION-GUIDE`](../D:/SIF/engineering/migrations/WP-210-CONTAINER-2-MIGRATION-GUIDE.md) — Container 2.0 Migration Guide _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-211
+
+- [`EG-257`](../D:/SIF/engineering/specifications/WP-211/EG-257-Configuration-2-Architecture.md) — Configuration 2.0 Architecture _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-258`](../D:/SIF/engineering/specifications/WP-211/EG-258-Configuration-Core-Value-Model-and-Typed-Read-Contracts.md) — Configuration Core Value Model and Typed Read Contracts _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-259`](../D:/SIF/engineering/specifications/WP-211/EG-259-Configuration-Sources-Layered-Composition-and-Provenance.md) — Configuration Sources, Layered Composition, and Provenance _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-260`](../D:/SIF/engineering/specifications/WP-211/EG-260-Configuration-Source-Adapters-and-Structured-Diagnostics.md) — Configuration Source Adapters and Structured Diagnostics _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-261`](../D:/SIF/engineering/specifications/WP-211/EG-261-Configuration-Schema-Validation-and-Normalization.md) — Configuration Schema Validation and Normalization _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-262`](../D:/SIF/engineering/specifications/WP-211/EG-262-Secret-Classification-Redaction-and-Safe-Export.md) — Configuration Secret Classification Redaction and Safe Export _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-263`](../D:/SIF/engineering/specifications/WP-211/EG-263-Immutable-Snapshots-Canonical-Serialization-and-Fingerprints.md) — Immutable Configuration Snapshots Canonical Serialization and Fingerprints _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-264`](../D:/SIF/engineering/specifications/WP-211/EG-264-Runtime-Cache-and-Bootstrap-Integration.md) — Configuration Runtime Cache and Bootstrap Integration _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 
