@@ -9,22 +9,40 @@ use Sif\Foundation\Capability\Contracts\CapabilityInterface;
 use Sif\Foundation\Capability\NamedCapability;
 use Sif\Foundation\Configuration\ConfigurationRepository;
 use Sif\Foundation\Configuration\Contracts\MutableConfigurationInterface;
+use Sif\Foundation\Container\ServiceDefinitionRegistry;
 use Sif\Foundation\Contracts\EnvironmentAwareApplicationInterface;
+use Sif\Foundation\Contracts\MutableLoggingApplicationInterface;
+use Sif\Foundation\Contracts\MutableErrorHandlingApplicationInterface;
 use Sif\Foundation\Contracts\EnvironmentInterface;
 use Sif\Foundation\Environment\Contracts\MutableEnvironmentInterface;
 use Sif\Foundation\Environment\EnvironmentRepository;
 use Sif\Foundation\Contracts\KernelInterface;
 use Sif\Foundation\Contracts\RuntimeInterface;
 use Sif\Foundation\Exceptions\InvalidCapabilityException;
+use Sif\Foundation\Modules\Runtime\ModuleRuntimeIntegrationResult;
+use Sif\Foundation\Logging\Contracts\LoggerInterface;
+use Sif\Foundation\ErrorHandling\Contracts\ErrorHandlerInterface;
+use Sif\Foundation\ErrorHandling\FailureOrigin;
+use Sif\Foundation\ErrorHandling\Orchestration\ErrorHandlingResult;
 
 /** Owns the isolated runtime graph and its ordered provider collection. */
-final class Application implements EnvironmentAwareApplicationInterface
+final class Application implements EnvironmentAwareApplicationInterface, MutableLoggingApplicationInterface, MutableErrorHandlingApplicationInterface
 {
     private CapabilityRegistry $capabilityRegistry;
 
     private MutableConfigurationInterface $configuration;
 
     private MutableEnvironmentInterface $variables;
+
+    private ServiceDefinitionRegistry $serviceDefinitions;
+
+    private ?ModuleRuntimeIntegrationResult $moduleRuntime;
+
+    private ?LoggerInterface $logger;
+
+    private ?ErrorHandlerInterface $errorHandler;
+
+    private ?ErrorHandlingResult $lastErrorHandlingResult = null;
 
     public function __construct(
         private readonly RuntimeInterface $runtime,
@@ -34,10 +52,18 @@ final class Application implements EnvironmentAwareApplicationInterface
         ?CapabilityRegistry $capabilityRegistry = null,
         ?MutableConfigurationInterface $configuration = null,
         ?MutableEnvironmentInterface $variables = null,
+        ?ServiceDefinitionRegistry $serviceDefinitions = null,
+        ?ModuleRuntimeIntegrationResult $moduleRuntime = null,
+        ?LoggerInterface $logger = null,
+        ?ErrorHandlerInterface $errorHandler = null,
     ) {
         $this->configuration = $configuration ?? new ConfigurationRepository();
         $this->variables = $variables ?? new EnvironmentRepository();
         $this->capabilityRegistry = $capabilityRegistry ?? new CapabilityRegistry();
+        $this->serviceDefinitions = $serviceDefinitions ?? new ServiceDefinitionRegistry();
+        $this->moduleRuntime = $moduleRuntime;
+        $this->logger = $logger;
+        $this->errorHandler = $errorHandler;
 
         foreach (['runtime', 'foundation', 'providers', 'lifecycle', 'configuration'] as $identifier) {
             if (!$this->capabilityRegistry->has($identifier)) {
@@ -94,6 +120,42 @@ final class Application implements EnvironmentAwareApplicationInterface
         return $this->capabilityRegistry;
     }
 
+
+    public function serviceDefinitions(): ServiceDefinitionRegistry
+    {
+        return $this->serviceDefinitions;
+    }
+
+    public function moduleRuntime(): ?ModuleRuntimeIntegrationResult
+    {
+        return $this->moduleRuntime;
+    }
+
+    public function logger(): ?LoggerInterface
+    {
+        return $this->logger;
+    }
+
+    public function setLogger(LoggerInterface $logger): void
+    {
+        $this->logger = $logger;
+    }
+
+    public function errorHandler(): ?ErrorHandlerInterface
+    {
+        return $this->errorHandler;
+    }
+
+    public function setErrorHandler(ErrorHandlerInterface $errorHandler): void
+    {
+        $this->errorHandler = $errorHandler;
+    }
+
+    public function lastErrorHandlingResult(): ?ErrorHandlingResult
+    {
+        return $this->lastErrorHandlingResult;
+    }
+
     public function configuration(): MutableConfigurationInterface
     {
         return $this->configuration;
@@ -122,17 +184,41 @@ final class Application implements EnvironmentAwareApplicationInterface
 
     public function boot(): BootResult
     {
-        return $this->kernel->boot($this);
+        return $this->observeLifecycleResult($this->kernel->boot($this), 'runtime.boot');
     }
 
     public function run(): BootResult
     {
-        return $this->kernel->run($this);
+        return $this->observeLifecycleResult($this->kernel->run($this), 'runtime.run');
     }
 
     public function shutdown(): BootResult
     {
-        return $this->kernel->shutdown($this);
+        return $this->observeLifecycleResult($this->kernel->shutdown($this), 'runtime.shutdown');
+    }
+
+    private function observeLifecycleResult(BootResult $result, string $origin): BootResult
+    {
+        $cause = $result->cause();
+        if ($result->succeeded() || $cause === null || $this->errorHandler === null) {
+            return $result;
+        }
+
+        try {
+            $this->lastErrorHandlingResult = $this->errorHandler->handle(
+                $cause,
+                new FailureOrigin($origin),
+                [
+                    'boot_stage' => $result->stage()->value,
+                    'error_count' => count($result->errors()),
+                    'runtime_state' => $this->runtime->state()->value,
+                ],
+            );
+        } catch (\Throwable) {
+            // Terminal observation boundary: preserve the original BootResult and cause.
+        }
+
+        return $result;
     }
 
     private function normalizeCapability(string $capability): string

@@ -6,11 +6,11 @@
 
 | Metric | Value |
 |---|---:|
-| Documents | 258 |
-| References | 137 |
-| Resolved | 137 |
+| Documents | 307 |
+| References | 171 |
+| Resolved | 171 |
 | Broken | 0 |
-| Isolated documents | 122 |
+| Isolated documents | 137 |
 
 ## References by Type
 
@@ -18,7 +18,7 @@
 |---|---:|
 | implements | 1 |
 | reference | 15 |
-| related | 121 |
+| related | 155 |
 
 ## Broken References
 
@@ -28,7 +28,7 @@ _No broken references._
 
 | Document | Type | Incoming | Outgoing | Broken outgoing |
 |---|---|---:|---:|---:|
-| `ADR-0005` — Adopt a Capability-Driven Runtime | GOVERNANCEDOCUMENT | 117 | 1 | 0 |
+| `ADR-0005` — Adopt a Capability-Driven Runtime | GOVERNANCEDOCUMENT | 151 | 1 | 0 |
 | `ADR-0004` — Modular Engineering Specifications | GOVERNANCEDOCUMENT | 4 | 0 | 0 |
 | `EG-009` — Reference Resolution | NORMATIVEDOCUMENT | 3 | 0 | 0 |
 | `EG-032` — Built-in Analyzers Architecture | NORMATIVEDOCUMENT | 2 | 3 | 0 |
@@ -108,6 +108,13 @@ _No broken references._
 - `EG-212-A1` — Runtime Environment Integration Hotfix
 - `EG-212-A2` — Runtime Environment Stabilization
 - `EG-213` — Event Dispatcher Core
+- `EG-282` — Core Failure Model
+- `EG-283` — Deterministic Throwable Classification
+- `EG-284` — Recovery Decisions, Ordered Policies and Retry Guidance
+- `EG-285` — Safe Failure Metadata, Context Enrichment and Envelope Factory
+- `EG-286` — Failure Reporters, Filtering and Isolated Dispatch
+- `EG-287` — Immutable ErrorHandlingPlan and Orchestration
+- `EG-288` — Runtime Integration, Service Provider and Completion
 - `ENGINEERING-README` — Engineering System
 - `ES-002` — Metadata Standard
 - `ES-003` — Document Class Model
@@ -168,6 +175,14 @@ _No broken references._
 - `WP-204-I3A-REPORT` — WP-204-I3A Implementation Report
 - `WP-204-I3B-REVIEW` — WP-204-I3B Implementation Review
 - `WP-205-I1-REVIEW` — WP-205-I1 Event Dispatcher Core Implementation Review
+- `WP-214-I2-IMPLEMENTATION-REVIEW` — WP-214 I2 Implementation Review
+- `WP-214-I3-IMPLEMENTATION-REVIEW` — WP-214 I3 Implementation Review
+- `WP-214-I3A-CORRECTION-REVIEW` — WP-214 I3A Classification Test Hierarchy Correction Review
+- `WP-214-I4-IMPLEMENTATION-REVIEW` — WP-214 I4 Implementation Review
+- `WP-214-I5-IMPLEMENTATION-REVIEW` — WP-214 I5 Implementation Review
+- `WP-214-I6-IMPLEMENTATION-REVIEW` — WP-214 I6 Implementation Review
+- `WP-214-I7-REVIEW` — WP-214 I7 Implementation Review
+- `WP-214-I8-REVIEW` — WP-214 I8 Implementation Review
 
 ## Resolved References
 
@@ -253,6 +268,23 @@ _No broken references._
 | `EG-262` | `ADR-0005` | related | — |
 | `EG-263` | `ADR-0005` | related | — |
 | `EG-264` | `ADR-0005` | related | — |
+| `EG-265` | `ADR-0005` | related | — |
+| `EG-266` | `ADR-0005` | related | — |
+| `EG-267` | `ADR-0005` | related | — |
+| `EG-268` | `ADR-0005` | related | — |
+| `EG-269` | `ADR-0005` | related | — |
+| `EG-270` | `ADR-0005` | related | — |
+| `EG-271` | `ADR-0005` | related | — |
+| `EG-272` | `ADR-0005` | related | — |
+| `EG-273` | `ADR-0005` | related | — |
+| `EG-274` | `ADR-0005` | related | — |
+| `EG-275` | `ADR-0005` | related | — |
+| `EG-276` | `ADR-0005` | related | — |
+| `EG-277` | `ADR-0005` | related | — |
+| `EG-278` | `ADR-0005` | related | — |
+| `EG-279` | `ADR-0005` | related | — |
+| `EG-280` | `ADR-0005` | related | — |
+| `EG-281` | `ADR-0005` | related | — |
 | `WP-110-IMPLEMENTATION-REPORT` | `EG-051` | reference | — |
 | `WP-200-A1-IMPLEMENTATION-REPORT` | `ADR-0005` | related | — |
 | `WP-200-ARCHITECTURE-REVIEW` | `ADR-0005` | related | — |
@@ -310,3 +342,20 @@ _No broken references._
 | `WP-211-I6-REVIEW` | `ADR-0005` | related | — |
 | `WP-211-I7-REVIEW` | `ADR-0005` | related | — |
 | `WP-211-I8-REVIEW` | `ADR-0005` | related | — |
+| `WP-212-I1-REVIEW` | `ADR-0005` | related | — |
+| `WP-212-I2-REVIEW` | `ADR-0005` | related | — |
+| `WP-212-I3-REVIEW` | `ADR-0005` | related | — |
+| `WP-212-I4-REVIEW` | `ADR-0005` | related | — |
+| `WP-212-I5-REVIEW` | `ADR-0005` | related | — |
+| `WP-212-I6-REVIEW` | `ADR-0005` | related | — |
+| `WP-212-I7-REVIEW` | `ADR-0005` | related | — |
+| `WP-212-I8-REVIEW` | `ADR-0005` | related | — |
+| `WP-213-I1-REVIEW` | `ADR-0005` | related | — |
+| `WP-213-I2-REVIEW` | `ADR-0005` | related | — |
+| `WP-213-I3-REVIEW` | `ADR-0005` | related | — |
+| `WP-213-I4-REVIEW` | `ADR-0005` | related | — |
+| `WP-213-I5-REVIEW` | `ADR-0005` | related | — |
+| `WP-213-I6-REVIEW` | `ADR-0005` | related | — |
+| `WP-213-I7-REVIEW` | `ADR-0005` | related | — |
+| `WP-213-I8-REVIEW` | `ADR-0005` | related | — |
+| `WP-214-I1-REVIEW` | `ADR-0005` | related | — |

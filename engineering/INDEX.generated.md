@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 258
-- Resolved references: 137
+- Total documents: 307
+- Resolved references: 171
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
 - INFORMATIVEDOCUMENT: 29
-- NORMATIVEDOCUMENT: 143
-- REVIEWDOCUMENT: 72
+- NORMATIVEDOCUMENT: 167
+- REVIEWDOCUMENT: 97
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 221
+- Draft for Review: 270
 
 ## Documents
 
@@ -205,6 +205,30 @@
 | EG-262 | Configuration Secret Classification Redaction and Safe Export | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-211/EG-262-Secret-Classification-Redaction-and-Safe-Export.md`](../D:/SIF/engineering/specifications/WP-211/EG-262-Secret-Classification-Redaction-and-Safe-Export.md) |
 | EG-263 | Immutable Configuration Snapshots Canonical Serialization and Fingerprints | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-211/EG-263-Immutable-Snapshots-Canonical-Serialization-and-Fingerprints.md`](../D:/SIF/engineering/specifications/WP-211/EG-263-Immutable-Snapshots-Canonical-Serialization-and-Fingerprints.md) |
 | EG-264 | Configuration Runtime Cache and Bootstrap Integration | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-211/EG-264-Runtime-Cache-and-Bootstrap-Integration.md`](../D:/SIF/engineering/specifications/WP-211/EG-264-Runtime-Cache-and-Bootstrap-Integration.md) |
+| EG-265 | Module Registry 2.0 Architecture | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-212/EG-265-Module-Registry-2-Architecture.md`](../D:/SIF/engineering/specifications/WP-212/EG-265-Module-Registry-2-Architecture.md) |
+| EG-266 | Module Identity, Version and Descriptor Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-212/EG-266-Module-Identity-And-Descriptors.md`](../D:/SIF/engineering/specifications/WP-212/EG-266-Module-Identity-And-Descriptors.md) |
+| EG-267 | Concrete Module Registry | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-212/EG-267-Concrete-Module-Registry.md`](../D:/SIF/engineering/specifications/WP-212/EG-267-Concrete-Module-Registry.md) |
+| EG-268 | Module Dependency Resolution and Version Constraints | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-212/EG-268-Dependency-Resolution-And-Version-Constraints.md`](../D:/SIF/engineering/specifications/WP-212/EG-268-Dependency-Resolution-And-Version-Constraints.md) |
+| EG-269 | Module Enablement Policy and Resolved Module Plan | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-212/EG-269-Module-Enablement-And-Resolved-Plan.md`](../D:/SIF/engineering/specifications/WP-212/EG-269-Module-Enablement-And-Resolved-Plan.md) |
+| EG-270 | Module Configuration, Container and Capability Contribution Contracts | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-212/EG-270-Module-Contribution-Contracts.md`](../D:/SIF/engineering/specifications/WP-212/EG-270-Module-Contribution-Contracts.md) |
+| EG-271 | Module Contribution Composition and Ownership | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-212/EG-271-Module-Contribution-Composition.md`](../D:/SIF/engineering/specifications/WP-212/EG-271-Module-Contribution-Composition.md) |
+| EG-272 | Module Runtime Integration and Closure | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-212/EG-272-Module-Runtime-Integration.md`](../D:/SIF/engineering/specifications/WP-212/EG-272-Module-Runtime-Integration.md) |
+| EG-273 | Structured Logging 2.0 Architecture | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-213/EG-273-Structured-Logging-2-Architecture.md`](../D:/SIF/engineering/specifications/WP-213/EG-273-Structured-Logging-2-Architecture.md) |
+| EG-274 | Structured Logging Core Value Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-213/EG-274-Logging-Core-Value-Model.md`](../D:/SIF/engineering/specifications/WP-213/EG-274-Logging-Core-Value-Model.md) |
+| EG-275 | Bounded Normalization, Canonical Serialization and Secret Redaction | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-213/EG-275-Bounded-Normalization-Canonical-Serialization-and-Secret-Redaction.md`](../D:/SIF/engineering/specifications/WP-213/EG-275-Bounded-Normalization-Canonical-Serialization-and-Secret-Redaction.md) |
+| EG-276 | Record Factory, Placeholder Rendering and Processor Pipeline | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-213/EG-276-Record-Factory-Placeholder-Rendering-and-Processor-Pipeline.md`](../D:/SIF/engineering/specifications/WP-213/EG-276-Record-Factory-Placeholder-Rendering-and-Processor-Pipeline.md) |
+| EG-277 | Execution-Context Enrichment, Scoped Attributes and Processor Composition | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-213/EG-277-Execution-Context-Enrichment-Scoped-Attributes-and-Processor-Composition.md`](../D:/SIF/engineering/specifications/WP-213/EG-277-Execution-Context-Enrichment-Scoped-Attributes-and-Processor-Composition.md) |
+| EG-278 | Handlers, Filtering, Routing and Isolated Failure Reporting | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-213/EG-278-Handlers-Filtering-Routing-and-Isolated-Failure-Reporting.md`](../D:/SIF/engineering/specifications/WP-213/EG-278-Handlers-Filtering-Routing-and-Isolated-Failure-Reporting.md) |
+| EG-279 | Logger Facade, Immutable LoggingPlan and Provider-Neutral Orchestration | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-213/EG-279-Logger-Facade-Immutable-LoggingPlan-and-Provider-Neutral-Orchestration.md`](../D:/SIF/engineering/specifications/WP-213/EG-279-Logger-Facade-Immutable-LoggingPlan-and-Provider-Neutral-Orchestration.md) |
+| EG-280 | Runtime Integration, Service Provider and Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-213/EG-280-Runtime-Integration-Service-Provider-and-Completion.md`](../D:/SIF/engineering/specifications/WP-213/EG-280-Runtime-Integration-Service-Provider-and-Completion.md) |
+| EG-281 | Error Handling and Recovery 2.0 Architecture | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-214/EG-281-Error-Handling-and-Recovery-2-Architecture.md`](../D:/SIF/engineering/specifications/WP-214/EG-281-Error-Handling-and-Recovery-2-Architecture.md) |
+| EG-282 | Core Failure Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-214/EG-282-Core-Failure-Model.md`](../D:/SIF/engineering/specifications/WP-214/EG-282-Core-Failure-Model.md) |
+| EG-283 | Deterministic Throwable Classification | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-214/EG-283-Deterministic-Throwable-Classification.md`](../D:/SIF/engineering/specifications/WP-214/EG-283-Deterministic-Throwable-Classification.md) |
+| EG-284 | Recovery Decisions, Ordered Policies and Retry Guidance | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-214/EG-284-Recovery-Decisions-Ordered-Policies-and-Retry-Guidance.md`](../D:/SIF/engineering/specifications/WP-214/EG-284-Recovery-Decisions-Ordered-Policies-and-Retry-Guidance.md) |
+| EG-285 | Safe Failure Metadata, Context Enrichment and Envelope Factory | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-214/EG-285-Safe-Failure-Metadata-Context-Enrichment-and-Envelope-Factory.md`](../D:/SIF/engineering/specifications/WP-214/EG-285-Safe-Failure-Metadata-Context-Enrichment-and-Envelope-Factory.md) |
+| EG-286 | Failure Reporters, Filtering and Isolated Dispatch | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-214/EG-286-Failure-Reporters-Filtering-and-Isolated-Dispatch.md`](../D:/SIF/engineering/specifications/WP-214/EG-286-Failure-Reporters-Filtering-and-Isolated-Dispatch.md) |
+| EG-287 | Immutable ErrorHandlingPlan and Orchestration | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-214/EG-287-Immutable-ErrorHandlingPlan-and-Orchestration.md`](../D:/SIF/engineering/specifications/WP-214/EG-287-Immutable-ErrorHandlingPlan-and-Orchestration.md) |
+| EG-288 | Runtime Integration, Service Provider and Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-214/EG-288-Runtime-Integration-Service-Provider-and-Completion.md`](../D:/SIF/engineering/specifications/WP-214/EG-288-Runtime-Integration-Service-Provider-and-Completion.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -300,3 +324,28 @@
 | WP-211-I6-REVIEW | WP-211 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-211-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-211-I6-Implementation-Review.md) |
 | WP-211-I7-REVIEW | WP-211 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-211-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-211-I7-Implementation-Review.md) |
 | WP-211-I8-REVIEW | WP-211 I8 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-211-I8-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-211-I8-Implementation-Review.md) |
+| WP-212-I1-REVIEW | WP-212-I1 Module Registry 2.0 Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-212-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-212-I1-Architecture-Review.md) |
+| WP-212-I2-REVIEW | WP-212-I2 Implementation Review | Draft for Review | 1.0.0 | [`D:/SIF/engineering/reviews/WP-212-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-212-I2-Implementation-Review.md) |
+| WP-212-I3-REVIEW | WP-212-I3 Implementation Review | Draft for Review | 1.0.0 | [`D:/SIF/engineering/reviews/WP-212-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-212-I3-Implementation-Review.md) |
+| WP-212-I4-REVIEW | WP-212-I4 Implementation Review | Draft for Review | 1.0.0 | [`D:/SIF/engineering/reviews/WP-212-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-212-I4-Implementation-Review.md) |
+| WP-212-I5-REVIEW | WP-212-I5 Implementation Review | Draft for Review | 1.0.0 | [`D:/SIF/engineering/reviews/WP-212-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-212-I5-Implementation-Review.md) |
+| WP-212-I6-REVIEW | WP-212-I6 Implementation Review | Draft for Review | 1.0.0 | [`D:/SIF/engineering/reviews/WP-212-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-212-I6-Implementation-Review.md) |
+| WP-212-I7-REVIEW | WP-212-I7 Implementation Review | Draft for Review | 1.0.0 | [`D:/SIF/engineering/reviews/WP-212-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-212-I7-Implementation-Review.md) |
+| WP-212-I8-REVIEW | WP-212-I8 Implementation Review | Draft for Review | 1.0.0 | [`D:/SIF/engineering/reviews/WP-212-I8-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-212-I8-Implementation-Review.md) |
+| WP-213-I1-REVIEW | WP-213-I1 Structured Logging 2.0 Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-213-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-213-I1-Architecture-Review.md) |
+| WP-213-I2-REVIEW | WP-213-I2 Core Value Model Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-213-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-213-I2-Implementation-Review.md) |
+| WP-213-I3-REVIEW | WP-213-I3 Normalization and Redaction Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-213-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-213-I3-Implementation-Review.md) |
+| WP-213-I4-REVIEW | WP-213-I4 Record Factory and Processor Pipeline Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-213-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-213-I4-Implementation-Review.md) |
+| WP-213-I5-REVIEW | WP-213-I5 Execution-Context Enrichment and Processor Composition Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-213-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-213-I5-Implementation-Review.md) |
+| WP-213-I6-REVIEW | WP-213 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-213-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-213-I6-Implementation-Review.md) |
+| WP-213-I7-REVIEW | WP-213 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-213-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-213-I7-Implementation-Review.md) |
+| WP-213-I8-REVIEW | WP-213 I8 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-213-I8-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-213-I8-Implementation-Review.md) |
+| WP-214-I1-REVIEW | WP-214-I1 Error Handling and Recovery 2.0 Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-214-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-214-I1-Architecture-Review.md) |
+| WP-214-I2-IMPLEMENTATION-REVIEW | WP-214 I2 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-214-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-214-I2-Implementation-Review.md) |
+| WP-214-I3-IMPLEMENTATION-REVIEW | WP-214 I3 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-214-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-214-I3-Implementation-Review.md) |
+| WP-214-I3A-CORRECTION-REVIEW | WP-214 I3A Classification Test Hierarchy Correction Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-214-I3A-Correction-Review.md`](../D:/SIF/engineering/reviews/WP-214-I3A-Correction-Review.md) |
+| WP-214-I4-IMPLEMENTATION-REVIEW | WP-214 I4 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-214-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-214-I4-Implementation-Review.md) |
+| WP-214-I5-IMPLEMENTATION-REVIEW | WP-214 I5 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-214-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-214-I5-Implementation-Review.md) |
+| WP-214-I6-IMPLEMENTATION-REVIEW | WP-214 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-214-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-214-I6-Implementation-Review.md) |
+| WP-214-I7-REVIEW | WP-214 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-214-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-214-I7-Implementation-Review.md) |
+| WP-214-I8-REVIEW | WP-214 I8 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-214-I8-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-214-I8-Implementation-Review.md) |

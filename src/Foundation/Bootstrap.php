@@ -5,9 +5,11 @@ declare(strict_types=1);
 namespace Sif\Foundation;
 
 use Sif\Foundation\Capability\CapabilityRegistry;
+use Sif\Foundation\Capability\NamedCapability;
 use Sif\Foundation\Configuration\Bootstrap\ConfigurationBootstrapper;
 use Sif\Foundation\Configuration\ConfigurationRepository;
 use Sif\Foundation\Configuration\Loader\ConfigurationFileLoader;
+use Sif\Foundation\Container\ServiceDefinitionRegistry;
 use Sif\Foundation\Contracts\BootstrapInterface;
 use Sif\Foundation\Contracts\EnvironmentAwareApplicationInterface;
 use Sif\Foundation\Contracts\EnvironmentInterface;
@@ -16,6 +18,13 @@ use Sif\Foundation\Environment\Contracts\EnvironmentProviderInterface;
 use Sif\Foundation\Environment\DotenvEnvironmentProvider;
 use Sif\Foundation\Environment\EnvironmentRepository;
 use Sif\Foundation\Environment\NativeEnvironmentProvider;
+use Sif\Foundation\Modules\Runtime\ModuleRuntimeBootstrapper;
+use Sif\Foundation\Logging\Orchestration\StructuredLogger;
+use Sif\Foundation\Logging\Planning\LoggingPlan;
+use Sif\Foundation\Logging\Runtime\RuntimeLoggingServiceProvider;
+use Sif\Foundation\ErrorHandling\Orchestration\ErrorHandler;
+use Sif\Foundation\ErrorHandling\Planning\ErrorHandlingPlan;
+use Sif\Foundation\ErrorHandling\Runtime\RuntimeErrorHandlingServiceProvider;
 
 final class Bootstrap implements BootstrapInterface
 {
@@ -30,6 +39,12 @@ final class Bootstrap implements BootstrapInterface
 
     private ?ConfigurationBootstrapper $configurationBootstrapper;
 
+    private ?ModuleRuntimeBootstrapper $moduleRuntimeBootstrapper;
+
+    private ?LoggingPlan $loggingPlan;
+
+    private ?ErrorHandlingPlan $errorHandlingPlan;
+
     /**
      * Sources are processed from lowest to highest precedence.
      *
@@ -41,6 +56,9 @@ final class Bootstrap implements BootstrapInterface
         ?EnvironmentProviderInterface $nativeEnvironment = null,
         ?string $dotenvSource = null,
         ?ConfigurationBootstrapper $configurationBootstrapper = null,
+        ?ModuleRuntimeBootstrapper $moduleRuntimeBootstrapper = null,
+        ?LoggingPlan $loggingPlan = null,
+        ?ErrorHandlingPlan $errorHandlingPlan = null,
     ) {
         $this->configurationLoader = $configurationLoader
             ?? ConfigurationFileLoader::withDefaultLoaders();
@@ -48,15 +66,28 @@ final class Bootstrap implements BootstrapInterface
         $this->nativeEnvironment = $nativeEnvironment ?? new NativeEnvironmentProvider();
         $this->dotenvSource = $dotenvSource;
         $this->configurationBootstrapper = $configurationBootstrapper;
+        $this->moduleRuntimeBootstrapper = $moduleRuntimeBootstrapper;
+        $this->loggingPlan = $loggingPlan;
+        $this->errorHandlingPlan = $errorHandlingPlan;
 
         foreach ($configurationSources as $source) {
             $this->configurationSources[] = $source;
         }
     }
-    public function createApplication(EnvironmentInterface $environment): EnvironmentAwareApplicationInterface
+    public function createApplication(EnvironmentInterface $environment): Application
     {
         $lifecycle = new Lifecycle();
         $providers = new ServiceProviderCollection();
+        $logger = $this->loggingPlan !== null ? new StructuredLogger($this->loggingPlan) : null;
+        if ($logger !== null) {
+            $providers->add(new RuntimeLoggingServiceProvider($logger));
+        }
+        $errorHandler = $this->errorHandlingPlan !== null
+            ? new ErrorHandler($this->errorHandlingPlan)
+            : null;
+        if ($errorHandler !== null) {
+            $providers->add(new RuntimeErrorHandlingServiceProvider($errorHandler));
+        }
         $kernel = new Kernel($lifecycle);
         $variables = $this->createEnvironmentRepository();
         $runtime = new Runtime($variables);
@@ -64,15 +95,30 @@ final class Bootstrap implements BootstrapInterface
             ? $this->configurationBootstrapper->load()->snapshot()->values()
             : $this->configurationLoader->loadMany($this->configurationSources);
         $configuration = new ConfigurationRepository($configurationValues);
+        $capabilities = new CapabilityRegistry();
+        foreach (['runtime', 'foundation', 'providers', 'lifecycle', 'configuration'] as $identifier) {
+            $capabilities->register(new NamedCapability($identifier));
+        }
+        $serviceDefinitions = new ServiceDefinitionRegistry();
+        $moduleRuntime = $this->moduleRuntimeBootstrapper?->integrate(
+            $configuration,
+            $serviceDefinitions,
+            $capabilities,
+            $providers,
+        );
 
         return new Application(
             $runtime,
             $kernel,
             $environment,
             $providers,
-            new CapabilityRegistry(),
+            $capabilities,
             $configuration,
             $variables,
+            $serviceDefinitions,
+            $moduleRuntime,
+            $logger,
+            $errorHandler,
         );
     }
 
