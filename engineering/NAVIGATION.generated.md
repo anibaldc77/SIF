@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **307**
+Governed documents: **309**
 
 ## Generated views
 
@@ -66,6 +66,10 @@ Governed documents: **307**
 ### Architecture Review — WP-214
 
 - [`WP-214-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-214-I1-Architecture-Review.md) — WP-214-I1 Error Handling and Recovery 2.0 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Architecture Review — WP-215
+
+- [`WP-215-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-215-I1-Architecture-Review.md) — WP-215 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Constitution
 
@@ -531,6 +535,10 @@ Governed documents: **307**
 - [`EG-286`](../D:/SIF/engineering/specifications/WP-214/EG-286-Failure-Reporters-Filtering-and-Isolated-Dispatch.md) — Failure Reporters, Filtering and Isolated Dispatch _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-287`](../D:/SIF/engineering/specifications/WP-214/EG-287-Immutable-ErrorHandlingPlan-and-Orchestration.md) — Immutable ErrorHandlingPlan and Orchestration _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-288`](../D:/SIF/engineering/specifications/WP-214/EG-288-Runtime-Integration-Service-Provider-and-Completion.md) — Runtime Integration, Service Provider and Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-215
+
+- [`EG-289`](../D:/SIF/engineering/specifications/WP-215/EG-289-Resource-Management-and-Asset-Foundation-Architecture.md) — Resource Management and Asset Foundation Architecture _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 

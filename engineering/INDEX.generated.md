@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 307
-- Resolved references: 171
+- Total documents: 309
+- Resolved references: 173
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
 - INFORMATIVEDOCUMENT: 29
-- NORMATIVEDOCUMENT: 167
-- REVIEWDOCUMENT: 97
+- NORMATIVEDOCUMENT: 168
+- REVIEWDOCUMENT: 98
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 270
+- Draft for Review: 272
 
 ## Documents
 
@@ -229,6 +229,7 @@
 | EG-286 | Failure Reporters, Filtering and Isolated Dispatch | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-214/EG-286-Failure-Reporters-Filtering-and-Isolated-Dispatch.md`](../D:/SIF/engineering/specifications/WP-214/EG-286-Failure-Reporters-Filtering-and-Isolated-Dispatch.md) |
 | EG-287 | Immutable ErrorHandlingPlan and Orchestration | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-214/EG-287-Immutable-ErrorHandlingPlan-and-Orchestration.md`](../D:/SIF/engineering/specifications/WP-214/EG-287-Immutable-ErrorHandlingPlan-and-Orchestration.md) |
 | EG-288 | Runtime Integration, Service Provider and Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-214/EG-288-Runtime-Integration-Service-Provider-and-Completion.md`](../D:/SIF/engineering/specifications/WP-214/EG-288-Runtime-Integration-Service-Provider-and-Completion.md) |
+| EG-289 | Resource Management and Asset Foundation Architecture | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-215/EG-289-Resource-Management-and-Asset-Foundation-Architecture.md`](../D:/SIF/engineering/specifications/WP-215/EG-289-Resource-Management-and-Asset-Foundation-Architecture.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -349,3 +350,4 @@
 | WP-214-I6-IMPLEMENTATION-REVIEW | WP-214 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-214-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-214-I6-Implementation-Review.md) |
 | WP-214-I7-REVIEW | WP-214 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-214-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-214-I7-Implementation-Review.md) |
 | WP-214-I8-REVIEW | WP-214 I8 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-214-I8-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-214-I8-Implementation-Review.md) |
+| WP-215-I1-REVIEW | WP-215 I1 Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-215-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-215-I1-Architecture-Review.md) |
