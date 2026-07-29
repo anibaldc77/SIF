@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **309**
+Governed documents: **315**
 
 ## Generated views
 
@@ -248,6 +248,12 @@ Governed documents: **309**
 - [`WP-214-I6-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-214-I6-Implementation-Review.md) — WP-214 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-214-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-214-I7-Implementation-Review.md) — WP-214 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-214-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-214-I8-Implementation-Review.md) — WP-214 I8 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Implementation Review — WP-215
+
+- [`WP-215-I2-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-215-I2-Implementation-Review.md) — WP-215 I2 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-215-I3-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-215-I3-Implementation-Review.md) — WP-215 I3 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-215-I4-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-215-I4-Implementation-Review.md) — WP-215 I4 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Informative Document
 
@@ -539,6 +545,9 @@ Governed documents: **309**
 ### Normative Specification — WP-215
 
 - [`EG-289`](../D:/SIF/engineering/specifications/WP-215/EG-289-Resource-Management-and-Asset-Foundation-Architecture.md) — Resource Management and Asset Foundation Architecture _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-290`](../D:/SIF/engineering/specifications/WP-215/EG-290-Immutable-Resource-Value-Model.md) — Immutable Resource Value Model _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-291`](../D:/SIF/engineering/specifications/WP-215/EG-291-Deterministic-Resource-Registry.md) — Deterministic Resource Registry _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-292`](../D:/SIF/engineering/specifications/WP-215/EG-292-Authorized-Roots-and-Safe-Filesystem-Resolution.md) — Authorized Roots and Safe Filesystem Resolution _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 
