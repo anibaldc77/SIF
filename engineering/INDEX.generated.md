@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 315
-- Resolved references: 176
+- Total documents: 323
+- Resolved references: 180
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
 - INFORMATIVEDOCUMENT: 29
-- NORMATIVEDOCUMENT: 171
-- REVIEWDOCUMENT: 101
+- NORMATIVEDOCUMENT: 175
+- REVIEWDOCUMENT: 105
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 278
+- Draft for Review: 286
 
 ## Documents
 
@@ -233,6 +233,10 @@
 | EG-290 | Immutable Resource Value Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-215/EG-290-Immutable-Resource-Value-Model.md`](../D:/SIF/engineering/specifications/WP-215/EG-290-Immutable-Resource-Value-Model.md) |
 | EG-291 | Deterministic Resource Registry | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-215/EG-291-Deterministic-Resource-Registry.md`](../D:/SIF/engineering/specifications/WP-215/EG-291-Deterministic-Resource-Registry.md) |
 | EG-292 | Authorized Roots and Safe Filesystem Resolution | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-215/EG-292-Authorized-Roots-and-Safe-Filesystem-Resolution.md`](../D:/SIF/engineering/specifications/WP-215/EG-292-Authorized-Roots-and-Safe-Filesystem-Resolution.md) |
+| EG-293 | Module Resource Contributions and Override Planning | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-215/EG-293-Module-Resource-Contributions-and-Override-Planning.md`](../D:/SIF/engineering/specifications/WP-215/EG-293-Module-Resource-Contributions-and-Override-Planning.md) |
+| EG-294 | Locale Identifiers Translation Catalogs and Fallback Planning | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-215/EG-294-Locale-Identifiers-Translation-Catalogs-and-Fallback-Planning.md`](../D:/SIF/engineering/specifications/WP-215/EG-294-Locale-Identifiers-Translation-Catalogs-and-Fallback-Planning.md) |
+| EG-295 | Resource Publication Plans and Reproducible Manifests | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-215/EG-295-Resource-Publication-Plans-and-Reproducible-Manifests.md`](../D:/SIF/engineering/specifications/WP-215/EG-295-Resource-Publication-Plans-and-Reproducible-Manifests.md) |
+| EG-296 | Runtime Integration and Resource Management Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-215/EG-296-Runtime-Integration-and-Resource-Management-Completion.md`](../D:/SIF/engineering/specifications/WP-215/EG-296-Runtime-Integration-and-Resource-Management-Completion.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -357,3 +361,7 @@
 | WP-215-I2-IMPLEMENTATION-REVIEW | WP-215 I2 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-215-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-215-I2-Implementation-Review.md) |
 | WP-215-I3-IMPLEMENTATION-REVIEW | WP-215 I3 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-215-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-215-I3-Implementation-Review.md) |
 | WP-215-I4-IMPLEMENTATION-REVIEW | WP-215 I4 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-215-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-215-I4-Implementation-Review.md) |
+| WP-215-I5-IMPLEMENTATION-REVIEW | WP-215 I5 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-215-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-215-I5-Implementation-Review.md) |
+| WP-215-I6-IMPLEMENTATION-REVIEW | WP-215 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-215-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-215-I6-Implementation-Review.md) |
+| WP-215-I7-IMPLEMENTATION-REVIEW | WP-215 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-215-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-215-I7-Implementation-Review.md) |
+| WP-215-I8-IMPLEMENTATION-REVIEW | WP-215 I8 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-215-I8-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-215-I8-Implementation-Review.md) |

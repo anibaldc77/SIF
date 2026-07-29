@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **315**
+Governed documents: **323**
 
 ## Generated views
 
@@ -254,6 +254,10 @@ Governed documents: **315**
 - [`WP-215-I2-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-215-I2-Implementation-Review.md) — WP-215 I2 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-215-I3-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-215-I3-Implementation-Review.md) — WP-215 I3 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-215-I4-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-215-I4-Implementation-Review.md) — WP-215 I4 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-215-I5-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-215-I5-Implementation-Review.md) — WP-215 I5 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-215-I6-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-215-I6-Implementation-Review.md) — WP-215 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-215-I7-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-215-I7-Implementation-Review.md) — WP-215 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-215-I8-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-215-I8-Implementation-Review.md) — WP-215 I8 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Informative Document
 
@@ -548,6 +552,10 @@ Governed documents: **315**
 - [`EG-290`](../D:/SIF/engineering/specifications/WP-215/EG-290-Immutable-Resource-Value-Model.md) — Immutable Resource Value Model _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-291`](../D:/SIF/engineering/specifications/WP-215/EG-291-Deterministic-Resource-Registry.md) — Deterministic Resource Registry _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-292`](../D:/SIF/engineering/specifications/WP-215/EG-292-Authorized-Roots-and-Safe-Filesystem-Resolution.md) — Authorized Roots and Safe Filesystem Resolution _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-293`](../D:/SIF/engineering/specifications/WP-215/EG-293-Module-Resource-Contributions-and-Override-Planning.md) — Module Resource Contributions and Override Planning _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-294`](../D:/SIF/engineering/specifications/WP-215/EG-294-Locale-Identifiers-Translation-Catalogs-and-Fallback-Planning.md) — Locale Identifiers Translation Catalogs and Fallback Planning _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-295`](../D:/SIF/engineering/specifications/WP-215/EG-295-Resource-Publication-Plans-and-Reproducible-Manifests.md) — Resource Publication Plans and Reproducible Manifests _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-296`](../D:/SIF/engineering/specifications/WP-215/EG-296-Runtime-Integration-and-Resource-Management-Completion.md) — Runtime Integration and Resource Management Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 

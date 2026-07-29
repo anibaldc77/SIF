@@ -24,9 +24,11 @@ use Sif\Foundation\Logging\Contracts\LoggerInterface;
 use Sif\Foundation\ErrorHandling\Contracts\ErrorHandlerInterface;
 use Sif\Foundation\ErrorHandling\FailureOrigin;
 use Sif\Foundation\ErrorHandling\Orchestration\ErrorHandlingResult;
+use Sif\Foundation\Resources\Contracts\ResourcePathResolverInterface;
+use Sif\Foundation\Resources\Planning\ResourceManagementPlan;
 
 /** Owns the isolated runtime graph and its ordered provider collection. */
-final class Application implements EnvironmentAwareApplicationInterface, MutableLoggingApplicationInterface, MutableErrorHandlingApplicationInterface
+final class Application implements EnvironmentAwareApplicationInterface, MutableLoggingApplicationInterface, MutableErrorHandlingApplicationInterface, \Sif\Foundation\Contracts\MutableResourceManagementApplicationInterface
 {
     private CapabilityRegistry $capabilityRegistry;
 
@@ -44,6 +46,10 @@ final class Application implements EnvironmentAwareApplicationInterface, Mutable
 
     private ?ErrorHandlingResult $lastErrorHandlingResult = null;
 
+    private ?ResourceManagementPlan $resourceManagementPlan;
+
+    private ?ResourcePathResolverInterface $resourcePathResolver;
+
     public function __construct(
         private readonly RuntimeInterface $runtime,
         private readonly KernelInterface $kernel,
@@ -56,6 +62,8 @@ final class Application implements EnvironmentAwareApplicationInterface, Mutable
         ?ModuleRuntimeIntegrationResult $moduleRuntime = null,
         ?LoggerInterface $logger = null,
         ?ErrorHandlerInterface $errorHandler = null,
+        ?ResourceManagementPlan $resourceManagementPlan = null,
+        ?ResourcePathResolverInterface $resourcePathResolver = null,
     ) {
         $this->configuration = $configuration ?? new ConfigurationRepository();
         $this->variables = $variables ?? new EnvironmentRepository();
@@ -64,6 +72,8 @@ final class Application implements EnvironmentAwareApplicationInterface, Mutable
         $this->moduleRuntime = $moduleRuntime;
         $this->logger = $logger;
         $this->errorHandler = $errorHandler;
+        $this->resourceManagementPlan = $resourceManagementPlan;
+        $this->resourcePathResolver = $resourcePathResolver;
 
         foreach (['runtime', 'foundation', 'providers', 'lifecycle', 'configuration'] as $identifier) {
             if (!$this->capabilityRegistry->has($identifier)) {
@@ -154,6 +164,24 @@ final class Application implements EnvironmentAwareApplicationInterface, Mutable
     public function lastErrorHandlingResult(): ?ErrorHandlingResult
     {
         return $this->lastErrorHandlingResult;
+    }
+
+    public function resourceManagementPlan(): ?ResourceManagementPlan
+    {
+        return $this->resourceManagementPlan;
+    }
+
+    public function resourcePathResolver(): ?ResourcePathResolverInterface
+    {
+        return $this->resourcePathResolver;
+    }
+
+    public function setResourceManagement(
+        ResourceManagementPlan $plan,
+        ResourcePathResolverInterface $resolver,
+    ): void {
+        $this->resourceManagementPlan = $plan;
+        $this->resourcePathResolver = $resolver;
     }
 
     public function configuration(): MutableConfigurationInterface

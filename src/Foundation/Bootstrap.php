@@ -25,6 +25,8 @@ use Sif\Foundation\Logging\Runtime\RuntimeLoggingServiceProvider;
 use Sif\Foundation\ErrorHandling\Orchestration\ErrorHandler;
 use Sif\Foundation\ErrorHandling\Planning\ErrorHandlingPlan;
 use Sif\Foundation\ErrorHandling\Runtime\RuntimeErrorHandlingServiceProvider;
+use Sif\Foundation\Resources\Planning\ResourceManagementPlan;
+use Sif\Foundation\Resources\Runtime\RuntimeResourceManagementServiceProvider;
 
 final class Bootstrap implements BootstrapInterface
 {
@@ -45,6 +47,8 @@ final class Bootstrap implements BootstrapInterface
 
     private ?ErrorHandlingPlan $errorHandlingPlan;
 
+    private ?ResourceManagementPlan $resourceManagementPlan;
+
     /**
      * Sources are processed from lowest to highest precedence.
      *
@@ -59,6 +63,7 @@ final class Bootstrap implements BootstrapInterface
         ?ModuleRuntimeBootstrapper $moduleRuntimeBootstrapper = null,
         ?LoggingPlan $loggingPlan = null,
         ?ErrorHandlingPlan $errorHandlingPlan = null,
+        ?ResourceManagementPlan $resourceManagementPlan = null,
     ) {
         $this->configurationLoader = $configurationLoader
             ?? ConfigurationFileLoader::withDefaultLoaders();
@@ -69,6 +74,7 @@ final class Bootstrap implements BootstrapInterface
         $this->moduleRuntimeBootstrapper = $moduleRuntimeBootstrapper;
         $this->loggingPlan = $loggingPlan;
         $this->errorHandlingPlan = $errorHandlingPlan;
+        $this->resourceManagementPlan = $resourceManagementPlan;
 
         foreach ($configurationSources as $source) {
             $this->configurationSources[] = $source;
@@ -87,6 +93,11 @@ final class Bootstrap implements BootstrapInterface
             : null;
         if ($errorHandler !== null) {
             $providers->add(new RuntimeErrorHandlingServiceProvider($errorHandler));
+        }
+        if ($this->resourceManagementPlan !== null) {
+            $providers->add(new RuntimeResourceManagementServiceProvider(
+                $this->resourceManagementPlan,
+            ));
         }
         $kernel = new Kernel($lifecycle);
         $variables = $this->createEnvironmentRepository();
@@ -119,6 +130,8 @@ final class Bootstrap implements BootstrapInterface
             $moduleRuntime,
             $logger,
             $errorHandler,
+            $this->resourceManagementPlan,
+            $this->resourceManagementPlan?->createPathResolver(),
         );
     }
 
