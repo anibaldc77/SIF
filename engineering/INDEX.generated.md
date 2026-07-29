@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 327
-- Resolved references: 183
+- Total documents: 333
+- Resolved references: 187
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
 - INFORMATIVEDOCUMENT: 29
-- NORMATIVEDOCUMENT: 177
-- REVIEWDOCUMENT: 107
+- NORMATIVEDOCUMENT: 180
+- REVIEWDOCUMENT: 110
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 290
+- Draft for Review: 296
 
 ## Documents
 
@@ -239,6 +239,9 @@
 | EG-296 | Runtime Integration and Resource Management Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-215/EG-296-Runtime-Integration-and-Resource-Management-Completion.md`](../D:/SIF/engineering/specifications/WP-215/EG-296-Runtime-Integration-and-Resource-Management-Completion.md) |
 | EG-297 | Installer and Application Provisioning Architecture | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-216/EG-297-Installer-and-Application-Provisioning-Architecture.md`](../D:/SIF/engineering/specifications/WP-216/EG-297-Installer-and-Application-Provisioning-Architecture.md) |
 | EG-298 | Immutable Installation Value Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-216/EG-298-Immutable-Installation-Value-Model.md`](../D:/SIF/engineering/specifications/WP-216/EG-298-Immutable-Installation-Value-Model.md) |
+| EG-299 | Requirement Probes and Deterministic Assessment | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-216/EG-299-Requirement-Probes-and-Deterministic-Assessment.md`](../D:/SIF/engineering/specifications/WP-216/EG-299-Requirement-Probes-and-Deterministic-Assessment.md) |
+| EG-300 | Installation Step Registry and Dependency Planning | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-216/EG-300-Installation-Step-Registry-and-Dependency-Planning.md`](../D:/SIF/engineering/specifications/WP-216/EG-300-Installation-Step-Registry-and-Dependency-Planning.md) |
+| EG-301 | Safe Mutation Planning | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-216/EG-301-Safe-Mutation-Planning.md`](../D:/SIF/engineering/specifications/WP-216/EG-301-Safe-Mutation-Planning.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -369,3 +372,6 @@
 | WP-215-I8-IMPLEMENTATION-REVIEW | WP-215 I8 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-215-I8-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-215-I8-Implementation-Review.md) |
 | WP-216-I1-ARCHITECTURE-REVIEW | WP-216 I1 Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-216-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-216-I1-Architecture-Review.md) |
 | WP-216-I2-IMPLEMENTATION-REVIEW | WP-216 I2 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-216-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-216-I2-Implementation-Review.md) |
+| WP-216-I3-IMPLEMENTATION-REVIEW | WP-216 I3 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-216-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-216-I3-Implementation-Review.md) |
+| WP-216-I4-IMPLEMENTATION-REVIEW | WP-216 I4 Implementation Review | Draft for Review | 1.0.0 | [`D:/SIF/engineering/reviews/WP-216-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-216-I4-Implementation-Review.md) |
+| WP-216-I5-IMPLEMENTATION-REVIEW | WP-216 I5 Safe Mutation Planning Implementation Review | Draft for Review | 1.0.0 | [`D:/SIF/engineering/reviews/WP-216-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-216-I5-Implementation-Review.md) |

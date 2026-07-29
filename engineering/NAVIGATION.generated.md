@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **327**
+Governed documents: **333**
 
 ## Generated views
 
@@ -266,6 +266,9 @@ Governed documents: **327**
 ### Implementation Review — WP-216
 
 - [`WP-216-I2-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-216-I2-Implementation-Review.md) — WP-216 I2 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-216-I3-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-216-I3-Implementation-Review.md) — WP-216 I3 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-216-I4-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-216-I4-Implementation-Review.md) — WP-216 I4 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 1.0.0)_
+- [`WP-216-I5-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-216-I5-Implementation-Review.md) — WP-216 I5 Safe Mutation Planning Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 1.0.0)_
 
 ### Informative Document
 
@@ -569,6 +572,9 @@ Governed documents: **327**
 
 - [`EG-297`](../D:/SIF/engineering/specifications/WP-216/EG-297-Installer-and-Application-Provisioning-Architecture.md) — Installer and Application Provisioning Architecture _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-298`](../D:/SIF/engineering/specifications/WP-216/EG-298-Immutable-Installation-Value-Model.md) — Immutable Installation Value Model _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-299`](../D:/SIF/engineering/specifications/WP-216/EG-299-Requirement-Probes-and-Deterministic-Assessment.md) — Requirement Probes and Deterministic Assessment _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-300`](../D:/SIF/engineering/specifications/WP-216/EG-300-Installation-Step-Registry-and-Dependency-Planning.md) — Installation Step Registry and Dependency Planning _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-301`](../D:/SIF/engineering/specifications/WP-216/EG-301-Safe-Mutation-Planning.md) — Safe Mutation Planning _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 
