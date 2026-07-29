@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **323**
+Governed documents: **327**
 
 ## Generated views
 
@@ -70,6 +70,10 @@ Governed documents: **323**
 ### Architecture Review — WP-215
 
 - [`WP-215-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-215-I1-Architecture-Review.md) — WP-215 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Architecture Review — WP-216
+
+- [`WP-216-I1-ARCHITECTURE-REVIEW`](../D:/SIF/engineering/reviews/WP-216-I1-Architecture-Review.md) — WP-216 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Constitution
 
@@ -258,6 +262,10 @@ Governed documents: **323**
 - [`WP-215-I6-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-215-I6-Implementation-Review.md) — WP-215 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-215-I7-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-215-I7-Implementation-Review.md) — WP-215 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-215-I8-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-215-I8-Implementation-Review.md) — WP-215 I8 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Implementation Review — WP-216
+
+- [`WP-216-I2-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-216-I2-Implementation-Review.md) — WP-216 I2 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Informative Document
 
@@ -556,6 +564,11 @@ Governed documents: **323**
 - [`EG-294`](../D:/SIF/engineering/specifications/WP-215/EG-294-Locale-Identifiers-Translation-Catalogs-and-Fallback-Planning.md) — Locale Identifiers Translation Catalogs and Fallback Planning _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-295`](../D:/SIF/engineering/specifications/WP-215/EG-295-Resource-Publication-Plans-and-Reproducible-Manifests.md) — Resource Publication Plans and Reproducible Manifests _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-296`](../D:/SIF/engineering/specifications/WP-215/EG-296-Runtime-Integration-and-Resource-Management-Completion.md) — Runtime Integration and Resource Management Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-216
+
+- [`EG-297`](../D:/SIF/engineering/specifications/WP-216/EG-297-Installer-and-Application-Provisioning-Architecture.md) — Installer and Application Provisioning Architecture _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-298`](../D:/SIF/engineering/specifications/WP-216/EG-298-Immutable-Installation-Value-Model.md) — Immutable Installation Value Model _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 

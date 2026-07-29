@@ -6,11 +6,11 @@
 
 | Metric | Value |
 |---|---:|
-| Documents | 323 |
-| References | 180 |
-| Resolved | 180 |
+| Documents | 327 |
+| References | 183 |
+| Resolved | 183 |
 | Broken | 0 |
-| Isolated documents | 144 |
+| Isolated documents | 145 |
 
 ## References by Type
 
@@ -18,7 +18,7 @@
 |---|---:|
 | implements | 1 |
 | reference | 15 |
-| related | 164 |
+| related | 167 |
 
 ## Broken References
 
@@ -28,7 +28,7 @@ _No broken references._
 
 | Document | Type | Incoming | Outgoing | Broken outgoing |
 |---|---|---:|---:|---:|
-| `ADR-0005` — Adopt a Capability-Driven Runtime | GOVERNANCEDOCUMENT | 160 | 1 | 0 |
+| `ADR-0005` — Adopt a Capability-Driven Runtime | GOVERNANCEDOCUMENT | 163 | 1 | 0 |
 | `ADR-0004` — Modular Engineering Specifications | GOVERNANCEDOCUMENT | 4 | 0 | 0 |
 | `EG-009` — Reference Resolution | NORMATIVEDOCUMENT | 3 | 0 | 0 |
 | `EG-032` — Built-in Analyzers Architecture | NORMATIVEDOCUMENT | 2 | 3 | 0 |
@@ -190,6 +190,7 @@ _No broken references._
 - `WP-215-I6-IMPLEMENTATION-REVIEW` — WP-215 I6 Implementation Review
 - `WP-215-I7-IMPLEMENTATION-REVIEW` — WP-215 I7 Implementation Review
 - `WP-215-I8-IMPLEMENTATION-REVIEW` — WP-215 I8 Implementation Review
+- `WP-216-I2-IMPLEMENTATION-REVIEW` — WP-216 I2 Implementation Review
 
 ## Resolved References
 
@@ -300,6 +301,8 @@ _No broken references._
 | `EG-294` | `ADR-0005` | related | — |
 | `EG-295` | `ADR-0005` | related | — |
 | `EG-296` | `ADR-0005` | related | — |
+| `EG-297` | `ADR-0005` | related | — |
+| `EG-298` | `ADR-0005` | related | — |
 | `WP-110-IMPLEMENTATION-REPORT` | `EG-051` | reference | — |
 | `WP-200-A1-IMPLEMENTATION-REPORT` | `ADR-0005` | related | — |
 | `WP-200-ARCHITECTURE-REVIEW` | `ADR-0005` | related | — |
@@ -375,3 +378,4 @@ _No broken references._
 | `WP-213-I8-REVIEW` | `ADR-0005` | related | — |
 | `WP-214-I1-REVIEW` | `ADR-0005` | related | — |
 | `WP-215-I1-REVIEW` | `ADR-0005` | related | — |
+| `WP-216-I1-ARCHITECTURE-REVIEW` | `ADR-0005` | related | — |
