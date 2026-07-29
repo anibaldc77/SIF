@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **333**
+Governed documents: **335**
 
 ## Generated views
 
@@ -269,6 +269,7 @@ Governed documents: **333**
 - [`WP-216-I3-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-216-I3-Implementation-Review.md) — WP-216 I3 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-216-I4-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-216-I4-Implementation-Review.md) — WP-216 I4 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 1.0.0)_
 - [`WP-216-I5-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-216-I5-Implementation-Review.md) — WP-216 I5 Safe Mutation Planning Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 1.0.0)_
+- [`WP-216-I6-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-216-I6-Implementation-Review.md) — WP-216 I6 Installation Execution Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 1.0.0)_
 
 ### Informative Document
 
@@ -575,6 +576,7 @@ Governed documents: **333**
 - [`EG-299`](../D:/SIF/engineering/specifications/WP-216/EG-299-Requirement-Probes-and-Deterministic-Assessment.md) — Requirement Probes and Deterministic Assessment _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-300`](../D:/SIF/engineering/specifications/WP-216/EG-300-Installation-Step-Registry-and-Dependency-Planning.md) — Installation Step Registry and Dependency Planning _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-301`](../D:/SIF/engineering/specifications/WP-216/EG-301-Safe-Mutation-Planning.md) — Safe Mutation Planning _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-302`](../D:/SIF/engineering/specifications/WP-216/EG-302-Installation-Execution-Journaling-and-Compensating-Rollback.md) — Installation Execution, Journaling and Compensating Rollback _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 

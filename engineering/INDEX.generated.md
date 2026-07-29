@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 333
-- Resolved references: 187
+- Total documents: 335
+- Resolved references: 189
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
 - INFORMATIVEDOCUMENT: 29
-- NORMATIVEDOCUMENT: 180
-- REVIEWDOCUMENT: 110
+- NORMATIVEDOCUMENT: 181
+- REVIEWDOCUMENT: 111
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 296
+- Draft for Review: 298
 
 ## Documents
 
@@ -242,6 +242,7 @@
 | EG-299 | Requirement Probes and Deterministic Assessment | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-216/EG-299-Requirement-Probes-and-Deterministic-Assessment.md`](../D:/SIF/engineering/specifications/WP-216/EG-299-Requirement-Probes-and-Deterministic-Assessment.md) |
 | EG-300 | Installation Step Registry and Dependency Planning | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-216/EG-300-Installation-Step-Registry-and-Dependency-Planning.md`](../D:/SIF/engineering/specifications/WP-216/EG-300-Installation-Step-Registry-and-Dependency-Planning.md) |
 | EG-301 | Safe Mutation Planning | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-216/EG-301-Safe-Mutation-Planning.md`](../D:/SIF/engineering/specifications/WP-216/EG-301-Safe-Mutation-Planning.md) |
+| EG-302 | Installation Execution, Journaling and Compensating Rollback | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-216/EG-302-Installation-Execution-Journaling-and-Compensating-Rollback.md`](../D:/SIF/engineering/specifications/WP-216/EG-302-Installation-Execution-Journaling-and-Compensating-Rollback.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -375,3 +376,4 @@
 | WP-216-I3-IMPLEMENTATION-REVIEW | WP-216 I3 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-216-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-216-I3-Implementation-Review.md) |
 | WP-216-I4-IMPLEMENTATION-REVIEW | WP-216 I4 Implementation Review | Draft for Review | 1.0.0 | [`D:/SIF/engineering/reviews/WP-216-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-216-I4-Implementation-Review.md) |
 | WP-216-I5-IMPLEMENTATION-REVIEW | WP-216 I5 Safe Mutation Planning Implementation Review | Draft for Review | 1.0.0 | [`D:/SIF/engineering/reviews/WP-216-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-216-I5-Implementation-Review.md) |
+| WP-216-I6-IMPLEMENTATION-REVIEW | WP-216 I6 Installation Execution Implementation Review | Draft for Review | 1.0.0 | [`D:/SIF/engineering/reviews/WP-216-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-216-I6-Implementation-Review.md) |
