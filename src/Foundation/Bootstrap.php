@@ -29,6 +29,8 @@ use Sif\Foundation\Resources\Planning\ResourceManagementPlan;
 use Sif\Foundation\Resources\Runtime\RuntimeResourceManagementServiceProvider;
 use Sif\Foundation\Installer\Runtime\InstallerRuntime;
 use Sif\Foundation\Installer\Runtime\RuntimeInstallerServiceProvider;
+use Sif\Foundation\Migration\Runtime\MigrationRuntime;
+use Sif\Foundation\Migration\Runtime\RuntimeMigrationServiceProvider;
 
 final class Bootstrap implements BootstrapInterface
 {
@@ -53,6 +55,8 @@ final class Bootstrap implements BootstrapInterface
 
     private ?InstallerRuntime $installer;
 
+    private ?MigrationRuntime $migrations;
+
     /**
      * Sources are processed from lowest to highest precedence.
      *
@@ -69,6 +73,7 @@ final class Bootstrap implements BootstrapInterface
         ?ErrorHandlingPlan $errorHandlingPlan = null,
         ?ResourceManagementPlan $resourceManagementPlan = null,
         ?InstallerRuntime $installer = null,
+        ?MigrationRuntime $migrations = null,
     ) {
         $this->configurationLoader = $configurationLoader
             ?? ConfigurationFileLoader::withDefaultLoaders();
@@ -81,6 +86,7 @@ final class Bootstrap implements BootstrapInterface
         $this->errorHandlingPlan = $errorHandlingPlan;
         $this->resourceManagementPlan = $resourceManagementPlan;
         $this->installer = $installer;
+        $this->migrations = $migrations;
 
         foreach ($configurationSources as $source) {
             $this->configurationSources[] = $source;
@@ -107,6 +113,9 @@ final class Bootstrap implements BootstrapInterface
         }
         if ($this->installer !== null) {
             $providers->add(new RuntimeInstallerServiceProvider($this->installer));
+        }
+        if ($this->migrations !== null) {
+            $providers->add(new RuntimeMigrationServiceProvider($this->migrations));
         }
         $kernel = new Kernel($lifecycle);
         $variables = $this->createEnvironmentRepository();
@@ -142,6 +151,7 @@ final class Bootstrap implements BootstrapInterface
             $this->resourceManagementPlan,
             $this->resourceManagementPlan?->createPathResolver(),
             $this->installer,
+            $this->migrations,
         );
     }
 

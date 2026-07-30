@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **340**
+Governed documents: **357**
 
 ## Generated views
 
@@ -74,6 +74,10 @@ Governed documents: **340**
 ### Architecture Review — WP-216
 
 - [`WP-216-I1-ARCHITECTURE-REVIEW`](../D:/SIF/engineering/reviews/WP-216-I1-Architecture-Review.md) — WP-216 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Architecture Review — WP-217
+
+- [`WP-217-I1-ARCHITECTURE-REVIEW`](../D:/SIF/engineering/reviews/WP-217-I1-Architecture-Review.md) — WP-217 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Constitution
 
@@ -273,6 +277,17 @@ Governed documents: **340**
 - [`WP-216-I6-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-216-I6-Implementation-Review.md) — WP-216 I6 Installation Execution Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 1.0.0)_
 - [`WP-216-I7-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-216-I7-Implementation-Review.md) — WP-216 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 1.0.0)_
 - [`WP-216-I8-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-216-I8-Implementation-Review.md) — WP-216 I8 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 1.0.0)_
+
+### Implementation Review — WP-217
+
+- [`WP-217-COMPLETION-REVIEW`](../D:/SIF/engineering/reviews/WP-217-Completion-Review.md) — WP-217 Database Migration Engine Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-217-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-217-I2-Implementation-Review.md) — WP-217 I2 Immutable Migration Value Model Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-217-I3-REVIEW`](../D:/SIF/engineering/reviews/WP-217-I3-Implementation-Review.md) — WP-217 I3 Migration Registry and Planning Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-217-I4-REVIEW`](../D:/SIF/engineering/reviews/WP-217-I4-Implementation-Review.md) — WP-217 I4 Migration History and Integrity Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-217-I5-REVIEW`](../D:/SIF/engineering/reviews/WP-217-I5-Implementation-Review.md) — WP-217 I5 Migration Selection, Dry-Run and Authorization Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-217-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-217-I6-Implementation-Review.md) — WP-217 I6 Migration Execution, Locks and Transactional Boundaries Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-217-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-217-I7-Implementation-Review.md) — WP-217 I7 Reference Adapters and Installer Integration Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-217-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-217-I8-Implementation-Review.md) — WP-217 I8 Migration Runtime Integration and Product Completion Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Informative Document
 
@@ -582,6 +597,17 @@ Governed documents: **340**
 - [`EG-302`](../D:/SIF/engineering/specifications/WP-216/EG-302-Installation-Execution-Journaling-and-Compensating-Rollback.md) — Installation Execution, Journaling and Compensating Rollback _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-303`](../D:/SIF/engineering/specifications/WP-216/EG-303-Dry-Run-Authorization-and-Installer-Orchestration.md) — Dry-Run, Explicit Authorization and Installer Orchestration _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-304`](../D:/SIF/engineering/specifications/WP-216/EG-304-Installer-Runtime-Integration-and-Product-Completion.md) — Installer Runtime Integration and Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-217
+
+- [`EG-305`](../D:/SIF/engineering/specifications/WP-217/EG-305-Database-Migration-Engine-Architecture.md) — Database Migration Engine Architecture _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-306`](../D:/SIF/engineering/specifications/WP-217/EG-306-Immutable-Migration-Value-Model.md) — Immutable Migration Value Model _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-307`](../D:/SIF/engineering/specifications/WP-217/EG-307-Migration-Registry-and-Deterministic-Dependency-Planning.md) — Migration Registry and Deterministic Dependency Planning _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-308`](../D:/SIF/engineering/specifications/WP-217/EG-308-Migration-History-and-Integrity.md) — Migration History and Integrity _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-309`](../D:/SIF/engineering/specifications/WP-217/EG-309-Migration-Selection-Dry-Run-and-Execution-Authorization.md) — Migration Selection, Dry-Run and Execution Authorization _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-310`](../D:/SIF/engineering/specifications/WP-217/EG-310-Migration-Execution-Locks-and-Transactional-Boundaries.md) — Migration Execution, Locks and Transactional Boundaries _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-311`](../D:/SIF/engineering/specifications/WP-217/EG-311-Reference-Adapters-and-Installer-Integration.md) — Reference Adapters and Installer Integration _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-312`](../D:/SIF/engineering/specifications/WP-217/EG-312-Migration-Runtime-Integration-and-Product-Completion.md) — Migration Runtime Integration and Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 
