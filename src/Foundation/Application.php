@@ -12,6 +12,7 @@ use Sif\Foundation\Configuration\Contracts\MutableConfigurationInterface;
 use Sif\Foundation\Container\ServiceDefinitionRegistry;
 use Sif\Foundation\Contracts\EnvironmentAwareApplicationInterface;
 use Sif\Foundation\Contracts\MutableLoggingApplicationInterface;
+use Sif\Foundation\Contracts\MutableInstallerApplicationInterface;
 use Sif\Foundation\Contracts\MutableErrorHandlingApplicationInterface;
 use Sif\Foundation\Contracts\EnvironmentInterface;
 use Sif\Foundation\Environment\Contracts\MutableEnvironmentInterface;
@@ -26,9 +27,10 @@ use Sif\Foundation\ErrorHandling\FailureOrigin;
 use Sif\Foundation\ErrorHandling\Orchestration\ErrorHandlingResult;
 use Sif\Foundation\Resources\Contracts\ResourcePathResolverInterface;
 use Sif\Foundation\Resources\Planning\ResourceManagementPlan;
+use Sif\Foundation\Installer\Runtime\InstallerRuntime;
 
 /** Owns the isolated runtime graph and its ordered provider collection. */
-final class Application implements EnvironmentAwareApplicationInterface, MutableLoggingApplicationInterface, MutableErrorHandlingApplicationInterface, \Sif\Foundation\Contracts\MutableResourceManagementApplicationInterface
+final class Application implements EnvironmentAwareApplicationInterface, MutableLoggingApplicationInterface, MutableErrorHandlingApplicationInterface, \Sif\Foundation\Contracts\MutableResourceManagementApplicationInterface, MutableInstallerApplicationInterface
 {
     private CapabilityRegistry $capabilityRegistry;
 
@@ -50,6 +52,8 @@ final class Application implements EnvironmentAwareApplicationInterface, Mutable
 
     private ?ResourcePathResolverInterface $resourcePathResolver;
 
+    private ?InstallerRuntime $installer;
+
     public function __construct(
         private readonly RuntimeInterface $runtime,
         private readonly KernelInterface $kernel,
@@ -64,6 +68,7 @@ final class Application implements EnvironmentAwareApplicationInterface, Mutable
         ?ErrorHandlerInterface $errorHandler = null,
         ?ResourceManagementPlan $resourceManagementPlan = null,
         ?ResourcePathResolverInterface $resourcePathResolver = null,
+        ?InstallerRuntime $installer = null,
     ) {
         $this->configuration = $configuration ?? new ConfigurationRepository();
         $this->variables = $variables ?? new EnvironmentRepository();
@@ -74,6 +79,7 @@ final class Application implements EnvironmentAwareApplicationInterface, Mutable
         $this->errorHandler = $errorHandler;
         $this->resourceManagementPlan = $resourceManagementPlan;
         $this->resourcePathResolver = $resourcePathResolver;
+        $this->installer = $installer;
 
         foreach (['runtime', 'foundation', 'providers', 'lifecycle', 'configuration'] as $identifier) {
             if (!$this->capabilityRegistry->has($identifier)) {
@@ -182,6 +188,16 @@ final class Application implements EnvironmentAwareApplicationInterface, Mutable
     ): void {
         $this->resourceManagementPlan = $plan;
         $this->resourcePathResolver = $resolver;
+    }
+
+    public function installer(): ?InstallerRuntime
+    {
+        return $this->installer;
+    }
+
+    public function setInstaller(InstallerRuntime $installer): void
+    {
+        $this->installer = $installer;
     }
 
     public function configuration(): MutableConfigurationInterface

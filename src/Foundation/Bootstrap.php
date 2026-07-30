@@ -27,6 +27,8 @@ use Sif\Foundation\ErrorHandling\Planning\ErrorHandlingPlan;
 use Sif\Foundation\ErrorHandling\Runtime\RuntimeErrorHandlingServiceProvider;
 use Sif\Foundation\Resources\Planning\ResourceManagementPlan;
 use Sif\Foundation\Resources\Runtime\RuntimeResourceManagementServiceProvider;
+use Sif\Foundation\Installer\Runtime\InstallerRuntime;
+use Sif\Foundation\Installer\Runtime\RuntimeInstallerServiceProvider;
 
 final class Bootstrap implements BootstrapInterface
 {
@@ -49,6 +51,8 @@ final class Bootstrap implements BootstrapInterface
 
     private ?ResourceManagementPlan $resourceManagementPlan;
 
+    private ?InstallerRuntime $installer;
+
     /**
      * Sources are processed from lowest to highest precedence.
      *
@@ -64,6 +68,7 @@ final class Bootstrap implements BootstrapInterface
         ?LoggingPlan $loggingPlan = null,
         ?ErrorHandlingPlan $errorHandlingPlan = null,
         ?ResourceManagementPlan $resourceManagementPlan = null,
+        ?InstallerRuntime $installer = null,
     ) {
         $this->configurationLoader = $configurationLoader
             ?? ConfigurationFileLoader::withDefaultLoaders();
@@ -75,6 +80,7 @@ final class Bootstrap implements BootstrapInterface
         $this->loggingPlan = $loggingPlan;
         $this->errorHandlingPlan = $errorHandlingPlan;
         $this->resourceManagementPlan = $resourceManagementPlan;
+        $this->installer = $installer;
 
         foreach ($configurationSources as $source) {
             $this->configurationSources[] = $source;
@@ -98,6 +104,9 @@ final class Bootstrap implements BootstrapInterface
             $providers->add(new RuntimeResourceManagementServiceProvider(
                 $this->resourceManagementPlan,
             ));
+        }
+        if ($this->installer !== null) {
+            $providers->add(new RuntimeInstallerServiceProvider($this->installer));
         }
         $kernel = new Kernel($lifecycle);
         $variables = $this->createEnvironmentRepository();
@@ -132,6 +141,7 @@ final class Bootstrap implements BootstrapInterface
             $errorHandler,
             $this->resourceManagementPlan,
             $this->resourceManagementPlan?->createPathResolver(),
+            $this->installer,
         );
     }
 

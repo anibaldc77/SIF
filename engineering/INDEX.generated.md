@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 335
-- Resolved references: 189
+- Total documents: 340
+- Resolved references: 194
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
 - INFORMATIVEDOCUMENT: 29
-- NORMATIVEDOCUMENT: 181
-- REVIEWDOCUMENT: 111
+- NORMATIVEDOCUMENT: 183
+- REVIEWDOCUMENT: 114
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 298
+- Draft for Review: 303
 
 ## Documents
 
@@ -243,6 +243,8 @@
 | EG-300 | Installation Step Registry and Dependency Planning | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-216/EG-300-Installation-Step-Registry-and-Dependency-Planning.md`](../D:/SIF/engineering/specifications/WP-216/EG-300-Installation-Step-Registry-and-Dependency-Planning.md) |
 | EG-301 | Safe Mutation Planning | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-216/EG-301-Safe-Mutation-Planning.md`](../D:/SIF/engineering/specifications/WP-216/EG-301-Safe-Mutation-Planning.md) |
 | EG-302 | Installation Execution, Journaling and Compensating Rollback | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-216/EG-302-Installation-Execution-Journaling-and-Compensating-Rollback.md`](../D:/SIF/engineering/specifications/WP-216/EG-302-Installation-Execution-Journaling-and-Compensating-Rollback.md) |
+| EG-303 | Dry-Run, Explicit Authorization and Installer Orchestration | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-216/EG-303-Dry-Run-Authorization-and-Installer-Orchestration.md`](../D:/SIF/engineering/specifications/WP-216/EG-303-Dry-Run-Authorization-and-Installer-Orchestration.md) |
+| EG-304 | Installer Runtime Integration and Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-216/EG-304-Installer-Runtime-Integration-and-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-216/EG-304-Installer-Runtime-Integration-and-Product-Completion.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -371,9 +373,12 @@
 | WP-215-I6-IMPLEMENTATION-REVIEW | WP-215 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-215-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-215-I6-Implementation-Review.md) |
 | WP-215-I7-IMPLEMENTATION-REVIEW | WP-215 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-215-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-215-I7-Implementation-Review.md) |
 | WP-215-I8-IMPLEMENTATION-REVIEW | WP-215 I8 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-215-I8-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-215-I8-Implementation-Review.md) |
+| WP-216-COMPLETION-REVIEW | WP-216 Installer Completion Review | Draft for Review | 1.0.0 | [`D:/SIF/engineering/reviews/WP-216-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-216-Completion-Review.md) |
 | WP-216-I1-ARCHITECTURE-REVIEW | WP-216 I1 Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-216-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-216-I1-Architecture-Review.md) |
 | WP-216-I2-IMPLEMENTATION-REVIEW | WP-216 I2 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-216-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-216-I2-Implementation-Review.md) |
 | WP-216-I3-IMPLEMENTATION-REVIEW | WP-216 I3 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-216-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-216-I3-Implementation-Review.md) |
 | WP-216-I4-IMPLEMENTATION-REVIEW | WP-216 I4 Implementation Review | Draft for Review | 1.0.0 | [`D:/SIF/engineering/reviews/WP-216-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-216-I4-Implementation-Review.md) |
 | WP-216-I5-IMPLEMENTATION-REVIEW | WP-216 I5 Safe Mutation Planning Implementation Review | Draft for Review | 1.0.0 | [`D:/SIF/engineering/reviews/WP-216-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-216-I5-Implementation-Review.md) |
 | WP-216-I6-IMPLEMENTATION-REVIEW | WP-216 I6 Installation Execution Implementation Review | Draft for Review | 1.0.0 | [`D:/SIF/engineering/reviews/WP-216-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-216-I6-Implementation-Review.md) |
+| WP-216-I7-IMPLEMENTATION-REVIEW | WP-216 I7 Implementation Review | Draft for Review | 1.0.0 | [`D:/SIF/engineering/reviews/WP-216-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-216-I7-Implementation-Review.md) |
+| WP-216-I8-IMPLEMENTATION-REVIEW | WP-216 I8 Implementation Review | Draft for Review | 1.0.0 | [`D:/SIF/engineering/reviews/WP-216-I8-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-216-I8-Implementation-Review.md) |
