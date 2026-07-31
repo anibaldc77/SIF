@@ -6,9 +6,9 @@
 
 | Metric | Value |
 |---|---:|
-| Documents | 357 |
-| References | 211 |
-| Resolved | 211 |
+| Documents | 374 |
+| References | 228 |
+| Resolved | 228 |
 | Broken | 0 |
 | Isolated documents | 147 |
 
@@ -18,7 +18,7 @@
 |---|---:|
 | implements | 1 |
 | reference | 15 |
-| related | 195 |
+| related | 212 |
 
 ## Broken References
 
@@ -28,7 +28,7 @@ _No broken references._
 
 | Document | Type | Incoming | Outgoing | Broken outgoing |
 |---|---|---:|---:|---:|
-| `ADR-0005` — Adopt a Capability-Driven Runtime | GOVERNANCEDOCUMENT | 191 | 1 | 0 |
+| `ADR-0005` — Adopt a Capability-Driven Runtime | GOVERNANCEDOCUMENT | 208 | 1 | 0 |
 | `ADR-0004` — Modular Engineering Specifications | GOVERNANCEDOCUMENT | 4 | 0 | 0 |
 | `EG-009` — Reference Resolution | NORMATIVEDOCUMENT | 3 | 0 | 0 |
 | `EG-032` — Built-in Analyzers Architecture | NORMATIVEDOCUMENT | 2 | 3 | 0 |
@@ -319,6 +319,14 @@ _No broken references._
 | `EG-310` | `ADR-0005` | related | — |
 | `EG-311` | `ADR-0005` | related | — |
 | `EG-312` | `ADR-0005` | related | — |
+| `EG-313` | `ADR-0005` | related | — |
+| `EG-314` | `ADR-0005` | related | — |
+| `EG-315` | `ADR-0005` | related | — |
+| `EG-316` | `ADR-0005` | related | — |
+| `EG-317` | `ADR-0005` | related | — |
+| `EG-318` | `ADR-0005` | related | — |
+| `EG-319` | `ADR-0005` | related | — |
+| `EG-320` | `ADR-0005` | related | — |
 | `WP-110-IMPLEMENTATION-REPORT` | `EG-051` | reference | — |
 | `WP-200-A1-IMPLEMENTATION-REPORT` | `ADR-0005` | related | — |
 | `WP-200-ARCHITECTURE-REVIEW` | `ADR-0005` | related | — |
@@ -409,3 +417,12 @@ _No broken references._
 | `WP-217-I6-REVIEW` | `ADR-0005` | related | — |
 | `WP-217-I7-REVIEW` | `ADR-0005` | related | — |
 | `WP-217-I8-REVIEW` | `ADR-0005` | related | — |
+| `WP-218-COMPLETION-REVIEW` | `ADR-0005` | related | — |
+| `WP-218-I1-ARCHITECTURE-REVIEW` | `ADR-0005` | related | — |
+| `WP-218-I2-REVIEW` | `ADR-0005` | related | — |
+| `WP-218-I3-REVIEW` | `ADR-0005` | related | — |
+| `WP-218-I4-REVIEW` | `ADR-0005` | related | — |
+| `WP-218-I5-REVIEW` | `ADR-0005` | related | — |
+| `WP-218-I6-REVIEW` | `ADR-0005` | related | — |
+| `WP-218-I7-REVIEW` | `ADR-0005` | related | — |
+| `WP-218-I8-REVIEW` | `ADR-0005` | related | — |
