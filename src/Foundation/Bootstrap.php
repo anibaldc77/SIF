@@ -31,6 +31,8 @@ use Sif\Foundation\Installer\Runtime\InstallerRuntime;
 use Sif\Foundation\Installer\Runtime\RuntimeInstallerServiceProvider;
 use Sif\Foundation\Migration\Runtime\MigrationRuntime;
 use Sif\Foundation\Migration\Runtime\RuntimeMigrationServiceProvider;
+use Sif\Foundation\Persistence\Pdo\Runtime\PdoPersistenceRuntime;
+use Sif\Foundation\Persistence\Pdo\Runtime\PdoPersistenceRuntimeServiceProvider;
 
 final class Bootstrap implements BootstrapInterface
 {
@@ -57,6 +59,8 @@ final class Bootstrap implements BootstrapInterface
 
     private ?MigrationRuntime $migrations;
 
+    private ?PdoPersistenceRuntime $persistence;
+
     /**
      * Sources are processed from lowest to highest precedence.
      *
@@ -74,6 +78,7 @@ final class Bootstrap implements BootstrapInterface
         ?ResourceManagementPlan $resourceManagementPlan = null,
         ?InstallerRuntime $installer = null,
         ?MigrationRuntime $migrations = null,
+        ?PdoPersistenceRuntime $persistence = null,
     ) {
         $this->configurationLoader = $configurationLoader
             ?? ConfigurationFileLoader::withDefaultLoaders();
@@ -87,6 +92,7 @@ final class Bootstrap implements BootstrapInterface
         $this->resourceManagementPlan = $resourceManagementPlan;
         $this->installer = $installer;
         $this->migrations = $migrations;
+        $this->persistence = $persistence;
 
         foreach ($configurationSources as $source) {
             $this->configurationSources[] = $source;
@@ -116,6 +122,9 @@ final class Bootstrap implements BootstrapInterface
         }
         if ($this->migrations !== null) {
             $providers->add(new RuntimeMigrationServiceProvider($this->migrations));
+        }
+        if ($this->persistence !== null) {
+            $providers->add(new PdoPersistenceRuntimeServiceProvider($this->persistence));
         }
         $kernel = new Kernel($lifecycle);
         $variables = $this->createEnvironmentRepository();
@@ -152,6 +161,7 @@ final class Bootstrap implements BootstrapInterface
             $this->resourceManagementPlan?->createPathResolver(),
             $this->installer,
             $this->migrations,
+            $this->persistence,
         );
     }
 

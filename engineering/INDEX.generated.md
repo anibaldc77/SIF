@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 374
-- Resolved references: 228
+- Total documents: 391
+- Resolved references: 245
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
 - INFORMATIVEDOCUMENT: 29
-- NORMATIVEDOCUMENT: 199
-- REVIEWDOCUMENT: 132
+- NORMATIVEDOCUMENT: 207
+- REVIEWDOCUMENT: 141
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 337
+- Draft for Review: 354
 
 ## Documents
 
@@ -261,6 +261,14 @@
 | EG-318 | SQL Migration Operation Model and PDO Handler | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-218/EG-318-SQL-Migration-Operation-Model-and-PDO-Handler.md`](../D:/SIF/engineering/specifications/WP-218/EG-318-SQL-Migration-Operation-Model-and-PDO-Handler.md) |
 | EG-319 | PDO Adapter Composition and Installer Bridge | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-218/EG-319-PDO-Adapter-Composition-and-Installer-Bridge.md`](../D:/SIF/engineering/specifications/WP-218/EG-319-PDO-Adapter-Composition-and-Installer-Bridge.md) |
 | EG-320 | PDO Migration Runtime Integration and Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-218/EG-320-PDO-Migration-Runtime-Integration-and-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-218/EG-320-PDO-Migration-Runtime-Integration-and-Product-Completion.md) |
+| EG-321 | PDO Persistence Adapters Architecture | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-219/EG-321-PDO-Persistence-Adapters-Architecture.md`](../D:/SIF/engineering/specifications/WP-219/EG-321-PDO-Persistence-Adapters-Architecture.md) |
+| EG-322 | PDO Persistence Connection, Platform and SQL Value Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-219/EG-322-PDO-Connection-Platform-and-SQL-Value-Model.md`](../D:/SIF/engineering/specifications/WP-219/EG-322-PDO-Connection-Platform-and-SQL-Value-Model.md) |
+| EG-323 | PDO Query AST and Criteria Translation | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-219/EG-323-PDO-Query-AST-and-Criteria-Translation.md`](../D:/SIF/engineering/specifications/WP-219/EG-323-PDO-Query-AST-and-Criteria-Translation.md) |
+| EG-324 | PDO Platform Query Compilers | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-219/EG-324-PDO-Platform-Query-Compilers.md`](../D:/SIF/engineering/specifications/WP-219/EG-324-PDO-Platform-Query-Compilers.md) |
+| EG-325 | Prepared Statement Execution and Result Sets | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-219/EG-325-Prepared-Statement-Execution-and-Result-Sets.md`](../D:/SIF/engineering/specifications/WP-219/EG-325-Prepared-Statement-Execution-and-Result-Sets.md) |
+| EG-326 | PDO Connection and Transaction Adapters | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-219/EG-326-PDO-Connection-and-Transaction-Adapters.md`](../D:/SIF/engineering/specifications/WP-219/EG-326-PDO-Connection-and-Transaction-Adapters.md) |
+| EG-327 | PDO Repositories, Mappers and Unit of Work | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-219/EG-327-PDO-Repositories-Mappers-and-Unit-of-Work.md`](../D:/SIF/engineering/specifications/WP-219/EG-327-PDO-Repositories-Mappers-and-Unit-of-Work.md) |
+| EG-328 | PDO Persistence Runtime Integration and Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-219/EG-328-PDO-Persistence-Runtime-Integration-and-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-219/EG-328-PDO-Persistence-Runtime-Integration-and-Product-Completion.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -289,6 +297,11 @@
 | EG-045 | Build Profiles End-to-End Validation | Approved | 1.0.0 | [`D:/SIF/engineering/specifications/WP-107/EG-045-Build-Profiles-End-to-End-Validation.md`](../D:/SIF/engineering/specifications/WP-107/EG-045-Build-Profiles-End-to-End-Validation.md) |
 | EG-046 | WP-107 Product Completion | Approved | 1.0.0 | [`D:/SIF/engineering/specifications/WP-107/EG-046-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-107/EG-046-Product-Completion.md) |
 | INCREMENT-4-METADATA-COMPLETION | WP-108 Increment 4 Metadata Completion | Draft | 0.1.0 | [`D:/SIF/engineering/migrations/WP-108/INCREMENT-4-METADATA-COMPLETION.md`](../D:/SIF/engineering/migrations/WP-108/INCREMENT-4-METADATA-COMPLETION.md) |
+| REVIEW-WP-219-I3 | WP-219 I3 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-219-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-219-I3-Implementation-Review.md) |
+| REVIEW-WP-219-I4 | WP-219 I4 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-219-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-219-I4-Implementation-Review.md) |
+| REVIEW-WP-219-I5 | WP-219 I5 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-219-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-219-I5-Implementation-Review.md) |
+| REVIEW-WP-219-I6 | WP-219 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-219-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-219-I6-Implementation-Review.md) |
+| REVIEW-WP-219-I7 | WP-219 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-219-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-219-I7-Implementation-Review.md) |
 | WP-000-IMPLEMENTATION-REPORT | WP-000 Implementation Report | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-000-Implementation-Report.md`](../D:/SIF/engineering/reviews/WP-000-Implementation-Report.md) |
 | WP-003-PHASE-2-IMPLEMENTATION-REPORT | Phase 2 Implementation Report | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-003-Phase-2-Implementation-Report.md`](../D:/SIF/engineering/reviews/WP-003-Phase-2-Implementation-Report.md) |
 | WP-003-PHASE-3-IMPLEMENTATION-REPORT | Phase 3 Implementation Report | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-003-Phase-3-Implementation-Report.md`](../D:/SIF/engineering/reviews/WP-003-Phase-3-Implementation-Report.md) |
@@ -416,3 +429,7 @@
 | WP-218-I6-REVIEW | WP-218 I6 SQL Migration Operation Model and PDO Handler Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-218-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-218-I6-Implementation-Review.md) |
 | WP-218-I7-REVIEW | WP-218 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-218-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-218-I7-Implementation-Review.md) |
 | WP-218-I8-REVIEW | WP-218 I8 Runtime Integration and Product Completion Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-218-I8-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-218-I8-Implementation-Review.md) |
+| WP-219-COMPLETION-REVIEW | WP-219 PDO Persistence Adapters Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-219-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-219-Completion-Review.md) |
+| WP-219-I1-ARCHITECTURE-REVIEW | WP-219 I1 Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-219-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-219-I1-Architecture-Review.md) |
+| WP-219-I2-REVIEW | WP-219 I2 PDO Connection Platform and SQL Value Model Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-219-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-219-I2-Implementation-Review.md) |
+| WP-219-I8-REVIEW | WP-219 I8 Runtime Integration and Product Completion Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-219-I8-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-219-I8-Implementation-Review.md) |
