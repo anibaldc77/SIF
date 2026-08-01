@@ -33,6 +33,8 @@ use Sif\Foundation\Migration\Runtime\MigrationRuntime;
 use Sif\Foundation\Migration\Runtime\RuntimeMigrationServiceProvider;
 use Sif\Foundation\Persistence\Pdo\Runtime\PdoPersistenceRuntime;
 use Sif\Foundation\Persistence\Pdo\Runtime\PdoPersistenceRuntimeServiceProvider;
+use Sif\Foundation\Model\Runtime\BaseModelRuntime;
+use Sif\Foundation\Model\Runtime\BaseModelRuntimeServiceProvider;
 
 final class Bootstrap implements BootstrapInterface
 {
@@ -61,6 +63,8 @@ final class Bootstrap implements BootstrapInterface
 
     private ?PdoPersistenceRuntime $persistence;
 
+    private ?BaseModelRuntime $models;
+
     /**
      * Sources are processed from lowest to highest precedence.
      *
@@ -79,6 +83,7 @@ final class Bootstrap implements BootstrapInterface
         ?InstallerRuntime $installer = null,
         ?MigrationRuntime $migrations = null,
         ?PdoPersistenceRuntime $persistence = null,
+        ?BaseModelRuntime $models = null,
     ) {
         $this->configurationLoader = $configurationLoader
             ?? ConfigurationFileLoader::withDefaultLoaders();
@@ -93,6 +98,7 @@ final class Bootstrap implements BootstrapInterface
         $this->installer = $installer;
         $this->migrations = $migrations;
         $this->persistence = $persistence;
+        $this->models = $models;
 
         foreach ($configurationSources as $source) {
             $this->configurationSources[] = $source;
@@ -125,6 +131,9 @@ final class Bootstrap implements BootstrapInterface
         }
         if ($this->persistence !== null) {
             $providers->add(new PdoPersistenceRuntimeServiceProvider($this->persistence));
+        }
+        if ($this->models !== null) {
+            $providers->add(new BaseModelRuntimeServiceProvider($this->models));
         }
         $kernel = new Kernel($lifecycle);
         $variables = $this->createEnvironmentRepository();
@@ -162,6 +171,7 @@ final class Bootstrap implements BootstrapInterface
             $this->installer,
             $this->migrations,
             $this->persistence,
+            $this->models,
         );
     }
 

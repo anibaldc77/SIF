@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 391
-- Resolved references: 245
+- Total documents: 409
+- Resolved references: 263
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
-- INFORMATIVEDOCUMENT: 29
-- NORMATIVEDOCUMENT: 207
-- REVIEWDOCUMENT: 141
+- INFORMATIVEDOCUMENT: 30
+- NORMATIVEDOCUMENT: 215
+- REVIEWDOCUMENT: 150
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 354
+- Draft for Review: 372
 
 ## Documents
 
@@ -75,6 +75,7 @@
 | WP-108-DISCOVERY-POLICY | WP-108 Repository Discovery Policy | Draft | 0.1.0 | [`D:/SIF/engineering/migrations/WP-108/DISCOVERY-POLICY.md`](../D:/SIF/engineering/migrations/WP-108/DISCOVERY-POLICY.md) |
 | WP-108-FRONT-MATTER-MIGRATION | WP-108 Front Matter Migration Playbook | Draft | 0.1.0 | [`D:/SIF/engineering/migrations/WP-108/FRONT-MATTER-MIGRATION.md`](../D:/SIF/engineering/migrations/WP-108/FRONT-MATTER-MIGRATION.md) |
 | WP-108-I5 | Document Classification Normalization | Draft | 0.1.0 | [`D:/SIF/engineering/migrations/WP-108/INCREMENT-5-DOCUMENT-CLASSIFICATION-NORMALIZATION.md`](../D:/SIF/engineering/migrations/WP-108/INCREMENT-5-DOCUMENT-CLASSIFICATION-NORMALIZATION.md) |
+| WP-220-BASEMODEL-2-MIGRATION-GUIDE | BaseModel 2.0 Migration Guide | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-220-BASEMODEL-2-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-220-BASEMODEL-2-MIGRATION-GUIDE.md) |
 
 ### NORMATIVEDOCUMENT
 
@@ -269,6 +270,14 @@
 | EG-326 | PDO Connection and Transaction Adapters | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-219/EG-326-PDO-Connection-and-Transaction-Adapters.md`](../D:/SIF/engineering/specifications/WP-219/EG-326-PDO-Connection-and-Transaction-Adapters.md) |
 | EG-327 | PDO Repositories, Mappers and Unit of Work | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-219/EG-327-PDO-Repositories-Mappers-and-Unit-of-Work.md`](../D:/SIF/engineering/specifications/WP-219/EG-327-PDO-Repositories-Mappers-and-Unit-of-Work.md) |
 | EG-328 | PDO Persistence Runtime Integration and Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-219/EG-328-PDO-Persistence-Runtime-Integration-and-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-219/EG-328-PDO-Persistence-Runtime-Integration-and-Product-Completion.md) |
+| EG-329 | BaseModel 2.0 Architecture and Compatibility | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-220/EG-329-BaseModel-2-Architecture-and-Compatibility.md`](../D:/SIF/engineering/specifications/WP-220/EG-329-BaseModel-2-Architecture-and-Compatibility.md) |
+| EG-330 | Immutable Model Metadata and Attributes | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-220/EG-330-Immutable-Model-Metadata-and-Attributes.md`](../D:/SIF/engineering/specifications/WP-220/EG-330-Immutable-Model-Metadata-and-Attributes.md) |
+| EG-331 | Hydration Serialization and Dirty Tracking | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-220/EG-331-Hydration-Serialization-and-Dirty-Tracking.md`](../D:/SIF/engineering/specifications/WP-220/EG-331-Hydration-Serialization-and-Dirty-Tracking.md) |
+| EG-332 | BaseModel CRUD and Repository Bridge | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-220/EG-332-BaseModel-CRUD-and-Repository-Bridge.md`](../D:/SIF/engineering/specifications/WP-220/EG-332-BaseModel-CRUD-and-Repository-Bridge.md) |
+| EG-333 | Model Query Pagination and Soft Delete | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-220/EG-333-Model-Query-Pagination-and-Soft-Delete.md`](../D:/SIF/engineering/specifications/WP-220/EG-333-Model-Query-Pagination-and-Soft-Delete.md) |
+| EG-334 | Model Lifecycle Events Context and Audit | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-220/EG-334-Model-Lifecycle-Events-Context-and-Audit.md`](../D:/SIF/engineering/specifications/WP-220/EG-334-Model-Lifecycle-Events-Context-and-Audit.md) |
+| EG-335 | Model Relations and Unit of Work Integration | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-220/EG-335-Model-Relations-and-Unit-of-Work-Integration.md`](../D:/SIF/engineering/specifications/WP-220/EG-335-Model-Relations-and-Unit-of-Work-Integration.md) |
+| EG-336 | BaseModel Runtime Integration, Compatibility and Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-220/EG-336-BaseModel-Runtime-Integration-Compatibility-and-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-220/EG-336-BaseModel-Runtime-Integration-Compatibility-and-Product-Completion.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -433,3 +442,12 @@
 | WP-219-I1-ARCHITECTURE-REVIEW | WP-219 I1 Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-219-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-219-I1-Architecture-Review.md) |
 | WP-219-I2-REVIEW | WP-219 I2 PDO Connection Platform and SQL Value Model Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-219-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-219-I2-Implementation-Review.md) |
 | WP-219-I8-REVIEW | WP-219 I8 Runtime Integration and Product Completion Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-219-I8-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-219-I8-Implementation-Review.md) |
+| WP-220-COMPLETION-REVIEW | WP-220 Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-220-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-220-Completion-Review.md) |
+| WP-220-I1-ARCHITECTURE-REVIEW | WP-220 I1 Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-220-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-220-I1-Architecture-Review.md) |
+| WP-220-I2-IMPLEMENTATION-REVIEW | WP-220 I2 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-220-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-220-I2-Implementation-Review.md) |
+| WP-220-I3-IMPLEMENTATION-REVIEW | WP-220 I3 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-220-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-220-I3-Implementation-Review.md) |
+| WP-220-I4-IMPLEMENTATION-REVIEW | WP-220 I4 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-220-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-220-I4-Implementation-Review.md) |
+| WP-220-I5-IMPLEMENTATION-REVIEW | WP-220 I5 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-220-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-220-I5-Implementation-Review.md) |
+| WP-220-I6-IMPLEMENTATION-REVIEW | WP-220 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-220-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-220-I6-Implementation-Review.md) |
+| WP-220-I7-IMPLEMENTATION-REVIEW | WP-220 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-220-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-220-I7-Implementation-Review.md) |
+| WP-220-I8-IMPLEMENTATION-REVIEW | WP-220 I8 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-220-I8-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-220-I8-Implementation-Review.md) |
