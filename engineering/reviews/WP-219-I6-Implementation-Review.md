@@ -1,5 +1,5 @@
 ---
-id: REVIEW-WP-219-I6
+id: WP-219-I6-REVIEW
 title: WP-219 I6 Implementation Review
 summary: Reviews PDO transaction ownership, external transaction policy, savepoint participation, provider-neutral state and safe failure translation.
 status: Draft for Review

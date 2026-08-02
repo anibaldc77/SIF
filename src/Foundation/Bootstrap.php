@@ -35,6 +35,8 @@ use Sif\Foundation\Persistence\Pdo\Runtime\PdoPersistenceRuntime;
 use Sif\Foundation\Persistence\Pdo\Runtime\PdoPersistenceRuntimeServiceProvider;
 use Sif\Foundation\Model\Runtime\BaseModelRuntime;
 use Sif\Foundation\Model\Runtime\BaseModelRuntimeServiceProvider;
+use Sif\Foundation\Cli\Runtime\CliRuntime;
+use Sif\Foundation\Cli\Runtime\CliRuntimeServiceProvider;
 
 final class Bootstrap implements BootstrapInterface
 {
@@ -65,6 +67,8 @@ final class Bootstrap implements BootstrapInterface
 
     private ?BaseModelRuntime $models;
 
+    private ?CliRuntime $cli;
+
     /**
      * Sources are processed from lowest to highest precedence.
      *
@@ -84,6 +88,7 @@ final class Bootstrap implements BootstrapInterface
         ?MigrationRuntime $migrations = null,
         ?PdoPersistenceRuntime $persistence = null,
         ?BaseModelRuntime $models = null,
+        ?CliRuntime $cli = null,
     ) {
         $this->configurationLoader = $configurationLoader
             ?? ConfigurationFileLoader::withDefaultLoaders();
@@ -99,6 +104,7 @@ final class Bootstrap implements BootstrapInterface
         $this->migrations = $migrations;
         $this->persistence = $persistence;
         $this->models = $models;
+        $this->cli = $cli;
 
         foreach ($configurationSources as $source) {
             $this->configurationSources[] = $source;
@@ -134,6 +140,9 @@ final class Bootstrap implements BootstrapInterface
         }
         if ($this->models !== null) {
             $providers->add(new BaseModelRuntimeServiceProvider($this->models));
+        }
+        if ($this->cli !== null) {
+            $providers->add(new CliRuntimeServiceProvider($this->cli));
         }
         $kernel = new Kernel($lifecycle);
         $variables = $this->createEnvironmentRepository();
@@ -172,6 +181,7 @@ final class Bootstrap implements BootstrapInterface
             $this->migrations,
             $this->persistence,
             $this->models,
+            $this->cli,
         );
     }
 

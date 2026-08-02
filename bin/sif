@@ -1,0 +1,41 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+use Sif\Foundation\Cli\Input\NativeCliInput;
+use Sif\Foundation\Cli\Output\CallbackCliOutput;
+use Sif\Foundation\Cli\Runtime\CliRuntime;
+use Sif\Foundation\Cli\Runtime\DefaultCliRuntimeFactory;
+use Sif\Foundation\Configuration\ConfigurationRepository;
+use Sif\Foundation\Environment\EnvironmentRepository;
+use Sif\Foundation\Runtime;
+
+$root = dirname(__DIR__);
+$autoload = $root . '/vendor/autoload.php';
+if (!is_file($autoload)) {
+    fwrite(STDERR, "SIF CLI requires Composer dependencies. Run composer install." . PHP_EOL);
+    exit(8);
+}
+require $autoload;
+
+$bootstrap = $root . '/bootstrap/cli.php';
+if (is_file($bootstrap)) {
+    $cli = require $bootstrap;
+    if (!$cli instanceof CliRuntime) {
+        fwrite(STDERR, "bootstrap/cli.php must return an instance of CliRuntime." . PHP_EOL);
+        exit(8);
+    }
+} else {
+    $variables = new EnvironmentRepository();
+    $runtime = new Runtime($variables);
+    $cli = (new DefaultCliRuntimeFactory($runtime, new ConfigurationRepository()))->create();
+}
+
+/** @var list<string> $argv */
+$input = new NativeCliInput($argv, []);
+$output = new CallbackCliOutput(
+    static function (string $content): void { fwrite(STDOUT, $content); },
+    static function (string $content): void { fwrite(STDERR, $content); },
+);
+exit($cli->run($input, $output));

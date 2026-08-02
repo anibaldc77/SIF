@@ -6,11 +6,11 @@
 
 | Metric | Value |
 |---|---:|
-| Documents | 409 |
-| References | 263 |
-| Resolved | 263 |
+| Documents | 426 |
+| References | 278 |
+| Resolved | 278 |
 | Broken | 0 |
-| Isolated documents | 147 |
+| Isolated documents | 149 |
 
 ## References by Type
 
@@ -18,7 +18,7 @@
 |---|---:|
 | implements | 1 |
 | reference | 15 |
-| related | 247 |
+| related | 262 |
 
 ## Broken References
 
@@ -28,7 +28,7 @@ _No broken references._
 
 | Document | Type | Incoming | Outgoing | Broken outgoing |
 |---|---|---:|---:|---:|
-| `ADR-0005` — Adopt a Capability-Driven Runtime | GOVERNANCEDOCUMENT | 243 | 1 | 0 |
+| `ADR-0005` — Adopt a Capability-Driven Runtime | GOVERNANCEDOCUMENT | 258 | 1 | 0 |
 | `ADR-0004` — Modular Engineering Specifications | GOVERNANCEDOCUMENT | 4 | 0 | 0 |
 | `EG-009` — Reference Resolution | NORMATIVEDOCUMENT | 3 | 0 | 0 |
 | `EG-032` — Built-in Analyzers Architecture | NORMATIVEDOCUMENT | 2 | 3 | 0 |
@@ -115,6 +115,7 @@ _No broken references._
 - `EG-286` — Failure Reporters, Filtering and Isolated Dispatch
 - `EG-287` — Immutable ErrorHandlingPlan and Orchestration
 - `EG-288` — Runtime Integration, Service Provider and Completion
+- `EG-343` — WP-221 I7 Module Resource Maintenance and CLI Extensibility Commands
 - `ENGINEERING-README` — Engineering System
 - `ES-002` — Metadata Standard
 - `ES-003` — Document Class Model
@@ -193,6 +194,7 @@ _No broken references._
 - `WP-216-I2-IMPLEMENTATION-REVIEW` — WP-216 I2 Implementation Review
 - `WP-216-I3-IMPLEMENTATION-REVIEW` — WP-216 I3 Implementation Review
 - `WP-216-I5-IMPLEMENTATION-REVIEW` — WP-216 I5 Safe Mutation Planning Implementation Review
+- `WP-221-I7-REVIEW` — WP-221 I7 Implementation Review
 
 ## Resolved References
 
@@ -343,11 +345,13 @@ _No broken references._
 | `EG-334` | `ADR-0005` | related | — |
 | `EG-335` | `ADR-0005` | related | — |
 | `EG-336` | `ADR-0005` | related | — |
-| `REVIEW-WP-219-I3` | `ADR-0005` | related | — |
-| `REVIEW-WP-219-I4` | `ADR-0005` | related | — |
-| `REVIEW-WP-219-I5` | `ADR-0005` | related | — |
-| `REVIEW-WP-219-I6` | `ADR-0005` | related | — |
-| `REVIEW-WP-219-I7` | `ADR-0005` | related | — |
+| `EG-337` | `ADR-0005` | related | — |
+| `EG-338` | `ADR-0005` | related | — |
+| `EG-339` | `ADR-0005` | related | — |
+| `EG-340` | `ADR-0005` | related | — |
+| `EG-341` | `ADR-0005` | related | — |
+| `EG-342` | `ADR-0005` | related | — |
+| `EG-344` | `ADR-0005` | related | — |
 | `WP-110-IMPLEMENTATION-REPORT` | `EG-051` | reference | — |
 | `WP-200-A1-IMPLEMENTATION-REPORT` | `ADR-0005` | related | — |
 | `WP-200-ARCHITECTURE-REVIEW` | `ADR-0005` | related | — |
@@ -450,6 +454,11 @@ _No broken references._
 | `WP-219-COMPLETION-REVIEW` | `ADR-0005` | related | — |
 | `WP-219-I1-ARCHITECTURE-REVIEW` | `ADR-0005` | related | — |
 | `WP-219-I2-REVIEW` | `ADR-0005` | related | — |
+| `WP-219-I3-REVIEW` | `ADR-0005` | related | — |
+| `WP-219-I4-REVIEW` | `ADR-0005` | related | — |
+| `WP-219-I5-REVIEW` | `ADR-0005` | related | — |
+| `WP-219-I6-REVIEW` | `ADR-0005` | related | — |
+| `WP-219-I7-REVIEW` | `ADR-0005` | related | — |
 | `WP-219-I8-REVIEW` | `ADR-0005` | related | — |
 | `WP-220-BASEMODEL-2-MIGRATION-GUIDE` | `ADR-0005` | related | — |
 | `WP-220-COMPLETION-REVIEW` | `ADR-0005` | related | — |
@@ -461,3 +470,11 @@ _No broken references._
 | `WP-220-I6-IMPLEMENTATION-REVIEW` | `ADR-0005` | related | — |
 | `WP-220-I7-IMPLEMENTATION-REVIEW` | `ADR-0005` | related | — |
 | `WP-220-I8-IMPLEMENTATION-REVIEW` | `ADR-0005` | related | — |
+| `WP-221-COMPLETION-REVIEW` | `ADR-0005` | related | — |
+| `WP-221-I1-ARCHITECTURE-REVIEW` | `ADR-0005` | related | — |
+| `WP-221-I2-IMPLEMENTATION-REVIEW` | `ADR-0005` | related | — |
+| `WP-221-I3-IMPLEMENTATION-REVIEW` | `ADR-0005` | related | — |
+| `WP-221-I4-IMPLEMENTATION-REVIEW` | `ADR-0005` | related | — |
+| `WP-221-I5-IMPLEMENTATION-REVIEW` | `ADR-0005` | related | — |
+| `WP-221-I6-IMPLEMENTATION-REVIEW` | `ADR-0005` | related | — |
+| `WP-221-I8-IMPLEMENTATION-REVIEW` | `ADR-0005` | related | — |

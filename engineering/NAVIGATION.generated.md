@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **409**
+Governed documents: **426**
 
 ## Generated views
 
@@ -91,6 +91,10 @@ Governed documents: **409**
 
 - [`WP-220-I1-ARCHITECTURE-REVIEW`](../D:/SIF/engineering/reviews/WP-220-I1-Architecture-Review.md) — WP-220 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
+### Architecture Review — WP-221
+
+- [`WP-221-I1-ARCHITECTURE-REVIEW`](../D:/SIF/engineering/reviews/WP-221-I1-Architecture-Review.md) — WP-221 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
 ### Constitution
 
 - [`SIF-CONSTITUTION`](../D:/SIF/engineering/governance/SIF-Constitution.md) — SIF Constitution _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
@@ -113,6 +117,10 @@ Governed documents: **409**
 ### Engineering Standard — WP-112
 
 - [`ES-004`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) — Document Identifier and Filename Policy _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Implementation Review
+
+- [`WP-221-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-221-I7-Implementation-Review.md) — WP-221 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 1.0.0)_
 
 ### Implementation Review — WP-000
 
@@ -314,13 +322,13 @@ Governed documents: **409**
 
 ### Implementation Review — WP-219
 
-- [`REVIEW-WP-219-I3`](../D:/SIF/engineering/reviews/WP-219-I3-Implementation-Review.md) — WP-219 I3 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
-- [`REVIEW-WP-219-I4`](../D:/SIF/engineering/reviews/WP-219-I4-Implementation-Review.md) — WP-219 I4 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
-- [`REVIEW-WP-219-I5`](../D:/SIF/engineering/reviews/WP-219-I5-Implementation-Review.md) — WP-219 I5 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
-- [`REVIEW-WP-219-I6`](../D:/SIF/engineering/reviews/WP-219-I6-Implementation-Review.md) — WP-219 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
-- [`REVIEW-WP-219-I7`](../D:/SIF/engineering/reviews/WP-219-I7-Implementation-Review.md) — WP-219 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-219-COMPLETION-REVIEW`](../D:/SIF/engineering/reviews/WP-219-Completion-Review.md) — WP-219 PDO Persistence Adapters Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-219-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-219-I2-Implementation-Review.md) — WP-219 I2 PDO Connection Platform and SQL Value Model Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-219-I3-REVIEW`](../D:/SIF/engineering/reviews/WP-219-I3-Implementation-Review.md) — WP-219 I3 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-219-I4-REVIEW`](../D:/SIF/engineering/reviews/WP-219-I4-Implementation-Review.md) — WP-219 I4 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-219-I5-REVIEW`](../D:/SIF/engineering/reviews/WP-219-I5-Implementation-Review.md) — WP-219 I5 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-219-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-219-I6-Implementation-Review.md) — WP-219 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-219-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-219-I7-Implementation-Review.md) — WP-219 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-219-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-219-I8-Implementation-Review.md) — WP-219 I8 Runtime Integration and Product Completion Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Implementation Review — WP-220
@@ -333,6 +341,16 @@ Governed documents: **409**
 - [`WP-220-I6-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-220-I6-Implementation-Review.md) — WP-220 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-220-I7-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-220-I7-Implementation-Review.md) — WP-220 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-220-I8-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-220-I8-Implementation-Review.md) — WP-220 I8 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Implementation Review — WP-221
+
+- [`WP-221-COMPLETION-REVIEW`](../D:/SIF/engineering/reviews/WP-221-Completion-Review.md) — WP-221 Developer CLI Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-221-I2-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-221-I2-Implementation-Review.md) — WP-221 I2 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-221-I3-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-221-I3-Implementation-Review.md) — WP-221 I3 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-221-I4-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-221-I4-Implementation-Review.md) — WP-221 I4 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-221-I5-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-221-I5-Implementation-Review.md) — WP-221 I5 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-221-I6-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-221-I6-Implementation-Review.md) — WP-221 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-221-I8-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-221-I8-Implementation-Review.md) — WP-221 I8 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Informative Document
 
@@ -378,6 +396,10 @@ Governed documents: **409**
 ### Informative Document — WP-220
 
 - [`WP-220-BASEMODEL-2-MIGRATION-GUIDE`](../D:/SIF/engineering/migrations/WP-220-BASEMODEL-2-MIGRATION-GUIDE.md) — BaseModel 2.0 Migration Guide _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification
+
+- [`EG-343`](../D:/SIF/engineering/specifications/WP-221/EG-343-Module-Resource-Maintenance-and-CLI-Extensibility-Commands.md) — WP-221 I7 Module Resource Maintenance and CLI Extensibility Commands _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 1.0.0)_
 
 ### Normative Specification — WP-004
 
@@ -690,6 +712,16 @@ Governed documents: **409**
 - [`EG-334`](../D:/SIF/engineering/specifications/WP-220/EG-334-Model-Lifecycle-Events-Context-and-Audit.md) — Model Lifecycle Events Context and Audit _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-335`](../D:/SIF/engineering/specifications/WP-220/EG-335-Model-Relations-and-Unit-of-Work-Integration.md) — Model Relations and Unit of Work Integration _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-336`](../D:/SIF/engineering/specifications/WP-220/EG-336-BaseModel-Runtime-Integration-Compatibility-and-Product-Completion.md) — BaseModel Runtime Integration, Compatibility and Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-221
+
+- [`EG-337`](../D:/SIF/engineering/specifications/WP-221/EG-337-Developer-CLI-Architecture-and-Command-Model.md) — Developer CLI Architecture and Command Model _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-338`](../D:/SIF/engineering/specifications/WP-221/EG-338-Immutable-CLI-Value-Model.md) — Immutable CLI Value Model _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-339`](../D:/SIF/engineering/specifications/WP-221/EG-339-Command-Registry-Invocation-Parser-and-Help-Model.md) — Command Registry Invocation Parser and Help Model _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-340`](../D:/SIF/engineering/specifications/WP-221/EG-340-Console-Kernel-and-Input-Output-Adapters.md) — Console Kernel and Input Output Adapters _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-341`](../D:/SIF/engineering/specifications/WP-221/EG-341-Runtime-Configuration-and-Diagnostic-Commands.md) — Runtime Configuration and Diagnostic Commands _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-342`](../D:/SIF/engineering/specifications/WP-221/EG-342-Migration-and-Installer-Commands.md) — Migration and Installer Commands _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-344`](../D:/SIF/engineering/specifications/WP-221/EG-344-CLI-Entry-Points-Runtime-Integration-and-Product-Completion.md) — CLI Entry Points Runtime Integration and Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 
