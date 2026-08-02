@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **426**
+Governed documents: **443**
 
 ## Generated views
 
@@ -94,6 +94,10 @@ Governed documents: **426**
 ### Architecture Review — WP-221
 
 - [`WP-221-I1-ARCHITECTURE-REVIEW`](../D:/SIF/engineering/reviews/WP-221-I1-Architecture-Review.md) — WP-221 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Architecture Review — WP-222
+
+- [`WP-222-I1-ARCHITECTURE-REVIEW`](../D:/SIF/engineering/reviews/WP-222-I1-Architecture-Review.md) — WP-222 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Constitution
 
@@ -351,6 +355,17 @@ Governed documents: **426**
 - [`WP-221-I5-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-221-I5-Implementation-Review.md) — WP-221 I5 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-221-I6-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-221-I6-Implementation-Review.md) — WP-221 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-221-I8-IMPLEMENTATION-REVIEW`](../D:/SIF/engineering/reviews/WP-221-I8-Implementation-Review.md) — WP-221 I8 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Implementation Review — WP-222
+
+- [`WP-222-COMPLETION-REVIEW`](../D:/SIF/engineering/reviews/WP-222-Completion-Review.md) — WP-222 Application Skeleton Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-222-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-222-I2-Implementation-Review.md) — WP-222 I2 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-222-I3-REVIEW`](../D:/SIF/engineering/reviews/WP-222-I3-Implementation-Review.md) — WP-222 I3 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-222-I4-REVIEW`](../D:/SIF/engineering/reviews/WP-222-I4-Implementation-Review.md) — WP-222 I4 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-222-I5-REVIEW`](../D:/SIF/engineering/reviews/WP-222-I5-Implementation-Review.md) — WP-222 I5 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-222-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-222-I6-Implementation-Review.md) — WP-222 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-222-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-222-I7-Implementation-Review.md) — WP-222 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-222-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-222-I8-Implementation-Review.md) — WP-222 I8 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Informative Document
 
@@ -722,6 +737,17 @@ Governed documents: **426**
 - [`EG-341`](../D:/SIF/engineering/specifications/WP-221/EG-341-Runtime-Configuration-and-Diagnostic-Commands.md) — Runtime Configuration and Diagnostic Commands _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-342`](../D:/SIF/engineering/specifications/WP-221/EG-342-Migration-and-Installer-Commands.md) — Migration and Installer Commands _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-344`](../D:/SIF/engineering/specifications/WP-221/EG-344-CLI-Entry-Points-Runtime-Integration-and-Product-Completion.md) — CLI Entry Points Runtime Integration and Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-222
+
+- [`EG-345`](../D:/SIF/engineering/specifications/WP-222/EG-345-Application-Skeleton-Architecture-and-First-Run-Model.md) — Application Skeleton Architecture and First-Run Model _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-346`](../D:/SIF/engineering/specifications/WP-222/EG-346-Immutable-Project-Manifest-and-Skeleton-Value-Model.md) — Immutable Project Manifest and Skeleton Value Model _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-347`](../D:/SIF/engineering/specifications/WP-222/EG-347-Deterministic-Directory-and-File-Generation.md) — Deterministic Directory and File Generation _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-348`](../D:/SIF/engineering/specifications/WP-222/EG-348-Bootstrap-Configuration-and-Environment-Templates.md) — Bootstrap Configuration and Environment Templates _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-349`](../D:/SIF/engineering/specifications/WP-222/EG-349-CLI-Integration-and-Application-Create-Command.md) — CLI Integration and Application Create Command _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-350`](../D:/SIF/engineering/specifications/WP-222/EG-350-Module-Migration-and-Model-Templates.md) — Module Migration and Model Templates _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-351`](../D:/SIF/engineering/specifications/WP-222/EG-351-Validation-First-Run-and-Example-Application.md) — Validation First-Run and Example Application _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-352`](../D:/SIF/engineering/specifications/WP-222/EG-352-Application-Skeleton-Runtime-Integration-and-Product-Completion.md) — Application Skeleton Runtime Integration and Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 

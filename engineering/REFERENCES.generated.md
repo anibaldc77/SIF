@@ -6,9 +6,9 @@
 
 | Metric | Value |
 |---|---:|
-| Documents | 426 |
-| References | 278 |
-| Resolved | 278 |
+| Documents | 443 |
+| References | 295 |
+| Resolved | 295 |
 | Broken | 0 |
 | Isolated documents | 149 |
 
@@ -18,7 +18,7 @@
 |---|---:|
 | implements | 1 |
 | reference | 15 |
-| related | 262 |
+| related | 279 |
 
 ## Broken References
 
@@ -28,7 +28,7 @@ _No broken references._
 
 | Document | Type | Incoming | Outgoing | Broken outgoing |
 |---|---|---:|---:|---:|
-| `ADR-0005` — Adopt a Capability-Driven Runtime | GOVERNANCEDOCUMENT | 258 | 1 | 0 |
+| `ADR-0005` — Adopt a Capability-Driven Runtime | GOVERNANCEDOCUMENT | 275 | 1 | 0 |
 | `ADR-0004` — Modular Engineering Specifications | GOVERNANCEDOCUMENT | 4 | 0 | 0 |
 | `EG-009` — Reference Resolution | NORMATIVEDOCUMENT | 3 | 0 | 0 |
 | `EG-032` — Built-in Analyzers Architecture | NORMATIVEDOCUMENT | 2 | 3 | 0 |
@@ -352,6 +352,14 @@ _No broken references._
 | `EG-341` | `ADR-0005` | related | — |
 | `EG-342` | `ADR-0005` | related | — |
 | `EG-344` | `ADR-0005` | related | — |
+| `EG-345` | `ADR-0005` | related | — |
+| `EG-346` | `ADR-0005` | related | — |
+| `EG-347` | `ADR-0005` | related | — |
+| `EG-348` | `ADR-0005` | related | — |
+| `EG-349` | `ADR-0005` | related | — |
+| `EG-350` | `ADR-0005` | related | — |
+| `EG-351` | `ADR-0005` | related | — |
+| `EG-352` | `ADR-0005` | related | — |
 | `WP-110-IMPLEMENTATION-REPORT` | `EG-051` | reference | — |
 | `WP-200-A1-IMPLEMENTATION-REPORT` | `ADR-0005` | related | — |
 | `WP-200-ARCHITECTURE-REVIEW` | `ADR-0005` | related | — |
@@ -478,3 +486,12 @@ _No broken references._
 | `WP-221-I5-IMPLEMENTATION-REVIEW` | `ADR-0005` | related | — |
 | `WP-221-I6-IMPLEMENTATION-REVIEW` | `ADR-0005` | related | — |
 | `WP-221-I8-IMPLEMENTATION-REVIEW` | `ADR-0005` | related | — |
+| `WP-222-COMPLETION-REVIEW` | `ADR-0005` | related | — |
+| `WP-222-I1-ARCHITECTURE-REVIEW` | `ADR-0005` | related | — |
+| `WP-222-I2-REVIEW` | `ADR-0005` | related | — |
+| `WP-222-I3-REVIEW` | `ADR-0005` | related | — |
+| `WP-222-I4-REVIEW` | `ADR-0005` | related | — |
+| `WP-222-I5-REVIEW` | `ADR-0005` | related | — |
+| `WP-222-I6-REVIEW` | `ADR-0005` | related | — |
+| `WP-222-I7-REVIEW` | `ADR-0005` | related | — |
+| `WP-222-I8-REVIEW` | `ADR-0005` | related | — |

@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 426
-- Resolved references: 278
+- Total documents: 443
+- Resolved references: 295
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
 - INFORMATIVEDOCUMENT: 30
-- NORMATIVEDOCUMENT: 223
-- REVIEWDOCUMENT: 159
+- NORMATIVEDOCUMENT: 231
+- REVIEWDOCUMENT: 168
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 389
+- Draft for Review: 406
 
 ## Documents
 
@@ -286,6 +286,14 @@
 | EG-342 | Migration and Installer Commands | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-221/EG-342-Migration-and-Installer-Commands.md`](../D:/SIF/engineering/specifications/WP-221/EG-342-Migration-and-Installer-Commands.md) |
 | EG-343 | WP-221 I7 Module Resource Maintenance and CLI Extensibility Commands | Draft for Review | 1.0.0 | [`D:/SIF/engineering/specifications/WP-221/EG-343-Module-Resource-Maintenance-and-CLI-Extensibility-Commands.md`](../D:/SIF/engineering/specifications/WP-221/EG-343-Module-Resource-Maintenance-and-CLI-Extensibility-Commands.md) |
 | EG-344 | CLI Entry Points Runtime Integration and Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-221/EG-344-CLI-Entry-Points-Runtime-Integration-and-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-221/EG-344-CLI-Entry-Points-Runtime-Integration-and-Product-Completion.md) |
+| EG-345 | Application Skeleton Architecture and First-Run Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-222/EG-345-Application-Skeleton-Architecture-and-First-Run-Model.md`](../D:/SIF/engineering/specifications/WP-222/EG-345-Application-Skeleton-Architecture-and-First-Run-Model.md) |
+| EG-346 | Immutable Project Manifest and Skeleton Value Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-222/EG-346-Immutable-Project-Manifest-and-Skeleton-Value-Model.md`](../D:/SIF/engineering/specifications/WP-222/EG-346-Immutable-Project-Manifest-and-Skeleton-Value-Model.md) |
+| EG-347 | Deterministic Directory and File Generation | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-222/EG-347-Deterministic-Directory-and-File-Generation.md`](../D:/SIF/engineering/specifications/WP-222/EG-347-Deterministic-Directory-and-File-Generation.md) |
+| EG-348 | Bootstrap Configuration and Environment Templates | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-222/EG-348-Bootstrap-Configuration-and-Environment-Templates.md`](../D:/SIF/engineering/specifications/WP-222/EG-348-Bootstrap-Configuration-and-Environment-Templates.md) |
+| EG-349 | CLI Integration and Application Create Command | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-222/EG-349-CLI-Integration-and-Application-Create-Command.md`](../D:/SIF/engineering/specifications/WP-222/EG-349-CLI-Integration-and-Application-Create-Command.md) |
+| EG-350 | Module Migration and Model Templates | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-222/EG-350-Module-Migration-and-Model-Templates.md`](../D:/SIF/engineering/specifications/WP-222/EG-350-Module-Migration-and-Model-Templates.md) |
+| EG-351 | Validation First-Run and Example Application | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-222/EG-351-Validation-First-Run-and-Example-Application.md`](../D:/SIF/engineering/specifications/WP-222/EG-351-Validation-First-Run-and-Example-Application.md) |
+| EG-352 | Application Skeleton Runtime Integration and Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-222/EG-352-Application-Skeleton-Runtime-Integration-and-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-222/EG-352-Application-Skeleton-Runtime-Integration-and-Product-Completion.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -468,3 +476,12 @@
 | WP-221-I6-IMPLEMENTATION-REVIEW | WP-221 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-221-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-221-I6-Implementation-Review.md) |
 | WP-221-I7-REVIEW | WP-221 I7 Implementation Review | Draft for Review | 1.0.0 | [`D:/SIF/engineering/reviews/WP-221-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-221-I7-Implementation-Review.md) |
 | WP-221-I8-IMPLEMENTATION-REVIEW | WP-221 I8 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-221-I8-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-221-I8-Implementation-Review.md) |
+| WP-222-COMPLETION-REVIEW | WP-222 Application Skeleton Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-222-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-222-Completion-Review.md) |
+| WP-222-I1-ARCHITECTURE-REVIEW | WP-222 I1 Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-222-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-222-I1-Architecture-Review.md) |
+| WP-222-I2-REVIEW | WP-222 I2 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-222-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-222-I2-Implementation-Review.md) |
+| WP-222-I3-REVIEW | WP-222 I3 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-222-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-222-I3-Implementation-Review.md) |
+| WP-222-I4-REVIEW | WP-222 I4 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-222-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-222-I4-Implementation-Review.md) |
+| WP-222-I5-REVIEW | WP-222 I5 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-222-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-222-I5-Implementation-Review.md) |
+| WP-222-I6-REVIEW | WP-222 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-222-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-222-I6-Implementation-Review.md) |
+| WP-222-I7-REVIEW | WP-222 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-222-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-222-I7-Implementation-Review.md) |
+| WP-222-I8-REVIEW | WP-222 I8 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-222-I8-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-222-I8-Implementation-Review.md) |

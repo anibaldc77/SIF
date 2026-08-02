@@ -37,6 +37,8 @@ use Sif\Foundation\Model\Runtime\BaseModelRuntime;
 use Sif\Foundation\Model\Runtime\BaseModelRuntimeServiceProvider;
 use Sif\Foundation\Cli\Runtime\CliRuntime;
 use Sif\Foundation\Cli\Runtime\CliRuntimeServiceProvider;
+use Sif\Foundation\ApplicationSkeleton\Runtime\ApplicationSkeletonRuntime;
+use Sif\Foundation\ApplicationSkeleton\Runtime\ApplicationSkeletonRuntimeServiceProvider;
 
 final class Bootstrap implements BootstrapInterface
 {
@@ -69,6 +71,8 @@ final class Bootstrap implements BootstrapInterface
 
     private ?CliRuntime $cli;
 
+    private ?ApplicationSkeletonRuntime $applicationSkeleton;
+
     /**
      * Sources are processed from lowest to highest precedence.
      *
@@ -89,6 +93,7 @@ final class Bootstrap implements BootstrapInterface
         ?PdoPersistenceRuntime $persistence = null,
         ?BaseModelRuntime $models = null,
         ?CliRuntime $cli = null,
+        ?ApplicationSkeletonRuntime $applicationSkeleton = null,
     ) {
         $this->configurationLoader = $configurationLoader
             ?? ConfigurationFileLoader::withDefaultLoaders();
@@ -105,6 +110,7 @@ final class Bootstrap implements BootstrapInterface
         $this->persistence = $persistence;
         $this->models = $models;
         $this->cli = $cli;
+        $this->applicationSkeleton = $applicationSkeleton;
 
         foreach ($configurationSources as $source) {
             $this->configurationSources[] = $source;
@@ -144,6 +150,9 @@ final class Bootstrap implements BootstrapInterface
         if ($this->cli !== null) {
             $providers->add(new CliRuntimeServiceProvider($this->cli));
         }
+        if ($this->applicationSkeleton !== null) {
+            $providers->add(new ApplicationSkeletonRuntimeServiceProvider($this->applicationSkeleton));
+        }
         $kernel = new Kernel($lifecycle);
         $variables = $this->createEnvironmentRepository();
         $runtime = new Runtime($variables);
@@ -182,6 +191,7 @@ final class Bootstrap implements BootstrapInterface
             $this->persistence,
             $this->models,
             $this->cli,
+            $this->applicationSkeleton,
         );
     }
 

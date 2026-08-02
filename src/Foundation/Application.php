@@ -17,6 +17,7 @@ use Sif\Foundation\Contracts\MutableMigrationApplicationInterface;
 use Sif\Foundation\Contracts\MutablePersistenceApplicationInterface;
 use Sif\Foundation\Contracts\MutableBaseModelApplicationInterface;
 use Sif\Foundation\Contracts\MutableCliApplicationInterface;
+use Sif\Foundation\Contracts\MutableApplicationSkeletonApplicationInterface;
 use Sif\Foundation\Contracts\MutableErrorHandlingApplicationInterface;
 use Sif\Foundation\Contracts\EnvironmentInterface;
 use Sif\Foundation\Environment\Contracts\MutableEnvironmentInterface;
@@ -36,9 +37,10 @@ use Sif\Foundation\Migration\Runtime\MigrationRuntime;
 use Sif\Foundation\Persistence\Pdo\Runtime\PdoPersistenceRuntime;
 use Sif\Foundation\Model\Runtime\BaseModelRuntime;
 use Sif\Foundation\Cli\Runtime\CliRuntime;
+use Sif\Foundation\ApplicationSkeleton\Runtime\ApplicationSkeletonRuntime;
 
 /** Owns the isolated runtime graph and its ordered provider collection. */
-final class Application implements EnvironmentAwareApplicationInterface, MutableLoggingApplicationInterface, MutableErrorHandlingApplicationInterface, \Sif\Foundation\Contracts\MutableResourceManagementApplicationInterface, MutableInstallerApplicationInterface, MutableMigrationApplicationInterface, MutablePersistenceApplicationInterface, MutableBaseModelApplicationInterface, MutableCliApplicationInterface
+final class Application implements EnvironmentAwareApplicationInterface, MutableLoggingApplicationInterface, MutableErrorHandlingApplicationInterface, \Sif\Foundation\Contracts\MutableResourceManagementApplicationInterface, MutableInstallerApplicationInterface, MutableMigrationApplicationInterface, MutablePersistenceApplicationInterface, MutableBaseModelApplicationInterface, MutableCliApplicationInterface, MutableApplicationSkeletonApplicationInterface
 {
     private CapabilityRegistry $capabilityRegistry;
 
@@ -70,6 +72,8 @@ final class Application implements EnvironmentAwareApplicationInterface, Mutable
 
     private ?CliRuntime $cli;
 
+    private ?ApplicationSkeletonRuntime $applicationSkeleton;
+
     public function __construct(
         private readonly RuntimeInterface $runtime,
         private readonly KernelInterface $kernel,
@@ -89,6 +93,7 @@ final class Application implements EnvironmentAwareApplicationInterface, Mutable
         ?PdoPersistenceRuntime $persistence = null,
         ?BaseModelRuntime $models = null,
         ?CliRuntime $cli = null,
+        ?ApplicationSkeletonRuntime $applicationSkeleton = null,
     ) {
         $this->configuration = $configuration ?? new ConfigurationRepository();
         $this->variables = $variables ?? new EnvironmentRepository();
@@ -104,6 +109,7 @@ final class Application implements EnvironmentAwareApplicationInterface, Mutable
         $this->persistence = $persistence;
         $this->models = $models;
         $this->cli = $cli;
+        $this->applicationSkeleton = $applicationSkeleton;
 
         foreach (['runtime', 'foundation', 'providers', 'lifecycle', 'configuration'] as $identifier) {
             if (!$this->capabilityRegistry->has($identifier)) {
@@ -262,6 +268,16 @@ final class Application implements EnvironmentAwareApplicationInterface, Mutable
     public function setCli(CliRuntime $cli): void
     {
         $this->cli = $cli;
+    }
+
+    public function applicationSkeleton(): ?ApplicationSkeletonRuntime
+    {
+        return $this->applicationSkeleton;
+    }
+
+    public function setApplicationSkeleton(ApplicationSkeletonRuntime $applicationSkeleton): void
+    {
+        $this->applicationSkeleton = $applicationSkeleton;
     }
 
     public function configuration(): MutableConfigurationInterface
