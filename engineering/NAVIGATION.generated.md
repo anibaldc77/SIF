@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **479**
+Governed documents: **497**
 
 ## Generated views
 
@@ -106,6 +106,10 @@ Governed documents: **479**
 ### Architecture Review — WP-224
 
 - [`WP-224-I1-ARCHITECTURE-REVIEW`](../D:/SIF/engineering/reviews/WP-224-I1-Architecture-Review.md) — WP-224 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Architecture Review — WP-225
+
+- [`WP-225-I1-ARCHITECTURE-REVIEW`](../D:/SIF/engineering/reviews/WP-225-I1-Architecture-Review.md) — WP-225 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Constitution
 
@@ -397,6 +401,17 @@ Governed documents: **479**
 - [`WP-224-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-224-I7-Implementation-Review.md) — WP-224 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-224-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-224-I8-Implementation-Review.md) — WP-224 I8 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
+### Implementation Review — WP-225
+
+- [`WP-225-COMPLETION-REVIEW`](../D:/SIF/engineering/reviews/WP-225-Completion-Review.md) — WP-225 Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-225-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-225-I2-Implementation-Review.md) — WP-225 I2 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-225-I3-REVIEW`](../D:/SIF/engineering/reviews/WP-225-I3-Implementation-Review.md) — WP-225 I3 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-225-I4-REVIEW`](../D:/SIF/engineering/reviews/WP-225-I4-Implementation-Review.md) — WP-225 I4 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-225-I5-REVIEW`](../D:/SIF/engineering/reviews/WP-225-I5-Implementation-Review.md) — WP-225 I5 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-225-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-225-I6-Implementation-Review.md) — WP-225 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-225-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-225-I7-Implementation-Review.md) — WP-225 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-225-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-225-I8-Implementation-Review.md) — WP-225 I8 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
 ### Informative Document
 
 - [`BRANCHING-STRATEGY`](../D:/SIF/engineering/handbook/BRANCHING-STRATEGY.md) — Branching Strategy _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
@@ -449,6 +464,10 @@ Governed documents: **479**
 ### Informative Document — WP-224
 
 - [`WP-224-CONTROLLER-API-MIGRATION-GUIDE`](../D:/SIF/engineering/migrations/WP-224-CONTROLLER-API-MIGRATION-GUIDE.md) — WP-224 Controller and API Migration Guide _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Informative Document — WP-225
+
+- [`WP-225-ADVANCED-ROUTING-MIGRATION-GUIDE`](../D:/SIF/engineering/migrations/WP-225-ADVANCED-ROUTING-MIGRATION-GUIDE.md) — WP-225 Advanced Routing Migration Guide _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Normative Specification
 
@@ -808,6 +827,17 @@ Governed documents: **479**
 - [`EG-366`](../D:/SIF/engineering/specifications/WP-224/EG-366-Exception-Mapping-and-Problem-Details.md) — Exception Mapping and Problem Details _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-367`](../D:/SIF/engineering/specifications/WP-224/EG-367-Skeleton-Templates-and-Minimal-API-Example.md) — Skeleton Templates and Minimal API Example _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-368`](../D:/SIF/engineering/specifications/WP-224/EG-368-Controller-Compatibility-Migration-and-Product-Completion.md) — Controller Compatibility, Migration and Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-225
+
+- [`EG-369`](../D:/SIF/engineering/specifications/WP-225/EG-369-Advanced-Routing-Architecture.md) — Advanced Routing Architecture _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-370`](../D:/SIF/engineering/specifications/WP-225/EG-370-Route-Groups-Prefixes-and-Shared-Metadata.md) — Route Groups Prefixes and Shared Metadata _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-371`](../D:/SIF/engineering/specifications/WP-225/EG-371-Named-Routes-and-URL-Generation.md) — Named Routes and URL Generation _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-372`](../D:/SIF/engineering/specifications/WP-225/EG-372-Host-Scheme-and-Port-Constraints.md) — Host, Scheme and Port Constraints _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-373`](../D:/SIF/engineering/specifications/WP-225/EG-373-Optional-Parameters-and-Deterministic-Route-Precedence.md) — Optional Parameters and Deterministic Route Precedence _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-374`](../D:/SIF/engineering/specifications/WP-225/EG-374-Route-Compilation-Cache-and-Diagnostics.md) — Route Compilation Cache and Diagnostics _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-375`](../D:/SIF/engineering/specifications/WP-225/EG-375-CLI-Skeleton-Integration-and-Routing-Examples.md) — CLI Skeleton Integration and Routing Examples _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-376`](../D:/SIF/engineering/specifications/WP-225/EG-376-Advanced-Routing-Compatibility-Migration-and-Product-Completion.md) — Advanced Routing Compatibility, Migration and Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 
