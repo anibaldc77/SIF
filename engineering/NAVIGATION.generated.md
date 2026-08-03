@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **443**
+Governed documents: **461**
 
 ## Generated views
 
@@ -98,6 +98,10 @@ Governed documents: **443**
 ### Architecture Review — WP-222
 
 - [`WP-222-I1-ARCHITECTURE-REVIEW`](../D:/SIF/engineering/reviews/WP-222-I1-Architecture-Review.md) — WP-222 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Architecture Review — WP-223
+
+- [`WP-223-I1-ARCHITECTURE-REVIEW`](../D:/SIF/engineering/reviews/WP-223-I1-Architecture-Review.md) — WP-223 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Constitution
 
@@ -367,6 +371,17 @@ Governed documents: **443**
 - [`WP-222-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-222-I7-Implementation-Review.md) — WP-222 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-222-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-222-I8-Implementation-Review.md) — WP-222 I8 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
+### Implementation Review — WP-223
+
+- [`WP-223-COMPLETION-REVIEW`](../D:/SIF/engineering/reviews/WP-223-Completion-Review.md) — WP-223 HTTP Foundation Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-223-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-223-I2-Implementation-Review.md) — WP-223 I2 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-223-I3-REVIEW`](../D:/SIF/engineering/reviews/WP-223-I3-Implementation-Review.md) — WP-223 I3 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-223-I4-REVIEW`](../D:/SIF/engineering/reviews/WP-223-I4-Implementation-Review.md) — WP-223 I4 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-223-I5-REVIEW`](../D:/SIF/engineering/reviews/WP-223-I5-Implementation-Review.md) — WP-223 I5 Middleware Pipeline and Handler Dispatch Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-223-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-223-I6-Implementation-Review.md) — WP-223 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-223-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-223-I7-Implementation-Review.md) — WP-223 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-223-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-223-I8-Implementation-Review.md) — WP-223 I8 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
 ### Informative Document
 
 - [`BRANCHING-STRATEGY`](../D:/SIF/engineering/handbook/BRANCHING-STRATEGY.md) — Branching Strategy _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
@@ -411,6 +426,10 @@ Governed documents: **443**
 ### Informative Document — WP-220
 
 - [`WP-220-BASEMODEL-2-MIGRATION-GUIDE`](../D:/SIF/engineering/migrations/WP-220-BASEMODEL-2-MIGRATION-GUIDE.md) — BaseModel 2.0 Migration Guide _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Informative Document — WP-223
+
+- [`WP-223-HTTP-MIGRATION-GUIDE`](../D:/SIF/engineering/migrations/WP-223-HTTP-MIGRATION-GUIDE.md) — HTTP Foundation Migration Guide _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Normative Specification
 
@@ -748,6 +767,17 @@ Governed documents: **443**
 - [`EG-350`](../D:/SIF/engineering/specifications/WP-222/EG-350-Module-Migration-and-Model-Templates.md) — Module Migration and Model Templates _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-351`](../D:/SIF/engineering/specifications/WP-222/EG-351-Validation-First-Run-and-Example-Application.md) — Validation First-Run and Example Application _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-352`](../D:/SIF/engineering/specifications/WP-222/EG-352-Application-Skeleton-Runtime-Integration-and-Product-Completion.md) — Application Skeleton Runtime Integration and Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-223
+
+- [`EG-353`](../D:/SIF/engineering/specifications/WP-223/EG-353-HTTP-Foundation-Architecture-and-Request-Lifecycle.md) — HTTP Foundation Architecture and Request Lifecycle _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-354`](../D:/SIF/engineering/specifications/WP-223/EG-354-Immutable-HTTP-Request-URI-Headers-and-Body-Value-Model.md) — Immutable HTTP Request URI Headers and Body Value Model _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-355`](../D:/SIF/engineering/specifications/WP-223/EG-355-Immutable-HTTP-Response-and-Native-Transport-Adapters.md) — Immutable HTTP Response and Native Transport Adapters _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-356`](../D:/SIF/engineering/specifications/WP-223/EG-356-Route-Definitions-Registry-and-Deterministic-Matcher.md) — Route Definitions Registry and Deterministic Matcher _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-357`](../D:/SIF/engineering/specifications/WP-223/EG-357-Middleware-Pipeline-and-Handler-Dispatch.md) — Middleware Pipeline and Handler Dispatch _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-358`](../D:/SIF/engineering/specifications/WP-223/EG-358-HTTP-Context-Events-Logging-and-Error-Responses.md) — HTTP Context, Events, Logging and Error Responses _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-359`](../D:/SIF/engineering/specifications/WP-223/EG-359-HTTP-Runtime-Native-Kernel-and-Skeleton-Integration.md) — HTTP Runtime, Native Kernel and Skeleton Integration _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-360`](../D:/SIF/engineering/specifications/WP-223/EG-360-HTTP-Compatibility-Documentation-and-Product-Completion.md) — HTTP Compatibility, Documentation and Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 

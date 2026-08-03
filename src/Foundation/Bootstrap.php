@@ -39,6 +39,8 @@ use Sif\Foundation\Cli\Runtime\CliRuntime;
 use Sif\Foundation\Cli\Runtime\CliRuntimeServiceProvider;
 use Sif\Foundation\ApplicationSkeleton\Runtime\ApplicationSkeletonRuntime;
 use Sif\Foundation\ApplicationSkeleton\Runtime\ApplicationSkeletonRuntimeServiceProvider;
+use Sif\Foundation\Http\Runtime\HttpRuntime;
+use Sif\Foundation\Http\Runtime\HttpRuntimeServiceProvider;
 
 final class Bootstrap implements BootstrapInterface
 {
@@ -73,6 +75,8 @@ final class Bootstrap implements BootstrapInterface
 
     private ?ApplicationSkeletonRuntime $applicationSkeleton;
 
+    private ?HttpRuntime $http;
+
     /**
      * Sources are processed from lowest to highest precedence.
      *
@@ -94,6 +98,7 @@ final class Bootstrap implements BootstrapInterface
         ?BaseModelRuntime $models = null,
         ?CliRuntime $cli = null,
         ?ApplicationSkeletonRuntime $applicationSkeleton = null,
+        ?HttpRuntime $http = null,
     ) {
         $this->configurationLoader = $configurationLoader
             ?? ConfigurationFileLoader::withDefaultLoaders();
@@ -111,6 +116,7 @@ final class Bootstrap implements BootstrapInterface
         $this->models = $models;
         $this->cli = $cli;
         $this->applicationSkeleton = $applicationSkeleton;
+        $this->http = $http;
 
         foreach ($configurationSources as $source) {
             $this->configurationSources[] = $source;
@@ -153,6 +159,9 @@ final class Bootstrap implements BootstrapInterface
         if ($this->applicationSkeleton !== null) {
             $providers->add(new ApplicationSkeletonRuntimeServiceProvider($this->applicationSkeleton));
         }
+        if ($this->http !== null) {
+            $providers->add(new HttpRuntimeServiceProvider($this->http));
+        }
         $kernel = new Kernel($lifecycle);
         $variables = $this->createEnvironmentRepository();
         $runtime = new Runtime($variables);
@@ -192,6 +201,7 @@ final class Bootstrap implements BootstrapInterface
             $this->models,
             $this->cli,
             $this->applicationSkeleton,
+            $this->http,
         );
     }
 

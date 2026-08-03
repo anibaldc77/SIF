@@ -61,7 +61,22 @@ declare(strict_types=1);
 
 require dirname(__DIR__) . '/vendor/autoload.php';
 
-return require dirname(__DIR__) . '/bootstrap/app.php';
+use Sif\Foundation\Contracts\BootstrapInterface;
+use Sif\Foundation\Environment;
+use Sif\Foundation\Http\Transport\NativeResponseEmitter;
+
+$bootstrap = require dirname(__DIR__) . '/bootstrap/app.php';
+if (!$bootstrap instanceof BootstrapInterface) {
+    throw new RuntimeException('bootstrap/app.php must return a BootstrapInterface instance.');
+}
+
+$application = $bootstrap->createApplication(Environment::production());
+$http = $application->http();
+if ($http === null) {
+    throw new RuntimeException('The application does not provide an HTTP runtime.');
+}
+
+$http->runNative(new NativeResponseEmitter());
 TPL, []),
             'config/app.php' => $this->render('config-app', <<<'TPL'
 <?php

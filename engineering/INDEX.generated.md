@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 443
-- Resolved references: 295
+- Total documents: 461
+- Resolved references: 305
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
-- INFORMATIVEDOCUMENT: 30
-- NORMATIVEDOCUMENT: 231
-- REVIEWDOCUMENT: 168
+- INFORMATIVEDOCUMENT: 31
+- NORMATIVEDOCUMENT: 239
+- REVIEWDOCUMENT: 177
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 406
+- Draft for Review: 424
 
 ## Documents
 
@@ -76,6 +76,7 @@
 | WP-108-FRONT-MATTER-MIGRATION | WP-108 Front Matter Migration Playbook | Draft | 0.1.0 | [`D:/SIF/engineering/migrations/WP-108/FRONT-MATTER-MIGRATION.md`](../D:/SIF/engineering/migrations/WP-108/FRONT-MATTER-MIGRATION.md) |
 | WP-108-I5 | Document Classification Normalization | Draft | 0.1.0 | [`D:/SIF/engineering/migrations/WP-108/INCREMENT-5-DOCUMENT-CLASSIFICATION-NORMALIZATION.md`](../D:/SIF/engineering/migrations/WP-108/INCREMENT-5-DOCUMENT-CLASSIFICATION-NORMALIZATION.md) |
 | WP-220-BASEMODEL-2-MIGRATION-GUIDE | BaseModel 2.0 Migration Guide | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-220-BASEMODEL-2-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-220-BASEMODEL-2-MIGRATION-GUIDE.md) |
+| WP-223-HTTP-MIGRATION-GUIDE | HTTP Foundation Migration Guide | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-223-HTTP-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-223-HTTP-MIGRATION-GUIDE.md) |
 
 ### NORMATIVEDOCUMENT
 
@@ -294,6 +295,14 @@
 | EG-350 | Module Migration and Model Templates | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-222/EG-350-Module-Migration-and-Model-Templates.md`](../D:/SIF/engineering/specifications/WP-222/EG-350-Module-Migration-and-Model-Templates.md) |
 | EG-351 | Validation First-Run and Example Application | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-222/EG-351-Validation-First-Run-and-Example-Application.md`](../D:/SIF/engineering/specifications/WP-222/EG-351-Validation-First-Run-and-Example-Application.md) |
 | EG-352 | Application Skeleton Runtime Integration and Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-222/EG-352-Application-Skeleton-Runtime-Integration-and-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-222/EG-352-Application-Skeleton-Runtime-Integration-and-Product-Completion.md) |
+| EG-353 | HTTP Foundation Architecture and Request Lifecycle | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-223/EG-353-HTTP-Foundation-Architecture-and-Request-Lifecycle.md`](../D:/SIF/engineering/specifications/WP-223/EG-353-HTTP-Foundation-Architecture-and-Request-Lifecycle.md) |
+| EG-354 | Immutable HTTP Request URI Headers and Body Value Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-223/EG-354-Immutable-HTTP-Request-URI-Headers-and-Body-Value-Model.md`](../D:/SIF/engineering/specifications/WP-223/EG-354-Immutable-HTTP-Request-URI-Headers-and-Body-Value-Model.md) |
+| EG-355 | Immutable HTTP Response and Native Transport Adapters | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-223/EG-355-Immutable-HTTP-Response-and-Native-Transport-Adapters.md`](../D:/SIF/engineering/specifications/WP-223/EG-355-Immutable-HTTP-Response-and-Native-Transport-Adapters.md) |
+| EG-356 | Route Definitions Registry and Deterministic Matcher | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-223/EG-356-Route-Definitions-Registry-and-Deterministic-Matcher.md`](../D:/SIF/engineering/specifications/WP-223/EG-356-Route-Definitions-Registry-and-Deterministic-Matcher.md) |
+| EG-357 | Middleware Pipeline and Handler Dispatch | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-223/EG-357-Middleware-Pipeline-and-Handler-Dispatch.md`](../D:/SIF/engineering/specifications/WP-223/EG-357-Middleware-Pipeline-and-Handler-Dispatch.md) |
+| EG-358 | HTTP Context, Events, Logging and Error Responses | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-223/EG-358-HTTP-Context-Events-Logging-and-Error-Responses.md`](../D:/SIF/engineering/specifications/WP-223/EG-358-HTTP-Context-Events-Logging-and-Error-Responses.md) |
+| EG-359 | HTTP Runtime, Native Kernel and Skeleton Integration | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-223/EG-359-HTTP-Runtime-Native-Kernel-and-Skeleton-Integration.md`](../D:/SIF/engineering/specifications/WP-223/EG-359-HTTP-Runtime-Native-Kernel-and-Skeleton-Integration.md) |
+| EG-360 | HTTP Compatibility, Documentation and Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-223/EG-360-HTTP-Compatibility-Documentation-and-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-223/EG-360-HTTP-Compatibility-Documentation-and-Product-Completion.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -485,3 +494,12 @@
 | WP-222-I6-REVIEW | WP-222 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-222-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-222-I6-Implementation-Review.md) |
 | WP-222-I7-REVIEW | WP-222 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-222-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-222-I7-Implementation-Review.md) |
 | WP-222-I8-REVIEW | WP-222 I8 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-222-I8-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-222-I8-Implementation-Review.md) |
+| WP-223-COMPLETION-REVIEW | WP-223 HTTP Foundation Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-223-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-223-Completion-Review.md) |
+| WP-223-I1-ARCHITECTURE-REVIEW | WP-223 I1 Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-223-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-223-I1-Architecture-Review.md) |
+| WP-223-I2-REVIEW | WP-223 I2 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-223-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-223-I2-Implementation-Review.md) |
+| WP-223-I3-REVIEW | WP-223 I3 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-223-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-223-I3-Implementation-Review.md) |
+| WP-223-I4-REVIEW | WP-223 I4 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-223-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-223-I4-Implementation-Review.md) |
+| WP-223-I5-REVIEW | WP-223 I5 Middleware Pipeline and Handler Dispatch Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-223-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-223-I5-Implementation-Review.md) |
+| WP-223-I6-REVIEW | WP-223 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-223-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-223-I6-Implementation-Review.md) |
+| WP-223-I7-REVIEW | WP-223 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-223-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-223-I7-Implementation-Review.md) |
+| WP-223-I8-REVIEW | WP-223 I8 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-223-I8-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-223-I8-Implementation-Review.md) |

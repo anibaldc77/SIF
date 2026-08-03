@@ -6,11 +6,11 @@
 
 | Metric | Value |
 |---|---:|
-| Documents | 443 |
-| References | 295 |
-| Resolved | 295 |
+| Documents | 461 |
+| References | 305 |
+| Resolved | 305 |
 | Broken | 0 |
-| Isolated documents | 149 |
+| Isolated documents | 157 |
 
 ## References by Type
 
@@ -18,7 +18,7 @@
 |---|---:|
 | implements | 1 |
 | reference | 15 |
-| related | 279 |
+| related | 289 |
 
 ## Broken References
 
@@ -28,7 +28,7 @@ _No broken references._
 
 | Document | Type | Incoming | Outgoing | Broken outgoing |
 |---|---|---:|---:|---:|
-| `ADR-0005` — Adopt a Capability-Driven Runtime | GOVERNANCEDOCUMENT | 275 | 1 | 0 |
+| `ADR-0005` — Adopt a Capability-Driven Runtime | GOVERNANCEDOCUMENT | 285 | 1 | 0 |
 | `ADR-0004` — Modular Engineering Specifications | GOVERNANCEDOCUMENT | 4 | 0 | 0 |
 | `EG-009` — Reference Resolution | NORMATIVEDOCUMENT | 3 | 0 | 0 |
 | `EG-032` — Built-in Analyzers Architecture | NORMATIVEDOCUMENT | 2 | 3 | 0 |
@@ -116,6 +116,9 @@ _No broken references._
 - `EG-287` — Immutable ErrorHandlingPlan and Orchestration
 - `EG-288` — Runtime Integration, Service Provider and Completion
 - `EG-343` — WP-221 I7 Module Resource Maintenance and CLI Extensibility Commands
+- `EG-358` — HTTP Context, Events, Logging and Error Responses
+- `EG-359` — HTTP Runtime, Native Kernel and Skeleton Integration
+- `EG-360` — HTTP Compatibility, Documentation and Product Completion
 - `ENGINEERING-README` — Engineering System
 - `ES-002` — Metadata Standard
 - `ES-003` — Document Class Model
@@ -195,6 +198,11 @@ _No broken references._
 - `WP-216-I3-IMPLEMENTATION-REVIEW` — WP-216 I3 Implementation Review
 - `WP-216-I5-IMPLEMENTATION-REVIEW` — WP-216 I5 Safe Mutation Planning Implementation Review
 - `WP-221-I7-REVIEW` — WP-221 I7 Implementation Review
+- `WP-223-COMPLETION-REVIEW` — WP-223 HTTP Foundation Completion Review
+- `WP-223-HTTP-MIGRATION-GUIDE` — HTTP Foundation Migration Guide
+- `WP-223-I6-REVIEW` — WP-223 I6 Implementation Review
+- `WP-223-I7-REVIEW` — WP-223 I7 Implementation Review
+- `WP-223-I8-REVIEW` — WP-223 I8 Implementation Review
 
 ## Resolved References
 
@@ -360,6 +368,11 @@ _No broken references._
 | `EG-350` | `ADR-0005` | related | — |
 | `EG-351` | `ADR-0005` | related | — |
 | `EG-352` | `ADR-0005` | related | — |
+| `EG-353` | `ADR-0005` | related | — |
+| `EG-354` | `ADR-0005` | related | — |
+| `EG-355` | `ADR-0005` | related | — |
+| `EG-356` | `ADR-0005` | related | — |
+| `EG-357` | `ADR-0005` | related | — |
 | `WP-110-IMPLEMENTATION-REPORT` | `EG-051` | reference | — |
 | `WP-200-A1-IMPLEMENTATION-REPORT` | `ADR-0005` | related | — |
 | `WP-200-ARCHITECTURE-REVIEW` | `ADR-0005` | related | — |
@@ -495,3 +508,8 @@ _No broken references._
 | `WP-222-I6-REVIEW` | `ADR-0005` | related | — |
 | `WP-222-I7-REVIEW` | `ADR-0005` | related | — |
 | `WP-222-I8-REVIEW` | `ADR-0005` | related | — |
+| `WP-223-I1-ARCHITECTURE-REVIEW` | `ADR-0005` | related | — |
+| `WP-223-I2-REVIEW` | `ADR-0005` | related | — |
+| `WP-223-I3-REVIEW` | `ADR-0005` | related | — |
+| `WP-223-I4-REVIEW` | `ADR-0005` | related | — |
+| `WP-223-I5-REVIEW` | `ADR-0005` | related | — |
