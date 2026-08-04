@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 497
-- Resolved references: 341
+- Total documents: 515
+- Resolved references: 359
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
-- INFORMATIVEDOCUMENT: 33
-- NORMATIVEDOCUMENT: 255
-- REVIEWDOCUMENT: 195
+- INFORMATIVEDOCUMENT: 34
+- NORMATIVEDOCUMENT: 263
+- REVIEWDOCUMENT: 204
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 460
+- Draft for Review: 478
 
 ## Documents
 
@@ -79,6 +79,7 @@
 | WP-223-HTTP-MIGRATION-GUIDE | HTTP Foundation Migration Guide | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-223-HTTP-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-223-HTTP-MIGRATION-GUIDE.md) |
 | WP-224-CONTROLLER-API-MIGRATION-GUIDE | WP-224 Controller and API Migration Guide | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-224-CONTROLLER-API-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-224-CONTROLLER-API-MIGRATION-GUIDE.md) |
 | WP-225-ADVANCED-ROUTING-MIGRATION-GUIDE | WP-225 Advanced Routing Migration Guide | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-225-ADVANCED-ROUTING-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-225-ADVANCED-ROUTING-MIGRATION-GUIDE.md) |
+| WP-226-MIGRATION-GUIDE | WP-226 Session, Cookie and CSRF Migration Guide | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-226-SESSION-COOKIE-CSRF-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-226-SESSION-COOKIE-CSRF-MIGRATION-GUIDE.md) |
 
 ### NORMATIVEDOCUMENT
 
@@ -321,6 +322,14 @@
 | EG-374 | Route Compilation Cache and Diagnostics | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-225/EG-374-Route-Compilation-Cache-and-Diagnostics.md`](../D:/SIF/engineering/specifications/WP-225/EG-374-Route-Compilation-Cache-and-Diagnostics.md) |
 | EG-375 | CLI Skeleton Integration and Routing Examples | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-225/EG-375-CLI-Skeleton-Integration-and-Routing-Examples.md`](../D:/SIF/engineering/specifications/WP-225/EG-375-CLI-Skeleton-Integration-and-Routing-Examples.md) |
 | EG-376 | Advanced Routing Compatibility, Migration and Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-225/EG-376-Advanced-Routing-Compatibility-Migration-and-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-225/EG-376-Advanced-Routing-Compatibility-Migration-and-Product-Completion.md) |
+| EG-377 | Session and Cookie Security Architecture | Draft for Review | 1.0.0 | [`D:/SIF/engineering/specifications/WP-226/EG-377-Session-and-Cookie-Security-Architecture.md`](../D:/SIF/engineering/specifications/WP-226/EG-377-Session-and-Cookie-Security-Architecture.md) |
+| EG-378 | Immutable Cookie Model and Set-Cookie Serialization | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-226/EG-378-Immutable-Cookie-Model-and-Set-Cookie-Serialization.md`](../D:/SIF/engineering/specifications/WP-226/EG-378-Immutable-Cookie-Model-and-Set-Cookie-Serialization.md) |
+| EG-379 | Session Contracts State and Storage-Neutral Runtime | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-226/EG-379-Session-Contracts-State-and-Storage-Neutral-Runtime.md`](../D:/SIF/engineering/specifications/WP-226/EG-379-Session-Contracts-State-and-Storage-Neutral-Runtime.md) |
+| EG-380 | Session Transport and Lifecycle Middleware | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-226/EG-380-Session-Transport-and-Lifecycle-Middleware.md`](../D:/SIF/engineering/specifications/WP-226/EG-380-Session-Transport-and-Lifecycle-Middleware.md) |
+| EG-381 | Flash Data, Regeneration and Expiration Policies | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-226/EG-381-Flash-Data-Regeneration-and-Expiration-Policies.md`](../D:/SIF/engineering/specifications/WP-226/EG-381-Flash-Data-Regeneration-and-Expiration-Policies.md) |
+| EG-382 | CSRF Token Generation, Validation and Middleware | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-226/EG-382-CSRF-Token-Generation-Validation-and-Middleware.md`](../D:/SIF/engineering/specifications/WP-226/EG-382-CSRF-Token-Generation-Validation-and-Middleware.md) |
+| EG-383 | CLI, Skeleton Integration and Web Example | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-226/EG-383-CLI-Skeleton-Integration-and-Web-Example.md`](../D:/SIF/engineering/specifications/WP-226/EG-383-CLI-Skeleton-Integration-and-Web-Example.md) |
+| EG-384 | Session, Cookie and CSRF Compatibility, Migration and Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-226/EG-384-Session-Cookie-CSRF-Compatibility-Migration-and-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-226/EG-384-Session-Cookie-CSRF-Compatibility-Migration-and-Product-Completion.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -539,3 +548,12 @@
 | WP-225-I6-REVIEW | WP-225 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-225-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-225-I6-Implementation-Review.md) |
 | WP-225-I7-REVIEW | WP-225 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-225-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-225-I7-Implementation-Review.md) |
 | WP-225-I8-REVIEW | WP-225 I8 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-225-I8-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-225-I8-Implementation-Review.md) |
+| WP-226-COMPLETION-REVIEW | WP-226 Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-226-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-226-Completion-Review.md) |
+| WP-226-I1-REVIEW | WP-226 I1 Architecture Review | Draft for Review | 1.0.0 | [`D:/SIF/engineering/reviews/WP-226-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-226-I1-Architecture-Review.md) |
+| WP-226-I2-REVIEW | WP-226 I2 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-226-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-226-I2-Implementation-Review.md) |
+| WP-226-I3-REVIEW | WP-226 I3 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-226-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-226-I3-Implementation-Review.md) |
+| WP-226-I4-REVIEW | WP-226 I4 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-226-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-226-I4-Implementation-Review.md) |
+| WP-226-I5-REVIEW | WP-226 I5 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-226-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-226-I5-Implementation-Review.md) |
+| WP-226-I6-REVIEW | WP-226 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-226-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-226-I6-Implementation-Review.md) |
+| WP-226-I7-REVIEW | WP-226 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-226-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-226-I7-Implementation-Review.md) |
+| WP-226-I8-REVIEW | WP-226 I8 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-226-I8-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-226-I8-Implementation-Review.md) |
