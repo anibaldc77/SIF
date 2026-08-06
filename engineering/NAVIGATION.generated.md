@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **515**
+Governed documents: **532**
 
 ## Generated views
 
@@ -114,6 +114,10 @@ Governed documents: **515**
 ### Architecture Review — WP-226
 
 - [`WP-226-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-226-I1-Architecture-Review.md) — WP-226 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 1.0.0)_
+
+### Architecture Review — WP-227
+
+- [`WP-227-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-227-I1-Architecture-Review.md) — WP-227 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 1.0.0)_
 
 ### Constitution
 
@@ -427,6 +431,16 @@ Governed documents: **515**
 - [`WP-226-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-226-I7-Implementation-Review.md) — WP-226 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-226-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-226-I8-Implementation-Review.md) — WP-226 I8 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
+### Implementation Review — WP-227
+
+- [`WP-227-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-227-I2-Implementation-Review.md) — WP-227 I2 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-227-I3-REVIEW`](../D:/SIF/engineering/reviews/WP-227-I3-Implementation-Review.md) — WP-227 I3 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-227-I4-REVIEW`](../D:/SIF/engineering/reviews/WP-227-I4-Implementation-Review.md) — WP-227 I4 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-227-I5-REVIEW`](../D:/SIF/engineering/reviews/WP-227-I5-Implementation-Review.md) — WP-227 I5 Security Context and Session Principal Lifecycle Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-227-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-227-I6-Implementation-Review.md) — Revisión de implementación WP-227 I6 _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-227-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-227-I7-Implementation-Review.md) — Revisión de implementación WP-227 I7 _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-227-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-227-I8-Product-Completion-Review.md) — Revisión de cierre de producto WP-227 I8 _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
 ### Informative Document
 
 - [`BRANCHING-STRATEGY`](../D:/SIF/engineering/handbook/BRANCHING-STRATEGY.md) — Branching Strategy _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
@@ -487,6 +501,10 @@ Governed documents: **515**
 ### Informative Document — WP-226
 
 - [`WP-226-MIGRATION-GUIDE`](../D:/SIF/engineering/migrations/WP-226-SESSION-COOKIE-CSRF-MIGRATION-GUIDE.md) — WP-226 Session, Cookie and CSRF Migration Guide _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Informative Document — WP-227
+
+- [`WP-227-MIGRATION-GUIDE`](../D:/SIF/engineering/migrations/WP-227-AUTHENTICATION-AUTHORIZATION-MIGRATION-GUIDE.md) — WP-227 Authentication and Authorization Migration Guide _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Normative Specification
 
@@ -868,6 +886,17 @@ Governed documents: **515**
 - [`EG-382`](../D:/SIF/engineering/specifications/WP-226/EG-382-CSRF-Token-Generation-Validation-and-Middleware.md) — CSRF Token Generation, Validation and Middleware _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-383`](../D:/SIF/engineering/specifications/WP-226/EG-383-CLI-Skeleton-Integration-and-Web-Example.md) — CLI, Skeleton Integration and Web Example _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-384`](../D:/SIF/engineering/specifications/WP-226/EG-384-Session-Cookie-CSRF-Compatibility-Migration-and-Product-Completion.md) — Session, Cookie and CSRF Compatibility, Migration and Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-227
+
+- [`EG-385`](../D:/SIF/engineering/specifications/WP-227/EG-385-Authentication-and-Authorization-Security-Architecture.md) — Authentication and Authorization Security Architecture _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-386`](../D:/SIF/engineering/specifications/WP-227/EG-386-Immutable-Identity-Principal-Attributes-and-Authentication-Evidence.md) — Modelo inmutable de identidad, atributos del principal y evidencia de autenticación _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-387`](../D:/SIF/engineering/specifications/WP-227/EG-387-Authentication-Credentials-Requests-Results-and-Failure-Contracts.md) — Authentication Credentials Requests Results and Failure Contracts _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-388`](../D:/SIF/engineering/specifications/WP-227/EG-388-Deterministic-Authenticator-Registry-and-Orchestration.md) — Registro determinista de autenticadores y orquestación _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-389`](../D:/SIF/engineering/specifications/WP-227/EG-389-Security-Context-and-Session-Principal-Lifecycle.md) — Contexto de seguridad y ciclo de vida del principal en sesión _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-390`](../D:/SIF/engineering/specifications/WP-227/EG-390-Authorization-Policies-and-Decision-Engine.md) — Políticas de autorización y motor de decisiones _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-391`](../D:/SIF/engineering/specifications/WP-227/EG-391-HTTP-Controller-CLI-and-Skeleton-Security-Integration.md) — Integración de seguridad con HTTP, Controller, CLI y Skeleton _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-392`](../D:/SIF/engineering/specifications/WP-227/EG-392-Product-Completion-Compatibility-and-Security-Hardening.md) — Cierre de producto, compatibilidad y hardening de seguridad _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 

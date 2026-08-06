@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 515
-- Resolved references: 359
+- Total documents: 532
+- Resolved references: 376
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
-- INFORMATIVEDOCUMENT: 34
-- NORMATIVEDOCUMENT: 263
-- REVIEWDOCUMENT: 204
+- INFORMATIVEDOCUMENT: 35
+- NORMATIVEDOCUMENT: 271
+- REVIEWDOCUMENT: 212
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 478
+- Draft for Review: 495
 
 ## Documents
 
@@ -80,6 +80,7 @@
 | WP-224-CONTROLLER-API-MIGRATION-GUIDE | WP-224 Controller and API Migration Guide | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-224-CONTROLLER-API-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-224-CONTROLLER-API-MIGRATION-GUIDE.md) |
 | WP-225-ADVANCED-ROUTING-MIGRATION-GUIDE | WP-225 Advanced Routing Migration Guide | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-225-ADVANCED-ROUTING-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-225-ADVANCED-ROUTING-MIGRATION-GUIDE.md) |
 | WP-226-MIGRATION-GUIDE | WP-226 Session, Cookie and CSRF Migration Guide | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-226-SESSION-COOKIE-CSRF-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-226-SESSION-COOKIE-CSRF-MIGRATION-GUIDE.md) |
+| WP-227-MIGRATION-GUIDE | WP-227 Authentication and Authorization Migration Guide | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-227-AUTHENTICATION-AUTHORIZATION-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-227-AUTHENTICATION-AUTHORIZATION-MIGRATION-GUIDE.md) |
 
 ### NORMATIVEDOCUMENT
 
@@ -330,6 +331,14 @@
 | EG-382 | CSRF Token Generation, Validation and Middleware | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-226/EG-382-CSRF-Token-Generation-Validation-and-Middleware.md`](../D:/SIF/engineering/specifications/WP-226/EG-382-CSRF-Token-Generation-Validation-and-Middleware.md) |
 | EG-383 | CLI, Skeleton Integration and Web Example | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-226/EG-383-CLI-Skeleton-Integration-and-Web-Example.md`](../D:/SIF/engineering/specifications/WP-226/EG-383-CLI-Skeleton-Integration-and-Web-Example.md) |
 | EG-384 | Session, Cookie and CSRF Compatibility, Migration and Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-226/EG-384-Session-Cookie-CSRF-Compatibility-Migration-and-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-226/EG-384-Session-Cookie-CSRF-Compatibility-Migration-and-Product-Completion.md) |
+| EG-385 | Authentication and Authorization Security Architecture | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-227/EG-385-Authentication-and-Authorization-Security-Architecture.md`](../D:/SIF/engineering/specifications/WP-227/EG-385-Authentication-and-Authorization-Security-Architecture.md) |
+| EG-386 | Modelo inmutable de identidad, atributos del principal y evidencia de autenticación | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-227/EG-386-Immutable-Identity-Principal-Attributes-and-Authentication-Evidence.md`](../D:/SIF/engineering/specifications/WP-227/EG-386-Immutable-Identity-Principal-Attributes-and-Authentication-Evidence.md) |
+| EG-387 | Authentication Credentials Requests Results and Failure Contracts | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-227/EG-387-Authentication-Credentials-Requests-Results-and-Failure-Contracts.md`](../D:/SIF/engineering/specifications/WP-227/EG-387-Authentication-Credentials-Requests-Results-and-Failure-Contracts.md) |
+| EG-388 | Registro determinista de autenticadores y orquestación | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-227/EG-388-Deterministic-Authenticator-Registry-and-Orchestration.md`](../D:/SIF/engineering/specifications/WP-227/EG-388-Deterministic-Authenticator-Registry-and-Orchestration.md) |
+| EG-389 | Contexto de seguridad y ciclo de vida del principal en sesión | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-227/EG-389-Security-Context-and-Session-Principal-Lifecycle.md`](../D:/SIF/engineering/specifications/WP-227/EG-389-Security-Context-and-Session-Principal-Lifecycle.md) |
+| EG-390 | Políticas de autorización y motor de decisiones | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-227/EG-390-Authorization-Policies-and-Decision-Engine.md`](../D:/SIF/engineering/specifications/WP-227/EG-390-Authorization-Policies-and-Decision-Engine.md) |
+| EG-391 | Integración de seguridad con HTTP, Controller, CLI y Skeleton | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-227/EG-391-HTTP-Controller-CLI-and-Skeleton-Security-Integration.md`](../D:/SIF/engineering/specifications/WP-227/EG-391-HTTP-Controller-CLI-and-Skeleton-Security-Integration.md) |
+| EG-392 | Cierre de producto, compatibilidad y hardening de seguridad | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-227/EG-392-Product-Completion-Compatibility-and-Security-Hardening.md`](../D:/SIF/engineering/specifications/WP-227/EG-392-Product-Completion-Compatibility-and-Security-Hardening.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -557,3 +566,11 @@
 | WP-226-I6-REVIEW | WP-226 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-226-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-226-I6-Implementation-Review.md) |
 | WP-226-I7-REVIEW | WP-226 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-226-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-226-I7-Implementation-Review.md) |
 | WP-226-I8-REVIEW | WP-226 I8 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-226-I8-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-226-I8-Implementation-Review.md) |
+| WP-227-I1-REVIEW | WP-227 I1 Architecture Review | Draft for Review | 1.0.0 | [`D:/SIF/engineering/reviews/WP-227-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-227-I1-Architecture-Review.md) |
+| WP-227-I2-REVIEW | WP-227 I2 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-227-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-227-I2-Implementation-Review.md) |
+| WP-227-I3-REVIEW | WP-227 I3 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-227-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-227-I3-Implementation-Review.md) |
+| WP-227-I4-REVIEW | WP-227 I4 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-227-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-227-I4-Implementation-Review.md) |
+| WP-227-I5-REVIEW | WP-227 I5 Security Context and Session Principal Lifecycle Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-227-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-227-I5-Implementation-Review.md) |
+| WP-227-I6-REVIEW | Revisión de implementación WP-227 I6 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-227-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-227-I6-Implementation-Review.md) |
+| WP-227-I7-REVIEW | Revisión de implementación WP-227 I7 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-227-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-227-I7-Implementation-Review.md) |
+| WP-227-I8-REVIEW | Revisión de cierre de producto WP-227 I8 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-227-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-227-I8-Product-Completion-Review.md) |
