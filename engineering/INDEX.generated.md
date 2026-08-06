@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 549
-- Resolved references: 393
+- Total documents: 566
+- Resolved references: 410
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
-- INFORMATIVEDOCUMENT: 36
-- NORMATIVEDOCUMENT: 279
-- REVIEWDOCUMENT: 220
+- INFORMATIVEDOCUMENT: 37
+- NORMATIVEDOCUMENT: 287
+- REVIEWDOCUMENT: 228
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 512
+- Draft for Review: 529
 
 ## Documents
 
@@ -82,6 +82,7 @@
 | WP-226-MIGRATION-GUIDE | WP-226 Session, Cookie and CSRF Migration Guide | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-226-SESSION-COOKIE-CSRF-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-226-SESSION-COOKIE-CSRF-MIGRATION-GUIDE.md) |
 | WP-227-MIGRATION-GUIDE | WP-227 Authentication and Authorization Migration Guide | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-227-AUTHENTICATION-AUTHORIZATION-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-227-AUTHENTICATION-AUTHORIZATION-MIGRATION-GUIDE.md) |
 | WP-228-MIGRATION-GUIDE | WP-228 Identity Provider and Password Authentication Migration Guide | Draft for Review | 1.0.0 | [`D:/SIF/engineering/migrations/WP-228-IDENTITY-PROVIDER-PASSWORD-AUTHENTICATION-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-228-IDENTITY-PROVIDER-PASSWORD-AUTHENTICATION-MIGRATION-GUIDE.md) |
+| WP-229-MIGRATION-GUIDE | WP-229 Account Recovery and Verification Migration Guide | Draft for Review | 1.0.0 | [`D:/SIF/engineering/migrations/WP-229-ACCOUNT-RECOVERY-VERIFICATION-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-229-ACCOUNT-RECOVERY-VERIFICATION-MIGRATION-GUIDE.md) |
 
 ### NORMATIVEDOCUMENT
 
@@ -348,6 +349,14 @@
 | EG-398 | Almacenes de hashes de contraseña y coordinación transaccional de rehash | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-228/EG-398-Password-Hash-Stores-and-Transactional-Rehash-Coordination.md`](../D:/SIF/engineering/specifications/WP-228/EG-398-Password-Hash-Stores-and-Transactional-Rehash-Coordination.md) |
 | EG-399 | Integración HTTP de login, logout y sesión para autenticación por contraseña | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-228/EG-399-HTTP-Password-Login-Logout-and-Session-Integration.md`](../D:/SIF/engineering/specifications/WP-228/EG-399-HTTP-Password-Login-Logout-and-Session-Integration.md) |
 | EG-400 | Password Authentication Product Completion | Draft for Review | 1.0.0 | [`D:/SIF/engineering/specifications/WP-228/EG-400-Password-Authentication-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-228/EG-400-Password-Authentication-Product-Completion.md) |
+| EG-401 | Arquitectura de recuperación de cuentas y verificación de identidad | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-229/EG-401-Account-Recovery-and-Verification-Security-Architecture.md`](../D:/SIF/engineering/specifications/WP-229/EG-401-Account-Recovery-and-Verification-Security-Architecture.md) |
+| EG-402 | Generación segura de tokens y modelo de digest para recuperación | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-229/EG-402-Secure-Recovery-Token-Generation-and-Digest-Model.md`](../D:/SIF/engineering/specifications/WP-229/EG-402-Secure-Recovery-Token-Generation-and-Digest-Model.md) |
+| EG-403 | Almacenamiento y ciclo de vida atómico de desafíos de recuperación | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-229/EG-403-Recovery-Challenge-Store-and-Atomic-Lifecycle.md`](../D:/SIF/engineering/specifications/WP-229/EG-403-Recovery-Challenge-Store-and-Atomic-Lifecycle.md) |
+| EG-404 | Flujo seguro de restablecimiento de contraseña | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-229/EG-404-Password-Reset-Workflow.md`](../D:/SIF/engineering/specifications/WP-229/EG-404-Password-Reset-Workflow.md) |
+| EG-405 | Flujo seguro de verificación de identidad | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-229/EG-405-Identity-Verification-Workflow.md`](../D:/SIF/engineering/specifications/WP-229/EG-405-Identity-Verification-Workflow.md) |
+| EG-406 | Protección contra abuso y eventos de seguridad para recuperación | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-229/EG-406-Recovery-Abuse-Protection-and-Security-Events.md`](../D:/SIF/engineering/specifications/WP-229/EG-406-Recovery-Abuse-Protection-and-Security-Events.md) |
+| EG-407 | Integración HTTP, CLI y Skeleton para recuperación | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-229/EG-407-HTTP-CLI-and-Skeleton-Recovery-Integration.md`](../D:/SIF/engineering/specifications/WP-229/EG-407-HTTP-CLI-and-Skeleton-Recovery-Integration.md) |
+| EG-408 | Cierre de producto de recuperación y verificación de cuentas | Draft for Review | 1.0.0 | [`D:/SIF/engineering/specifications/WP-229/EG-408-Account-Recovery-and-Verification-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-229/EG-408-Account-Recovery-and-Verification-Product-Completion.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -591,3 +600,11 @@
 | WP-228-I6-REVIEW | Revisión de implementación WP-228 I6 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-228-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-228-I6-Implementation-Review.md) |
 | WP-228-I7-REVIEW | Revisión de implementación WP-228 I7 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-228-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-228-I7-Implementation-Review.md) |
 | WP-228-I8-REVIEW | Revisión de cierre de producto WP-228 I8 | Draft for Review | 1.0.0 | [`D:/SIF/engineering/reviews/WP-228-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-228-I8-Product-Completion-Review.md) |
+| WP-229-I1-REVIEW | Revisión arquitectónica WP-229 I1 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-229-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-229-I1-Architecture-Review.md) |
+| WP-229-I2-REVIEW | Revisión de implementación WP-229 I2 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-229-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-229-I2-Implementation-Review.md) |
+| WP-229-I3-REVIEW | Revisión de implementación WP-229 I3 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-229-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-229-I3-Implementation-Review.md) |
+| WP-229-I4-REVIEW | Revisión de implementación WP-229 I4 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-229-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-229-I4-Implementation-Review.md) |
+| WP-229-I5-REVIEW | Revisión de implementación WP-229 I5 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-229-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-229-I5-Implementation-Review.md) |
+| WP-229-I6-REVIEW | Revisión de implementación WP-229 I6 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-229-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-229-I6-Implementation-Review.md) |
+| WP-229-I7-REVIEW | Revisión de implementación WP-229 I7 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-229-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-229-I7-Implementation-Review.md) |
+| WP-229-I8-REVIEW | Revisión de cierre WP-229 I8 | Draft for Review | 1.0.0 | [`D:/SIF/engineering/reviews/WP-229-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-229-I8-Product-Completion-Review.md) |
