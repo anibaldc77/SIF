@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 532
-- Resolved references: 376
+- Total documents: 549
+- Resolved references: 393
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
-- INFORMATIVEDOCUMENT: 35
-- NORMATIVEDOCUMENT: 271
-- REVIEWDOCUMENT: 212
+- INFORMATIVEDOCUMENT: 36
+- NORMATIVEDOCUMENT: 279
+- REVIEWDOCUMENT: 220
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 495
+- Draft for Review: 512
 
 ## Documents
 
@@ -81,6 +81,7 @@
 | WP-225-ADVANCED-ROUTING-MIGRATION-GUIDE | WP-225 Advanced Routing Migration Guide | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-225-ADVANCED-ROUTING-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-225-ADVANCED-ROUTING-MIGRATION-GUIDE.md) |
 | WP-226-MIGRATION-GUIDE | WP-226 Session, Cookie and CSRF Migration Guide | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-226-SESSION-COOKIE-CSRF-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-226-SESSION-COOKIE-CSRF-MIGRATION-GUIDE.md) |
 | WP-227-MIGRATION-GUIDE | WP-227 Authentication and Authorization Migration Guide | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-227-AUTHENTICATION-AUTHORIZATION-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-227-AUTHENTICATION-AUTHORIZATION-MIGRATION-GUIDE.md) |
+| WP-228-MIGRATION-GUIDE | WP-228 Identity Provider and Password Authentication Migration Guide | Draft for Review | 1.0.0 | [`D:/SIF/engineering/migrations/WP-228-IDENTITY-PROVIDER-PASSWORD-AUTHENTICATION-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-228-IDENTITY-PROVIDER-PASSWORD-AUTHENTICATION-MIGRATION-GUIDE.md) |
 
 ### NORMATIVEDOCUMENT
 
@@ -339,6 +340,14 @@
 | EG-390 | Políticas de autorización y motor de decisiones | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-227/EG-390-Authorization-Policies-and-Decision-Engine.md`](../D:/SIF/engineering/specifications/WP-227/EG-390-Authorization-Policies-and-Decision-Engine.md) |
 | EG-391 | Integración de seguridad con HTTP, Controller, CLI y Skeleton | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-227/EG-391-HTTP-Controller-CLI-and-Skeleton-Security-Integration.md`](../D:/SIF/engineering/specifications/WP-227/EG-391-HTTP-Controller-CLI-and-Skeleton-Security-Integration.md) |
 | EG-392 | Cierre de producto, compatibilidad y hardening de seguridad | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-227/EG-392-Product-Completion-Compatibility-and-Security-Hardening.md`](../D:/SIF/engineering/specifications/WP-227/EG-392-Product-Completion-Compatibility-and-Security-Hardening.md) |
+| EG-393 | Arquitectura de proveedores de identidad y autenticación por contraseña | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-228/EG-393-Identity-Provider-and-Password-Authentication-Architecture.md`](../D:/SIF/engineering/specifications/WP-228/EG-393-Identity-Provider-and-Password-Authentication-Architecture.md) |
+| EG-394 | Credenciales de contraseña, secretos y contratos de verificación | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-228/EG-394-Password-Credentials-Secrets-and-Verification-Contracts.md`](../D:/SIF/engineering/specifications/WP-228/EG-394-Password-Credentials-Secrets-and-Verification-Contracts.md) |
+| EG-395 | Adaptadores nativos de hashing y verificación de contraseñas | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-228/EG-395-Native-Password-Hashing-and-Verification-Adapters.md`](../D:/SIF/engineering/specifications/WP-228/EG-395-Native-Password-Hashing-and-Verification-Adapters.md) |
+| EG-396 | Autenticador de contraseña y resolución de identidad | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-228/EG-396-Password-Authenticator-and-Identity-Resolution.md`](../D:/SIF/engineering/specifications/WP-228/EG-396-Password-Authenticator-and-Identity-Resolution.md) |
+| EG-397 | Protección de intentos de contraseña y bloqueo temporal | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-228/EG-397-Password-Attempt-Protection-and-Temporary-Lockout.md`](../D:/SIF/engineering/specifications/WP-228/EG-397-Password-Attempt-Protection-and-Temporary-Lockout.md) |
+| EG-398 | Almacenes de hashes de contraseña y coordinación transaccional de rehash | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-228/EG-398-Password-Hash-Stores-and-Transactional-Rehash-Coordination.md`](../D:/SIF/engineering/specifications/WP-228/EG-398-Password-Hash-Stores-and-Transactional-Rehash-Coordination.md) |
+| EG-399 | Integración HTTP de login, logout y sesión para autenticación por contraseña | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-228/EG-399-HTTP-Password-Login-Logout-and-Session-Integration.md`](../D:/SIF/engineering/specifications/WP-228/EG-399-HTTP-Password-Login-Logout-and-Session-Integration.md) |
+| EG-400 | Password Authentication Product Completion | Draft for Review | 1.0.0 | [`D:/SIF/engineering/specifications/WP-228/EG-400-Password-Authentication-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-228/EG-400-Password-Authentication-Product-Completion.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -574,3 +583,11 @@
 | WP-227-I6-REVIEW | Revisión de implementación WP-227 I6 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-227-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-227-I6-Implementation-Review.md) |
 | WP-227-I7-REVIEW | Revisión de implementación WP-227 I7 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-227-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-227-I7-Implementation-Review.md) |
 | WP-227-I8-REVIEW | Revisión de cierre de producto WP-227 I8 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-227-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-227-I8-Product-Completion-Review.md) |
+| WP-228-I1-REVIEW | Revisión de arquitectura WP-228 I1 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-228-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-228-I1-Architecture-Review.md) |
+| WP-228-I2-REVIEW | Revisión de implementación WP-228 I2 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-228-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-228-I2-Implementation-Review.md) |
+| WP-228-I3-REVIEW | Revisión de implementación WP-228 I3 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-228-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-228-I3-Implementation-Review.md) |
+| WP-228-I4-REVIEW | Revisión de implementación WP-228 I4 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-228-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-228-I4-Implementation-Review.md) |
+| WP-228-I5-REVIEW | Revisión de implementación WP-228 I5 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-228-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-228-I5-Implementation-Review.md) |
+| WP-228-I6-REVIEW | Revisión de implementación WP-228 I6 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-228-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-228-I6-Implementation-Review.md) |
+| WP-228-I7-REVIEW | Revisión de implementación WP-228 I7 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-228-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-228-I7-Implementation-Review.md) |
+| WP-228-I8-REVIEW | Revisión de cierre de producto WP-228 I8 | Draft for Review | 1.0.0 | [`D:/SIF/engineering/reviews/WP-228-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-228-I8-Product-Completion-Review.md) |

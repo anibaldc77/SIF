@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **532**
+Governed documents: **549**
 
 ## Generated views
 
@@ -441,6 +441,17 @@ Governed documents: **532**
 - [`WP-227-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-227-I7-Implementation-Review.md) — Revisión de implementación WP-227 I7 _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-227-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-227-I8-Product-Completion-Review.md) — Revisión de cierre de producto WP-227 I8 _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
+### Implementation Review — WP-228
+
+- [`WP-228-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-228-I1-Architecture-Review.md) — Revisión de arquitectura WP-228 I1 _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-228-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-228-I2-Implementation-Review.md) — Revisión de implementación WP-228 I2 _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-228-I3-REVIEW`](../D:/SIF/engineering/reviews/WP-228-I3-Implementation-Review.md) — Revisión de implementación WP-228 I3 _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-228-I4-REVIEW`](../D:/SIF/engineering/reviews/WP-228-I4-Implementation-Review.md) — Revisión de implementación WP-228 I4 _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-228-I5-REVIEW`](../D:/SIF/engineering/reviews/WP-228-I5-Implementation-Review.md) — Revisión de implementación WP-228 I5 _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-228-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-228-I6-Implementation-Review.md) — Revisión de implementación WP-228 I6 _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-228-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-228-I7-Implementation-Review.md) — Revisión de implementación WP-228 I7 _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-228-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-228-I8-Product-Completion-Review.md) — Revisión de cierre de producto WP-228 I8 _(type: REVIEWDOCUMENT; status: Draft for Review; version: 1.0.0)_
+
 ### Informative Document
 
 - [`BRANCHING-STRATEGY`](../D:/SIF/engineering/handbook/BRANCHING-STRATEGY.md) — Branching Strategy _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
@@ -505,6 +516,10 @@ Governed documents: **532**
 ### Informative Document — WP-227
 
 - [`WP-227-MIGRATION-GUIDE`](../D:/SIF/engineering/migrations/WP-227-AUTHENTICATION-AUTHORIZATION-MIGRATION-GUIDE.md) — WP-227 Authentication and Authorization Migration Guide _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Informative Document — WP-228
+
+- [`WP-228-MIGRATION-GUIDE`](../D:/SIF/engineering/migrations/WP-228-IDENTITY-PROVIDER-PASSWORD-AUTHENTICATION-MIGRATION-GUIDE.md) — WP-228 Identity Provider and Password Authentication Migration Guide _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 1.0.0)_
 
 ### Normative Specification
 
@@ -897,6 +912,17 @@ Governed documents: **532**
 - [`EG-390`](../D:/SIF/engineering/specifications/WP-227/EG-390-Authorization-Policies-and-Decision-Engine.md) — Políticas de autorización y motor de decisiones _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-391`](../D:/SIF/engineering/specifications/WP-227/EG-391-HTTP-Controller-CLI-and-Skeleton-Security-Integration.md) — Integración de seguridad con HTTP, Controller, CLI y Skeleton _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-392`](../D:/SIF/engineering/specifications/WP-227/EG-392-Product-Completion-Compatibility-and-Security-Hardening.md) — Cierre de producto, compatibilidad y hardening de seguridad _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-228
+
+- [`EG-393`](../D:/SIF/engineering/specifications/WP-228/EG-393-Identity-Provider-and-Password-Authentication-Architecture.md) — Arquitectura de proveedores de identidad y autenticación por contraseña _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-394`](../D:/SIF/engineering/specifications/WP-228/EG-394-Password-Credentials-Secrets-and-Verification-Contracts.md) — Credenciales de contraseña, secretos y contratos de verificación _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-395`](../D:/SIF/engineering/specifications/WP-228/EG-395-Native-Password-Hashing-and-Verification-Adapters.md) — Adaptadores nativos de hashing y verificación de contraseñas _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-396`](../D:/SIF/engineering/specifications/WP-228/EG-396-Password-Authenticator-and-Identity-Resolution.md) — Autenticador de contraseña y resolución de identidad _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-397`](../D:/SIF/engineering/specifications/WP-228/EG-397-Password-Attempt-Protection-and-Temporary-Lockout.md) — Protección de intentos de contraseña y bloqueo temporal _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-398`](../D:/SIF/engineering/specifications/WP-228/EG-398-Password-Hash-Stores-and-Transactional-Rehash-Coordination.md) — Almacenes de hashes de contraseña y coordinación transaccional de rehash _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-399`](../D:/SIF/engineering/specifications/WP-228/EG-399-HTTP-Password-Login-Logout-and-Session-Integration.md) — Integración HTTP de login, logout y sesión para autenticación por contraseña _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-400`](../D:/SIF/engineering/specifications/WP-228/EG-400-Password-Authentication-Product-Completion.md) — Password Authentication Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 1.0.0)_
 
 ### Policy
 
