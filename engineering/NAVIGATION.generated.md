@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **583**
+Governed documents: **600**
 
 ## Generated views
 
@@ -122,6 +122,10 @@ Governed documents: **583**
 ### Architecture Review — WP-230
 
 - [`WP-230-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-230-I1-Architecture-Review.md) — WP-230 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Architecture Review — WP-231
+
+- [`WP-231-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-231-I1-Architecture-Review.md) — WP-231 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Constitution
 
@@ -477,6 +481,16 @@ Governed documents: **583**
 - [`WP-230-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-230-I7-Implementation-Review.md) — WP-230 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-230-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-230-I8-Product-Completion-Review.md) — WP-230 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
+### Implementation Review — WP-231
+
+- [`WP-231-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-231-I2-Implementation-Review.md) — WP-231 I2 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-231-I3-REVIEW`](../D:/SIF/engineering/reviews/WP-231-I3-Implementation-Review.md) — WP-231 I3 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-231-I4-REVIEW`](../D:/SIF/engineering/reviews/WP-231-I4-Implementation-Review.md) — WP-231 I4 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-231-I5-REVIEW`](../D:/SIF/engineering/reviews/WP-231-I5-Implementation-Review.md) — WP-231 I5 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-231-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-231-I6-Implementation-Review.md) — WP-231 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-231-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-231-I7-Implementation-Review.md) — WP-231 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-231-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-231-I8-Product-Completion-Review.md) — WP-231 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
 ### Informative Document
 
 - [`BRANCHING-STRATEGY`](../D:/SIF/engineering/handbook/BRANCHING-STRATEGY.md) — Branching Strategy _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
@@ -553,6 +567,10 @@ Governed documents: **583**
 ### Informative Document — WP-230
 
 - [`WP-230-MIGRATION-GUIDE`](../D:/SIF/engineering/migrations/WP-230-MULTI-FACTOR-AUTHENTICATION-MIGRATION-GUIDE.md) — Guía de migración de autenticación multifactor _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Informative Document — WP-231
+
+- [`WP-231-MIGRATION-GUIDE`](../D:/SIF/engineering/migrations/WP-231-TRUSTED-DEVICE-PERSISTENT-AUTHENTICATION-MIGRATION-GUIDE.md) — Guía de adopción de dispositivos confiables y autenticación persistente _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Normative Specification
 
@@ -978,6 +996,17 @@ Governed documents: **583**
 - [`EG-414`](../D:/SIF/engineering/specifications/WP-230/EG-414-Recovery-Codes-and-Alternative-MFA-Satisfaction.md) — Códigos de recuperación y satisfacción MFA alternativa _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-415`](../D:/SIF/engineering/specifications/WP-230/EG-415-HTTP-Session-CLI-and-Skeleton-MFA-Integration.md) — Integración HTTP, Session, CLI y Skeleton de MFA _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-416`](../D:/SIF/engineering/specifications/WP-230/EG-416-Multi-Factor-Authentication-Product-Completion.md) — Cierre de producto de autenticación multifactor _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-231
+
+- [`EG-417`](../D:/SIF/engineering/specifications/WP-231/EG-417-Trusted-Device-and-Persistent-Authentication-Security-Architecture.md) — Arquitectura de dispositivos confiables y autenticación persistente _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-418`](../D:/SIF/engineering/specifications/WP-231/EG-418-Persistent-Authentication-Token-Material-and-Secure-Generation.md) — Material de token y generación segura de autenticación persistente _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-419`](../D:/SIF/engineering/specifications/WP-231/EG-419-Persistent-Credential-Lifecycle-Rotation-and-Replay-Detection.md) — Ciclo de vida, rotación y detección de replay de credenciales persistentes _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-420`](../D:/SIF/engineering/specifications/WP-231/EG-420-Trusted-Device-Grant-Lifecycle-and-Revocation.md) — Ciclo de vida y revocación de concesiones de dispositivo confiable _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-421`](../D:/SIF/engineering/specifications/WP-231/EG-421-Persistent-Authentication-Session-Restoration.md) — Restauración de sesión mediante autenticación persistente _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-422`](../D:/SIF/engineering/specifications/WP-231/EG-422-Trusted-Device-Policy-and-MFA-Interaction.md) — Política de dispositivo confiable e interacción con MFA _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-423`](../D:/SIF/engineering/specifications/WP-231/EG-423-HTTP-Session-CLI-and-Skeleton-Persistent-Authentication-Integration.md) — Integración HTTP, Session, CLI y Skeleton de autenticación persistente _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-424`](../D:/SIF/engineering/specifications/WP-231/EG-424-Trusted-Device-and-Persistent-Authentication-Product-Completion.md) — Cierre de producto de dispositivos confiables y autenticación persistente _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 

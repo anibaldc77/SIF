@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 583
-- Resolved references: 427
+- Total documents: 600
+- Resolved references: 444
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
-- INFORMATIVEDOCUMENT: 38
-- NORMATIVEDOCUMENT: 295
-- REVIEWDOCUMENT: 236
+- INFORMATIVEDOCUMENT: 39
+- NORMATIVEDOCUMENT: 303
+- REVIEWDOCUMENT: 244
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 546
+- Draft for Review: 563
 
 ## Documents
 
@@ -84,6 +84,7 @@
 | WP-228-MIGRATION-GUIDE | WP-228 Identity Provider and Password Authentication Migration Guide | Draft for Review | 1.0.0 | [`D:/SIF/engineering/migrations/WP-228-IDENTITY-PROVIDER-PASSWORD-AUTHENTICATION-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-228-IDENTITY-PROVIDER-PASSWORD-AUTHENTICATION-MIGRATION-GUIDE.md) |
 | WP-229-MIGRATION-GUIDE | WP-229 Account Recovery and Verification Migration Guide | Draft for Review | 1.0.0 | [`D:/SIF/engineering/migrations/WP-229-ACCOUNT-RECOVERY-VERIFICATION-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-229-ACCOUNT-RECOVERY-VERIFICATION-MIGRATION-GUIDE.md) |
 | WP-230-MIGRATION-GUIDE | Guía de migración de autenticación multifactor | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-230-MULTI-FACTOR-AUTHENTICATION-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-230-MULTI-FACTOR-AUTHENTICATION-MIGRATION-GUIDE.md) |
+| WP-231-MIGRATION-GUIDE | Guía de adopción de dispositivos confiables y autenticación persistente | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-231-TRUSTED-DEVICE-PERSISTENT-AUTHENTICATION-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-231-TRUSTED-DEVICE-PERSISTENT-AUTHENTICATION-MIGRATION-GUIDE.md) |
 
 ### NORMATIVEDOCUMENT
 
@@ -366,6 +367,14 @@
 | EG-414 | Códigos de recuperación y satisfacción MFA alternativa | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-230/EG-414-Recovery-Codes-and-Alternative-MFA-Satisfaction.md`](../D:/SIF/engineering/specifications/WP-230/EG-414-Recovery-Codes-and-Alternative-MFA-Satisfaction.md) |
 | EG-415 | Integración HTTP, Session, CLI y Skeleton de MFA | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-230/EG-415-HTTP-Session-CLI-and-Skeleton-MFA-Integration.md`](../D:/SIF/engineering/specifications/WP-230/EG-415-HTTP-Session-CLI-and-Skeleton-MFA-Integration.md) |
 | EG-416 | Cierre de producto de autenticación multifactor | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-230/EG-416-Multi-Factor-Authentication-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-230/EG-416-Multi-Factor-Authentication-Product-Completion.md) |
+| EG-417 | Arquitectura de dispositivos confiables y autenticación persistente | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-231/EG-417-Trusted-Device-and-Persistent-Authentication-Security-Architecture.md`](../D:/SIF/engineering/specifications/WP-231/EG-417-Trusted-Device-and-Persistent-Authentication-Security-Architecture.md) |
+| EG-418 | Material de token y generación segura de autenticación persistente | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-231/EG-418-Persistent-Authentication-Token-Material-and-Secure-Generation.md`](../D:/SIF/engineering/specifications/WP-231/EG-418-Persistent-Authentication-Token-Material-and-Secure-Generation.md) |
+| EG-419 | Ciclo de vida, rotación y detección de replay de credenciales persistentes | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-231/EG-419-Persistent-Credential-Lifecycle-Rotation-and-Replay-Detection.md`](../D:/SIF/engineering/specifications/WP-231/EG-419-Persistent-Credential-Lifecycle-Rotation-and-Replay-Detection.md) |
+| EG-420 | Ciclo de vida y revocación de concesiones de dispositivo confiable | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-231/EG-420-Trusted-Device-Grant-Lifecycle-and-Revocation.md`](../D:/SIF/engineering/specifications/WP-231/EG-420-Trusted-Device-Grant-Lifecycle-and-Revocation.md) |
+| EG-421 | Restauración de sesión mediante autenticación persistente | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-231/EG-421-Persistent-Authentication-Session-Restoration.md`](../D:/SIF/engineering/specifications/WP-231/EG-421-Persistent-Authentication-Session-Restoration.md) |
+| EG-422 | Política de dispositivo confiable e interacción con MFA | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-231/EG-422-Trusted-Device-Policy-and-MFA-Interaction.md`](../D:/SIF/engineering/specifications/WP-231/EG-422-Trusted-Device-Policy-and-MFA-Interaction.md) |
+| EG-423 | Integración HTTP, Session, CLI y Skeleton de autenticación persistente | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-231/EG-423-HTTP-Session-CLI-and-Skeleton-Persistent-Authentication-Integration.md`](../D:/SIF/engineering/specifications/WP-231/EG-423-HTTP-Session-CLI-and-Skeleton-Persistent-Authentication-Integration.md) |
+| EG-424 | Cierre de producto de dispositivos confiables y autenticación persistente | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-231/EG-424-Trusted-Device-and-Persistent-Authentication-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-231/EG-424-Trusted-Device-and-Persistent-Authentication-Product-Completion.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -625,3 +634,11 @@
 | WP-230-I6-REVIEW | WP-230 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-230-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-230-I6-Implementation-Review.md) |
 | WP-230-I7-REVIEW | WP-230 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-230-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-230-I7-Implementation-Review.md) |
 | WP-230-I8-REVIEW | WP-230 I8 Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-230-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-230-I8-Product-Completion-Review.md) |
+| WP-231-I1-REVIEW | WP-231 I1 Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-231-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-231-I1-Architecture-Review.md) |
+| WP-231-I2-REVIEW | WP-231 I2 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-231-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-231-I2-Implementation-Review.md) |
+| WP-231-I3-REVIEW | WP-231 I3 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-231-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-231-I3-Implementation-Review.md) |
+| WP-231-I4-REVIEW | WP-231 I4 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-231-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-231-I4-Implementation-Review.md) |
+| WP-231-I5-REVIEW | WP-231 I5 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-231-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-231-I5-Implementation-Review.md) |
+| WP-231-I6-REVIEW | WP-231 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-231-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-231-I6-Implementation-Review.md) |
+| WP-231-I7-REVIEW | WP-231 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-231-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-231-I7-Implementation-Review.md) |
+| WP-231-I8-REVIEW | WP-231 I8 Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-231-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-231-I8-Product-Completion-Review.md) |
