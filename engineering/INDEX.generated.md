@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 634
-- Resolved references: 478
+- Total documents: 651
+- Resolved references: 495
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
-- INFORMATIVEDOCUMENT: 41
-- NORMATIVEDOCUMENT: 319
-- REVIEWDOCUMENT: 260
+- INFORMATIVEDOCUMENT: 42
+- NORMATIVEDOCUMENT: 327
+- REVIEWDOCUMENT: 268
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 597
+- Draft for Review: 614
 
 ## Documents
 
@@ -87,6 +87,7 @@
 | WP-231-MIGRATION-GUIDE | Guía de adopción de dispositivos confiables y autenticación persistente | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-231-TRUSTED-DEVICE-PERSISTENT-AUTHENTICATION-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-231-TRUSTED-DEVICE-PERSISTENT-AUTHENTICATION-MIGRATION-GUIDE.md) |
 | WP-232-MIGRATION-GUIDE | Guía de adopción de autorización avanzada | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-232-ADVANCED-AUTHORIZATION-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-232-ADVANCED-AUTHORIZATION-MIGRATION-GUIDE.md) |
 | WP-233-MIGRATION-GUIDE | Guía de adopción OAuth 2.0 Resource Server | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-233-OAUTH2-RESOURCE-SERVER-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-233-OAUTH2-RESOURCE-SERVER-MIGRATION-GUIDE.md) |
+| WP-234-MIGRATION-GUIDE | Guía de adopción OpenID Connect y autenticación federada | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-234-OPENID-CONNECT-FEDERATED-AUTHENTICATION-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-234-OPENID-CONNECT-FEDERATED-AUTHENTICATION-MIGRATION-GUIDE.md) |
 
 ### NORMATIVEDOCUMENT
 
@@ -393,6 +394,14 @@
 | EG-438 | Mapping de scopes a permissions e integración con autorización WP-232 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-233/EG-438-Scope-to-Permission-Mapping-and-WP-232-Authorization-Integration.md`](../D:/SIF/engineering/specifications/WP-233/EG-438-Scope-to-Permission-Mapping-and-WP-232-Authorization-Integration.md) |
 | EG-439 | Autenticación HTTP Resource Server, Bearer principal e integración API | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-233/EG-439-HTTP-Resource-Server-Authentication-Bearer-Principal-and-API-Integration.md`](../D:/SIF/engineering/specifications/WP-233/EG-439-HTTP-Resource-Server-Authentication-Bearer-Principal-and-API-Integration.md) |
 | EG-440 | Cierre de producto OAuth 2.0 Resource Server | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-233/EG-440-OAuth2-Resource-Server-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-233/EG-440-OAuth2-Resource-Server-Product-Completion.md) |
+| EG-441 | Arquitectura OpenID Connect Client y contratos de provider metadata | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-234/EG-441-OpenID-Connect-Client-Architecture-and-Provider-Metadata-Contracts.md`](../D:/SIF/engineering/specifications/WP-234/EG-441-OpenID-Connect-Client-Architecture-and-Provider-Metadata-Contracts.md) |
+| EG-442 | Authorization Code, PKCE y construcción de authorization request | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-234/EG-442-Authorization-Code-PKCE-and-Authorization-Request-Construction.md`](../D:/SIF/engineering/specifications/WP-234/EG-442-Authorization-Code-PKCE-and-Authorization-Request-Construction.md) |
+| EG-443 | Callback correlation, code exchange y credenciales confidenciales OIDC | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-234/EG-443-Authorization-Callback-Correlation-Code-Exchange-and-Client-Credentials.md`](../D:/SIF/engineering/specifications/WP-234/EG-443-Authorization-Callback-Correlation-Code-Exchange-and-Client-Credentials.md) |
+| EG-444 | Validación de ID Token, nonce e identidad federada | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-234/EG-444-ID-Token-Validation-Nonce-and-Federated-Identity-Mapping.md`](../D:/SIF/engineering/specifications/WP-234/EG-444-ID-Token-Validation-Nonce-and-Federated-Identity-Mapping.md) |
+| EG-445 | Account linking federado, provisioning y principal mapping | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-234/EG-445-Federated-Account-Linking-Provisioning-and-Principal-Mapping.md`](../D:/SIF/engineering/specifications/WP-234/EG-445-Federated-Account-Linking-Provisioning-and-Principal-Mapping.md) |
+| EG-446 | Orquestación de login federado, sesión y eventos de seguridad | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-234/EG-446-Federated-Login-Orchestration-Session-and-Security-Events.md`](../D:/SIF/engineering/specifications/WP-234/EG-446-Federated-Login-Orchestration-Session-and-Security-Events.md) |
+| EG-447 | Integración HTTP de login/callback, redirect model y logout federado | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-234/EG-447-HTTP-Login-Callback-Redirect-and-Federated-Logout.md`](../D:/SIF/engineering/specifications/WP-234/EG-447-HTTP-Login-Callback-Redirect-and-Federated-Logout.md) |
+| EG-448 | Cierre de producto OpenID Connect y autenticación federada | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-234/EG-448-OpenID-Connect-Federated-Authentication-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-234/EG-448-OpenID-Connect-Federated-Authentication-Product-Completion.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -676,3 +685,11 @@
 | WP-233-I6-REVIEW | WP-233 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-233-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-233-I6-Implementation-Review.md) |
 | WP-233-I7-REVIEW | WP-233 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-233-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-233-I7-Implementation-Review.md) |
 | WP-233-I8-REVIEW | WP-233 I8 Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-233-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-233-I8-Product-Completion-Review.md) |
+| WP-234-I1-REVIEW | WP-234 I1 Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-234-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-234-I1-Architecture-Review.md) |
+| WP-234-I2-REVIEW | WP-234 I2 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-234-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-234-I2-Implementation-Review.md) |
+| WP-234-I3-REVIEW | WP-234 I3 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-234-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-234-I3-Implementation-Review.md) |
+| WP-234-I4-REVIEW | WP-234 I4 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-234-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-234-I4-Implementation-Review.md) |
+| WP-234-I5-REVIEW | WP-234 I5 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-234-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-234-I5-Implementation-Review.md) |
+| WP-234-I6-REVIEW | WP-234 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-234-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-234-I6-Implementation-Review.md) |
+| WP-234-I7-REVIEW | WP-234 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-234-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-234-I7-Implementation-Review.md) |
+| WP-234-I8-REVIEW | WP-234 I8 Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-234-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-234-I8-Product-Completion-Review.md) |

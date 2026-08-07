@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **634**
+Governed documents: **651**
 
 ## Generated views
 
@@ -134,6 +134,10 @@ Governed documents: **634**
 ### Architecture Review — WP-233
 
 - [`WP-233-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-233-I1-Architecture-Review.md) — WP-233 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Architecture Review — WP-234
+
+- [`WP-234-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-234-I1-Architecture-Review.md) — WP-234 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Constitution
 
@@ -519,6 +523,16 @@ Governed documents: **634**
 - [`WP-233-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-233-I7-Implementation-Review.md) — WP-233 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-233-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-233-I8-Product-Completion-Review.md) — WP-233 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
+### Implementation Review — WP-234
+
+- [`WP-234-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-234-I2-Implementation-Review.md) — WP-234 I2 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-234-I3-REVIEW`](../D:/SIF/engineering/reviews/WP-234-I3-Implementation-Review.md) — WP-234 I3 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-234-I4-REVIEW`](../D:/SIF/engineering/reviews/WP-234-I4-Implementation-Review.md) — WP-234 I4 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-234-I5-REVIEW`](../D:/SIF/engineering/reviews/WP-234-I5-Implementation-Review.md) — WP-234 I5 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-234-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-234-I6-Implementation-Review.md) — WP-234 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-234-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-234-I7-Implementation-Review.md) — WP-234 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-234-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-234-I8-Product-Completion-Review.md) — WP-234 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
 ### Informative Document
 
 - [`BRANCHING-STRATEGY`](../D:/SIF/engineering/handbook/BRANCHING-STRATEGY.md) — Branching Strategy _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
@@ -607,6 +621,10 @@ Governed documents: **634**
 ### Informative Document — WP-233
 
 - [`WP-233-MIGRATION-GUIDE`](../D:/SIF/engineering/migrations/WP-233-OAUTH2-RESOURCE-SERVER-MIGRATION-GUIDE.md) — Guía de adopción OAuth 2.0 Resource Server _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Informative Document — WP-234
+
+- [`WP-234-MIGRATION-GUIDE`](../D:/SIF/engineering/migrations/WP-234-OPENID-CONNECT-FEDERATED-AUTHENTICATION-MIGRATION-GUIDE.md) — Guía de adopción OpenID Connect y autenticación federada _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Normative Specification
 
@@ -1065,6 +1083,17 @@ Governed documents: **634**
 - [`EG-438`](../D:/SIF/engineering/specifications/WP-233/EG-438-Scope-to-Permission-Mapping-and-WP-232-Authorization-Integration.md) — Mapping de scopes a permissions e integración con autorización WP-232 _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-439`](../D:/SIF/engineering/specifications/WP-233/EG-439-HTTP-Resource-Server-Authentication-Bearer-Principal-and-API-Integration.md) — Autenticación HTTP Resource Server, Bearer principal e integración API _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-440`](../D:/SIF/engineering/specifications/WP-233/EG-440-OAuth2-Resource-Server-Product-Completion.md) — Cierre de producto OAuth 2.0 Resource Server _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-234
+
+- [`EG-441`](../D:/SIF/engineering/specifications/WP-234/EG-441-OpenID-Connect-Client-Architecture-and-Provider-Metadata-Contracts.md) — Arquitectura OpenID Connect Client y contratos de provider metadata _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-442`](../D:/SIF/engineering/specifications/WP-234/EG-442-Authorization-Code-PKCE-and-Authorization-Request-Construction.md) — Authorization Code, PKCE y construcción de authorization request _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-443`](../D:/SIF/engineering/specifications/WP-234/EG-443-Authorization-Callback-Correlation-Code-Exchange-and-Client-Credentials.md) — Callback correlation, code exchange y credenciales confidenciales OIDC _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-444`](../D:/SIF/engineering/specifications/WP-234/EG-444-ID-Token-Validation-Nonce-and-Federated-Identity-Mapping.md) — Validación de ID Token, nonce e identidad federada _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-445`](../D:/SIF/engineering/specifications/WP-234/EG-445-Federated-Account-Linking-Provisioning-and-Principal-Mapping.md) — Account linking federado, provisioning y principal mapping _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-446`](../D:/SIF/engineering/specifications/WP-234/EG-446-Federated-Login-Orchestration-Session-and-Security-Events.md) — Orquestación de login federado, sesión y eventos de seguridad _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-447`](../D:/SIF/engineering/specifications/WP-234/EG-447-HTTP-Login-Callback-Redirect-and-Federated-Logout.md) — Integración HTTP de login/callback, redirect model y logout federado _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-448`](../D:/SIF/engineering/specifications/WP-234/EG-448-OpenID-Connect-Federated-Authentication-Product-Completion.md) — Cierre de producto OpenID Connect y autenticación federada _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 
