@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **617**
+Governed documents: **634**
 
 ## Generated views
 
@@ -130,6 +130,10 @@ Governed documents: **617**
 ### Architecture Review — WP-232
 
 - [`WP-232-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-232-I1-Architecture-Review.md) — WP-232 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Architecture Review — WP-233
+
+- [`WP-233-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-233-I1-Architecture-Review.md) — WP-233 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Constitution
 
@@ -505,6 +509,16 @@ Governed documents: **617**
 - [`WP-232-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-232-I7-Implementation-Review.md) — WP-232 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-232-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-232-I8-Product-Completion-Review.md) — WP-232 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
+### Implementation Review — WP-233
+
+- [`WP-233-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-233-I2-Implementation-Review.md) — WP-233 I2 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-233-I3-REVIEW`](../D:/SIF/engineering/reviews/WP-233-I3-Implementation-Review.md) — WP-233 I3 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-233-I4-REVIEW`](../D:/SIF/engineering/reviews/WP-233-I4-Implementation-Review.md) — WP-233 I4 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-233-I5-REVIEW`](../D:/SIF/engineering/reviews/WP-233-I5-Implementation-Review.md) — WP-233 I5 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-233-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-233-I6-Implementation-Review.md) — WP-233 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-233-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-233-I7-Implementation-Review.md) — WP-233 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-233-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-233-I8-Product-Completion-Review.md) — WP-233 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
 ### Informative Document
 
 - [`BRANCHING-STRATEGY`](../D:/SIF/engineering/handbook/BRANCHING-STRATEGY.md) — Branching Strategy _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
@@ -589,6 +603,10 @@ Governed documents: **617**
 ### Informative Document — WP-232
 
 - [`WP-232-MIGRATION-GUIDE`](../D:/SIF/engineering/migrations/WP-232-ADVANCED-AUTHORIZATION-MIGRATION-GUIDE.md) — Guía de adopción de autorización avanzada _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Informative Document — WP-233
+
+- [`WP-233-MIGRATION-GUIDE`](../D:/SIF/engineering/migrations/WP-233-OAUTH2-RESOURCE-SERVER-MIGRATION-GUIDE.md) — Guía de adopción OAuth 2.0 Resource Server _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Normative Specification
 
@@ -1036,6 +1054,17 @@ Governed documents: **617**
 - [`EG-430`](../D:/SIF/engineering/specifications/WP-232/EG-430-Authorization-Grant-Cache-and-Deterministic-Diagnostics.md) — Cache de grants de autorización y diagnósticos determinísticos _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-431`](../D:/SIF/engineering/specifications/WP-232/EG-431-HTTP-Controller-CLI-and-Application-Authorization-Integration.md) — Integración HTTP, Controller, CLI y Application de autorización avanzada _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-432`](../D:/SIF/engineering/specifications/WP-232/EG-432-Advanced-Authorization-Product-Completion.md) — Cierre de producto de autorización avanzada _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-233
+
+- [`EG-433`](../D:/SIF/engineering/specifications/WP-233/EG-433-OAuth2-Resource-Server-Architecture-and-Token-Contracts.md) — Arquitectura OAuth 2.0 Resource Server y contratos de access token _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-434`](../D:/SIF/engineering/specifications/WP-233/EG-434-Bearer-Token-Extraction-and-RFC-6750-Error-Model.md) — Extracción Bearer y modelo de errores RFC 6750 _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-435`](../D:/SIF/engineering/specifications/WP-233/EG-435-JWT-Access-Token-Validation-Architecture-and-Claims-Mapping.md) — Arquitectura de validación JWT y mapeo de claims _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-436`](../D:/SIF/engineering/specifications/WP-233/EG-436-JWKS-Key-Resolution-Rotation-and-Signature-Verification-Infrastructure.md) — Resolución JWKS, rotación de claves y verificación de firma _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-437`](../D:/SIF/engineering/specifications/WP-233/EG-437-OAuth2-Token-Introspection-and-Opaque-Token-Validation.md) — OAuth 2.0 Token Introspection y validación de tokens opacos _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-438`](../D:/SIF/engineering/specifications/WP-233/EG-438-Scope-to-Permission-Mapping-and-WP-232-Authorization-Integration.md) — Mapping de scopes a permissions e integración con autorización WP-232 _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-439`](../D:/SIF/engineering/specifications/WP-233/EG-439-HTTP-Resource-Server-Authentication-Bearer-Principal-and-API-Integration.md) — Autenticación HTTP Resource Server, Bearer principal e integración API _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-440`](../D:/SIF/engineering/specifications/WP-233/EG-440-OAuth2-Resource-Server-Product-Completion.md) — Cierre de producto OAuth 2.0 Resource Server _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 

@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 617
-- Resolved references: 461
+- Total documents: 634
+- Resolved references: 478
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
-- INFORMATIVEDOCUMENT: 40
-- NORMATIVEDOCUMENT: 311
-- REVIEWDOCUMENT: 252
+- INFORMATIVEDOCUMENT: 41
+- NORMATIVEDOCUMENT: 319
+- REVIEWDOCUMENT: 260
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 580
+- Draft for Review: 597
 
 ## Documents
 
@@ -86,6 +86,7 @@
 | WP-230-MIGRATION-GUIDE | Guía de migración de autenticación multifactor | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-230-MULTI-FACTOR-AUTHENTICATION-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-230-MULTI-FACTOR-AUTHENTICATION-MIGRATION-GUIDE.md) |
 | WP-231-MIGRATION-GUIDE | Guía de adopción de dispositivos confiables y autenticación persistente | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-231-TRUSTED-DEVICE-PERSISTENT-AUTHENTICATION-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-231-TRUSTED-DEVICE-PERSISTENT-AUTHENTICATION-MIGRATION-GUIDE.md) |
 | WP-232-MIGRATION-GUIDE | Guía de adopción de autorización avanzada | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-232-ADVANCED-AUTHORIZATION-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-232-ADVANCED-AUTHORIZATION-MIGRATION-GUIDE.md) |
+| WP-233-MIGRATION-GUIDE | Guía de adopción OAuth 2.0 Resource Server | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-233-OAUTH2-RESOURCE-SERVER-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-233-OAUTH2-RESOURCE-SERVER-MIGRATION-GUIDE.md) |
 
 ### NORMATIVEDOCUMENT
 
@@ -384,6 +385,14 @@
 | EG-430 | Cache de grants de autorización y diagnósticos determinísticos | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-232/EG-430-Authorization-Grant-Cache-and-Deterministic-Diagnostics.md`](../D:/SIF/engineering/specifications/WP-232/EG-430-Authorization-Grant-Cache-and-Deterministic-Diagnostics.md) |
 | EG-431 | Integración HTTP, Controller, CLI y Application de autorización avanzada | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-232/EG-431-HTTP-Controller-CLI-and-Application-Authorization-Integration.md`](../D:/SIF/engineering/specifications/WP-232/EG-431-HTTP-Controller-CLI-and-Application-Authorization-Integration.md) |
 | EG-432 | Cierre de producto de autorización avanzada | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-232/EG-432-Advanced-Authorization-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-232/EG-432-Advanced-Authorization-Product-Completion.md) |
+| EG-433 | Arquitectura OAuth 2.0 Resource Server y contratos de access token | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-233/EG-433-OAuth2-Resource-Server-Architecture-and-Token-Contracts.md`](../D:/SIF/engineering/specifications/WP-233/EG-433-OAuth2-Resource-Server-Architecture-and-Token-Contracts.md) |
+| EG-434 | Extracción Bearer y modelo de errores RFC 6750 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-233/EG-434-Bearer-Token-Extraction-and-RFC-6750-Error-Model.md`](../D:/SIF/engineering/specifications/WP-233/EG-434-Bearer-Token-Extraction-and-RFC-6750-Error-Model.md) |
+| EG-435 | Arquitectura de validación JWT y mapeo de claims | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-233/EG-435-JWT-Access-Token-Validation-Architecture-and-Claims-Mapping.md`](../D:/SIF/engineering/specifications/WP-233/EG-435-JWT-Access-Token-Validation-Architecture-and-Claims-Mapping.md) |
+| EG-436 | Resolución JWKS, rotación de claves y verificación de firma | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-233/EG-436-JWKS-Key-Resolution-Rotation-and-Signature-Verification-Infrastructure.md`](../D:/SIF/engineering/specifications/WP-233/EG-436-JWKS-Key-Resolution-Rotation-and-Signature-Verification-Infrastructure.md) |
+| EG-437 | OAuth 2.0 Token Introspection y validación de tokens opacos | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-233/EG-437-OAuth2-Token-Introspection-and-Opaque-Token-Validation.md`](../D:/SIF/engineering/specifications/WP-233/EG-437-OAuth2-Token-Introspection-and-Opaque-Token-Validation.md) |
+| EG-438 | Mapping de scopes a permissions e integración con autorización WP-232 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-233/EG-438-Scope-to-Permission-Mapping-and-WP-232-Authorization-Integration.md`](../D:/SIF/engineering/specifications/WP-233/EG-438-Scope-to-Permission-Mapping-and-WP-232-Authorization-Integration.md) |
+| EG-439 | Autenticación HTTP Resource Server, Bearer principal e integración API | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-233/EG-439-HTTP-Resource-Server-Authentication-Bearer-Principal-and-API-Integration.md`](../D:/SIF/engineering/specifications/WP-233/EG-439-HTTP-Resource-Server-Authentication-Bearer-Principal-and-API-Integration.md) |
+| EG-440 | Cierre de producto OAuth 2.0 Resource Server | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-233/EG-440-OAuth2-Resource-Server-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-233/EG-440-OAuth2-Resource-Server-Product-Completion.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -659,3 +668,11 @@
 | WP-232-I6-REVIEW | WP-232 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-232-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-232-I6-Implementation-Review.md) |
 | WP-232-I7-REVIEW | WP-232 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-232-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-232-I7-Implementation-Review.md) |
 | WP-232-I8-REVIEW | WP-232 I8 Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-232-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-232-I8-Product-Completion-Review.md) |
+| WP-233-I1-REVIEW | WP-233 I1 Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-233-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-233-I1-Architecture-Review.md) |
+| WP-233-I2-REVIEW | WP-233 I2 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-233-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-233-I2-Implementation-Review.md) |
+| WP-233-I3-REVIEW | WP-233 I3 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-233-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-233-I3-Implementation-Review.md) |
+| WP-233-I4-REVIEW | WP-233 I4 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-233-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-233-I4-Implementation-Review.md) |
+| WP-233-I5-REVIEW | WP-233 I5 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-233-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-233-I5-Implementation-Review.md) |
+| WP-233-I6-REVIEW | WP-233 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-233-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-233-I6-Implementation-Review.md) |
+| WP-233-I7-REVIEW | WP-233 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-233-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-233-I7-Implementation-Review.md) |
+| WP-233-I8-REVIEW | WP-233 I8 Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-233-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-233-I8-Product-Completion-Review.md) |
