@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 668
-- Resolved references: 512
+- Total documents: 685
+- Resolved references: 529
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
-- INFORMATIVEDOCUMENT: 43
-- NORMATIVEDOCUMENT: 335
-- REVIEWDOCUMENT: 276
+- INFORMATIVEDOCUMENT: 44
+- NORMATIVEDOCUMENT: 343
+- REVIEWDOCUMENT: 284
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 631
+- Draft for Review: 648
 
 ## Documents
 
@@ -89,6 +89,7 @@
 | WP-233-MIGRATION-GUIDE | Guía de adopción OAuth 2.0 Resource Server | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-233-OAUTH2-RESOURCE-SERVER-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-233-OAUTH2-RESOURCE-SERVER-MIGRATION-GUIDE.md) |
 | WP-234-MIGRATION-GUIDE | Guía de adopción OpenID Connect y autenticación federada | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-234-OPENID-CONNECT-FEDERATED-AUTHENTICATION-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-234-OPENID-CONNECT-FEDERATED-AUTHENTICATION-MIGRATION-GUIDE.md) |
 | WP-235-MIGRATION-GUIDE | Guía de adopción de operaciones de seguridad federada | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-235-FEDERATED-SECURITY-OPERATIONS-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-235-FEDERATED-SECURITY-OPERATIONS-MIGRATION-GUIDE.md) |
+| WP-236-MIGRATION-GUIDE | Guía de adopción de federación SAML 2.0 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-236-SAML2-FEDERATION-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-236-SAML2-FEDERATION-MIGRATION-GUIDE.md) |
 
 ### NORMATIVEDOCUMENT
 
@@ -411,6 +412,14 @@
 | EG-454 | Revocación remota coordinada, clasificación de retry y política operacional | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-235/EG-454-Coordinated-Remote-Revocation-Retry-Classification-and-Operational-Policy.md`](../D:/SIF/engineering/specifications/WP-235/EG-454-Coordinated-Remote-Revocation-Retry-Classification-and-Operational-Policy.md) |
 | EG-455 | Operaciones administrativas CLI, inspección y acciones explícitas | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-235/EG-455-Administrative-CLI-Security-Operations-and-Explicit-Operator-Actions.md`](../D:/SIF/engineering/specifications/WP-235/EG-455-Administrative-CLI-Security-Operations-and-Explicit-Operator-Actions.md) |
 | EG-456 | Cierre de producto de operaciones de seguridad federada | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-235/EG-456-Federated-Security-Operations-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-235/EG-456-Federated-Security-Operations-Product-Completion.md) |
+| EG-457 | Arquitectura SAML 2.0, metadata y contratos de confianza | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-236/EG-457-SAML2-Architecture-Metadata-and-Trust-Contracts.md`](../D:/SIF/engineering/specifications/WP-236/EG-457-SAML2-Architecture-Metadata-and-Trust-Contracts.md) |
+| EG-458 | Parsing XML de metadata SAML, validación estructural y extracción de certificados | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-236/EG-458-SAML-Metadata-XML-Parsing-Structural-Validation-and-Certificate-Extraction.md`](../D:/SIF/engineering/specifications/WP-236/EG-458-SAML-Metadata-XML-Parsing-Structural-Validation-and-Certificate-Extraction.md) |
+| EG-459 | Construcción de AuthnRequest, RelayState y binding HTTP-Redirect SAML | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-236/EG-459-SAML-AuthnRequest-RelayState-and-HTTP-Redirect-Binding-Construction.md`](../D:/SIF/engineering/specifications/WP-236/EG-459-SAML-AuthnRequest-RelayState-and-HTTP-Redirect-Binding-Construction.md) |
+| EG-460 | Parsing de SAML Response, correlación InResponseTo y validación de Status | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-236/EG-460-SAML-Response-Parsing-InResponseTo-Correlation-and-Status-Validation.md`](../D:/SIF/engineering/specifications/WP-236/EG-460-SAML-Response-Parsing-InResponseTo-Correlation-and-Status-Validation.md) |
+| EG-461 | Parsing de SAML Assertion, Conditions, Audience y SubjectConfirmation | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-236/EG-461-SAML-Assertion-Parsing-Conditions-Audience-and-SubjectConfirmation-Validation.md`](../D:/SIF/engineering/specifications/WP-236/EG-461-SAML-Assertion-Parsing-Conditions-Audience-and-SubjectConfirmation-Validation.md) |
+| EG-462 | Política de firma XML, confianza y protección contra replay SAML | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-236/EG-462-SAML-XML-Signature-Trust-Policy-and-Replay-Protection.md`](../D:/SIF/engineering/specifications/WP-236/EG-462-SAML-XML-Signature-Trust-Policy-and-Replay-Protection.md) |
+| EG-463 | Mapeo de identidad SAML, integración de autenticación y establecimiento de sesión | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-236/EG-463-SAML-Identity-Mapping-Authentication-Integration-and-Session-Establishment.md`](../D:/SIF/engineering/specifications/WP-236/EG-463-SAML-Identity-Mapping-Authentication-Integration-and-Session-Establishment.md) |
+| EG-464 | Cierre de producto de federación SAML 2.0 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-236/EG-464-SAML2-Federation-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-236/EG-464-SAML2-Federation-Product-Completion.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -710,3 +719,11 @@
 | WP-235-I6-REVIEW | WP-235 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-235-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-235-I6-Implementation-Review.md) |
 | WP-235-I7-REVIEW | WP-235 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-235-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-235-I7-Implementation-Review.md) |
 | WP-235-I8-REVIEW | WP-235 I8 Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-235-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-235-I8-Product-Completion-Review.md) |
+| WP-236-I1-REVIEW | WP-236 I1 Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-236-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-236-I1-Architecture-Review.md) |
+| WP-236-I2-REVIEW | WP-236 I2 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-236-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-236-I2-Implementation-Review.md) |
+| WP-236-I3-REVIEW | WP-236 I3 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-236-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-236-I3-Implementation-Review.md) |
+| WP-236-I4-REVIEW | WP-236 I4 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-236-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-236-I4-Implementation-Review.md) |
+| WP-236-I5-REVIEW | WP-236 I5 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-236-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-236-I5-Implementation-Review.md) |
+| WP-236-I6-REVIEW | WP-236 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-236-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-236-I6-Implementation-Review.md) |
+| WP-236-I7-REVIEW | WP-236 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-236-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-236-I7-Implementation-Review.md) |
+| WP-236-I8-REVIEW | WP-236 I8 Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-236-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-236-I8-Product-Completion-Review.md) |

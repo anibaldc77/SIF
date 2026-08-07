@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **668**
+Governed documents: **685**
 
 ## Generated views
 
@@ -142,6 +142,10 @@ Governed documents: **668**
 ### Architecture Review — WP-235
 
 - [`WP-235-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-235-I1-Architecture-Review.md) — WP-235 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Architecture Review — WP-236
+
+- [`WP-236-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-236-I1-Architecture-Review.md) — WP-236 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Constitution
 
@@ -547,6 +551,16 @@ Governed documents: **668**
 - [`WP-235-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-235-I7-Implementation-Review.md) — WP-235 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-235-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-235-I8-Product-Completion-Review.md) — WP-235 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
+### Implementation Review — WP-236
+
+- [`WP-236-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-236-I2-Implementation-Review.md) — WP-236 I2 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-236-I3-REVIEW`](../D:/SIF/engineering/reviews/WP-236-I3-Implementation-Review.md) — WP-236 I3 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-236-I4-REVIEW`](../D:/SIF/engineering/reviews/WP-236-I4-Implementation-Review.md) — WP-236 I4 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-236-I5-REVIEW`](../D:/SIF/engineering/reviews/WP-236-I5-Implementation-Review.md) — WP-236 I5 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-236-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-236-I6-Implementation-Review.md) — WP-236 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-236-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-236-I7-Implementation-Review.md) — WP-236 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-236-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-236-I8-Product-Completion-Review.md) — WP-236 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
 ### Informative Document
 
 - [`BRANCHING-STRATEGY`](../D:/SIF/engineering/handbook/BRANCHING-STRATEGY.md) — Branching Strategy _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
@@ -643,6 +657,10 @@ Governed documents: **668**
 ### Informative Document — WP-235
 
 - [`WP-235-MIGRATION-GUIDE`](../D:/SIF/engineering/migrations/WP-235-FEDERATED-SECURITY-OPERATIONS-MIGRATION-GUIDE.md) — Guía de adopción de operaciones de seguridad federada _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Informative Document — WP-236
+
+- [`WP-236-MIGRATION-GUIDE`](../D:/SIF/engineering/migrations/WP-236-SAML2-FEDERATION-MIGRATION-GUIDE.md) — Guía de adopción de federación SAML 2.0 _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Normative Specification
 
@@ -1123,6 +1141,17 @@ Governed documents: **668**
 - [`EG-454`](../D:/SIF/engineering/specifications/WP-235/EG-454-Coordinated-Remote-Revocation-Retry-Classification-and-Operational-Policy.md) — Revocación remota coordinada, clasificación de retry y política operacional _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-455`](../D:/SIF/engineering/specifications/WP-235/EG-455-Administrative-CLI-Security-Operations-and-Explicit-Operator-Actions.md) — Operaciones administrativas CLI, inspección y acciones explícitas _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-456`](../D:/SIF/engineering/specifications/WP-235/EG-456-Federated-Security-Operations-Product-Completion.md) — Cierre de producto de operaciones de seguridad federada _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-236
+
+- [`EG-457`](../D:/SIF/engineering/specifications/WP-236/EG-457-SAML2-Architecture-Metadata-and-Trust-Contracts.md) — Arquitectura SAML 2.0, metadata y contratos de confianza _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-458`](../D:/SIF/engineering/specifications/WP-236/EG-458-SAML-Metadata-XML-Parsing-Structural-Validation-and-Certificate-Extraction.md) — Parsing XML de metadata SAML, validación estructural y extracción de certificados _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-459`](../D:/SIF/engineering/specifications/WP-236/EG-459-SAML-AuthnRequest-RelayState-and-HTTP-Redirect-Binding-Construction.md) — Construcción de AuthnRequest, RelayState y binding HTTP-Redirect SAML _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-460`](../D:/SIF/engineering/specifications/WP-236/EG-460-SAML-Response-Parsing-InResponseTo-Correlation-and-Status-Validation.md) — Parsing de SAML Response, correlación InResponseTo y validación de Status _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-461`](../D:/SIF/engineering/specifications/WP-236/EG-461-SAML-Assertion-Parsing-Conditions-Audience-and-SubjectConfirmation-Validation.md) — Parsing de SAML Assertion, Conditions, Audience y SubjectConfirmation _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-462`](../D:/SIF/engineering/specifications/WP-236/EG-462-SAML-XML-Signature-Trust-Policy-and-Replay-Protection.md) — Política de firma XML, confianza y protección contra replay SAML _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-463`](../D:/SIF/engineering/specifications/WP-236/EG-463-SAML-Identity-Mapping-Authentication-Integration-and-Session-Establishment.md) — Mapeo de identidad SAML, integración de autenticación y establecimiento de sesión _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-464`](../D:/SIF/engineering/specifications/WP-236/EG-464-SAML2-Federation-Product-Completion.md) — Cierre de producto de federación SAML 2.0 _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 
