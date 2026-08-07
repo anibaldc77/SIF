@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **651**
+Governed documents: **668**
 
 ## Generated views
 
@@ -138,6 +138,10 @@ Governed documents: **651**
 ### Architecture Review — WP-234
 
 - [`WP-234-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-234-I1-Architecture-Review.md) — WP-234 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Architecture Review — WP-235
+
+- [`WP-235-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-235-I1-Architecture-Review.md) — WP-235 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Constitution
 
@@ -533,6 +537,16 @@ Governed documents: **651**
 - [`WP-234-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-234-I7-Implementation-Review.md) — WP-234 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-234-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-234-I8-Product-Completion-Review.md) — WP-234 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
+### Implementation Review — WP-235
+
+- [`WP-235-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-235-I2-Implementation-Review.md) — WP-235 I2 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-235-I3-REVIEW`](../D:/SIF/engineering/reviews/WP-235-I3-Implementation-Review.md) — WP-235 I3 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-235-I4-REVIEW`](../D:/SIF/engineering/reviews/WP-235-I4-Implementation-Review.md) — WP-235 I4 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-235-I5-REVIEW`](../D:/SIF/engineering/reviews/WP-235-I5-Implementation-Review.md) — WP-235 I5 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-235-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-235-I6-Implementation-Review.md) — WP-235 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-235-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-235-I7-Implementation-Review.md) — WP-235 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-235-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-235-I8-Product-Completion-Review.md) — WP-235 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
 ### Informative Document
 
 - [`BRANCHING-STRATEGY`](../D:/SIF/engineering/handbook/BRANCHING-STRATEGY.md) — Branching Strategy _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
@@ -625,6 +639,10 @@ Governed documents: **651**
 ### Informative Document — WP-234
 
 - [`WP-234-MIGRATION-GUIDE`](../D:/SIF/engineering/migrations/WP-234-OPENID-CONNECT-FEDERATED-AUTHENTICATION-MIGRATION-GUIDE.md) — Guía de adopción OpenID Connect y autenticación federada _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Informative Document — WP-235
+
+- [`WP-235-MIGRATION-GUIDE`](../D:/SIF/engineering/migrations/WP-235-FEDERATED-SECURITY-OPERATIONS-MIGRATION-GUIDE.md) — Guía de adopción de operaciones de seguridad federada _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Normative Specification
 
@@ -1094,6 +1112,17 @@ Governed documents: **651**
 - [`EG-446`](../D:/SIF/engineering/specifications/WP-234/EG-446-Federated-Login-Orchestration-Session-and-Security-Events.md) — Orquestación de login federado, sesión y eventos de seguridad _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-447`](../D:/SIF/engineering/specifications/WP-234/EG-447-HTTP-Login-Callback-Redirect-and-Federated-Logout.md) — Integración HTTP de login/callback, redirect model y logout federado _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-448`](../D:/SIF/engineering/specifications/WP-234/EG-448-OpenID-Connect-Federated-Authentication-Product-Completion.md) — Cierre de producto OpenID Connect y autenticación federada _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-235
+
+- [`EG-449`](../D:/SIF/engineering/specifications/WP-235/EG-449-Federated-Security-Operations-Architecture-and-Revocation-Contracts.md) — Arquitectura de operaciones de seguridad federada y contratos de revocación _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-450`](../D:/SIF/engineering/specifications/WP-235/EG-450-Coordinated-Revocation-Lifecycle-Ordering-and-Failure-Semantics.md) — Lifecycle coordinado de revocación, orden y semántica de fallas _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-451`](../D:/SIF/engineering/specifications/WP-235/EG-451-Revocation-Journaling-Idempotency-and-Safe-Retry-Foundation.md) — Journaling de revocación, idempotencia y base de retry seguro _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-452`](../D:/SIF/engineering/specifications/WP-235/EG-452-Resume-from-Failure-Retry-Policy-and-Backoff-Semantics.md) — Reanudación desde falla, política de retry y semántica de backoff _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-453`](../D:/SIF/engineering/specifications/WP-235/EG-453-Provider-Revocation-Capabilities-and-Remote-Failure-Classification.md) — Capacidades de revocación de proveedor y clasificación de fallas remotas _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-454`](../D:/SIF/engineering/specifications/WP-235/EG-454-Coordinated-Remote-Revocation-Retry-Classification-and-Operational-Policy.md) — Revocación remota coordinada, clasificación de retry y política operacional _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-455`](../D:/SIF/engineering/specifications/WP-235/EG-455-Administrative-CLI-Security-Operations-and-Explicit-Operator-Actions.md) — Operaciones administrativas CLI, inspección y acciones explícitas _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-456`](../D:/SIF/engineering/specifications/WP-235/EG-456-Federated-Security-Operations-Product-Completion.md) — Cierre de producto de operaciones de seguridad federada _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 
