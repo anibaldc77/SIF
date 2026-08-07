@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **566**
+Governed documents: **583**
 
 ## Generated views
 
@@ -118,6 +118,10 @@ Governed documents: **566**
 ### Architecture Review — WP-227
 
 - [`WP-227-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-227-I1-Architecture-Review.md) — WP-227 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 1.0.0)_
+
+### Architecture Review — WP-230
+
+- [`WP-230-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-230-I1-Architecture-Review.md) — WP-230 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Constitution
 
@@ -463,6 +467,16 @@ Governed documents: **566**
 - [`WP-229-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-229-I7-Implementation-Review.md) — Revisión de implementación WP-229 I7 _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-229-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-229-I8-Product-Completion-Review.md) — Revisión de cierre WP-229 I8 _(type: REVIEWDOCUMENT; status: Draft for Review; version: 1.0.0)_
 
+### Implementation Review — WP-230
+
+- [`WP-230-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-230-I2-Implementation-Review.md) — Revisión de implementación WP-230 I2 _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-230-I3-REVIEW`](../D:/SIF/engineering/reviews/WP-230-I3-Implementation-Review.md) — Revisión de implementación WP-230 I3 _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-230-I4-REVIEW`](../D:/SIF/engineering/reviews/WP-230-I4-Implementation-Review.md) — Revisión de implementación WP-230 I4 _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-230-I5-REVIEW`](../D:/SIF/engineering/reviews/WP-230-I5-Implementation-Review.md) — WP-230 I5 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-230-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-230-I6-Implementation-Review.md) — WP-230 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-230-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-230-I7-Implementation-Review.md) — WP-230 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-230-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-230-I8-Product-Completion-Review.md) — WP-230 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
 ### Informative Document
 
 - [`BRANCHING-STRATEGY`](../D:/SIF/engineering/handbook/BRANCHING-STRATEGY.md) — Branching Strategy _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
@@ -535,6 +549,10 @@ Governed documents: **566**
 ### Informative Document — WP-229
 
 - [`WP-229-MIGRATION-GUIDE`](../D:/SIF/engineering/migrations/WP-229-ACCOUNT-RECOVERY-VERIFICATION-MIGRATION-GUIDE.md) — WP-229 Account Recovery and Verification Migration Guide _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 1.0.0)_
+
+### Informative Document — WP-230
+
+- [`WP-230-MIGRATION-GUIDE`](../D:/SIF/engineering/migrations/WP-230-MULTI-FACTOR-AUTHENTICATION-MIGRATION-GUIDE.md) — Guía de migración de autenticación multifactor _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Normative Specification
 
@@ -949,6 +967,17 @@ Governed documents: **566**
 - [`EG-406`](../D:/SIF/engineering/specifications/WP-229/EG-406-Recovery-Abuse-Protection-and-Security-Events.md) — Protección contra abuso y eventos de seguridad para recuperación _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-407`](../D:/SIF/engineering/specifications/WP-229/EG-407-HTTP-CLI-and-Skeleton-Recovery-Integration.md) — Integración HTTP, CLI y Skeleton para recuperación _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-408`](../D:/SIF/engineering/specifications/WP-229/EG-408-Account-Recovery-and-Verification-Product-Completion.md) — Cierre de producto de recuperación y verificación de cuentas _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 1.0.0)_
+
+### Normative Specification — WP-230
+
+- [`EG-409`](../D:/SIF/engineering/specifications/WP-230/EG-409-Multi-Factor-Authentication-Security-Architecture.md) — Arquitectura de autenticación multifactor _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-410`](../D:/SIF/engineering/specifications/WP-230/EG-410-TOTP-Secrets-Parameters-and-Verification-Contracts.md) — Secretos, parámetros y contratos de verificación TOTP _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-411`](../D:/SIF/engineering/specifications/WP-230/EG-411-Native-TOTP-Generation-and-Verification-Adapters.md) — Adaptadores nativos de generación y verificación TOTP _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-412`](../D:/SIF/engineering/specifications/WP-230/EG-412-TOTP-Factor-Enrollment-Activation-and-Replay-Protection.md) — Enrolamiento, activación y protección contra replay de factores TOTP _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-413`](../D:/SIF/engineering/specifications/WP-230/EG-413-TOTP-MFA-Challenge-Satisfaction-and-Step-Up-Authentication.md) — Satisfacción de desafíos MFA TOTP y elevación de autenticación _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-414`](../D:/SIF/engineering/specifications/WP-230/EG-414-Recovery-Codes-and-Alternative-MFA-Satisfaction.md) — Códigos de recuperación y satisfacción MFA alternativa _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-415`](../D:/SIF/engineering/specifications/WP-230/EG-415-HTTP-Session-CLI-and-Skeleton-MFA-Integration.md) — Integración HTTP, Session, CLI y Skeleton de MFA _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-416`](../D:/SIF/engineering/specifications/WP-230/EG-416-Multi-Factor-Authentication-Product-Completion.md) — Cierre de producto de autenticación multifactor _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 

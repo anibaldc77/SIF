@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 566
-- Resolved references: 410
+- Total documents: 583
+- Resolved references: 427
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
-- INFORMATIVEDOCUMENT: 37
-- NORMATIVEDOCUMENT: 287
-- REVIEWDOCUMENT: 228
+- INFORMATIVEDOCUMENT: 38
+- NORMATIVEDOCUMENT: 295
+- REVIEWDOCUMENT: 236
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 529
+- Draft for Review: 546
 
 ## Documents
 
@@ -83,6 +83,7 @@
 | WP-227-MIGRATION-GUIDE | WP-227 Authentication and Authorization Migration Guide | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-227-AUTHENTICATION-AUTHORIZATION-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-227-AUTHENTICATION-AUTHORIZATION-MIGRATION-GUIDE.md) |
 | WP-228-MIGRATION-GUIDE | WP-228 Identity Provider and Password Authentication Migration Guide | Draft for Review | 1.0.0 | [`D:/SIF/engineering/migrations/WP-228-IDENTITY-PROVIDER-PASSWORD-AUTHENTICATION-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-228-IDENTITY-PROVIDER-PASSWORD-AUTHENTICATION-MIGRATION-GUIDE.md) |
 | WP-229-MIGRATION-GUIDE | WP-229 Account Recovery and Verification Migration Guide | Draft for Review | 1.0.0 | [`D:/SIF/engineering/migrations/WP-229-ACCOUNT-RECOVERY-VERIFICATION-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-229-ACCOUNT-RECOVERY-VERIFICATION-MIGRATION-GUIDE.md) |
+| WP-230-MIGRATION-GUIDE | Guía de migración de autenticación multifactor | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-230-MULTI-FACTOR-AUTHENTICATION-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-230-MULTI-FACTOR-AUTHENTICATION-MIGRATION-GUIDE.md) |
 
 ### NORMATIVEDOCUMENT
 
@@ -357,6 +358,14 @@
 | EG-406 | Protección contra abuso y eventos de seguridad para recuperación | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-229/EG-406-Recovery-Abuse-Protection-and-Security-Events.md`](../D:/SIF/engineering/specifications/WP-229/EG-406-Recovery-Abuse-Protection-and-Security-Events.md) |
 | EG-407 | Integración HTTP, CLI y Skeleton para recuperación | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-229/EG-407-HTTP-CLI-and-Skeleton-Recovery-Integration.md`](../D:/SIF/engineering/specifications/WP-229/EG-407-HTTP-CLI-and-Skeleton-Recovery-Integration.md) |
 | EG-408 | Cierre de producto de recuperación y verificación de cuentas | Draft for Review | 1.0.0 | [`D:/SIF/engineering/specifications/WP-229/EG-408-Account-Recovery-and-Verification-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-229/EG-408-Account-Recovery-and-Verification-Product-Completion.md) |
+| EG-409 | Arquitectura de autenticación multifactor | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-230/EG-409-Multi-Factor-Authentication-Security-Architecture.md`](../D:/SIF/engineering/specifications/WP-230/EG-409-Multi-Factor-Authentication-Security-Architecture.md) |
+| EG-410 | Secretos, parámetros y contratos de verificación TOTP | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-230/EG-410-TOTP-Secrets-Parameters-and-Verification-Contracts.md`](../D:/SIF/engineering/specifications/WP-230/EG-410-TOTP-Secrets-Parameters-and-Verification-Contracts.md) |
+| EG-411 | Adaptadores nativos de generación y verificación TOTP | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-230/EG-411-Native-TOTP-Generation-and-Verification-Adapters.md`](../D:/SIF/engineering/specifications/WP-230/EG-411-Native-TOTP-Generation-and-Verification-Adapters.md) |
+| EG-412 | Enrolamiento, activación y protección contra replay de factores TOTP | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-230/EG-412-TOTP-Factor-Enrollment-Activation-and-Replay-Protection.md`](../D:/SIF/engineering/specifications/WP-230/EG-412-TOTP-Factor-Enrollment-Activation-and-Replay-Protection.md) |
+| EG-413 | Satisfacción de desafíos MFA TOTP y elevación de autenticación | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-230/EG-413-TOTP-MFA-Challenge-Satisfaction-and-Step-Up-Authentication.md`](../D:/SIF/engineering/specifications/WP-230/EG-413-TOTP-MFA-Challenge-Satisfaction-and-Step-Up-Authentication.md) |
+| EG-414 | Códigos de recuperación y satisfacción MFA alternativa | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-230/EG-414-Recovery-Codes-and-Alternative-MFA-Satisfaction.md`](../D:/SIF/engineering/specifications/WP-230/EG-414-Recovery-Codes-and-Alternative-MFA-Satisfaction.md) |
+| EG-415 | Integración HTTP, Session, CLI y Skeleton de MFA | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-230/EG-415-HTTP-Session-CLI-and-Skeleton-MFA-Integration.md`](../D:/SIF/engineering/specifications/WP-230/EG-415-HTTP-Session-CLI-and-Skeleton-MFA-Integration.md) |
+| EG-416 | Cierre de producto de autenticación multifactor | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-230/EG-416-Multi-Factor-Authentication-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-230/EG-416-Multi-Factor-Authentication-Product-Completion.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -608,3 +617,11 @@
 | WP-229-I6-REVIEW | Revisión de implementación WP-229 I6 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-229-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-229-I6-Implementation-Review.md) |
 | WP-229-I7-REVIEW | Revisión de implementación WP-229 I7 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-229-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-229-I7-Implementation-Review.md) |
 | WP-229-I8-REVIEW | Revisión de cierre WP-229 I8 | Draft for Review | 1.0.0 | [`D:/SIF/engineering/reviews/WP-229-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-229-I8-Product-Completion-Review.md) |
+| WP-230-I1-REVIEW | WP-230 I1 Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-230-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-230-I1-Architecture-Review.md) |
+| WP-230-I2-REVIEW | Revisión de implementación WP-230 I2 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-230-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-230-I2-Implementation-Review.md) |
+| WP-230-I3-REVIEW | Revisión de implementación WP-230 I3 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-230-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-230-I3-Implementation-Review.md) |
+| WP-230-I4-REVIEW | Revisión de implementación WP-230 I4 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-230-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-230-I4-Implementation-Review.md) |
+| WP-230-I5-REVIEW | WP-230 I5 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-230-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-230-I5-Implementation-Review.md) |
+| WP-230-I6-REVIEW | WP-230 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-230-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-230-I6-Implementation-Review.md) |
+| WP-230-I7-REVIEW | WP-230 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-230-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-230-I7-Implementation-Review.md) |
+| WP-230-I8-REVIEW | WP-230 I8 Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-230-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-230-I8-Product-Completion-Review.md) |
