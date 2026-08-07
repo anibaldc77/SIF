@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **600**
+Governed documents: **617**
 
 ## Generated views
 
@@ -126,6 +126,10 @@ Governed documents: **600**
 ### Architecture Review — WP-231
 
 - [`WP-231-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-231-I1-Architecture-Review.md) — WP-231 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Architecture Review — WP-232
+
+- [`WP-232-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-232-I1-Architecture-Review.md) — WP-232 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Constitution
 
@@ -491,6 +495,16 @@ Governed documents: **600**
 - [`WP-231-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-231-I7-Implementation-Review.md) — WP-231 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-231-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-231-I8-Product-Completion-Review.md) — WP-231 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
+### Implementation Review — WP-232
+
+- [`WP-232-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-232-I2-Implementation-Review.md) — WP-232 I2 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-232-I3-REVIEW`](../D:/SIF/engineering/reviews/WP-232-I3-Implementation-Review.md) — WP-232 I3 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-232-I4-REVIEW`](../D:/SIF/engineering/reviews/WP-232-I4-Implementation-Review.md) — WP-232 I4 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-232-I5-REVIEW`](../D:/SIF/engineering/reviews/WP-232-I5-Implementation-Review.md) — WP-232 I5 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-232-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-232-I6-Implementation-Review.md) — WP-232 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-232-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-232-I7-Implementation-Review.md) — WP-232 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-232-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-232-I8-Product-Completion-Review.md) — WP-232 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
 ### Informative Document
 
 - [`BRANCHING-STRATEGY`](../D:/SIF/engineering/handbook/BRANCHING-STRATEGY.md) — Branching Strategy _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
@@ -571,6 +585,10 @@ Governed documents: **600**
 ### Informative Document — WP-231
 
 - [`WP-231-MIGRATION-GUIDE`](../D:/SIF/engineering/migrations/WP-231-TRUSTED-DEVICE-PERSISTENT-AUTHENTICATION-MIGRATION-GUIDE.md) — Guía de adopción de dispositivos confiables y autenticación persistente _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Informative Document — WP-232
+
+- [`WP-232-MIGRATION-GUIDE`](../D:/SIF/engineering/migrations/WP-232-ADVANCED-AUTHORIZATION-MIGRATION-GUIDE.md) — Guía de adopción de autorización avanzada _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Normative Specification
 
@@ -1007,6 +1025,17 @@ Governed documents: **600**
 - [`EG-422`](../D:/SIF/engineering/specifications/WP-231/EG-422-Trusted-Device-Policy-and-MFA-Interaction.md) — Política de dispositivo confiable e interacción con MFA _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-423`](../D:/SIF/engineering/specifications/WP-231/EG-423-HTTP-Session-CLI-and-Skeleton-Persistent-Authentication-Integration.md) — Integración HTTP, Session, CLI y Skeleton de autenticación persistente _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-424`](../D:/SIF/engineering/specifications/WP-231/EG-424-Trusted-Device-and-Persistent-Authentication-Product-Completion.md) — Cierre de producto de dispositivos confiables y autenticación persistente _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-232
+
+- [`EG-425`](../D:/SIF/engineering/specifications/WP-232/EG-425-Advanced-Authorization-Permissions-Roles-and-Attributes-Architecture.md) — Arquitectura avanzada de autorización con permisos, roles y atributos _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-426`](../D:/SIF/engineering/specifications/WP-232/EG-426-Role-Hierarchy-and-Effective-Permission-Resolution.md) — Jerarquía de roles y resolución efectiva de permisos _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-427`](../D:/SIF/engineering/specifications/WP-232/EG-427-Authorization-Requirements-and-RBAC-Policy-Composition.md) — Requisitos de autorización y composición de policies RBAC _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-428`](../D:/SIF/engineering/specifications/WP-232/EG-428-ABAC-Attribute-Requirements-and-Contextual-Authorization-Composition.md) — Requisitos ABAC y composición contextual de autorización _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-429`](../D:/SIF/engineering/specifications/WP-232/EG-429-Unified-RBAC-ABAC-Composition-and-Decision-Engine-Adapter.md) — Composición unificada RBAC/ABAC y adaptador al decision engine _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-430`](../D:/SIF/engineering/specifications/WP-232/EG-430-Authorization-Grant-Cache-and-Deterministic-Diagnostics.md) — Cache de grants de autorización y diagnósticos determinísticos _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-431`](../D:/SIF/engineering/specifications/WP-232/EG-431-HTTP-Controller-CLI-and-Application-Authorization-Integration.md) — Integración HTTP, Controller, CLI y Application de autorización avanzada _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-432`](../D:/SIF/engineering/specifications/WP-232/EG-432-Advanced-Authorization-Product-Completion.md) — Cierre de producto de autorización avanzada _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 
