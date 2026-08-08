@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 685
-- Resolved references: 529
+- Total documents: 702
+- Resolved references: 546
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
-- INFORMATIVEDOCUMENT: 44
-- NORMATIVEDOCUMENT: 343
-- REVIEWDOCUMENT: 284
+- INFORMATIVEDOCUMENT: 45
+- NORMATIVEDOCUMENT: 351
+- REVIEWDOCUMENT: 292
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 648
+- Draft for Review: 665
 
 ## Documents
 
@@ -90,6 +90,7 @@
 | WP-234-MIGRATION-GUIDE | Guía de adopción OpenID Connect y autenticación federada | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-234-OPENID-CONNECT-FEDERATED-AUTHENTICATION-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-234-OPENID-CONNECT-FEDERATED-AUTHENTICATION-MIGRATION-GUIDE.md) |
 | WP-235-MIGRATION-GUIDE | Guía de adopción de operaciones de seguridad federada | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-235-FEDERATED-SECURITY-OPERATIONS-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-235-FEDERATED-SECURITY-OPERATIONS-MIGRATION-GUIDE.md) |
 | WP-236-MIGRATION-GUIDE | Guía de adopción de federación SAML 2.0 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-236-SAML2-FEDERATION-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-236-SAML2-FEDERATION-MIGRATION-GUIDE.md) |
+| WP-237-ADOPTION-GUIDE | Guía de adopción SCIM 2.0 Identity Provisioning | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-237-SCIM2-IDENTITY-PROVISIONING-ADOPTION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-237-SCIM2-IDENTITY-PROVISIONING-ADOPTION-GUIDE.md) |
 
 ### NORMATIVEDOCUMENT
 
@@ -420,6 +421,14 @@
 | EG-462 | Política de firma XML, confianza y protección contra replay SAML | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-236/EG-462-SAML-XML-Signature-Trust-Policy-and-Replay-Protection.md`](../D:/SIF/engineering/specifications/WP-236/EG-462-SAML-XML-Signature-Trust-Policy-and-Replay-Protection.md) |
 | EG-463 | Mapeo de identidad SAML, integración de autenticación y establecimiento de sesión | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-236/EG-463-SAML-Identity-Mapping-Authentication-Integration-and-Session-Establishment.md`](../D:/SIF/engineering/specifications/WP-236/EG-463-SAML-Identity-Mapping-Authentication-Integration-and-Session-Establishment.md) |
 | EG-464 | Cierre de producto de federación SAML 2.0 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-236/EG-464-SAML2-Federation-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-236/EG-464-SAML2-Federation-Product-Completion.md) |
+| EG-465 | Arquitectura SCIM 2.0, modelo de recursos, schemas y contratos de protocolo | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-237/EG-465-SCIM2-Architecture-Resource-Model-Schemas-and-Protocol-Contracts.md`](../D:/SIF/engineering/specifications/WP-237/EG-465-SCIM2-Architecture-Resource-Model-Schemas-and-Protocol-Contracts.md) |
+| EG-466 | Discovery SCIM ServiceProviderConfig, ResourceTypes y Schemas | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-237/EG-466-SCIM-Discovery-ServiceProviderConfig-ResourceTypes-and-Schemas.md`](../D:/SIF/engineering/specifications/WP-237/EG-466-SCIM-Discovery-ServiceProviderConfig-ResourceTypes-and-Schemas.md) |
+| EG-467 | Modelo de consulta SCIM, filtros, orden y paginación | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-237/EG-467-SCIM-Query-Model-Filtering-Sorting-and-Pagination-Contracts.md`](../D:/SIF/engineering/specifications/WP-237/EG-467-SCIM-Query-Model-Filtering-Sorting-and-Pagination-Contracts.md) |
+| EG-468 | Operaciones SCIM PATCH, semántica de path y contratos de mutación | Draft for Review | 0.1.1 | [`D:/SIF/engineering/specifications/WP-237/EG-468-SCIM-PATCH-Operations-Path-Semantics-and-Mutation-Contracts.md`](../D:/SIF/engineering/specifications/WP-237/EG-468-SCIM-PATCH-Operations-Path-Semantics-and-Mutation-Contracts.md) |
+| EG-469 | Operaciones SCIM Bulk, resolución bulkId y semántica de fallos | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-237/EG-469-SCIM-Bulk-Operations-BulkId-Resolution-and-Failure-Semantics.md`](../D:/SIF/engineering/specifications/WP-237/EG-469-SCIM-Bulk-Operations-BulkId-Resolution-and-Failure-Semantics.md) |
+| EG-470 | Versionado de recursos SCIM, ETag, precondiciones y control de concurrencia | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-237/EG-470-SCIM-Resource-Versioning-ETag-Preconditions-and-Concurrency-Control.md`](../D:/SIF/engineering/specifications/WP-237/EG-470-SCIM-Resource-Versioning-ETag-Preconditions-and-Concurrency-Control.md) |
+| EG-471 | Ciclo de vida SCIM, desactivación, consistencia de membresías y fronteras de auditoría | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-237/EG-471-SCIM-Provisioning-Lifecycle-Deactivation-Membership-and-Audit-Boundaries.md`](../D:/SIF/engineering/specifications/WP-237/EG-471-SCIM-Provisioning-Lifecycle-Deactivation-Membership-and-Audit-Boundaries.md) |
+| EG-472 | Cierre de producto SCIM 2.0 Identity Provisioning | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-237/EG-472-SCIM2-Identity-Provisioning-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-237/EG-472-SCIM2-Identity-Provisioning-Product-Completion.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -727,3 +736,11 @@
 | WP-236-I6-REVIEW | WP-236 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-236-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-236-I6-Implementation-Review.md) |
 | WP-236-I7-REVIEW | WP-236 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-236-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-236-I7-Implementation-Review.md) |
 | WP-236-I8-REVIEW | WP-236 I8 Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-236-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-236-I8-Product-Completion-Review.md) |
+| WP-237-I1-REVIEW | WP-237 I1 Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-237-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-237-I1-Architecture-Review.md) |
+| WP-237-I2-REVIEW | WP-237 I2 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-237-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-237-I2-Implementation-Review.md) |
+| WP-237-I3-REVIEW | WP-237 I3 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-237-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-237-I3-Implementation-Review.md) |
+| WP-237-I4-REVIEW | WP-237 I4 Implementation Review | Draft for Review | 0.1.1 | [`D:/SIF/engineering/reviews/WP-237-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-237-I4-Implementation-Review.md) |
+| WP-237-I5-REVIEW | WP-237 I5 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-237-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-237-I5-Implementation-Review.md) |
+| WP-237-I6-REVIEW | WP-237 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-237-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-237-I6-Implementation-Review.md) |
+| WP-237-I7-REVIEW | WP-237 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-237-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-237-I7-Implementation-Review.md) |
+| WP-237-I8-REVIEW | WP-237 I8 Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-237-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-237-I8-Product-Completion-Review.md) |

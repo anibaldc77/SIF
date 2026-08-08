@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **685**
+Governed documents: **702**
 
 ## Generated views
 
@@ -146,6 +146,10 @@ Governed documents: **685**
 ### Architecture Review — WP-236
 
 - [`WP-236-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-236-I1-Architecture-Review.md) — WP-236 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Architecture Review — WP-237
+
+- [`WP-237-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-237-I1-Architecture-Review.md) — WP-237 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Constitution
 
@@ -561,6 +565,16 @@ Governed documents: **685**
 - [`WP-236-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-236-I7-Implementation-Review.md) — WP-236 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-236-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-236-I8-Product-Completion-Review.md) — WP-236 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
+### Implementation Review — WP-237
+
+- [`WP-237-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-237-I2-Implementation-Review.md) — WP-237 I2 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-237-I3-REVIEW`](../D:/SIF/engineering/reviews/WP-237-I3-Implementation-Review.md) — WP-237 I3 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-237-I4-REVIEW`](../D:/SIF/engineering/reviews/WP-237-I4-Implementation-Review.md) — WP-237 I4 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.1)_
+- [`WP-237-I5-REVIEW`](../D:/SIF/engineering/reviews/WP-237-I5-Implementation-Review.md) — WP-237 I5 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-237-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-237-I6-Implementation-Review.md) — WP-237 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-237-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-237-I7-Implementation-Review.md) — WP-237 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-237-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-237-I8-Product-Completion-Review.md) — WP-237 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
 ### Informative Document
 
 - [`BRANCHING-STRATEGY`](../D:/SIF/engineering/handbook/BRANCHING-STRATEGY.md) — Branching Strategy _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
@@ -661,6 +675,10 @@ Governed documents: **685**
 ### Informative Document — WP-236
 
 - [`WP-236-MIGRATION-GUIDE`](../D:/SIF/engineering/migrations/WP-236-SAML2-FEDERATION-MIGRATION-GUIDE.md) — Guía de adopción de federación SAML 2.0 _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Informative Document — WP-237
+
+- [`WP-237-ADOPTION-GUIDE`](../D:/SIF/engineering/migrations/WP-237-SCIM2-IDENTITY-PROVISIONING-ADOPTION-GUIDE.md) — Guía de adopción SCIM 2.0 Identity Provisioning _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Normative Specification
 
@@ -1152,6 +1170,17 @@ Governed documents: **685**
 - [`EG-462`](../D:/SIF/engineering/specifications/WP-236/EG-462-SAML-XML-Signature-Trust-Policy-and-Replay-Protection.md) — Política de firma XML, confianza y protección contra replay SAML _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-463`](../D:/SIF/engineering/specifications/WP-236/EG-463-SAML-Identity-Mapping-Authentication-Integration-and-Session-Establishment.md) — Mapeo de identidad SAML, integración de autenticación y establecimiento de sesión _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-464`](../D:/SIF/engineering/specifications/WP-236/EG-464-SAML2-Federation-Product-Completion.md) — Cierre de producto de federación SAML 2.0 _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-237
+
+- [`EG-465`](../D:/SIF/engineering/specifications/WP-237/EG-465-SCIM2-Architecture-Resource-Model-Schemas-and-Protocol-Contracts.md) — Arquitectura SCIM 2.0, modelo de recursos, schemas y contratos de protocolo _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-466`](../D:/SIF/engineering/specifications/WP-237/EG-466-SCIM-Discovery-ServiceProviderConfig-ResourceTypes-and-Schemas.md) — Discovery SCIM ServiceProviderConfig, ResourceTypes y Schemas _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-467`](../D:/SIF/engineering/specifications/WP-237/EG-467-SCIM-Query-Model-Filtering-Sorting-and-Pagination-Contracts.md) — Modelo de consulta SCIM, filtros, orden y paginación _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-468`](../D:/SIF/engineering/specifications/WP-237/EG-468-SCIM-PATCH-Operations-Path-Semantics-and-Mutation-Contracts.md) — Operaciones SCIM PATCH, semántica de path y contratos de mutación _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.1)_
+- [`EG-469`](../D:/SIF/engineering/specifications/WP-237/EG-469-SCIM-Bulk-Operations-BulkId-Resolution-and-Failure-Semantics.md) — Operaciones SCIM Bulk, resolución bulkId y semántica de fallos _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-470`](../D:/SIF/engineering/specifications/WP-237/EG-470-SCIM-Resource-Versioning-ETag-Preconditions-and-Concurrency-Control.md) — Versionado de recursos SCIM, ETag, precondiciones y control de concurrencia _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-471`](../D:/SIF/engineering/specifications/WP-237/EG-471-SCIM-Provisioning-Lifecycle-Deactivation-Membership-and-Audit-Boundaries.md) — Ciclo de vida SCIM, desactivación, consistencia de membresías y fronteras de auditoría _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-472`](../D:/SIF/engineering/specifications/WP-237/EG-472-SCIM2-Identity-Provisioning-Product-Completion.md) — Cierre de producto SCIM 2.0 Identity Provisioning _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 
