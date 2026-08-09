@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **702**
+Governed documents: **736**
 
 ## Generated views
 
@@ -150,6 +150,14 @@ Governed documents: **702**
 ### Architecture Review — WP-237
 
 - [`WP-237-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-237-I1-Architecture-Review.md) — WP-237 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Architecture Review — WP-238
+
+- [`WP-238-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-238-I1-Architecture-Review.md) — WP-238 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Architecture Review — WP-239
+
+- [`WP-239-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-239-I1-Architecture-Review.md) — WP-239 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Constitution
 
@@ -575,6 +583,26 @@ Governed documents: **702**
 - [`WP-237-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-237-I7-Implementation-Review.md) — WP-237 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-237-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-237-I8-Product-Completion-Review.md) — WP-237 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
+### Implementation Review — WP-238
+
+- [`WP-238-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-238-I2-Implementation-Review.md) — WP-238 I2 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-238-I3-REVIEW`](../D:/SIF/engineering/reviews/WP-238-I3-Implementation-Review.md) — WP-238 I3 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-238-I4-REVIEW`](../D:/SIF/engineering/reviews/WP-238-I4-Implementation-Review.md) — WP-238 I4 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-238-I5-REVIEW`](../D:/SIF/engineering/reviews/WP-238-I5-Implementation-Review.md) — WP-238 I5 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.1)_
+- [`WP-238-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-238-I6-Implementation-Review.md) — WP-238 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-238-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-238-I7-Implementation-Review.md) — WP-238 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-238-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-238-I8-Product-Completion-Review.md) — WP-238 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Implementation Review — WP-239
+
+- [`WP-239-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-239-I2-Implementation-Review.md) — WP-239 I2 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-239-I3-REVIEW`](../D:/SIF/engineering/reviews/WP-239-I3-Implementation-Review.md) — WP-239 I3 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-239-I4-REVIEW`](../D:/SIF/engineering/reviews/WP-239-I4-Implementation-Review.md) — WP-239 I4 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-239-I5-REVIEW`](../D:/SIF/engineering/reviews/WP-239-I5-Implementation-Review.md) — WP-239 I5 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-239-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-239-I6-Implementation-Review.md) — WP-239 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-239-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-239-I7-Implementation-Review.md) — WP-239 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-239-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-239-I8-Product-Completion-Review.md) — WP-239 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
 ### Informative Document
 
 - [`BRANCHING-STRATEGY`](../D:/SIF/engineering/handbook/BRANCHING-STRATEGY.md) — Branching Strategy _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
@@ -679,6 +707,14 @@ Governed documents: **702**
 ### Informative Document — WP-237
 
 - [`WP-237-ADOPTION-GUIDE`](../D:/SIF/engineering/migrations/WP-237-SCIM2-IDENTITY-PROVISIONING-ADOPTION-GUIDE.md) — Guía de adopción SCIM 2.0 Identity Provisioning _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Informative Document — WP-238
+
+- [`WP-238-ADOPTION-GUIDE`](../D:/SIF/engineering/migrations/WP-238-IDENTITY-GOVERNANCE-ADOPTION-GUIDE.md) — Guía de adopción de Identity Governance y Security Administration _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Informative Document — WP-239
+
+- [`WP-239-ADOPTION-GUIDE`](../D:/SIF/engineering/migrations/WP-239-OAUTH21-AUTHORIZATION-SERVER-ADOPTION-GUIDE.md) — Guía de adopción del OAuth 2.1 Authorization Server _(type: INFORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Normative Specification
 
@@ -1181,6 +1217,28 @@ Governed documents: **702**
 - [`EG-470`](../D:/SIF/engineering/specifications/WP-237/EG-470-SCIM-Resource-Versioning-ETag-Preconditions-and-Concurrency-Control.md) — Versionado de recursos SCIM, ETag, precondiciones y control de concurrencia _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-471`](../D:/SIF/engineering/specifications/WP-237/EG-471-SCIM-Provisioning-Lifecycle-Deactivation-Membership-and-Audit-Boundaries.md) — Ciclo de vida SCIM, desactivación, consistencia de membresías y fronteras de auditoría _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-472`](../D:/SIF/engineering/specifications/WP-237/EG-472-SCIM2-Identity-Provisioning-Product-Completion.md) — Cierre de producto SCIM 2.0 Identity Provisioning _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-238
+
+- [`EG-473`](../D:/SIF/engineering/specifications/WP-238/EG-473-Identity-Governance-Security-Administration-Architecture.md) — Arquitectura de Identity Governance y Security Administration _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-474`](../D:/SIF/engineering/specifications/WP-238/EG-474-Entitlement-Catalog-Effective-Assignments-and-Access-Review-Campaigns.md) — Catálogo de entitlements, asignaciones efectivas y campañas de revisión de acceso _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-475`](../D:/SIF/engineering/specifications/WP-238/EG-475-Access-Review-Item-Generation-Reviewer-Assignment-and-Workflow-State.md) — Generación de ítems de revisión, asignación de reviewers y estado de workflow _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-476`](../D:/SIF/engineering/specifications/WP-238/EG-476-Access-Review-Workflow-Transitions-Deadlines-Escalation-and-Delegation.md) — Transiciones de workflow, deadlines, escalación y delegación de revisiones de acceso _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-477`](../D:/SIF/engineering/specifications/WP-238/EG-477-Segregation-of-Duties-Conflict-Rules-and-Governance-Risk-Evaluation.md) — Segregation of Duties, reglas de conflicto y evaluación de riesgo de gobierno _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-478`](../D:/SIF/engineering/specifications/WP-238/EG-478-Governance-Exceptions-Risk-Acceptance-and-Compensating-Controls.md) — Excepciones de gobierno, aceptación de riesgo y controles compensatorios _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-479`](../D:/SIF/engineering/specifications/WP-238/EG-479-Governance-Remediation-Planning.md) — Planificación de remediación de gobierno, procesamiento de expiraciones y fronteras de auditoría/eventos _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-480`](../D:/SIF/engineering/specifications/WP-238/EG-480-Identity-Governance-Security-Administration-Product-Completion.md) — Cierre de producto de Identity Governance y Security Administration _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-239
+
+- [`EG-481`](../D:/SIF/engineering/specifications/WP-239/EG-481-OAuth21-Authorization-Server-Architecture.md) — Arquitectura de OAuth 2.1 Authorization Server _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-482`](../D:/SIF/engineering/specifications/WP-239/EG-482-OAuth21-Authorization-Code-PKCE-and-Redirect-URI-Validation.md) — Authorization Code, PKCE y validación estricta de Redirect URI en OAuth 2.1 _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-483`](../D:/SIF/engineering/specifications/WP-239/EG-483-OAuth21-Access-Refresh-Token-Lifetime-Rotation-and-Issuance.md) — Access Token, Refresh Token, Lifetime, Rotation and Token Issuance en OAuth 2.1 _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-484`](../D:/SIF/engineering/specifications/WP-239/EG-484-OAuth21-Client-Authentication-Confidential-Public-and-Private-Key-JWT.md) — Autenticación de clientes OAuth 2.1, clientes confidenciales/públicos y contratos private_key_jwt _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-485`](../D:/SIF/engineering/specifications/WP-239/EG-485-OAuth21-Token-Introspection-Revocation-and-Active-Token-Semantics.md) — Introspección, revocación y semántica de token activo en OAuth 2.1 _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-486`](../D:/SIF/engineering/specifications/WP-239/EG-486-OAuth21-JWT-Access-Tokens-Signing-Claims-Audience-and-Key-Rotation.md) — JWT Access Tokens, firma, claims, audience y rotación de claves en OAuth 2.1 _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-487`](../D:/SIF/engineering/specifications/WP-239/EG-487-OAuth21-Device-Authorization-Client-Credentials-and-Machine-Identity.md) — Device Authorization Flow, Client Credentials y Machine Identity en OAuth 2.1 _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-488`](../D:/SIF/engineering/specifications/WP-239/EG-488-OAuth21-Authorization-Server-Product-Completion.md) — Cierre de producto del OAuth 2.1 Authorization Server _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 

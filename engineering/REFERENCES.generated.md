@@ -6,9 +6,9 @@
 
 | Metric | Value |
 |---|---:|
-| Documents | 702 |
-| References | 546 |
-| Resolved | 546 |
+| Documents | 736 |
+| References | 580 |
+| Resolved | 580 |
 | Broken | 0 |
 | Isolated documents | 157 |
 
@@ -18,7 +18,7 @@
 |---|---:|
 | implements | 1 |
 | reference | 15 |
-| related | 530 |
+| related | 564 |
 
 ## Broken References
 
@@ -28,7 +28,7 @@ _No broken references._
 
 | Document | Type | Incoming | Outgoing | Broken outgoing |
 |---|---|---:|---:|---:|
-| `ADR-0005` — Adopt a Capability-Driven Runtime | GOVERNANCEDOCUMENT | 526 | 1 | 0 |
+| `ADR-0005` — Adopt a Capability-Driven Runtime | GOVERNANCEDOCUMENT | 560 | 1 | 0 |
 | `ADR-0004` — Modular Engineering Specifications | GOVERNANCEDOCUMENT | 4 | 0 | 0 |
 | `EG-009` — Reference Resolution | NORMATIVEDOCUMENT | 3 | 0 | 0 |
 | `EG-032` — Built-in Analyzers Architecture | NORMATIVEDOCUMENT | 2 | 3 | 0 |
@@ -485,6 +485,22 @@ _No broken references._
 | `EG-470` | `ADR-0005` | related | — |
 | `EG-471` | `ADR-0005` | related | — |
 | `EG-472` | `ADR-0005` | related | — |
+| `EG-473` | `ADR-0005` | related | — |
+| `EG-474` | `ADR-0005` | related | — |
+| `EG-475` | `ADR-0005` | related | — |
+| `EG-476` | `ADR-0005` | related | — |
+| `EG-477` | `ADR-0005` | related | — |
+| `EG-478` | `ADR-0005` | related | — |
+| `EG-479` | `ADR-0005` | related | — |
+| `EG-480` | `ADR-0005` | related | — |
+| `EG-481` | `ADR-0005` | related | — |
+| `EG-482` | `ADR-0005` | related | — |
+| `EG-483` | `ADR-0005` | related | — |
+| `EG-484` | `ADR-0005` | related | — |
+| `EG-485` | `ADR-0005` | related | — |
+| `EG-486` | `ADR-0005` | related | — |
+| `EG-487` | `ADR-0005` | related | — |
+| `EG-488` | `ADR-0005` | related | — |
 | `WP-110-IMPLEMENTATION-REPORT` | `EG-051` | reference | — |
 | `WP-200-A1-IMPLEMENTATION-REPORT` | `ADR-0005` | related | — |
 | `WP-200-ARCHITECTURE-REVIEW` | `ADR-0005` | related | — |
@@ -754,3 +770,21 @@ _No broken references._
 | `WP-237-I6-REVIEW` | `ADR-0005` | related | — |
 | `WP-237-I7-REVIEW` | `ADR-0005` | related | — |
 | `WP-237-I8-REVIEW` | `ADR-0005` | related | — |
+| `WP-238-ADOPTION-GUIDE` | `ADR-0005` | related | — |
+| `WP-238-I1-REVIEW` | `ADR-0005` | related | — |
+| `WP-238-I2-REVIEW` | `ADR-0005` | related | — |
+| `WP-238-I3-REVIEW` | `ADR-0005` | related | — |
+| `WP-238-I4-REVIEW` | `ADR-0005` | related | — |
+| `WP-238-I5-REVIEW` | `ADR-0005` | related | — |
+| `WP-238-I6-REVIEW` | `ADR-0005` | related | — |
+| `WP-238-I7-REVIEW` | `ADR-0005` | related | — |
+| `WP-238-I8-REVIEW` | `ADR-0005` | related | — |
+| `WP-239-ADOPTION-GUIDE` | `ADR-0005` | related | — |
+| `WP-239-I1-REVIEW` | `ADR-0005` | related | — |
+| `WP-239-I2-REVIEW` | `ADR-0005` | related | — |
+| `WP-239-I3-REVIEW` | `ADR-0005` | related | — |
+| `WP-239-I4-REVIEW` | `ADR-0005` | related | — |
+| `WP-239-I5-REVIEW` | `ADR-0005` | related | — |
+| `WP-239-I6-REVIEW` | `ADR-0005` | related | — |
+| `WP-239-I7-REVIEW` | `ADR-0005` | related | — |
+| `WP-239-I8-REVIEW` | `ADR-0005` | related | — |

@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 702
-- Resolved references: 546
+- Total documents: 736
+- Resolved references: 580
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
-- INFORMATIVEDOCUMENT: 45
-- NORMATIVEDOCUMENT: 351
-- REVIEWDOCUMENT: 292
+- INFORMATIVEDOCUMENT: 47
+- NORMATIVEDOCUMENT: 367
+- REVIEWDOCUMENT: 308
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 665
+- Draft for Review: 699
 
 ## Documents
 
@@ -91,6 +91,8 @@
 | WP-235-MIGRATION-GUIDE | Guía de adopción de operaciones de seguridad federada | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-235-FEDERATED-SECURITY-OPERATIONS-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-235-FEDERATED-SECURITY-OPERATIONS-MIGRATION-GUIDE.md) |
 | WP-236-MIGRATION-GUIDE | Guía de adopción de federación SAML 2.0 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-236-SAML2-FEDERATION-MIGRATION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-236-SAML2-FEDERATION-MIGRATION-GUIDE.md) |
 | WP-237-ADOPTION-GUIDE | Guía de adopción SCIM 2.0 Identity Provisioning | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-237-SCIM2-IDENTITY-PROVISIONING-ADOPTION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-237-SCIM2-IDENTITY-PROVISIONING-ADOPTION-GUIDE.md) |
+| WP-238-ADOPTION-GUIDE | Guía de adopción de Identity Governance y Security Administration | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-238-IDENTITY-GOVERNANCE-ADOPTION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-238-IDENTITY-GOVERNANCE-ADOPTION-GUIDE.md) |
+| WP-239-ADOPTION-GUIDE | Guía de adopción del OAuth 2.1 Authorization Server | Draft for Review | 0.1.0 | [`D:/SIF/engineering/migrations/WP-239-OAUTH21-AUTHORIZATION-SERVER-ADOPTION-GUIDE.md`](../D:/SIF/engineering/migrations/WP-239-OAUTH21-AUTHORIZATION-SERVER-ADOPTION-GUIDE.md) |
 
 ### NORMATIVEDOCUMENT
 
@@ -429,6 +431,22 @@
 | EG-470 | Versionado de recursos SCIM, ETag, precondiciones y control de concurrencia | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-237/EG-470-SCIM-Resource-Versioning-ETag-Preconditions-and-Concurrency-Control.md`](../D:/SIF/engineering/specifications/WP-237/EG-470-SCIM-Resource-Versioning-ETag-Preconditions-and-Concurrency-Control.md) |
 | EG-471 | Ciclo de vida SCIM, desactivación, consistencia de membresías y fronteras de auditoría | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-237/EG-471-SCIM-Provisioning-Lifecycle-Deactivation-Membership-and-Audit-Boundaries.md`](../D:/SIF/engineering/specifications/WP-237/EG-471-SCIM-Provisioning-Lifecycle-Deactivation-Membership-and-Audit-Boundaries.md) |
 | EG-472 | Cierre de producto SCIM 2.0 Identity Provisioning | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-237/EG-472-SCIM2-Identity-Provisioning-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-237/EG-472-SCIM2-Identity-Provisioning-Product-Completion.md) |
+| EG-473 | Arquitectura de Identity Governance y Security Administration | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-238/EG-473-Identity-Governance-Security-Administration-Architecture.md`](../D:/SIF/engineering/specifications/WP-238/EG-473-Identity-Governance-Security-Administration-Architecture.md) |
+| EG-474 | Catálogo de entitlements, asignaciones efectivas y campañas de revisión de acceso | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-238/EG-474-Entitlement-Catalog-Effective-Assignments-and-Access-Review-Campaigns.md`](../D:/SIF/engineering/specifications/WP-238/EG-474-Entitlement-Catalog-Effective-Assignments-and-Access-Review-Campaigns.md) |
+| EG-475 | Generación de ítems de revisión, asignación de reviewers y estado de workflow | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-238/EG-475-Access-Review-Item-Generation-Reviewer-Assignment-and-Workflow-State.md`](../D:/SIF/engineering/specifications/WP-238/EG-475-Access-Review-Item-Generation-Reviewer-Assignment-and-Workflow-State.md) |
+| EG-476 | Transiciones de workflow, deadlines, escalación y delegación de revisiones de acceso | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-238/EG-476-Access-Review-Workflow-Transitions-Deadlines-Escalation-and-Delegation.md`](../D:/SIF/engineering/specifications/WP-238/EG-476-Access-Review-Workflow-Transitions-Deadlines-Escalation-and-Delegation.md) |
+| EG-477 | Segregation of Duties, reglas de conflicto y evaluación de riesgo de gobierno | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-238/EG-477-Segregation-of-Duties-Conflict-Rules-and-Governance-Risk-Evaluation.md`](../D:/SIF/engineering/specifications/WP-238/EG-477-Segregation-of-Duties-Conflict-Rules-and-Governance-Risk-Evaluation.md) |
+| EG-478 | Excepciones de gobierno, aceptación de riesgo y controles compensatorios | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-238/EG-478-Governance-Exceptions-Risk-Acceptance-and-Compensating-Controls.md`](../D:/SIF/engineering/specifications/WP-238/EG-478-Governance-Exceptions-Risk-Acceptance-and-Compensating-Controls.md) |
+| EG-479 | Planificación de remediación de gobierno, procesamiento de expiraciones y fronteras de auditoría/eventos | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-238/EG-479-Governance-Remediation-Planning.md`](../D:/SIF/engineering/specifications/WP-238/EG-479-Governance-Remediation-Planning.md) |
+| EG-480 | Cierre de producto de Identity Governance y Security Administration | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-238/EG-480-Identity-Governance-Security-Administration-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-238/EG-480-Identity-Governance-Security-Administration-Product-Completion.md) |
+| EG-481 | Arquitectura de OAuth 2.1 Authorization Server | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-239/EG-481-OAuth21-Authorization-Server-Architecture.md`](../D:/SIF/engineering/specifications/WP-239/EG-481-OAuth21-Authorization-Server-Architecture.md) |
+| EG-482 | Authorization Code, PKCE y validación estricta de Redirect URI en OAuth 2.1 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-239/EG-482-OAuth21-Authorization-Code-PKCE-and-Redirect-URI-Validation.md`](../D:/SIF/engineering/specifications/WP-239/EG-482-OAuth21-Authorization-Code-PKCE-and-Redirect-URI-Validation.md) |
+| EG-483 | Access Token, Refresh Token, Lifetime, Rotation and Token Issuance en OAuth 2.1 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-239/EG-483-OAuth21-Access-Refresh-Token-Lifetime-Rotation-and-Issuance.md`](../D:/SIF/engineering/specifications/WP-239/EG-483-OAuth21-Access-Refresh-Token-Lifetime-Rotation-and-Issuance.md) |
+| EG-484 | Autenticación de clientes OAuth 2.1, clientes confidenciales/públicos y contratos private_key_jwt | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-239/EG-484-OAuth21-Client-Authentication-Confidential-Public-and-Private-Key-JWT.md`](../D:/SIF/engineering/specifications/WP-239/EG-484-OAuth21-Client-Authentication-Confidential-Public-and-Private-Key-JWT.md) |
+| EG-485 | Introspección, revocación y semántica de token activo en OAuth 2.1 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-239/EG-485-OAuth21-Token-Introspection-Revocation-and-Active-Token-Semantics.md`](../D:/SIF/engineering/specifications/WP-239/EG-485-OAuth21-Token-Introspection-Revocation-and-Active-Token-Semantics.md) |
+| EG-486 | JWT Access Tokens, firma, claims, audience y rotación de claves en OAuth 2.1 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-239/EG-486-OAuth21-JWT-Access-Tokens-Signing-Claims-Audience-and-Key-Rotation.md`](../D:/SIF/engineering/specifications/WP-239/EG-486-OAuth21-JWT-Access-Tokens-Signing-Claims-Audience-and-Key-Rotation.md) |
+| EG-487 | Device Authorization Flow, Client Credentials y Machine Identity en OAuth 2.1 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-239/EG-487-OAuth21-Device-Authorization-Client-Credentials-and-Machine-Identity.md`](../D:/SIF/engineering/specifications/WP-239/EG-487-OAuth21-Device-Authorization-Client-Credentials-and-Machine-Identity.md) |
+| EG-488 | Cierre de producto del OAuth 2.1 Authorization Server | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-239/EG-488-OAuth21-Authorization-Server-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-239/EG-488-OAuth21-Authorization-Server-Product-Completion.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -744,3 +762,19 @@
 | WP-237-I6-REVIEW | WP-237 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-237-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-237-I6-Implementation-Review.md) |
 | WP-237-I7-REVIEW | WP-237 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-237-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-237-I7-Implementation-Review.md) |
 | WP-237-I8-REVIEW | WP-237 I8 Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-237-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-237-I8-Product-Completion-Review.md) |
+| WP-238-I1-REVIEW | WP-238 I1 Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-238-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-238-I1-Architecture-Review.md) |
+| WP-238-I2-REVIEW | WP-238 I2 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-238-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-238-I2-Implementation-Review.md) |
+| WP-238-I3-REVIEW | WP-238 I3 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-238-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-238-I3-Implementation-Review.md) |
+| WP-238-I4-REVIEW | WP-238 I4 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-238-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-238-I4-Implementation-Review.md) |
+| WP-238-I5-REVIEW | WP-238 I5 Implementation Review | Draft for Review | 0.1.1 | [`D:/SIF/engineering/reviews/WP-238-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-238-I5-Implementation-Review.md) |
+| WP-238-I6-REVIEW | WP-238 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-238-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-238-I6-Implementation-Review.md) |
+| WP-238-I7-REVIEW | WP-238 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-238-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-238-I7-Implementation-Review.md) |
+| WP-238-I8-REVIEW | WP-238 I8 Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-238-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-238-I8-Product-Completion-Review.md) |
+| WP-239-I1-REVIEW | WP-239 I1 Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-239-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-239-I1-Architecture-Review.md) |
+| WP-239-I2-REVIEW | WP-239 I2 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-239-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-239-I2-Implementation-Review.md) |
+| WP-239-I3-REVIEW | WP-239 I3 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-239-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-239-I3-Implementation-Review.md) |
+| WP-239-I4-REVIEW | WP-239 I4 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-239-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-239-I4-Implementation-Review.md) |
+| WP-239-I5-REVIEW | WP-239 I5 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-239-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-239-I5-Implementation-Review.md) |
+| WP-239-I6-REVIEW | WP-239 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-239-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-239-I6-Implementation-Review.md) |
+| WP-239-I7-REVIEW | WP-239 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-239-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-239-I7-Implementation-Review.md) |
+| WP-239-I8-REVIEW | WP-239 I8 Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-239-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-239-I8-Product-Completion-Review.md) |
