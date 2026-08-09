@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 736
-- Resolved references: 580
+- Total documents: 752
+- Resolved references: 596
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
 - INFORMATIVEDOCUMENT: 47
-- NORMATIVEDOCUMENT: 367
-- REVIEWDOCUMENT: 308
+- NORMATIVEDOCUMENT: 375
+- REVIEWDOCUMENT: 316
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 699
+- Draft for Review: 715
 
 ## Documents
 
@@ -447,6 +447,14 @@
 | EG-486 | JWT Access Tokens, firma, claims, audience y rotación de claves en OAuth 2.1 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-239/EG-486-OAuth21-JWT-Access-Tokens-Signing-Claims-Audience-and-Key-Rotation.md`](../D:/SIF/engineering/specifications/WP-239/EG-486-OAuth21-JWT-Access-Tokens-Signing-Claims-Audience-and-Key-Rotation.md) |
 | EG-487 | Device Authorization Flow, Client Credentials y Machine Identity en OAuth 2.1 | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-239/EG-487-OAuth21-Device-Authorization-Client-Credentials-and-Machine-Identity.md`](../D:/SIF/engineering/specifications/WP-239/EG-487-OAuth21-Device-Authorization-Client-Credentials-and-Machine-Identity.md) |
 | EG-488 | Cierre de producto del OAuth 2.1 Authorization Server | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-239/EG-488-OAuth21-Authorization-Server-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-239/EG-488-OAuth21-Authorization-Server-Product-Completion.md) |
+| EG-489 | Arquitectura de seguridad OAuth avanzada y contratos de capacidades | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-240/EG-489-Advanced-OAuth-Security-Architecture-and-Capability-Contracts.md`](../D:/SIF/engineering/specifications/WP-240/EG-489-Advanced-OAuth-Security-Architecture-and-Capability-Contracts.md) |
+| EG-490 | Pushed Authorization Requests | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-240/EG-490-Pushed-Authorization-Requests.md`](../D:/SIF/engineering/specifications/WP-240/EG-490-Pushed-Authorization-Requests.md) |
+| EG-491 | JWT Secured Authorization Requests | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-240/EG-491-JWT-Secured-Authorization-Requests.md`](../D:/SIF/engineering/specifications/WP-240/EG-491-JWT-Secured-Authorization-Requests.md) |
+| EG-492 | Rich Authorization Requests | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-240/EG-492-Rich-Authorization-Requests.md`](../D:/SIF/engineering/specifications/WP-240/EG-492-Rich-Authorization-Requests.md) |
+| EG-493 | DPoP Proof Key Binding and Replay Protection | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-240/EG-493-DPoP-Proof-Key-Binding-and-Replay-Protection.md`](../D:/SIF/engineering/specifications/WP-240/EG-493-DPoP-Proof-Key-Binding-and-Replay-Protection.md) |
+| EG-494 | Sender-Constrained Access Tokens and DPoP Token Binding | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-240/EG-494-Sender-Constrained-Access-Tokens-and-DPoP-Token-Binding.md`](../D:/SIF/engineering/specifications/WP-240/EG-494-Sender-Constrained-Access-Tokens-and-DPoP-Token-Binding.md) |
+| EG-495 | Resource Server Enforcement and Protected Resource Validation | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-240/EG-495-Resource-Server-Enforcement-and-Protected-Resource-Validation.md`](../D:/SIF/engineering/specifications/WP-240/EG-495-Resource-Server-Enforcement-and-Protected-Resource-Validation.md) |
+| EG-496 | Advanced OAuth Security Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-240/EG-496-Advanced-OAuth-Security-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-240/EG-496-Advanced-OAuth-Security-Product-Completion.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -778,3 +786,11 @@
 | WP-239-I6-REVIEW | WP-239 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-239-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-239-I6-Implementation-Review.md) |
 | WP-239-I7-REVIEW | WP-239 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-239-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-239-I7-Implementation-Review.md) |
 | WP-239-I8-REVIEW | WP-239 I8 Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-239-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-239-I8-Product-Completion-Review.md) |
+| WP-240-I1-REVIEW | WP-240 I1 Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-240-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-240-I1-Architecture-Review.md) |
+| WP-240-I2-REVIEW | WP-240 I2 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-240-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-240-I2-Implementation-Review.md) |
+| WP-240-I3-REVIEW | WP-240 I3 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-240-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-240-I3-Implementation-Review.md) |
+| WP-240-I4-REVIEW | WP-240 I4 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-240-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-240-I4-Implementation-Review.md) |
+| WP-240-I5-REVIEW | WP-240 I5 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-240-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-240-I5-Implementation-Review.md) |
+| WP-240-I6-REVIEW | WP-240 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-240-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-240-I6-Implementation-Review.md) |
+| WP-240-I7-REVIEW | WP-240 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-240-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-240-I7-Implementation-Review.md) |
+| WP-240-I8-REVIEW | WP-240 I8 Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-240-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-240-I8-Product-Completion-Review.md) |

@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **736**
+Governed documents: **752**
 
 ## Generated views
 
@@ -158,6 +158,10 @@ Governed documents: **736**
 ### Architecture Review — WP-239
 
 - [`WP-239-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-239-I1-Architecture-Review.md) — WP-239 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Architecture Review — WP-240
+
+- [`WP-240-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-240-I1-Architecture-Review.md) — WP-240 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Constitution
 
@@ -602,6 +606,16 @@ Governed documents: **736**
 - [`WP-239-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-239-I6-Implementation-Review.md) — WP-239 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-239-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-239-I7-Implementation-Review.md) — WP-239 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-239-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-239-I8-Product-Completion-Review.md) — WP-239 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Implementation Review — WP-240
+
+- [`WP-240-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-240-I2-Implementation-Review.md) — WP-240 I2 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-240-I3-REVIEW`](../D:/SIF/engineering/reviews/WP-240-I3-Implementation-Review.md) — WP-240 I3 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-240-I4-REVIEW`](../D:/SIF/engineering/reviews/WP-240-I4-Implementation-Review.md) — WP-240 I4 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-240-I5-REVIEW`](../D:/SIF/engineering/reviews/WP-240-I5-Implementation-Review.md) — WP-240 I5 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-240-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-240-I6-Implementation-Review.md) — WP-240 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-240-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-240-I7-Implementation-Review.md) — WP-240 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-240-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-240-I8-Product-Completion-Review.md) — WP-240 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Informative Document
 
@@ -1239,6 +1253,17 @@ Governed documents: **736**
 - [`EG-486`](../D:/SIF/engineering/specifications/WP-239/EG-486-OAuth21-JWT-Access-Tokens-Signing-Claims-Audience-and-Key-Rotation.md) — JWT Access Tokens, firma, claims, audience y rotación de claves en OAuth 2.1 _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-487`](../D:/SIF/engineering/specifications/WP-239/EG-487-OAuth21-Device-Authorization-Client-Credentials-and-Machine-Identity.md) — Device Authorization Flow, Client Credentials y Machine Identity en OAuth 2.1 _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-488`](../D:/SIF/engineering/specifications/WP-239/EG-488-OAuth21-Authorization-Server-Product-Completion.md) — Cierre de producto del OAuth 2.1 Authorization Server _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-240
+
+- [`EG-489`](../D:/SIF/engineering/specifications/WP-240/EG-489-Advanced-OAuth-Security-Architecture-and-Capability-Contracts.md) — Arquitectura de seguridad OAuth avanzada y contratos de capacidades _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-490`](../D:/SIF/engineering/specifications/WP-240/EG-490-Pushed-Authorization-Requests.md) — Pushed Authorization Requests _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-491`](../D:/SIF/engineering/specifications/WP-240/EG-491-JWT-Secured-Authorization-Requests.md) — JWT Secured Authorization Requests _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-492`](../D:/SIF/engineering/specifications/WP-240/EG-492-Rich-Authorization-Requests.md) — Rich Authorization Requests _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-493`](../D:/SIF/engineering/specifications/WP-240/EG-493-DPoP-Proof-Key-Binding-and-Replay-Protection.md) — DPoP Proof Key Binding and Replay Protection _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-494`](../D:/SIF/engineering/specifications/WP-240/EG-494-Sender-Constrained-Access-Tokens-and-DPoP-Token-Binding.md) — Sender-Constrained Access Tokens and DPoP Token Binding _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-495`](../D:/SIF/engineering/specifications/WP-240/EG-495-Resource-Server-Enforcement-and-Protected-Resource-Validation.md) — Resource Server Enforcement and Protected Resource Validation _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-496`](../D:/SIF/engineering/specifications/WP-240/EG-496-Advanced-OAuth-Security-Product-Completion.md) — Advanced OAuth Security Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 
