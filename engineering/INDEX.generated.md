@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 800
-- Resolved references: 644
+- Total documents: 816
+- Resolved references: 660
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
 - INFORMATIVEDOCUMENT: 47
-- NORMATIVEDOCUMENT: 399
-- REVIEWDOCUMENT: 340
+- NORMATIVEDOCUMENT: 407
+- REVIEWDOCUMENT: 348
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 763
+- Draft for Review: 779
 
 ## Documents
 
@@ -479,6 +479,14 @@
 | EG-518 | Continuous Session and Token Reaction Policies | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-243/EG-518-Continuous-Session-and-Token-Reaction-Policies.md`](../D:/SIF/engineering/specifications/WP-243/EG-518-Continuous-Session-and-Token-Reaction-Policies.md) |
 | EG-519 | SCIM Security Event Interoperability and Operational Readiness | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-243/EG-519-SCIM-Security-Event-Interoperability-and-Operational-Readiness.md`](../D:/SIF/engineering/specifications/WP-243/EG-519-SCIM-Security-Event-Interoperability-and-Operational-Readiness.md) |
 | EG-520 | Shared Signals and Continuous Access Evaluation Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-243/EG-520-Shared-Signals-and-Continuous-Access-Evaluation-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-243/EG-520-Shared-Signals-and-Continuous-Access-Evaluation-Product-Completion.md) |
+| EG-521 | Verifiable Credentials and High Assurance Identity Presentation Architecture | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-244/EG-521-Verifiable-Credentials-and-High-Assurance-Identity-Presentation-Architecture.md`](../D:/SIF/engineering/specifications/WP-244/EG-521-Verifiable-Credentials-and-High-Assurance-Identity-Presentation-Architecture.md) |
+| EG-522 | Presentation Request Response and Nonce Audience Binding | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-244/EG-522-Presentation-Request-Response-and-Nonce-Audience-Binding.md`](../D:/SIF/engineering/specifications/WP-244/EG-522-Presentation-Request-Response-and-Nonce-Audience-Binding.md) |
+| EG-523 | Credential Formats and Trust Validation Boundaries | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-244/EG-523-Credential-Formats-and-Trust-Validation-Boundaries.md`](../D:/SIF/engineering/specifications/WP-244/EG-523-Credential-Formats-and-Trust-Validation-Boundaries.md) |
+| EG-524 | Selective Disclosure and Holder Binding | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-244/EG-524-Selective-Disclosure-and-Holder-Binding.md`](../D:/SIF/engineering/specifications/WP-244/EG-524-Selective-Disclosure-and-Holder-Binding.md) |
+| EG-525 | Identity Assurance Verified Claims and Evidence | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-244/EG-525-Identity-Assurance-Verified-Claims-and-Evidence.md`](../D:/SIF/engineering/specifications/WP-244/EG-525-Identity-Assurance-Verified-Claims-and-Evidence.md) |
+| EG-526 | Credential Status Revocation and Freshness | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-244/EG-526-Credential-Status-Revocation-and-Freshness.md`](../D:/SIF/engineering/specifications/WP-244/EG-526-Credential-Status-Revocation-and-Freshness.md) |
+| EG-527 | High Assurance Interoperability and Operational Readiness | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-244/EG-527-High-Assurance-Interoperability-and-Operational-Readiness.md`](../D:/SIF/engineering/specifications/WP-244/EG-527-High-Assurance-Interoperability-and-Operational-Readiness.md) |
+| EG-528 | Verifiable Credentials and High Assurance Identity Presentation Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-244/EG-528-Verifiable-Credentials-and-High-Assurance-Identity-Presentation-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-244/EG-528-Verifiable-Credentials-and-High-Assurance-Identity-Presentation-Product-Completion.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -842,3 +850,11 @@
 | WP-243-I6-REVIEW | WP-243 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-243-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-243-I6-Implementation-Review.md) |
 | WP-243-I7-REVIEW | WP-243 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-243-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-243-I7-Implementation-Review.md) |
 | WP-243-I8-REVIEW | WP-243 I8 Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-243-I8-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-243-I8-Implementation-Review.md) |
+| WP-244-I1-REVIEW | WP-244 I1 Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-244-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-244-I1-Architecture-Review.md) |
+| WP-244-I2-REVIEW | WP-244 I2 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-244-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-244-I2-Implementation-Review.md) |
+| WP-244-I3-REVIEW | WP-244 I3 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-244-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-244-I3-Implementation-Review.md) |
+| WP-244-I4-REVIEW | WP-244 I4 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-244-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-244-I4-Implementation-Review.md) |
+| WP-244-I5-REVIEW | WP-244 I5 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-244-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-244-I5-Implementation-Review.md) |
+| WP-244-I6-REVIEW | WP-244 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-244-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-244-I6-Implementation-Review.md) |
+| WP-244-I7-REVIEW | WP-244 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-244-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-244-I7-Implementation-Review.md) |
+| WP-244-I8-REVIEW | WP-244 I8 Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-244-I8-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-244-I8-Implementation-Review.md) |
