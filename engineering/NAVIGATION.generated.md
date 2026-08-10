@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **768**
+Governed documents: **784**
 
 ## Generated views
 
@@ -166,6 +166,10 @@ Governed documents: **768**
 ### Architecture Review — WP-241
 
 - [`WP-241-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-241-I1-Architecture-Review.md) — WP-241 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Architecture Review — WP-242
+
+- [`WP-242-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-242-I1-Architecture-Review.md) — WP-242 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Constitution
 
@@ -630,6 +634,16 @@ Governed documents: **768**
 - [`WP-241-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-241-I6-Implementation-Review.md) — WP-241 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-241-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-241-I7-Implementation-Review.md) — WP-241 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-241-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-241-I8-Implementation-Review.md) — WP-241 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Implementation Review — WP-242
+
+- [`WP-242-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-242-I2-Implementation-Review.md) — WP-242 I2 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-242-I3-REVIEW`](../D:/SIF/engineering/reviews/WP-242-I3-Implementation-Review.md) — WP-242 I3 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-242-I4-REVIEW`](../D:/SIF/engineering/reviews/WP-242-I4-Implementation-Review.md) — WP-242 I4 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-242-I5-REVIEW`](../D:/SIF/engineering/reviews/WP-242-I5-Implementation-Review.md) — WP-242 I5 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-242-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-242-I6-Implementation-Review.md) — WP-242 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-242-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-242-I7-Implementation-Review.md) — WP-242 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-242-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-242-I8-Implementation-Review.md) — WP-242 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Informative Document
 
@@ -1289,6 +1303,17 @@ Governed documents: **768**
 - [`EG-502`](../D:/SIF/engineering/specifications/WP-241/EG-502-Client-Metadata-Validation-Software-Statements-and-Security-Policy-Boundaries.md) — Client Metadata Validation, Software Statements and Security Policy Boundaries _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-503`](../D:/SIF/engineering/specifications/WP-241/EG-503-Issuer-Identification-Discovery-Resolution-Caching-and-Freshness-Boundaries.md) — Issuer Identification, Discovery Resolution, Caching and Freshness Boundaries _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-504`](../D:/SIF/engineering/specifications/WP-241/EG-504-OAuth-Metadata-Discovery-and-Dynamic-Client-Lifecycle-Product-Completion.md) — OAuth Metadata, Discovery and Dynamic Client Lifecycle Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-242
+
+- [`EG-505`](../D:/SIF/engineering/specifications/WP-242/EG-505-FAPI20-High-Security-API-Profile-Architecture.md) — FAPI 2.0 High-Security API Profile Architecture _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-506`](../D:/SIF/engineering/specifications/WP-242/EG-506-FAPI20-Client-and-Authorization-Server-Security-Profile.md) — FAPI 2.0 Client and Authorization Server Security Profile _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-507`](../D:/SIF/engineering/specifications/WP-242/EG-507-FAPI20-PAR-PKCE-Issuer-and-Metadata-Conformance.md) — FAPI 2.0 PAR, PKCE, Issuer and Metadata Conformance _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-508`](../D:/SIF/engineering/specifications/WP-242/EG-508-FAPI20-Sender-Constrained-Tokens-DPoP-and-mTLS-Policy.md) — FAPI 2.0 Sender-Constrained Tokens DPoP and mTLS Policy _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-509`](../D:/SIF/engineering/specifications/WP-242/EG-509-FAPI20-Resource-Server-Enforcement-Profile.md) — FAPI 2.0 Resource Server Enforcement Profile _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-510`](../D:/SIF/engineering/specifications/WP-242/EG-510-FAPI20-Message-Signing-JAR-JARM-and-Signed-Introspection-Boundaries.md) — FAPI 2.0 Message Signing JAR JARM and Signed Introspection Boundaries _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-511`](../D:/SIF/engineering/specifications/WP-242/EG-511-FAPI20-Ecosystem-Profile-Conformance-and-Deployment-Policy.md) — FAPI 2.0 Ecosystem Profile Conformance and Deployment Policy _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-512`](../D:/SIF/engineering/specifications/WP-242/EG-512-FAPI20-Product-Completion-and-Security-Readiness.md) — FAPI 2.0 Product Completion and Security Readiness _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 

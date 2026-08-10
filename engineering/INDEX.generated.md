@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 768
-- Resolved references: 612
+- Total documents: 784
+- Resolved references: 628
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
 - INFORMATIVEDOCUMENT: 47
-- NORMATIVEDOCUMENT: 383
-- REVIEWDOCUMENT: 324
+- NORMATIVEDOCUMENT: 391
+- REVIEWDOCUMENT: 332
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 731
+- Draft for Review: 747
 
 ## Documents
 
@@ -463,6 +463,14 @@
 | EG-502 | Client Metadata Validation, Software Statements and Security Policy Boundaries | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-241/EG-502-Client-Metadata-Validation-Software-Statements-and-Security-Policy-Boundaries.md`](../D:/SIF/engineering/specifications/WP-241/EG-502-Client-Metadata-Validation-Software-Statements-and-Security-Policy-Boundaries.md) |
 | EG-503 | Issuer Identification, Discovery Resolution, Caching and Freshness Boundaries | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-241/EG-503-Issuer-Identification-Discovery-Resolution-Caching-and-Freshness-Boundaries.md`](../D:/SIF/engineering/specifications/WP-241/EG-503-Issuer-Identification-Discovery-Resolution-Caching-and-Freshness-Boundaries.md) |
 | EG-504 | OAuth Metadata, Discovery and Dynamic Client Lifecycle Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-241/EG-504-OAuth-Metadata-Discovery-and-Dynamic-Client-Lifecycle-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-241/EG-504-OAuth-Metadata-Discovery-and-Dynamic-Client-Lifecycle-Product-Completion.md) |
+| EG-505 | FAPI 2.0 High-Security API Profile Architecture | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-242/EG-505-FAPI20-High-Security-API-Profile-Architecture.md`](../D:/SIF/engineering/specifications/WP-242/EG-505-FAPI20-High-Security-API-Profile-Architecture.md) |
+| EG-506 | FAPI 2.0 Client and Authorization Server Security Profile | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-242/EG-506-FAPI20-Client-and-Authorization-Server-Security-Profile.md`](../D:/SIF/engineering/specifications/WP-242/EG-506-FAPI20-Client-and-Authorization-Server-Security-Profile.md) |
+| EG-507 | FAPI 2.0 PAR, PKCE, Issuer and Metadata Conformance | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-242/EG-507-FAPI20-PAR-PKCE-Issuer-and-Metadata-Conformance.md`](../D:/SIF/engineering/specifications/WP-242/EG-507-FAPI20-PAR-PKCE-Issuer-and-Metadata-Conformance.md) |
+| EG-508 | FAPI 2.0 Sender-Constrained Tokens DPoP and mTLS Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-242/EG-508-FAPI20-Sender-Constrained-Tokens-DPoP-and-mTLS-Policy.md`](../D:/SIF/engineering/specifications/WP-242/EG-508-FAPI20-Sender-Constrained-Tokens-DPoP-and-mTLS-Policy.md) |
+| EG-509 | FAPI 2.0 Resource Server Enforcement Profile | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-242/EG-509-FAPI20-Resource-Server-Enforcement-Profile.md`](../D:/SIF/engineering/specifications/WP-242/EG-509-FAPI20-Resource-Server-Enforcement-Profile.md) |
+| EG-510 | FAPI 2.0 Message Signing JAR JARM and Signed Introspection Boundaries | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-242/EG-510-FAPI20-Message-Signing-JAR-JARM-and-Signed-Introspection-Boundaries.md`](../D:/SIF/engineering/specifications/WP-242/EG-510-FAPI20-Message-Signing-JAR-JARM-and-Signed-Introspection-Boundaries.md) |
+| EG-511 | FAPI 2.0 Ecosystem Profile Conformance and Deployment Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-242/EG-511-FAPI20-Ecosystem-Profile-Conformance-and-Deployment-Policy.md`](../D:/SIF/engineering/specifications/WP-242/EG-511-FAPI20-Ecosystem-Profile-Conformance-and-Deployment-Policy.md) |
+| EG-512 | FAPI 2.0 Product Completion and Security Readiness | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-242/EG-512-FAPI20-Product-Completion-and-Security-Readiness.md`](../D:/SIF/engineering/specifications/WP-242/EG-512-FAPI20-Product-Completion-and-Security-Readiness.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -810,3 +818,11 @@
 | WP-241-I6-REVIEW | WP-241 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-241-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-241-I6-Implementation-Review.md) |
 | WP-241-I7-REVIEW | WP-241 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-241-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-241-I7-Implementation-Review.md) |
 | WP-241-I8-REVIEW | WP-241 I8 Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-241-I8-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-241-I8-Implementation-Review.md) |
+| WP-242-I1-REVIEW | WP-242 I1 Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-242-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-242-I1-Architecture-Review.md) |
+| WP-242-I2-REVIEW | WP-242 I2 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-242-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-242-I2-Implementation-Review.md) |
+| WP-242-I3-REVIEW | WP-242 I3 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-242-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-242-I3-Implementation-Review.md) |
+| WP-242-I4-REVIEW | WP-242 I4 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-242-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-242-I4-Implementation-Review.md) |
+| WP-242-I5-REVIEW | WP-242 I5 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-242-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-242-I5-Implementation-Review.md) |
+| WP-242-I6-REVIEW | WP-242 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-242-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-242-I6-Implementation-Review.md) |
+| WP-242-I7-REVIEW | WP-242 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-242-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-242-I7-Implementation-Review.md) |
+| WP-242-I8-REVIEW | WP-242 I8 Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-242-I8-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-242-I8-Implementation-Review.md) |
