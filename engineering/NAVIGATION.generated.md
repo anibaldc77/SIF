@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **784**
+Governed documents: **800**
 
 ## Generated views
 
@@ -170,6 +170,10 @@ Governed documents: **784**
 ### Architecture Review — WP-242
 
 - [`WP-242-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-242-I1-Architecture-Review.md) — WP-242 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Architecture Review — WP-243
+
+- [`WP-243-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-243-I1-Architecture-Review.md) — WP-243 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Constitution
 
@@ -644,6 +648,16 @@ Governed documents: **784**
 - [`WP-242-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-242-I6-Implementation-Review.md) — WP-242 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-242-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-242-I7-Implementation-Review.md) — WP-242 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-242-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-242-I8-Implementation-Review.md) — WP-242 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Implementation Review — WP-243
+
+- [`WP-243-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-243-I2-Implementation-Review.md) — WP-243 I2 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-243-I3-REVIEW`](../D:/SIF/engineering/reviews/WP-243-I3-Implementation-Review.md) — WP-243 I3 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-243-I4-REVIEW`](../D:/SIF/engineering/reviews/WP-243-I4-Implementation-Review.md) — WP-243 I4 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-243-I5-REVIEW`](../D:/SIF/engineering/reviews/WP-243-I5-Implementation-Review.md) — WP-243 I5 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-243-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-243-I6-Implementation-Review.md) — WP-243 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-243-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-243-I7-Implementation-Review.md) — WP-243 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-243-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-243-I8-Implementation-Review.md) — WP-243 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Informative Document
 
@@ -1314,6 +1328,17 @@ Governed documents: **784**
 - [`EG-510`](../D:/SIF/engineering/specifications/WP-242/EG-510-FAPI20-Message-Signing-JAR-JARM-and-Signed-Introspection-Boundaries.md) — FAPI 2.0 Message Signing JAR JARM and Signed Introspection Boundaries _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-511`](../D:/SIF/engineering/specifications/WP-242/EG-511-FAPI20-Ecosystem-Profile-Conformance-and-Deployment-Policy.md) — FAPI 2.0 Ecosystem Profile Conformance and Deployment Policy _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-512`](../D:/SIF/engineering/specifications/WP-242/EG-512-FAPI20-Product-Completion-and-Security-Readiness.md) — FAPI 2.0 Product Completion and Security Readiness _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-243
+
+- [`EG-513`](../D:/SIF/engineering/specifications/WP-243/EG-513-Shared-Signals-and-Continuous-Access-Evaluation-Architecture.md) — Shared Signals and Continuous Access Evaluation Architecture _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-514`](../D:/SIF/engineering/specifications/WP-243/EG-514-Security-Event-Token-Verification-Issuer-Audience-Time-and-Replay-Boundaries.md) — Security Event Token Verification Issuer Audience Time and Replay Boundaries _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-515`](../D:/SIF/engineering/specifications/WP-243/EG-515-Shared-Signals-Stream-Configuration-and-Delivery-Contracts.md) — Shared Signals Stream Configuration and Delivery Contracts _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-516`](../D:/SIF/engineering/specifications/WP-243/EG-516-CAEP-Session-and-Access-Events.md) — CAEP Session and Access Events _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-517`](../D:/SIF/engineering/specifications/WP-243/EG-517-RISC-Account-Security-Events.md) — RISC Account Security Events _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-518`](../D:/SIF/engineering/specifications/WP-243/EG-518-Continuous-Session-and-Token-Reaction-Policies.md) — Continuous Session and Token Reaction Policies _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-519`](../D:/SIF/engineering/specifications/WP-243/EG-519-SCIM-Security-Event-Interoperability-and-Operational-Readiness.md) — SCIM Security Event Interoperability and Operational Readiness _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-520`](../D:/SIF/engineering/specifications/WP-243/EG-520-Shared-Signals-and-Continuous-Access-Evaluation-Product-Completion.md) — Shared Signals and Continuous Access Evaluation Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 

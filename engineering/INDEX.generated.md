@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 784
-- Resolved references: 628
+- Total documents: 800
+- Resolved references: 644
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
 - INFORMATIVEDOCUMENT: 47
-- NORMATIVEDOCUMENT: 391
-- REVIEWDOCUMENT: 332
+- NORMATIVEDOCUMENT: 399
+- REVIEWDOCUMENT: 340
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 747
+- Draft for Review: 763
 
 ## Documents
 
@@ -471,6 +471,14 @@
 | EG-510 | FAPI 2.0 Message Signing JAR JARM and Signed Introspection Boundaries | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-242/EG-510-FAPI20-Message-Signing-JAR-JARM-and-Signed-Introspection-Boundaries.md`](../D:/SIF/engineering/specifications/WP-242/EG-510-FAPI20-Message-Signing-JAR-JARM-and-Signed-Introspection-Boundaries.md) |
 | EG-511 | FAPI 2.0 Ecosystem Profile Conformance and Deployment Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-242/EG-511-FAPI20-Ecosystem-Profile-Conformance-and-Deployment-Policy.md`](../D:/SIF/engineering/specifications/WP-242/EG-511-FAPI20-Ecosystem-Profile-Conformance-and-Deployment-Policy.md) |
 | EG-512 | FAPI 2.0 Product Completion and Security Readiness | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-242/EG-512-FAPI20-Product-Completion-and-Security-Readiness.md`](../D:/SIF/engineering/specifications/WP-242/EG-512-FAPI20-Product-Completion-and-Security-Readiness.md) |
+| EG-513 | Shared Signals and Continuous Access Evaluation Architecture | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-243/EG-513-Shared-Signals-and-Continuous-Access-Evaluation-Architecture.md`](../D:/SIF/engineering/specifications/WP-243/EG-513-Shared-Signals-and-Continuous-Access-Evaluation-Architecture.md) |
+| EG-514 | Security Event Token Verification Issuer Audience Time and Replay Boundaries | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-243/EG-514-Security-Event-Token-Verification-Issuer-Audience-Time-and-Replay-Boundaries.md`](../D:/SIF/engineering/specifications/WP-243/EG-514-Security-Event-Token-Verification-Issuer-Audience-Time-and-Replay-Boundaries.md) |
+| EG-515 | Shared Signals Stream Configuration and Delivery Contracts | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-243/EG-515-Shared-Signals-Stream-Configuration-and-Delivery-Contracts.md`](../D:/SIF/engineering/specifications/WP-243/EG-515-Shared-Signals-Stream-Configuration-and-Delivery-Contracts.md) |
+| EG-516 | CAEP Session and Access Events | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-243/EG-516-CAEP-Session-and-Access-Events.md`](../D:/SIF/engineering/specifications/WP-243/EG-516-CAEP-Session-and-Access-Events.md) |
+| EG-517 | RISC Account Security Events | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-243/EG-517-RISC-Account-Security-Events.md`](../D:/SIF/engineering/specifications/WP-243/EG-517-RISC-Account-Security-Events.md) |
+| EG-518 | Continuous Session and Token Reaction Policies | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-243/EG-518-Continuous-Session-and-Token-Reaction-Policies.md`](../D:/SIF/engineering/specifications/WP-243/EG-518-Continuous-Session-and-Token-Reaction-Policies.md) |
+| EG-519 | SCIM Security Event Interoperability and Operational Readiness | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-243/EG-519-SCIM-Security-Event-Interoperability-and-Operational-Readiness.md`](../D:/SIF/engineering/specifications/WP-243/EG-519-SCIM-Security-Event-Interoperability-and-Operational-Readiness.md) |
+| EG-520 | Shared Signals and Continuous Access Evaluation Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-243/EG-520-Shared-Signals-and-Continuous-Access-Evaluation-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-243/EG-520-Shared-Signals-and-Continuous-Access-Evaluation-Product-Completion.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -826,3 +834,11 @@
 | WP-242-I6-REVIEW | WP-242 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-242-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-242-I6-Implementation-Review.md) |
 | WP-242-I7-REVIEW | WP-242 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-242-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-242-I7-Implementation-Review.md) |
 | WP-242-I8-REVIEW | WP-242 I8 Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-242-I8-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-242-I8-Implementation-Review.md) |
+| WP-243-I1-REVIEW | WP-243 I1 Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-243-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-243-I1-Architecture-Review.md) |
+| WP-243-I2-REVIEW | WP-243 I2 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-243-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-243-I2-Implementation-Review.md) |
+| WP-243-I3-REVIEW | WP-243 I3 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-243-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-243-I3-Implementation-Review.md) |
+| WP-243-I4-REVIEW | WP-243 I4 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-243-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-243-I4-Implementation-Review.md) |
+| WP-243-I5-REVIEW | WP-243 I5 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-243-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-243-I5-Implementation-Review.md) |
+| WP-243-I6-REVIEW | WP-243 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-243-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-243-I6-Implementation-Review.md) |
+| WP-243-I7-REVIEW | WP-243 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-243-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-243-I7-Implementation-Review.md) |
+| WP-243-I8-REVIEW | WP-243 I8 Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-243-I8-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-243-I8-Implementation-Review.md) |
