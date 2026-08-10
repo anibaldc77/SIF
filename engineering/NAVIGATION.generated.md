@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **816**
+Governed documents: **832**
 
 ## Generated views
 
@@ -178,6 +178,10 @@ Governed documents: **816**
 ### Architecture Review — WP-244
 
 - [`WP-244-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-244-I1-Architecture-Review.md) — WP-244 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Architecture Review — WP-245
+
+- [`WP-245-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-245-I1-Architecture-Review.md) — WP-245 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Constitution
 
@@ -672,6 +676,16 @@ Governed documents: **816**
 - [`WP-244-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-244-I6-Implementation-Review.md) — WP-244 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-244-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-244-I7-Implementation-Review.md) — WP-244 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-244-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-244-I8-Implementation-Review.md) — WP-244 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Implementation Review — WP-245
+
+- [`WP-245-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-245-I2-Implementation-Review.md) — WP-245 I2 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-245-I3-REVIEW`](../D:/SIF/engineering/reviews/WP-245-I3-Implementation-Review.md) — WP-245 I3 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-245-I4-REVIEW`](../D:/SIF/engineering/reviews/WP-245-I4-Implementation-Review.md) — WP-245 I4 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-245-I5-REVIEW`](../D:/SIF/engineering/reviews/WP-245-I5-Implementation-Review.md) — WP-245 I5 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-245-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-245-I6-Implementation-Review.md) — WP-245 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-245-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-245-I7-Implementation-Review.md) — WP-245 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-245-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-245-I8-Implementation-Review.md) — WP-245 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Informative Document
 
@@ -1364,6 +1378,17 @@ Governed documents: **816**
 - [`EG-526`](../D:/SIF/engineering/specifications/WP-244/EG-526-Credential-Status-Revocation-and-Freshness.md) — Credential Status Revocation and Freshness _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-527`](../D:/SIF/engineering/specifications/WP-244/EG-527-High-Assurance-Interoperability-and-Operational-Readiness.md) — High Assurance Interoperability and Operational Readiness _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-528`](../D:/SIF/engineering/specifications/WP-244/EG-528-Verifiable-Credentials-and-High-Assurance-Identity-Presentation-Product-Completion.md) — Verifiable Credentials and High Assurance Identity Presentation Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-245
+
+- [`EG-529`](../D:/SIF/engineering/specifications/WP-245/EG-529-OpenID4VCI-Credential-Issuance-Architecture.md) — OpenID4VCI Credential Issuance Architecture _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-530`](../D:/SIF/engineering/specifications/WP-245/EG-530-Authorization-Code-and-Pre-Authorized-Code-Grants.md) — Authorization Code and Pre Authorized Code Grants _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-531`](../D:/SIF/engineering/specifications/WP-245/EG-531-Proof-of-Possession-c-nonce-and-Replay-Protection.md) — Proof of Possession c nonce and Replay Protection _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-532`](../D:/SIF/engineering/specifications/WP-245/EG-532-Credential-Endpoint-Batch-and-Deferred-Issuance.md) — Credential Endpoint Batch and Deferred Issuance _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-533`](../D:/SIF/engineering/specifications/WP-245/EG-533-Issuer-Metadata-and-Credential-Configuration-Discovery.md) — Issuer Metadata and Credential Configuration Discovery _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-534`](../D:/SIF/engineering/specifications/WP-245/EG-534-Authorization-Details-and-Transaction-Binding.md) — Authorization Details and Transaction Binding _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-535`](../D:/SIF/engineering/specifications/WP-245/EG-535-Status-Lifecycle-Notifications-and-Operational-Readiness.md) — Status Lifecycle Notifications and Operational Readiness _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-536`](../D:/SIF/engineering/specifications/WP-245/EG-536-OpenID4VCI-Credential-Issuance-Product-Completion.md) — OpenID4VCI Credential Issuance Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 
