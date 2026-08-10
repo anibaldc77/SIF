@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **752**
+Governed documents: **768**
 
 ## Generated views
 
@@ -162,6 +162,10 @@ Governed documents: **752**
 ### Architecture Review — WP-240
 
 - [`WP-240-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-240-I1-Architecture-Review.md) — WP-240 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Architecture Review — WP-241
+
+- [`WP-241-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-241-I1-Architecture-Review.md) — WP-241 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Constitution
 
@@ -616,6 +620,16 @@ Governed documents: **752**
 - [`WP-240-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-240-I6-Implementation-Review.md) — WP-240 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-240-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-240-I7-Implementation-Review.md) — WP-240 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-240-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-240-I8-Product-Completion-Review.md) — WP-240 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Implementation Review — WP-241
+
+- [`WP-241-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-241-I2-Implementation-Review.md) — WP-241 I2 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-241-I3-REVIEW`](../D:/SIF/engineering/reviews/WP-241-I3-Implementation-Review.md) — WP-241 I3 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-241-I4-REVIEW`](../D:/SIF/engineering/reviews/WP-241-I4-Implementation-Review.md) — WP-241 I4 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-241-I5-REVIEW`](../D:/SIF/engineering/reviews/WP-241-I5-Implementation-Review.md) — WP-241 I5 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-241-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-241-I6-Implementation-Review.md) — WP-241 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-241-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-241-I7-Implementation-Review.md) — WP-241 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-241-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-241-I8-Implementation-Review.md) — WP-241 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Informative Document
 
@@ -1264,6 +1278,17 @@ Governed documents: **752**
 - [`EG-494`](../D:/SIF/engineering/specifications/WP-240/EG-494-Sender-Constrained-Access-Tokens-and-DPoP-Token-Binding.md) — Sender-Constrained Access Tokens and DPoP Token Binding _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-495`](../D:/SIF/engineering/specifications/WP-240/EG-495-Resource-Server-Enforcement-and-Protected-Resource-Validation.md) — Resource Server Enforcement and Protected Resource Validation _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-496`](../D:/SIF/engineering/specifications/WP-240/EG-496-Advanced-OAuth-Security-Product-Completion.md) — Advanced OAuth Security Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-241
+
+- [`EG-497`](../D:/SIF/engineering/specifications/WP-241/EG-497-OAuth-Metadata-Discovery-and-Dynamic-Client-Lifecycle-Architecture.md) — Arquitectura de OAuth Metadata, Discovery y Dynamic Client Lifecycle _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-498`](../D:/SIF/engineering/specifications/WP-241/EG-498-OAuth20-Authorization-Server-Metadata.md) — OAuth 2.0 Authorization Server Metadata _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-499`](../D:/SIF/engineering/specifications/WP-241/EG-499-OAuth20-Protected-Resource-Metadata.md) — OAuth 2.0 Protected Resource Metadata _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-500`](../D:/SIF/engineering/specifications/WP-241/EG-500-OAuth20-Dynamic-Client-Registration.md) — OAuth 2.0 Dynamic Client Registration _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-501`](../D:/SIF/engineering/specifications/WP-241/EG-501-Client-Registration-Management-Lifecycle.md) — Client Registration Management Lifecycle _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-502`](../D:/SIF/engineering/specifications/WP-241/EG-502-Client-Metadata-Validation-Software-Statements-and-Security-Policy-Boundaries.md) — Client Metadata Validation, Software Statements and Security Policy Boundaries _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-503`](../D:/SIF/engineering/specifications/WP-241/EG-503-Issuer-Identification-Discovery-Resolution-Caching-and-Freshness-Boundaries.md) — Issuer Identification, Discovery Resolution, Caching and Freshness Boundaries _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-504`](../D:/SIF/engineering/specifications/WP-241/EG-504-OAuth-Metadata-Discovery-and-Dynamic-Client-Lifecycle-Product-Completion.md) — OAuth Metadata, Discovery and Dynamic Client Lifecycle Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 
