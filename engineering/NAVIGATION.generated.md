@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **832**
+Governed documents: **848**
 
 ## Generated views
 
@@ -182,6 +182,10 @@ Governed documents: **832**
 ### Architecture Review — WP-245
 
 - [`WP-245-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-245-I1-Architecture-Review.md) — WP-245 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Architecture Review — WP-246
+
+- [`WP-246-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-246-I1-Architecture-Review.md) — WP-246 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Constitution
 
@@ -686,6 +690,16 @@ Governed documents: **832**
 - [`WP-245-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-245-I6-Implementation-Review.md) — WP-245 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-245-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-245-I7-Implementation-Review.md) — WP-245 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-245-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-245-I8-Implementation-Review.md) — WP-245 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Implementation Review — WP-246
+
+- [`WP-246-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-246-I2-Implementation-Review.md) — WP-246 I2 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-246-I3-REVIEW`](../D:/SIF/engineering/reviews/WP-246-I3-Implementation-Review.md) — WP-246 I3 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-246-I4-REVIEW`](../D:/SIF/engineering/reviews/WP-246-I4-Implementation-Review.md) — WP-246 I4 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-246-I5-REVIEW`](../D:/SIF/engineering/reviews/WP-246-I5-Implementation-Review.md) — WP-246 I5 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-246-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-246-I6-Implementation-Review.md) — WP-246 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-246-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-246-I7-Implementation-Review.md) — WP-246 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-246-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-246-I8-Implementation-Review.md) — WP-246 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Informative Document
 
@@ -1389,6 +1403,17 @@ Governed documents: **832**
 - [`EG-534`](../D:/SIF/engineering/specifications/WP-245/EG-534-Authorization-Details-and-Transaction-Binding.md) — Authorization Details and Transaction Binding _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-535`](../D:/SIF/engineering/specifications/WP-245/EG-535-Status-Lifecycle-Notifications-and-Operational-Readiness.md) — Status Lifecycle Notifications and Operational Readiness _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-536`](../D:/SIF/engineering/specifications/WP-245/EG-536-OpenID4VCI-Credential-Issuance-Product-Completion.md) — OpenID4VCI Credential Issuance Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-246
+
+- [`EG-537`](../D:/SIF/engineering/specifications/WP-246/EG-537-WebAuthn-FIDO2-and-Passkey-Authentication-Architecture.md) — WebAuthn FIDO2 and Passkey Authentication Architecture _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-538`](../D:/SIF/engineering/specifications/WP-246/EG-538-WebAuthn-Registration-Ceremony-and-Creation-Options.md) — WebAuthn Registration Ceremony and Creation Options _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-539`](../D:/SIF/engineering/specifications/WP-246/EG-539-WebAuthn-Authentication-Ceremony-and-Assertion-Validation.md) — WebAuthn Authentication Ceremony and Assertion Validation _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-540`](../D:/SIF/engineering/specifications/WP-246/EG-540-WebAuthn-Attestation-Authenticator-Metadata-and-Trust.md) — WebAuthn Attestation Authenticator Metadata and Trust _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-541`](../D:/SIF/engineering/specifications/WP-246/EG-541-WebAuthn-Discoverable-Credentials-and-Passkey-UX-Policies.md) — WebAuthn Discoverable Credentials and Passkey UX Policies _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-542`](../D:/SIF/engineering/specifications/WP-246/EG-542-WebAuthn-Credential-Lifecycle-Recovery-and-Device-Migration.md) — WebAuthn Credential Lifecycle Recovery and Device Migration _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-543`](../D:/SIF/engineering/specifications/WP-246/EG-543-WebAuthn-Risk-Integration-Step-Up-and-Operational-Readiness.md) — WebAuthn Risk Integration Step Up and Operational Readiness _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-544`](../D:/SIF/engineering/specifications/WP-246/EG-544-WebAuthn-FIDO2-and-Passkey-Authentication-Product-Completion.md) — WebAuthn FIDO2 and Passkey Authentication Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 
