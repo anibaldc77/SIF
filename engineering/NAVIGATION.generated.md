@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **864**
+Governed documents: **880**
 
 ## Generated views
 
@@ -190,6 +190,10 @@ Governed documents: **864**
 ### Architecture Review — WP-247
 
 - [`WP-247-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-247-I1-Architecture-Review.md) — WP-247 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Architecture Review — WP-248
+
+- [`WP-248-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-248-I1-Architecture-Review.md) — WP-248 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Constitution
 
@@ -714,6 +718,16 @@ Governed documents: **864**
 - [`WP-247-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-247-I6-Implementation-Review.md) — WP-247 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-247-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-247-I7-Implementation-Review.md) — WP-247 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-247-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-247-I8-Product-Completion-Review.md) — WP-247 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Implementation Review — WP-248
+
+- [`WP-248-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-248-I2-Implementation-Review.md) — WP-248 I2 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-248-I3-REVIEW`](../D:/SIF/engineering/reviews/WP-248-I3-Implementation-Review.md) — WP-248 I3 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-248-I4-REVIEW`](../D:/SIF/engineering/reviews/WP-248-I4-Implementation-Review.md) — WP-248 I4 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-248-I5-REVIEW`](../D:/SIF/engineering/reviews/WP-248-I5-Implementation-Review.md) — WP-248 I5 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-248-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-248-I6-Implementation-Review.md) — WP-248 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-248-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-248-I7-Implementation-Review.md) — WP-248 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-248-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-248-I8-Product-Completion-Review.md) — WP-248 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Informative Document
 
@@ -1439,6 +1453,17 @@ Governed documents: **864**
 - [`EG-550`](../D:/SIF/engineering/specifications/WP-247/EG-550-OpenID4VP-Digital-Credentials-API-Transport-Profile.md) — OpenID4VP Digital Credentials API Transport Profile _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-551`](../D:/SIF/engineering/specifications/WP-247/EG-551-OpenID4VP-Transaction-Data-Privacy-and-Operational-Readiness.md) — OpenID4VP Transaction Data Privacy and Operational Readiness _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-552`](../D:/SIF/engineering/specifications/WP-247/EG-552-OpenID4VP-Product-Completion.md) — OpenID4VP Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-248
+
+- [`EG-553`](../D:/SIF/engineering/specifications/WP-248/EG-553-SD-JWT-VC-and-ISO-mdoc-Credential-Format-Architecture.md) — SD-JWT VC and ISO mdoc Credential Format Architecture _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-554`](../D:/SIF/engineering/specifications/WP-248/EG-554-SD-JWT-VC-Data-Model-and-Selective-Disclosure-Boundaries.md) — SD-JWT VC Data Model and Selective Disclosure Boundaries _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-555`](../D:/SIF/engineering/specifications/WP-248/EG-555-SD-JWT-VC-Issuer-Trust-Status-and-Key-Binding.md) — SD-JWT VC Issuer Trust Status and Key Binding _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-556`](../D:/SIF/engineering/specifications/WP-248/EG-556-ISO-mdoc-Namespace-Data-Elements-and-Device-Response-Boundaries.md) — ISO mdoc Namespace Data Elements and Device Response Boundaries _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-557`](../D:/SIF/engineering/specifications/WP-248/EG-557-ISO-mdoc-Issuer-Authentication-MSO-and-Device-Authentication.md) — ISO mdoc Issuer Authentication MSO and Device Authentication _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-558`](../D:/SIF/engineering/specifications/WP-248/EG-558-OpenID4VCI-OpenID4VP-Credential-Format-Interoperability-Adapters.md) — OpenID4VCI OpenID4VP Credential Format Interoperability Adapters _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-559`](../D:/SIF/engineering/specifications/WP-248/EG-559-High-Assurance-Credential-Profile-Privacy-and-Operational-Readiness.md) — High Assurance Credential Profile Privacy and Operational Readiness _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-560`](../D:/SIF/engineering/specifications/WP-248/EG-560-SD-JWT-VC-and-ISO-mdoc-Product-Completion.md) — SD-JWT VC and ISO mdoc Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 
