@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 880
-- Resolved references: 724
+- Total documents: 896
+- Resolved references: 740
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
 - INFORMATIVEDOCUMENT: 47
-- NORMATIVEDOCUMENT: 439
-- REVIEWDOCUMENT: 380
+- NORMATIVEDOCUMENT: 447
+- REVIEWDOCUMENT: 388
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 843
+- Draft for Review: 859
 
 ## Documents
 
@@ -519,6 +519,14 @@
 | EG-558 | OpenID4VCI OpenID4VP Credential Format Interoperability Adapters | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-248/EG-558-OpenID4VCI-OpenID4VP-Credential-Format-Interoperability-Adapters.md`](../D:/SIF/engineering/specifications/WP-248/EG-558-OpenID4VCI-OpenID4VP-Credential-Format-Interoperability-Adapters.md) |
 | EG-559 | High Assurance Credential Profile Privacy and Operational Readiness | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-248/EG-559-High-Assurance-Credential-Profile-Privacy-and-Operational-Readiness.md`](../D:/SIF/engineering/specifications/WP-248/EG-559-High-Assurance-Credential-Profile-Privacy-and-Operational-Readiness.md) |
 | EG-560 | SD-JWT VC and ISO mdoc Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-248/EG-560-SD-JWT-VC-and-ISO-mdoc-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-248/EG-560-SD-JWT-VC-and-ISO-mdoc-Product-Completion.md) |
+| EG-561 | Credential Status Revocation and Suspension Architecture | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-249/EG-561-Credential-Status-Revocation-and-Suspension-Architecture.md`](../D:/SIF/engineering/specifications/WP-249/EG-561-Credential-Status-Revocation-and-Suspension-Architecture.md) |
+| EG-562 | Bitstring Status List Data Model and Bit Resolution | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-249/EG-562-Bitstring-Status-List-Data-Model-and-Bit-Resolution.md`](../D:/SIF/engineering/specifications/WP-249/EG-562-Bitstring-Status-List-Data-Model-and-Bit-Resolution.md) |
+| EG-563 | Token Status List Data Model and Token Resolution | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-249/EG-563-Token-Status-List-Data-Model-and-Token-Resolution.md`](../D:/SIF/engineering/specifications/WP-249/EG-563-Token-Status-List-Data-Model-and-Token-Resolution.md) |
+| EG-564 | Issuer Publication Status Allocation and Lifecycle | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-249/EG-564-Issuer-Publication-Status-Allocation-and-Lifecycle.md`](../D:/SIF/engineering/specifications/WP-249/EG-564-Issuer-Publication-Status-Allocation-and-Lifecycle.md) |
+| EG-565 | Verifier Resolution Caching and Freshness | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-249/EG-565-Verifier-Resolution-Caching-and-Freshness.md`](../D:/SIF/engineering/specifications/WP-249/EG-565-Verifier-Resolution-Caching-and-Freshness.md) |
+| EG-566 | Credential Status Resolution Failure Policy and Resilience | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-249/EG-566-Credential-Status-Resolution-Failure-Policy-and-Resilience.md`](../D:/SIF/engineering/specifications/WP-249/EG-566-Credential-Status-Resolution-Failure-Policy-and-Resilience.md) |
+| EG-567 | High Assurance Credential Status Enforcement | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-249/EG-567-High-Assurance-Credential-Status-Enforcement.md`](../D:/SIF/engineering/specifications/WP-249/EG-567-High-Assurance-Credential-Status-Enforcement.md) |
+| EG-568 | Credential Status Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-249/EG-568-Credential-Status-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-249/EG-568-Credential-Status-Product-Completion.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -922,3 +930,11 @@
 | WP-248-I6-REVIEW | WP-248 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-248-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-248-I6-Implementation-Review.md) |
 | WP-248-I7-REVIEW | WP-248 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-248-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-248-I7-Implementation-Review.md) |
 | WP-248-I8-REVIEW | WP-248 I8 Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-248-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-248-I8-Product-Completion-Review.md) |
+| WP-249-I1-REVIEW | WP-249 I1 Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-249-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-249-I1-Architecture-Review.md) |
+| WP-249-I2-REVIEW | WP-249 I2 Bitstring Status List Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-249-I2-Bitstring-Status-List-Review.md`](../D:/SIF/engineering/reviews/WP-249-I2-Bitstring-Status-List-Review.md) |
+| WP-249-I3-REVIEW | WP-249 I3 Token Status List Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-249-I3-Token-Status-List-Review.md`](../D:/SIF/engineering/reviews/WP-249-I3-Token-Status-List-Review.md) |
+| WP-249-I4-REVIEW | WP-249 I4 Issuer Publication Lifecycle Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-249-I4-Issuer-Publication-Lifecycle-Review.md`](../D:/SIF/engineering/reviews/WP-249-I4-Issuer-Publication-Lifecycle-Review.md) |
+| WP-249-I5-REVIEW | WP-249 I5 Verifier Caching Freshness Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-249-I5-Verifier-Caching-Freshness-Review.md`](../D:/SIF/engineering/reviews/WP-249-I5-Verifier-Caching-Freshness-Review.md) |
+| WP-249-I6-REVIEW | WP-249 I6 Resolution Failure Policy Resilience Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-249-I6-Resolution-Failure-Policy-Resilience-Review.md`](../D:/SIF/engineering/reviews/WP-249-I6-Resolution-Failure-Policy-Resilience-Review.md) |
+| WP-249-I7-REVIEW | WP-249 I7 High Assurance Status Enforcement Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-249-I7-High-Assurance-Status-Enforcement-Review.md`](../D:/SIF/engineering/reviews/WP-249-I7-High-Assurance-Status-Enforcement-Review.md) |
+| WP-249-I8-REVIEW | WP-249 I8 Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-249-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-249-I8-Product-Completion-Review.md) |

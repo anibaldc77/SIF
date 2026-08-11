@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **880**
+Governed documents: **896**
 
 ## Generated views
 
@@ -194,6 +194,16 @@ Governed documents: **880**
 ### Architecture Review — WP-248
 
 - [`WP-248-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-248-I1-Architecture-Review.md) — WP-248 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Architecture Review — WP-249
+
+- [`WP-249-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-249-I1-Architecture-Review.md) — WP-249 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-249-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-249-I2-Bitstring-Status-List-Review.md) — WP-249 I2 Bitstring Status List Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-249-I3-REVIEW`](../D:/SIF/engineering/reviews/WP-249-I3-Token-Status-List-Review.md) — WP-249 I3 Token Status List Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-249-I4-REVIEW`](../D:/SIF/engineering/reviews/WP-249-I4-Issuer-Publication-Lifecycle-Review.md) — WP-249 I4 Issuer Publication Lifecycle Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-249-I5-REVIEW`](../D:/SIF/engineering/reviews/WP-249-I5-Verifier-Caching-Freshness-Review.md) — WP-249 I5 Verifier Caching Freshness Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-249-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-249-I6-Resolution-Failure-Policy-Resilience-Review.md) — WP-249 I6 Resolution Failure Policy Resilience Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-249-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-249-I7-High-Assurance-Status-Enforcement-Review.md) — WP-249 I7 High Assurance Status Enforcement Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Constitution
 
@@ -728,6 +738,10 @@ Governed documents: **880**
 - [`WP-248-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-248-I6-Implementation-Review.md) — WP-248 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-248-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-248-I7-Implementation-Review.md) — WP-248 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-248-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-248-I8-Product-Completion-Review.md) — WP-248 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Implementation Review — WP-249
+
+- [`WP-249-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-249-I8-Product-Completion-Review.md) — WP-249 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Informative Document
 
@@ -1464,6 +1478,17 @@ Governed documents: **880**
 - [`EG-558`](../D:/SIF/engineering/specifications/WP-248/EG-558-OpenID4VCI-OpenID4VP-Credential-Format-Interoperability-Adapters.md) — OpenID4VCI OpenID4VP Credential Format Interoperability Adapters _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-559`](../D:/SIF/engineering/specifications/WP-248/EG-559-High-Assurance-Credential-Profile-Privacy-and-Operational-Readiness.md) — High Assurance Credential Profile Privacy and Operational Readiness _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-560`](../D:/SIF/engineering/specifications/WP-248/EG-560-SD-JWT-VC-and-ISO-mdoc-Product-Completion.md) — SD-JWT VC and ISO mdoc Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-249
+
+- [`EG-561`](../D:/SIF/engineering/specifications/WP-249/EG-561-Credential-Status-Revocation-and-Suspension-Architecture.md) — Credential Status Revocation and Suspension Architecture _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-562`](../D:/SIF/engineering/specifications/WP-249/EG-562-Bitstring-Status-List-Data-Model-and-Bit-Resolution.md) — Bitstring Status List Data Model and Bit Resolution _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-563`](../D:/SIF/engineering/specifications/WP-249/EG-563-Token-Status-List-Data-Model-and-Token-Resolution.md) — Token Status List Data Model and Token Resolution _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-564`](../D:/SIF/engineering/specifications/WP-249/EG-564-Issuer-Publication-Status-Allocation-and-Lifecycle.md) — Issuer Publication Status Allocation and Lifecycle _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-565`](../D:/SIF/engineering/specifications/WP-249/EG-565-Verifier-Resolution-Caching-and-Freshness.md) — Verifier Resolution Caching and Freshness _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-566`](../D:/SIF/engineering/specifications/WP-249/EG-566-Credential-Status-Resolution-Failure-Policy-and-Resilience.md) — Credential Status Resolution Failure Policy and Resilience _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-567`](../D:/SIF/engineering/specifications/WP-249/EG-567-High-Assurance-Credential-Status-Enforcement.md) — High Assurance Credential Status Enforcement _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-568`](../D:/SIF/engineering/specifications/WP-249/EG-568-Credential-Status-Product-Completion.md) — Credential Status Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 
