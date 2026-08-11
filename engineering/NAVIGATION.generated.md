@@ -2,7 +2,7 @@
 
 # Engineering Documentation Navigation
 
-Governed documents: **848**
+Governed documents: **864**
 
 ## Generated views
 
@@ -186,6 +186,10 @@ Governed documents: **848**
 ### Architecture Review — WP-246
 
 - [`WP-246-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-246-I1-Architecture-Review.md) — WP-246 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Architecture Review — WP-247
+
+- [`WP-247-I1-REVIEW`](../D:/SIF/engineering/reviews/WP-247-I1-Architecture-Review.md) — WP-247 I1 Architecture Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Constitution
 
@@ -700,6 +704,16 @@ Governed documents: **848**
 - [`WP-246-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-246-I6-Implementation-Review.md) — WP-246 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-246-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-246-I7-Implementation-Review.md) — WP-246 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`WP-246-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-246-I8-Implementation-Review.md) — WP-246 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Implementation Review — WP-247
+
+- [`WP-247-I2-REVIEW`](../D:/SIF/engineering/reviews/WP-247-I2-Implementation-Review.md) — WP-247 I2 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-247-I3-REVIEW`](../D:/SIF/engineering/reviews/WP-247-I3-Implementation-Review.md) — WP-247 I3 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-247-I4-REVIEW`](../D:/SIF/engineering/reviews/WP-247-I4-Implementation-Review.md) — WP-247 I4 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-247-I5-REVIEW`](../D:/SIF/engineering/reviews/WP-247-I5-Implementation-Review.md) — WP-247 I5 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-247-I6-REVIEW`](../D:/SIF/engineering/reviews/WP-247-I6-Implementation-Review.md) — WP-247 I6 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-247-I7-REVIEW`](../D:/SIF/engineering/reviews/WP-247-I7-Implementation-Review.md) — WP-247 I7 Implementation Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`WP-247-I8-REVIEW`](../D:/SIF/engineering/reviews/WP-247-I8-Product-Completion-Review.md) — WP-247 I8 Product Completion Review _(type: REVIEWDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Informative Document
 
@@ -1414,6 +1428,17 @@ Governed documents: **848**
 - [`EG-542`](../D:/SIF/engineering/specifications/WP-246/EG-542-WebAuthn-Credential-Lifecycle-Recovery-and-Device-Migration.md) — WebAuthn Credential Lifecycle Recovery and Device Migration _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-543`](../D:/SIF/engineering/specifications/WP-246/EG-543-WebAuthn-Risk-Integration-Step-Up-and-Operational-Readiness.md) — WebAuthn Risk Integration Step Up and Operational Readiness _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 - [`EG-544`](../D:/SIF/engineering/specifications/WP-246/EG-544-WebAuthn-FIDO2-and-Passkey-Authentication-Product-Completion.md) — WebAuthn FIDO2 and Passkey Authentication Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+
+### Normative Specification — WP-247
+
+- [`EG-545`](../D:/SIF/engineering/specifications/WP-247/EG-545-OpenID4VP-Presentation-Protocol-Architecture.md) — OpenID4VP Presentation Protocol Architecture _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-546`](../D:/SIF/engineering/specifications/WP-247/EG-546-OpenID4VP-Presentation-Query-and-Credential-Selection.md) — OpenID4VP Presentation Query and Credential Selection _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-547`](../D:/SIF/engineering/specifications/WP-247/EG-547-OpenID4VP-Request-Object-Request-URI-and-Verifier-Authentication.md) — OpenID4VP Request Object Request URI and Verifier Authentication _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-548`](../D:/SIF/engineering/specifications/WP-247/EG-548-OpenID4VP-Response-Modes-Direct-Post-and-Response-Protection.md) — OpenID4VP Response Modes Direct Post and Response Protection _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-549`](../D:/SIF/engineering/specifications/WP-247/EG-549-OpenID4VP-VP-Token-Processing-and-Presentation-Submission.md) — OpenID4VP VP Token Processing and Presentation Submission _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-550`](../D:/SIF/engineering/specifications/WP-247/EG-550-OpenID4VP-Digital-Credentials-API-Transport-Profile.md) — OpenID4VP Digital Credentials API Transport Profile _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-551`](../D:/SIF/engineering/specifications/WP-247/EG-551-OpenID4VP-Transaction-Data-Privacy-and-Operational-Readiness.md) — OpenID4VP Transaction Data Privacy and Operational Readiness _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
+- [`EG-552`](../D:/SIF/engineering/specifications/WP-247/EG-552-OpenID4VP-Product-Completion.md) — OpenID4VP Product Completion _(type: NORMATIVEDOCUMENT; status: Draft for Review; version: 0.1.0)_
 
 ### Policy
 

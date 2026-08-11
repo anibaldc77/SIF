@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 848
-- Resolved references: 692
+- Total documents: 864
+- Resolved references: 708
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
 - INFORMATIVEDOCUMENT: 47
-- NORMATIVEDOCUMENT: 423
-- REVIEWDOCUMENT: 364
+- NORMATIVEDOCUMENT: 431
+- REVIEWDOCUMENT: 372
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 811
+- Draft for Review: 827
 
 ## Documents
 
@@ -503,6 +503,14 @@
 | EG-542 | WebAuthn Credential Lifecycle Recovery and Device Migration | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-246/EG-542-WebAuthn-Credential-Lifecycle-Recovery-and-Device-Migration.md`](../D:/SIF/engineering/specifications/WP-246/EG-542-WebAuthn-Credential-Lifecycle-Recovery-and-Device-Migration.md) |
 | EG-543 | WebAuthn Risk Integration Step Up and Operational Readiness | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-246/EG-543-WebAuthn-Risk-Integration-Step-Up-and-Operational-Readiness.md`](../D:/SIF/engineering/specifications/WP-246/EG-543-WebAuthn-Risk-Integration-Step-Up-and-Operational-Readiness.md) |
 | EG-544 | WebAuthn FIDO2 and Passkey Authentication Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-246/EG-544-WebAuthn-FIDO2-and-Passkey-Authentication-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-246/EG-544-WebAuthn-FIDO2-and-Passkey-Authentication-Product-Completion.md) |
+| EG-545 | OpenID4VP Presentation Protocol Architecture | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-247/EG-545-OpenID4VP-Presentation-Protocol-Architecture.md`](../D:/SIF/engineering/specifications/WP-247/EG-545-OpenID4VP-Presentation-Protocol-Architecture.md) |
+| EG-546 | OpenID4VP Presentation Query and Credential Selection | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-247/EG-546-OpenID4VP-Presentation-Query-and-Credential-Selection.md`](../D:/SIF/engineering/specifications/WP-247/EG-546-OpenID4VP-Presentation-Query-and-Credential-Selection.md) |
+| EG-547 | OpenID4VP Request Object Request URI and Verifier Authentication | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-247/EG-547-OpenID4VP-Request-Object-Request-URI-and-Verifier-Authentication.md`](../D:/SIF/engineering/specifications/WP-247/EG-547-OpenID4VP-Request-Object-Request-URI-and-Verifier-Authentication.md) |
+| EG-548 | OpenID4VP Response Modes Direct Post and Response Protection | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-247/EG-548-OpenID4VP-Response-Modes-Direct-Post-and-Response-Protection.md`](../D:/SIF/engineering/specifications/WP-247/EG-548-OpenID4VP-Response-Modes-Direct-Post-and-Response-Protection.md) |
+| EG-549 | OpenID4VP VP Token Processing and Presentation Submission | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-247/EG-549-OpenID4VP-VP-Token-Processing-and-Presentation-Submission.md`](../D:/SIF/engineering/specifications/WP-247/EG-549-OpenID4VP-VP-Token-Processing-and-Presentation-Submission.md) |
+| EG-550 | OpenID4VP Digital Credentials API Transport Profile | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-247/EG-550-OpenID4VP-Digital-Credentials-API-Transport-Profile.md`](../D:/SIF/engineering/specifications/WP-247/EG-550-OpenID4VP-Digital-Credentials-API-Transport-Profile.md) |
+| EG-551 | OpenID4VP Transaction Data Privacy and Operational Readiness | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-247/EG-551-OpenID4VP-Transaction-Data-Privacy-and-Operational-Readiness.md`](../D:/SIF/engineering/specifications/WP-247/EG-551-OpenID4VP-Transaction-Data-Privacy-and-Operational-Readiness.md) |
+| EG-552 | OpenID4VP Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-247/EG-552-OpenID4VP-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-247/EG-552-OpenID4VP-Product-Completion.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -890,3 +898,11 @@
 | WP-246-I6-REVIEW | WP-246 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-246-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-246-I6-Implementation-Review.md) |
 | WP-246-I7-REVIEW | WP-246 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-246-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-246-I7-Implementation-Review.md) |
 | WP-246-I8-REVIEW | WP-246 I8 Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-246-I8-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-246-I8-Implementation-Review.md) |
+| WP-247-I1-REVIEW | WP-247 I1 Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-247-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-247-I1-Architecture-Review.md) |
+| WP-247-I2-REVIEW | WP-247 I2 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-247-I2-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-247-I2-Implementation-Review.md) |
+| WP-247-I3-REVIEW | WP-247 I3 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-247-I3-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-247-I3-Implementation-Review.md) |
+| WP-247-I4-REVIEW | WP-247 I4 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-247-I4-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-247-I4-Implementation-Review.md) |
+| WP-247-I5-REVIEW | WP-247 I5 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-247-I5-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-247-I5-Implementation-Review.md) |
+| WP-247-I6-REVIEW | WP-247 I6 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-247-I6-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-247-I6-Implementation-Review.md) |
+| WP-247-I7-REVIEW | WP-247 I7 Implementation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-247-I7-Implementation-Review.md`](../D:/SIF/engineering/reviews/WP-247-I7-Implementation-Review.md) |
+| WP-247-I8-REVIEW | WP-247 I8 Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-247-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-247-I8-Product-Completion-Review.md) |
