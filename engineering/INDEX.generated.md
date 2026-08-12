@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 896
-- Resolved references: 740
+- Total documents: 912
+- Resolved references: 756
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
 - INFORMATIVEDOCUMENT: 47
-- NORMATIVEDOCUMENT: 447
-- REVIEWDOCUMENT: 388
+- NORMATIVEDOCUMENT: 455
+- REVIEWDOCUMENT: 396
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 859
+- Draft for Review: 875
 
 ## Documents
 
@@ -527,6 +527,14 @@
 | EG-566 | Credential Status Resolution Failure Policy and Resilience | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-249/EG-566-Credential-Status-Resolution-Failure-Policy-and-Resilience.md`](../D:/SIF/engineering/specifications/WP-249/EG-566-Credential-Status-Resolution-Failure-Policy-and-Resilience.md) |
 | EG-567 | High Assurance Credential Status Enforcement | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-249/EG-567-High-Assurance-Credential-Status-Enforcement.md`](../D:/SIF/engineering/specifications/WP-249/EG-567-High-Assurance-Credential-Status-Enforcement.md) |
 | EG-568 | Credential Status Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-249/EG-568-Credential-Status-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-249/EG-568-Credential-Status-Product-Completion.md) |
+| EG-569 | Credential Trust Registry Accreditation and Trust Chain Architecture | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-250/EG-569-Credential-Trust-Registry-Accreditation-and-Trust-Chain-Architecture.md`](../D:/SIF/engineering/specifications/WP-250/EG-569-Credential-Trust-Registry-Accreditation-and-Trust-Chain-Architecture.md) |
+| EG-570 | Trust Registry Entry and Accreditation Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-250/EG-570-Trust-Registry-Entry-and-Accreditation-Model.md`](../D:/SIF/engineering/specifications/WP-250/EG-570-Trust-Registry-Entry-and-Accreditation-Model.md) |
+| EG-571 | Trust Anchors and Key Material Lifecycle Boundaries | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-250/EG-571-Trust-Anchors-and-Key-Material-Lifecycle-Boundaries.md`](../D:/SIF/engineering/specifications/WP-250/EG-571-Trust-Anchors-and-Key-Material-Lifecycle-Boundaries.md) |
+| EG-572 | Trust Chain Resolution and Validation | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-250/EG-572-Trust-Chain-Resolution-and-Validation.md`](../D:/SIF/engineering/specifications/WP-250/EG-572-Trust-Chain-Resolution-and-Validation.md) |
+| EG-573 | Trust Resolution Caching Freshness and Metadata Consistency | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-250/EG-573-Trust-Resolution-Caching-Freshness-and-Metadata-Consistency.md`](../D:/SIF/engineering/specifications/WP-250/EG-573-Trust-Resolution-Caching-Freshness-and-Metadata-Consistency.md) |
+| EG-574 | Trust Decision Failure Policy and Resilience | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-250/EG-574-Trust-Decision-Failure-Policy-and-Resilience.md`](../D:/SIF/engineering/specifications/WP-250/EG-574-Trust-Decision-Failure-Policy-and-Resilience.md) |
+| EG-575 | High Assurance Trust Enforcement and Operational Readiness | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-250/EG-575-High-Assurance-Trust-Enforcement-and-Operational-Readiness.md`](../D:/SIF/engineering/specifications/WP-250/EG-575-High-Assurance-Trust-Enforcement-and-Operational-Readiness.md) |
+| EG-576 | Credential Trust Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-250/EG-576-Credential-Trust-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-250/EG-576-Credential-Trust-Product-Completion.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -938,3 +946,11 @@
 | WP-249-I6-REVIEW | WP-249 I6 Resolution Failure Policy Resilience Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-249-I6-Resolution-Failure-Policy-Resilience-Review.md`](../D:/SIF/engineering/reviews/WP-249-I6-Resolution-Failure-Policy-Resilience-Review.md) |
 | WP-249-I7-REVIEW | WP-249 I7 High Assurance Status Enforcement Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-249-I7-High-Assurance-Status-Enforcement-Review.md`](../D:/SIF/engineering/reviews/WP-249-I7-High-Assurance-Status-Enforcement-Review.md) |
 | WP-249-I8-REVIEW | WP-249 I8 Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-249-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-249-I8-Product-Completion-Review.md) |
+| WP-250-I1-REVIEW | WP-250 I1 Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-250-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-250-I1-Architecture-Review.md) |
+| WP-250-I2-REVIEW | WP-250 I2 Trust Registry Accreditation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-250-I2-Trust-Registry-Accreditation-Review.md`](../D:/SIF/engineering/reviews/WP-250-I2-Trust-Registry-Accreditation-Review.md) |
+| WP-250-I3-REVIEW | WP-250 I3 Trust Anchors Key Lifecycle Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-250-I3-Trust-Anchors-Key-Lifecycle-Review.md`](../D:/SIF/engineering/reviews/WP-250-I3-Trust-Anchors-Key-Lifecycle-Review.md) |
+| WP-250-I4-REVIEW | WP-250 I4 Trust Chain Resolution Validation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-250-I4-Trust-Chain-Resolution-Validation-Review.md`](../D:/SIF/engineering/reviews/WP-250-I4-Trust-Chain-Resolution-Validation-Review.md) |
+| WP-250-I5-REVIEW | WP-250 I5 Trust Caching Freshness Metadata Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-250-I5-Trust-Caching-Freshness-Metadata-Review.md`](../D:/SIF/engineering/reviews/WP-250-I5-Trust-Caching-Freshness-Metadata-Review.md) |
+| WP-250-I6-REVIEW | WP-250 I6 Trust Decision Failure Policy Resilience Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-250-I6-Trust-Decision-Failure-Policy-Resilience-Review.md`](../D:/SIF/engineering/reviews/WP-250-I6-Trust-Decision-Failure-Policy-Resilience-Review.md) |
+| WP-250-I7-REVIEW | WP-250 I7 High Assurance Trust Enforcement Readiness Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-250-I7-High-Assurance-Trust-Enforcement-Readiness-Review.md`](../D:/SIF/engineering/reviews/WP-250-I7-High-Assurance-Trust-Enforcement-Readiness-Review.md) |
+| WP-250-I8-REVIEW | WP-250 I8 Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-250-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-250-I8-Product-Completion-Review.md) |
