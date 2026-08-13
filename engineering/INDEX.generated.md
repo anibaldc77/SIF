@@ -4,22 +4,22 @@
 
 ## Summary
 
-- Total documents: 912
-- Resolved references: 756
+- Total documents: 928
+- Resolved references: 772
 - Unresolved references: 0
 
 ### Documents by type
 
 - GOVERNANCEDOCUMENT: 14
 - INFORMATIVEDOCUMENT: 47
-- NORMATIVEDOCUMENT: 455
-- REVIEWDOCUMENT: 396
+- NORMATIVEDOCUMENT: 463
+- REVIEWDOCUMENT: 404
 
 ### Documents by status
 
 - Approved: 16
 - Draft: 21
-- Draft for Review: 875
+- Draft for Review: 891
 
 ## Documents
 
@@ -535,6 +535,14 @@
 | EG-574 | Trust Decision Failure Policy and Resilience | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-250/EG-574-Trust-Decision-Failure-Policy-and-Resilience.md`](../D:/SIF/engineering/specifications/WP-250/EG-574-Trust-Decision-Failure-Policy-and-Resilience.md) |
 | EG-575 | High Assurance Trust Enforcement and Operational Readiness | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-250/EG-575-High-Assurance-Trust-Enforcement-and-Operational-Readiness.md`](../D:/SIF/engineering/specifications/WP-250/EG-575-High-Assurance-Trust-Enforcement-and-Operational-Readiness.md) |
 | EG-576 | Credential Trust Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-250/EG-576-Credential-Trust-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-250/EG-576-Credential-Trust-Product-Completion.md) |
+| EG-577 | OpenID Federation Entity Statements and Protocol Architecture | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-251/EG-577-OpenID-Federation-Entity-Statements-and-Protocol-Architecture.md`](../D:/SIF/engineering/specifications/WP-251/EG-577-OpenID-Federation-Entity-Statements-and-Protocol-Architecture.md) |
+| EG-578 | Entity Configuration and Subordinate Statement Validation | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-251/EG-578-Entity-Configuration-and-Subordinate-Statement-Validation.md`](../D:/SIF/engineering/specifications/WP-251/EG-578-Entity-Configuration-and-Subordinate-Statement-Validation.md) |
+| EG-579 | Federation Fetch List and Resolve Protocol Messages | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-251/EG-579-Federation-Fetch-List-and-Resolve-Protocol-Messages.md`](../D:/SIF/engineering/specifications/WP-251/EG-579-Federation-Fetch-List-and-Resolve-Protocol-Messages.md) |
+| EG-580 | Metadata Policy Resolution and Standard Operators | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-251/EG-580-Metadata-Policy-Resolution-and-Standard-Operators.md`](../D:/SIF/engineering/specifications/WP-251/EG-580-Metadata-Policy-Resolution-and-Standard-Operators.md) |
+| EG-581 | Trust Marks and Accreditation Binding | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-251/EG-581-Trust-Marks-and-Accreditation-Binding.md`](../D:/SIF/engineering/specifications/WP-251/EG-581-Trust-Marks-and-Accreditation-Binding.md) |
+| EG-582 | Trust Chain Collection and Verification Bridge | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-251/EG-582-Trust-Chain-Collection-and-Verification-Bridge.md`](../D:/SIF/engineering/specifications/WP-251/EG-582-Trust-Chain-Collection-and-Verification-Bridge.md) |
+| EG-583 | Federation Runtime Freshness Resilience and Interoperability | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-251/EG-583-Federation-Runtime-Freshness-Resilience-and-Interoperability.md`](../D:/SIF/engineering/specifications/WP-251/EG-583-Federation-Runtime-Freshness-Resilience-and-Interoperability.md) |
+| EG-584 | OpenID Federation Product Completion | Draft for Review | 0.1.0 | [`D:/SIF/engineering/specifications/WP-251/EG-584-OpenID-Federation-Product-Completion.md`](../D:/SIF/engineering/specifications/WP-251/EG-584-OpenID-Federation-Product-Completion.md) |
 | ES-002 | Metadata Standard | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-002-Metadata-Standard.md`](../D:/SIF/engineering/standards/ES-002-Metadata-Standard.md) |
 | ES-003 | Document Class Model | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-003-Document-Class-Model.md`](../D:/SIF/engineering/standards/ES-003-Document-Class-Model.md) |
 | ES-004 | Document Identifier and Filename Policy | Draft for Review | 0.1.0 | [`D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md`](../D:/SIF/engineering/standards/ES-004-Document-Identifier-Filename-Policy.md) |
@@ -954,3 +962,11 @@
 | WP-250-I6-REVIEW | WP-250 I6 Trust Decision Failure Policy Resilience Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-250-I6-Trust-Decision-Failure-Policy-Resilience-Review.md`](../D:/SIF/engineering/reviews/WP-250-I6-Trust-Decision-Failure-Policy-Resilience-Review.md) |
 | WP-250-I7-REVIEW | WP-250 I7 High Assurance Trust Enforcement Readiness Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-250-I7-High-Assurance-Trust-Enforcement-Readiness-Review.md`](../D:/SIF/engineering/reviews/WP-250-I7-High-Assurance-Trust-Enforcement-Readiness-Review.md) |
 | WP-250-I8-REVIEW | WP-250 I8 Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-250-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-250-I8-Product-Completion-Review.md) |
+| WP-251-I1-REVIEW | WP-251 I1 Architecture Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-251-I1-Architecture-Review.md`](../D:/SIF/engineering/reviews/WP-251-I1-Architecture-Review.md) |
+| WP-251-I2-REVIEW | WP-251 I2 Entity Statement Validation Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-251-I2-Entity-Statement-Validation-Review.md`](../D:/SIF/engineering/reviews/WP-251-I2-Entity-Statement-Validation-Review.md) |
+| WP-251-I3-REVIEW | WP-251 I3 Federation Protocol Messages Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-251-I3-Federation-Protocol-Messages-Review.md`](../D:/SIF/engineering/reviews/WP-251-I3-Federation-Protocol-Messages-Review.md) |
+| WP-251-I4-REVIEW | WP-251 I4 Metadata Policy Resolution Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-251-I4-Metadata-Policy-Resolution-Review.md`](../D:/SIF/engineering/reviews/WP-251-I4-Metadata-Policy-Resolution-Review.md) |
+| WP-251-I5-REVIEW | WP-251 I5 Trust Marks Accreditation Binding Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-251-I5-Trust-Marks-Accreditation-Binding-Review.md`](../D:/SIF/engineering/reviews/WP-251-I5-Trust-Marks-Accreditation-Binding-Review.md) |
+| WP-251-I6-REVIEW | WP-251 I6 Trust Chain Bridge Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-251-I6-Trust-Chain-Bridge-Review.md`](../D:/SIF/engineering/reviews/WP-251-I6-Trust-Chain-Bridge-Review.md) |
+| WP-251-I7-REVIEW | WP-251 I7 Runtime Freshness Resilience Interoperability Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-251-I7-Runtime-Freshness-Resilience-Interoperability-Review.md`](../D:/SIF/engineering/reviews/WP-251-I7-Runtime-Freshness-Resilience-Interoperability-Review.md) |
+| WP-251-I8-REVIEW | WP-251 I8 Product Completion Review | Draft for Review | 0.1.0 | [`D:/SIF/engineering/reviews/WP-251-I8-Product-Completion-Review.md`](../D:/SIF/engineering/reviews/WP-251-I8-Product-Completion-Review.md) |
