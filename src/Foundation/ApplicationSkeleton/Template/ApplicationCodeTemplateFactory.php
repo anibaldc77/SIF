@@ -124,25 +124,35 @@ TPL
 
 declare(strict_types=1);
 
-use Sif\Foundation\Migration\Contracts\MigrationInterface;
-use Sif\Foundation\Migration\MigrationContext;
+use Sif\Foundation\Migration\MigrationChecksum;
+use Sif\Foundation\Migration\MigrationDescriptor;
+use Sif\Foundation\Migration\MigrationId;
+use Sif\Foundation\Migration\Pdo\Sql\PdoMigrationSqlOperation;
+use Sif\Foundation\Migration\Pdo\Sql\PdoMigrationSqlStatement;
 
-return new class implements MigrationInterface {
-    public function id(): string
-    {
-        return '{{migration_id}}';
-    }
+$id = new MigrationId('{{migration_id}}');
+$operation = new PdoMigrationSqlOperation(
+    $id,
+    // Replace this read-only placeholder with the SQL for {{class_name}} before deployment.
+    up: [new PdoMigrationSqlStatement('SELECT 1')],
+    // Add compensating SQL only when rollback is safe; empty means irreversible.
+    down: [],
+);
+$source = file_get_contents(__FILE__);
+if ($source === false) {
+    throw new RuntimeException('Cannot read migration source for its checksum.');
+}
 
-    public function up(MigrationContext $context): void
-    {
-        // Define the forward operations for {{class_name}}.
-    }
-
-    public function down(MigrationContext $context): void
-    {
-        // Define the compensating operations for {{class_name}}.
-    }
-};
+// Register these values in MigrationRegistry and PdoMigrationSqlOperationCatalog.
+// Loading this file never connects to a database or executes SQL.
+return [
+    'descriptor' => new MigrationDescriptor(
+        $id,
+        MigrationChecksum::sha256(str_replace("\r\n", "\n", $source)),
+        reversible: $operation->reversible(),
+    ),
+    'operation' => $operation,
+];
 TPL
         );
 
