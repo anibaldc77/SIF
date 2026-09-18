@@ -39,6 +39,7 @@ use Sif\Foundation\Http\Routing\RouteMatcher;
 use Sif\Foundation\Http\Routing\RouteName;
 use Sif\Foundation\Http\Routing\RouteRegistry;
 use Sif\Foundation\Http\Runtime\HttpRuntime;
+use Sif\Foundation\Http\Runtime\HttpRuntimePlan;
 use Sif\Foundation\Http\Runtime\HttpRuntimeServiceProvider;
 use Sif\Foundation\Http\Runtime\NativeHttpKernel;
 use Sif\Foundation\Http\Value\HttpMethod;
@@ -48,6 +49,60 @@ use Sif\Foundation\Http\Value\Uri;
 
 final class HttpRuntimeSkeletonIntegrationTest extends TestCase
 {
+    public function testGeneratedBootstrapAndNativeFrontControllerRunWithoutDotenv(): void
+    {
+        $directory = sys_get_temp_dir() . '/sif-http-' . bin2hex(random_bytes(8));
+        $filesystem = new \Symfony\Component\Filesystem\Filesystem();
+        try {
+            foreach ((new ApplicationTemplateBlueprintFactory())->create(self::manifest())->artifacts() as $artifact) {
+                $path = $directory . '/' . $artifact->path()->path()->value();
+                if ($artifact->type() === SkeletonArtifactType::Directory) {
+                    $filesystem->mkdir($path);
+                } else {
+                    $filesystem->dumpFile($path, $artifact->content() ?? '');
+                }
+            }
+            $filesystem->dumpFile($directory . '/vendor/autoload.php', '<?php require ' . var_export(dirname(__DIR__, 4) . '/vendor/autoload.php', true) . ';');
+            $bootstrap = require $directory . '/bootstrap/app.php';
+            self::assertInstanceOf(Bootstrap::class, $bootstrap);
+            $application = $bootstrap->createApplication(Environment::testing());
+            self::assertNotNull($application->http());
+            self::assertSame(404, $application->http()->handle(new Request(HttpMethod::Get, new Uri(path: '/missing')))->status()->code());
+
+            $process = new \Symfony\Component\Process\Process([
+                PHP_BINARY, '-r',
+                '$_SERVER["REQUEST_METHOD"] = "GET"; $_SERVER["REQUEST_URI"] = "/missing"; require ' . var_export($directory . '/public/index.php', true) . '; if (http_response_code() !== 404) { exit(1); }',
+            ]);
+            $process->run();
+            self::assertSame(0, $process->getExitCode(), $process->getErrorOutput());
+            self::assertStringContainsString('route_not_found', $process->getOutput());
+        } finally {
+            $filesystem->remove($directory);
+        }
+    }
+
+    public function testHttpPlanDispatchesConsumerRoutesAndHandlesErrors(): void
+    {
+        $routes = new RouteRegistry();
+        $routes->register(new RouteDefinition(new RouteName('health'), [HttpMethod::Get], '/health', 'health'));
+        $routes->register(new RouteDefinition(new RouteName('broken'), [HttpMethod::Get], '/broken', 'missing-handler'));
+        $handlers = new HandlerRegistry();
+        $handlers->register('health', new RuntimeHealthHandler());
+        $application = (new Bootstrap(httpPlan: new HttpRuntimePlan($routes, $handlers)))->createApplication(Environment::testing());
+        $http = $application->http();
+        self::assertNotNull($http);
+        self::assertSame(200, $http->handle(new Request(HttpMethod::Get, new Uri(path: '/health')))->status()->code());
+        self::assertSame(405, $http->handle(new Request(HttpMethod::Post, new Uri(path: '/health')))->status()->code());
+        self::assertSame(500, $http->handle(new Request(HttpMethod::Get, new Uri(path: '/broken')))->status()->code());
+        self::assertNull((new Bootstrap())->createApplication(Environment::testing())->http());
+    }
+
+    public function testExplicitRuntimeAndPlanCannotBeCombined(): void
+    {
+        $this->expectException(\InvalidArgumentException::class);
+        new Bootstrap(http: self::runtime(), httpPlan: new HttpRuntimePlan());
+    }
+
     public function testRuntimeHandlesRequestAndExposesSafeSummary(): void
     {
         $runtime = self::runtime();

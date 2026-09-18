@@ -38,11 +38,21 @@ Register handler and middleware instances in their explicit registries. Keep dom
 
 ## 4. Compose the request lifecycle
 
-Provide a route matcher, handler dispatcher, context factory and error handler to `HttpRequestLifecycleCoordinator`. Verify not-found, method-not-allowed and unexpected-failure responses before enabling native transport.
+For normal consumers, supply `HttpRuntimePlan` with a `RouteRegistry`, handler resolver, middleware resolver and optional global middleware, context factory and event dispatcher. Foundation composes the matcher, dispatcher, context and native kernel. An empty plan serves safe 404 responses until routes are registered.
 
 ## 5. Enable the HTTP runtime
 
-Wrap the lifecycle in `NativeHttpKernel` and `HttpRuntime`, then provide the runtime to `Bootstrap`. Existing applications may omit this step and continue without HTTP capabilities.
+Pass the plan as `Bootstrap(httpPlan: $plan)`. Bootstrap composes it after its logger and error handler are available. A supplied error-handling plan is shared with HTTP; otherwise Foundation installs the default classifier, failure envelope and native reporter (failure ID only). The generated bootstrap enables an empty HTTP plan and loads `.env` only when it exists. Existing explicit `http: $runtime` injection remains supported; combining it with `httpPlan` is rejected. Omitting both keeps HTTP disabled.
+
+```php
+$routes = new RouteRegistry();
+$handlers = new HandlerRegistry();
+$routes->register(new RouteDefinition(new RouteName('health'), [HttpMethod::Get], '/health', 'health'));
+$handlers->register('health', new HealthHandler());
+$bootstrap = new Bootstrap(httpPlan: new HttpRuntimePlan($routes, $handlers));
+```
+
+Use the corresponding `Sif\Foundation\Http` routing, dispatch, value and runtime imports. Providers may populate the supplied registries during application boot; boot the application before dispatch when using providers. Advanced consumers may still compose `HttpRequestLifecycleCoordinator` directly.
 
 ## 6. Delegate from the public entry point
 
