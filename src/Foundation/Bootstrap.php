@@ -41,6 +41,7 @@ use Sif\Foundation\ApplicationSkeleton\Runtime\ApplicationSkeletonRuntime;
 use Sif\Foundation\ApplicationSkeleton\Runtime\ApplicationSkeletonRuntimeServiceProvider;
 use Sif\Foundation\Http\Runtime\HttpRuntime;
 use Sif\Foundation\Http\Runtime\HttpRuntimeServiceProvider;
+use Sif\Foundation\Http\Runtime\HttpRuntimePlan;
 
 final class Bootstrap implements BootstrapInterface
 {
@@ -99,7 +100,11 @@ final class Bootstrap implements BootstrapInterface
         ?CliRuntime $cli = null,
         ?ApplicationSkeletonRuntime $applicationSkeleton = null,
         ?HttpRuntime $http = null,
+        private ?HttpRuntimePlan $httpPlan = null,
     ) {
+        if ($http !== null && $httpPlan !== null) {
+            throw new \InvalidArgumentException('Supply either http or httpPlan, not both.');
+        }
         $this->configurationLoader = $configurationLoader
             ?? ConfigurationFileLoader::withDefaultLoaders();
         $this->configurationSources = [];
@@ -130,8 +135,9 @@ final class Bootstrap implements BootstrapInterface
         if ($logger !== null) {
             $providers->add(new RuntimeLoggingServiceProvider($logger));
         }
-        $errorHandler = $this->errorHandlingPlan !== null
-            ? new ErrorHandler($this->errorHandlingPlan)
+        $errorHandlingPlan = $this->errorHandlingPlan ?? $this->httpPlan?->defaultErrorHandlingPlan();
+        $errorHandler = $errorHandlingPlan !== null
+            ? new ErrorHandler($errorHandlingPlan)
             : null;
         if ($errorHandler !== null) {
             $providers->add(new RuntimeErrorHandlingServiceProvider($errorHandler));
@@ -159,8 +165,12 @@ final class Bootstrap implements BootstrapInterface
         if ($this->applicationSkeleton !== null) {
             $providers->add(new ApplicationSkeletonRuntimeServiceProvider($this->applicationSkeleton));
         }
-        if ($this->http !== null) {
-            $providers->add(new HttpRuntimeServiceProvider($this->http));
+        $http = $this->http;
+        if ($this->httpPlan !== null && $errorHandler !== null) {
+            $http = $this->httpPlan->create($errorHandler, $logger);
+        }
+        if ($http !== null) {
+            $providers->add(new HttpRuntimeServiceProvider($http));
         }
         $kernel = new Kernel($lifecycle);
         $variables = $this->createEnvironmentRepository();
@@ -201,7 +211,7 @@ final class Bootstrap implements BootstrapInterface
             $this->models,
             $this->cli,
             $this->applicationSkeleton,
-            $this->http,
+            $http,
         );
     }
 

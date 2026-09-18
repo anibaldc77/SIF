@@ -36,13 +36,15 @@ final readonly class ApplicationTemplateBlueprintFactory
 declare(strict_types=1);
 
 use Sif\Foundation\Bootstrap;
+use Sif\Foundation\Http\Runtime\HttpRuntimePlan;
 
 return new Bootstrap(
     configurationSources: [
         dirname(__DIR__) . '/config/app.php',
         dirname(__DIR__) . '/config/database.php',
     ],
-    dotenvSource: dirname(__DIR__) . '/.env',
+    dotenvSource: is_file(dirname(__DIR__) . '/.env') ? dirname(__DIR__) . '/.env' : null,
+    httpPlan: new HttpRuntimePlan(),
 );
 TPL, []),
             'bootstrap/cli.php' => $this->render('bootstrap-cli', <<<'TPL'
