@@ -53,8 +53,20 @@ TPL, []),
 declare(strict_types=1);
 
 use Sif\Foundation\Cli\Runtime\DefaultCliRuntimeFactory;
+use Sif\Foundation\Contracts\BootstrapInterface;
+use Sif\Foundation\Contracts\ConfigurationAwareApplicationInterface;
+use Sif\Foundation\Environment;
 
-return (new DefaultCliRuntimeFactory())->create();
+$bootstrap = require __DIR__ . '/app.php';
+if (!$bootstrap instanceof BootstrapInterface) {
+    throw new RuntimeException('bootstrap/app.php must return a BootstrapInterface instance.');
+}
+$application = $bootstrap->createApplication(Environment::production());
+if (!$application instanceof ConfigurationAwareApplicationInterface || !$application->boot()->succeeded()) {
+    throw new RuntimeException('CLI application boot failed.');
+}
+
+return (new DefaultCliRuntimeFactory($application->runtime(), $application->configuration(), $application->capabilities()))->create();
 TPL, []),
             'public/index.php' => $this->render('public-index', <<<'TPL'
 <?php
@@ -64,6 +76,7 @@ declare(strict_types=1);
 require dirname(__DIR__) . '/vendor/autoload.php';
 
 use Sif\Foundation\Contracts\BootstrapInterface;
+use Sif\Foundation\Contracts\HttpAwareApplicationInterface;
 use Sif\Foundation\Environment;
 use Sif\Foundation\Http\Transport\NativeResponseEmitter;
 
@@ -73,6 +86,9 @@ if (!$bootstrap instanceof BootstrapInterface) {
 }
 
 $application = $bootstrap->createApplication(Environment::production());
+if (!$application instanceof HttpAwareApplicationInterface || !$application->boot()->succeeded()) {
+    throw new RuntimeException('HTTP application boot failed.');
+}
 $http = $application->http();
 if ($http === null) {
     throw new RuntimeException('The application does not provide an HTTP runtime.');

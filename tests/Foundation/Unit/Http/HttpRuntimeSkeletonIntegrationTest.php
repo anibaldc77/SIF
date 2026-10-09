@@ -76,6 +76,14 @@ final class HttpRuntimeSkeletonIntegrationTest extends TestCase
             $process->run();
             self::assertSame(0, $process->getExitCode(), $process->getErrorOutput());
             self::assertStringContainsString('route_not_found', $process->getOutput());
+            $cli = require $directory . '/bootstrap/cli.php';
+            self::assertInstanceOf(\Sif\Foundation\Cli\Runtime\CliRuntime::class, $cli);
+            $launcher = file_get_contents(dirname(__DIR__, 4) . '/bin/sif');
+            self::assertIsString($launcher);
+            $filesystem->dumpFile($directory . '/vendor/sif/runtime-foundation/bin/sif', $launcher);
+            $command = new \Symfony\Component\Process\Process([PHP_BINARY, $directory . '/vendor/sif/runtime-foundation/bin/sif', 'runtime:about']);
+            $command->run();
+            self::assertSame(0, $command->getExitCode(), $command->getErrorOutput());
         } finally {
             $filesystem->remove($directory);
         }
