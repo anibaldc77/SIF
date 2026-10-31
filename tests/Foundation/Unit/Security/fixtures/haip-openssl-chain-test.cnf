@@ -1,0 +1,32 @@
+# WP-252 I4-03B1.2B: TEST ONLY, never use as production CA.
+[req]
+default_bits = 2048
+default_md = sha256
+prompt = no
+distinguished_name = test_dn
+
+[test_dn]
+CN = SIF HAIP Test
+
+[ca_ext]
+basicConstraints = critical, CA:TRUE, pathlen:2
+keyUsage = critical, keyCertSign, cRLSign
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid:always,issuer
+
+[intermediate_ext]
+basicConstraints = critical, CA:TRUE, pathlen:0
+keyUsage = critical, keyCertSign, cRLSign
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid:always,issuer
+
+[leaf_ext]
+basicConstraints = critical, CA:FALSE
+keyUsage = critical, digitalSignature
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid:always,issuer
+
+[bad_ca_ext]
+basicConstraints = critical, CA:FALSE
+keyUsage = critical, digitalSignature
+subjectKeyIdentifier = hash

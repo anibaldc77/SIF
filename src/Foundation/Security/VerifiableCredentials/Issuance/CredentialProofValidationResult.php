@@ -27,6 +27,15 @@ final readonly class CredentialProofValidationResult
             && $this->replaySafe;
     }
 
+    /**
+     * Generic proof verification and freshness, without an independent
+     * private-key possession requirement. Only mechanism-specific policies
+     * may use this to accept an attestation-based request.
+     */
+    public function validWithoutHolderBinding(): bool
+    {
+        return $this->valid && $this->nonceValid && $this->replaySafe;
+    }
     public function nonceValid(): bool
     {
         return $this->nonceValid;
