@@ -3,5 +3,6 @@ parameters:
     phpVersion: 80200
     paths:
         - src/Foundation
+        - src/Adapters
         - tests/Foundation
     tmpDir: var/phpstan

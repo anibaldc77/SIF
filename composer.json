@@ -14,6 +14,7 @@
   "autoload": {
     "psr-4": {
       "Sif\\Foundation\\": "src/Foundation/",
+      "Sif\\Adapters\\": "src/Adapters/",
       "Sif\\Support\\": "tools/builder/src/Support/",
       "Sif\\Builder\\FileSystem\\": "tools/builder/src/FileSystem/",
       "Sif\\Builder\\Metadata\\": "tools/builder/src/Metadata/",
