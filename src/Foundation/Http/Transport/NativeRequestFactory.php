@@ -20,7 +20,7 @@ use Sif\Foundation\Http\Value\Uri;
 final class NativeRequestFactory
 {
     /**
-     * @param array<string, mixed> $server
+     * @param array<array-key, mixed> $server
      * @param array<string, mixed> $query
      * @param array<string, mixed> $cookies
      * @param array<string, mixed> $files
@@ -32,6 +32,19 @@ final class NativeRequestFactory
         array $files = [],
         string $body = '',
     ): Request {
+        // Native PHP server arrays can contain integer environment keys.
+        // Only named parameters are valid HTTP server metadata.
+        $namedServer = [];
+
+        foreach ($server as $name => $value) {
+            if (!is_string($name)) {
+                continue;
+            }
+
+            $namedServer[$name] = $value;
+        }
+
+        $server = $namedServer;
         $method = HttpMethod::fromString((string) ($server['REQUEST_METHOD'] ?? 'GET'));
         $protocol = HttpProtocolVersion::fromString((string) ($server['SERVER_PROTOCOL'] ?? 'HTTP/1.1'));
         $headers = $this->headers($server);
