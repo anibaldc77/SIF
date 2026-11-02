@@ -6,6 +6,7 @@ namespace Sif\Foundation\Security\VerifiableCredentials\Haip\Issuance;
 use InvalidArgumentException;
 use JsonException;
 use stdClass;
+use Sif\Foundation\Security\Contracts\OpenId4VcHaipUnverifiedKeyAttestationEvidenceInterface;
 
 /**
  * Structural JOSE parser. All returned fields are UNTRUSTED until signature,
@@ -14,7 +15,7 @@ use stdClass;
  * This initial SIF adapter deliberately supports only ES256 and x5c.
  * It does not represent the complete range of algorithms allowed by OID4VCI.
  */
-final readonly class OpenId4VcHaipUnverifiedKeyAttestationJwt
+final readonly class OpenId4VcHaipUnverifiedKeyAttestationJwt implements OpenId4VcHaipUnverifiedKeyAttestationEvidenceInterface
 {
     private const MAX_COMPACT_LENGTH = 131072;
     private const MAX_CERTIFICATE_COUNT = 8;
