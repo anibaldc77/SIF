@@ -3,6 +3,8 @@ declare(strict_types=1);
 
 namespace Sif\Foundation\Security\VerifiableCredentials\Haip\Issuance;
 
+use Sif\Foundation\Security\Contracts\OpenId4VcHaipUnverifiedKeyAttestationEvidenceInterface;
+
 /**
  * Checks only the ES256 signature against the UNTRUSTED x5c leaf certificate.
  *
@@ -12,7 +14,7 @@ namespace Sif\Foundation\Security\VerifiableCredentials\Haip\Issuance;
  */
 final class OpenId4VcHaipUntrustedEs256SignatureMatcher
 {
-    public function matches(OpenId4VcHaipUnverifiedKeyAttestationJwt $jwt): bool
+    public function matches(OpenId4VcHaipUnverifiedKeyAttestationEvidenceInterface $jwt): bool
     {
         if (!extension_loaded('openssl')) {
             return false;

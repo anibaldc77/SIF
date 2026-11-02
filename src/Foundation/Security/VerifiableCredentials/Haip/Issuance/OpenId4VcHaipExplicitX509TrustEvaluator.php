@@ -4,6 +4,7 @@ declare(strict_types=1);
 namespace Sif\Foundation\Security\VerifiableCredentials\Haip\Issuance;
 
 use OpenSSLCertificate;
+use Sif\Foundation\Security\Contracts\OpenId4VcHaipUnverifiedKeyAttestationEvidenceInterface;
 
 /**
  * Evaluates ONLY the X.509 chain in a structurally parsed, still untrusted JWT.
@@ -19,7 +20,7 @@ final class OpenId4VcHaipExplicitX509TrustEvaluator
      * @param list<string> $trustedAnchorPems PEM certificates from trusted configuration
      */
     public function chainMatchesTrustedAnchors(
-        OpenId4VcHaipUnverifiedKeyAttestationJwt $jwt,
+        OpenId4VcHaipUnverifiedKeyAttestationEvidenceInterface $jwt,
         array $trustedAnchorPems
     ): bool {
         if (!extension_loaded('openssl') || $trustedAnchorPems === [] || count($trustedAnchorPems) > 16) {
